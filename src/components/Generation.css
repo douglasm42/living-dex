@@ -1,0 +1,15 @@
+.generation-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  width: 100%;
+  margin: 0 auto;
+}
+
+.generation-title {
+  text-align: center;
+}
+
+.divider {
+  border-top-width: 6px;
+}

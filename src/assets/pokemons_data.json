@@ -1,0 +1,8992 @@
+{
+  "defaultPokemons": [
+    {
+      "id": 1,
+      "name": "bulbasaur",
+      "imagePath": "1.png",
+      "region": null
+    },
+    {
+      "id": 2,
+      "name": "ivysaur",
+      "imagePath": "2.png",
+      "region": null
+    },
+    {
+      "id": 3,
+      "name": "venusaur",
+      "imagePath": "3.png",
+      "region": null
+    },
+    {
+      "id": 4,
+      "name": "charmander",
+      "imagePath": "4.png",
+      "region": null
+    },
+    {
+      "id": 5,
+      "name": "charmeleon",
+      "imagePath": "5.png",
+      "region": null
+    },
+    {
+      "id": 6,
+      "name": "charizard",
+      "imagePath": "6.png",
+      "region": null
+    },
+    {
+      "id": 7,
+      "name": "squirtle",
+      "imagePath": "7.png",
+      "region": null
+    },
+    {
+      "id": 8,
+      "name": "wartortle",
+      "imagePath": "8.png",
+      "region": null
+    },
+    {
+      "id": 9,
+      "name": "blastoise",
+      "imagePath": "9.png",
+      "region": null
+    },
+    {
+      "id": 10,
+      "name": "caterpie",
+      "imagePath": "10.png",
+      "region": null
+    },
+    {
+      "id": 11,
+      "name": "metapod",
+      "imagePath": "11.png",
+      "region": null
+    },
+    {
+      "id": 12,
+      "name": "butterfree",
+      "imagePath": "12.png",
+      "region": null
+    },
+    {
+      "id": 13,
+      "name": "weedle",
+      "imagePath": "13.png",
+      "region": null
+    },
+    {
+      "id": 14,
+      "name": "kakuna",
+      "imagePath": "14.png",
+      "region": null
+    },
+    {
+      "id": 15,
+      "name": "beedrill",
+      "imagePath": "15.png",
+      "region": null
+    },
+    {
+      "id": 16,
+      "name": "pidgey",
+      "imagePath": "16.png",
+      "region": null
+    },
+    {
+      "id": 17,
+      "name": "pidgeotto",
+      "imagePath": "17.png",
+      "region": null
+    },
+    {
+      "id": 18,
+      "name": "pidgeot",
+      "imagePath": "18.png",
+      "region": null
+    },
+    {
+      "id": 19,
+      "name": "rattata",
+      "imagePath": "19.png",
+      "region": null
+    },
+    {
+      "id": 20,
+      "name": "raticate",
+      "imagePath": "20.png",
+      "region": null
+    },
+    {
+      "id": 21,
+      "name": "spearow",
+      "imagePath": "21.png",
+      "region": null
+    },
+    {
+      "id": 22,
+      "name": "fearow",
+      "imagePath": "22.png",
+      "region": null
+    },
+    {
+      "id": 23,
+      "name": "ekans",
+      "imagePath": "23.png",
+      "region": null
+    },
+    {
+      "id": 24,
+      "name": "arbok",
+      "imagePath": "24.png",
+      "region": null
+    },
+    {
+      "id": 25,
+      "name": "pikachu",
+      "imagePath": "25.png",
+      "region": null
+    },
+    {
+      "id": 26,
+      "name": "raichu",
+      "imagePath": "26.png",
+      "region": null
+    },
+    {
+      "id": 27,
+      "name": "sandshrew",
+      "imagePath": "27.png",
+      "region": null
+    },
+    {
+      "id": 28,
+      "name": "sandslash",
+      "imagePath": "28.png",
+      "region": null
+    },
+    {
+      "id": 29,
+      "name": "nidoran-f",
+      "imagePath": "29.png",
+      "region": null
+    },
+    {
+      "id": 30,
+      "name": "nidorina",
+      "imagePath": "30.png",
+      "region": null
+    },
+    {
+      "id": 31,
+      "name": "nidoqueen",
+      "imagePath": "31.png",
+      "region": null
+    },
+    {
+      "id": 32,
+      "name": "nidoran-m",
+      "imagePath": "32.png",
+      "region": null
+    },
+    {
+      "id": 33,
+      "name": "nidorino",
+      "imagePath": "33.png",
+      "region": null
+    },
+    {
+      "id": 34,
+      "name": "nidoking",
+      "imagePath": "34.png",
+      "region": null
+    },
+    {
+      "id": 35,
+      "name": "clefairy",
+      "imagePath": "35.png",
+      "region": null
+    },
+    {
+      "id": 36,
+      "name": "clefable",
+      "imagePath": "36.png",
+      "region": null
+    },
+    {
+      "id": 37,
+      "name": "vulpix",
+      "imagePath": "37.png",
+      "region": null
+    },
+    {
+      "id": 38,
+      "name": "ninetales",
+      "imagePath": "38.png",
+      "region": null
+    },
+    {
+      "id": 39,
+      "name": "jigglypuff",
+      "imagePath": "39.png",
+      "region": null
+    },
+    {
+      "id": 40,
+      "name": "wigglytuff",
+      "imagePath": "40.png",
+      "region": null
+    },
+    {
+      "id": 41,
+      "name": "zubat",
+      "imagePath": "41.png",
+      "region": null
+    },
+    {
+      "id": 42,
+      "name": "golbat",
+      "imagePath": "42.png",
+      "region": null
+    },
+    {
+      "id": 43,
+      "name": "oddish",
+      "imagePath": "43.png",
+      "region": null
+    },
+    {
+      "id": 44,
+      "name": "gloom",
+      "imagePath": "44.png",
+      "region": null
+    },
+    {
+      "id": 45,
+      "name": "vileplume",
+      "imagePath": "45.png",
+      "region": null
+    },
+    {
+      "id": 46,
+      "name": "paras",
+      "imagePath": "46.png",
+      "region": null
+    },
+    {
+      "id": 47,
+      "name": "parasect",
+      "imagePath": "47.png",
+      "region": null
+    },
+    {
+      "id": 48,
+      "name": "venonat",
+      "imagePath": "48.png",
+      "region": null
+    },
+    {
+      "id": 49,
+      "name": "venomoth",
+      "imagePath": "49.png",
+      "region": null
+    },
+    {
+      "id": 50,
+      "name": "diglett",
+      "imagePath": "50.png",
+      "region": null
+    },
+    {
+      "id": 51,
+      "name": "dugtrio",
+      "imagePath": "51.png",
+      "region": null
+    },
+    {
+      "id": 52,
+      "name": "meowth",
+      "imagePath": "52.png",
+      "region": null
+    },
+    {
+      "id": 53,
+      "name": "persian",
+      "imagePath": "53.png",
+      "region": null
+    },
+    {
+      "id": 54,
+      "name": "psyduck",
+      "imagePath": "54.png",
+      "region": null
+    },
+    {
+      "id": 55,
+      "name": "golduck",
+      "imagePath": "55.png",
+      "region": null
+    },
+    {
+      "id": 56,
+      "name": "mankey",
+      "imagePath": "56.png",
+      "region": null
+    },
+    {
+      "id": 57,
+      "name": "primeape",
+      "imagePath": "57.png",
+      "region": null
+    },
+    {
+      "id": 58,
+      "name": "growlithe",
+      "imagePath": "58.png",
+      "region": null
+    },
+    {
+      "id": 59,
+      "name": "arcanine",
+      "imagePath": "59.png",
+      "region": null
+    },
+    {
+      "id": 60,
+      "name": "poliwag",
+      "imagePath": "60.png",
+      "region": null
+    },
+    {
+      "id": 61,
+      "name": "poliwhirl",
+      "imagePath": "61.png",
+      "region": null
+    },
+    {
+      "id": 62,
+      "name": "poliwrath",
+      "imagePath": "62.png",
+      "region": null
+    },
+    {
+      "id": 63,
+      "name": "abra",
+      "imagePath": "63.png",
+      "region": null
+    },
+    {
+      "id": 64,
+      "name": "kadabra",
+      "imagePath": "64.png",
+      "region": null
+    },
+    {
+      "id": 65,
+      "name": "alakazam",
+      "imagePath": "65.png",
+      "region": null
+    },
+    {
+      "id": 66,
+      "name": "machop",
+      "imagePath": "66.png",
+      "region": null
+    },
+    {
+      "id": 67,
+      "name": "machoke",
+      "imagePath": "67.png",
+      "region": null
+    },
+    {
+      "id": 68,
+      "name": "machamp",
+      "imagePath": "68.png",
+      "region": null
+    },
+    {
+      "id": 69,
+      "name": "bellsprout",
+      "imagePath": "69.png",
+      "region": null
+    },
+    {
+      "id": 70,
+      "name": "weepinbell",
+      "imagePath": "70.png",
+      "region": null
+    },
+    {
+      "id": 71,
+      "name": "victreebel",
+      "imagePath": "71.png",
+      "region": null
+    },
+    {
+      "id": 72,
+      "name": "tentacool",
+      "imagePath": "72.png",
+      "region": null
+    },
+    {
+      "id": 73,
+      "name": "tentacruel",
+      "imagePath": "73.png",
+      "region": null
+    },
+    {
+      "id": 74,
+      "name": "geodude",
+      "imagePath": "74.png",
+      "region": null
+    },
+    {
+      "id": 75,
+      "name": "graveler",
+      "imagePath": "75.png",
+      "region": null
+    },
+    {
+      "id": 76,
+      "name": "golem",
+      "imagePath": "76.png",
+      "region": null
+    },
+    {
+      "id": 77,
+      "name": "ponyta",
+      "imagePath": "77.png",
+      "region": null
+    },
+    {
+      "id": 78,
+      "name": "rapidash",
+      "imagePath": "78.png",
+      "region": null
+    },
+    {
+      "id": 79,
+      "name": "slowpoke",
+      "imagePath": "79.png",
+      "region": null
+    },
+    {
+      "id": 80,
+      "name": "slowbro",
+      "imagePath": "80.png",
+      "region": null
+    },
+    {
+      "id": 81,
+      "name": "magnemite",
+      "imagePath": "81.png",
+      "region": null
+    },
+    {
+      "id": 82,
+      "name": "magneton",
+      "imagePath": "82.png",
+      "region": null
+    },
+    {
+      "id": 83,
+      "name": "farfetchd",
+      "imagePath": "83.png",
+      "region": null
+    },
+    {
+      "id": 84,
+      "name": "doduo",
+      "imagePath": "84.png",
+      "region": null
+    },
+    {
+      "id": 85,
+      "name": "dodrio",
+      "imagePath": "85.png",
+      "region": null
+    },
+    {
+      "id": 86,
+      "name": "seel",
+      "imagePath": "86.png",
+      "region": null
+    },
+    {
+      "id": 87,
+      "name": "dewgong",
+      "imagePath": "87.png",
+      "region": null
+    },
+    {
+      "id": 88,
+      "name": "grimer",
+      "imagePath": "88.png",
+      "region": null
+    },
+    {
+      "id": 89,
+      "name": "muk",
+      "imagePath": "89.png",
+      "region": null
+    },
+    {
+      "id": 90,
+      "name": "shellder",
+      "imagePath": "90.png",
+      "region": null
+    },
+    {
+      "id": 91,
+      "name": "cloyster",
+      "imagePath": "91.png",
+      "region": null
+    },
+    {
+      "id": 92,
+      "name": "gastly",
+      "imagePath": "92.png",
+      "region": null
+    },
+    {
+      "id": 93,
+      "name": "haunter",
+      "imagePath": "93.png",
+      "region": null
+    },
+    {
+      "id": 94,
+      "name": "gengar",
+      "imagePath": "94.png",
+      "region": null
+    },
+    {
+      "id": 95,
+      "name": "onix",
+      "imagePath": "95.png",
+      "region": null
+    },
+    {
+      "id": 96,
+      "name": "drowzee",
+      "imagePath": "96.png",
+      "region": null
+    },
+    {
+      "id": 97,
+      "name": "hypno",
+      "imagePath": "97.png",
+      "region": null
+    },
+    {
+      "id": 98,
+      "name": "krabby",
+      "imagePath": "98.png",
+      "region": null
+    },
+    {
+      "id": 99,
+      "name": "kingler",
+      "imagePath": "99.png",
+      "region": null
+    },
+    {
+      "id": 100,
+      "name": "voltorb",
+      "imagePath": "100.png",
+      "region": null
+    },
+    {
+      "id": 101,
+      "name": "electrode",
+      "imagePath": "101.png",
+      "region": null
+    },
+    {
+      "id": 102,
+      "name": "exeggcute",
+      "imagePath": "102.png",
+      "region": null
+    },
+    {
+      "id": 103,
+      "name": "exeggutor",
+      "imagePath": "103.png",
+      "region": null
+    },
+    {
+      "id": 104,
+      "name": "cubone",
+      "imagePath": "104.png",
+      "region": null
+    },
+    {
+      "id": 105,
+      "name": "marowak",
+      "imagePath": "105.png",
+      "region": null
+    },
+    {
+      "id": 106,
+      "name": "hitmonlee",
+      "imagePath": "106.png",
+      "region": null
+    },
+    {
+      "id": 107,
+      "name": "hitmonchan",
+      "imagePath": "107.png",
+      "region": null
+    },
+    {
+      "id": 108,
+      "name": "lickitung",
+      "imagePath": "108.png",
+      "region": null
+    },
+    {
+      "id": 109,
+      "name": "koffing",
+      "imagePath": "109.png",
+      "region": null
+    },
+    {
+      "id": 110,
+      "name": "weezing",
+      "imagePath": "110.png",
+      "region": null
+    },
+    {
+      "id": 111,
+      "name": "rhyhorn",
+      "imagePath": "111.png",
+      "region": null
+    },
+    {
+      "id": 112,
+      "name": "rhydon",
+      "imagePath": "112.png",
+      "region": null
+    },
+    {
+      "id": 113,
+      "name": "chansey",
+      "imagePath": "113.png",
+      "region": null
+    },
+    {
+      "id": 114,
+      "name": "tangela",
+      "imagePath": "114.png",
+      "region": null
+    },
+    {
+      "id": 115,
+      "name": "kangaskhan",
+      "imagePath": "115.png",
+      "region": null
+    },
+    {
+      "id": 116,
+      "name": "horsea",
+      "imagePath": "116.png",
+      "region": null
+    },
+    {
+      "id": 117,
+      "name": "seadra",
+      "imagePath": "117.png",
+      "region": null
+    },
+    {
+      "id": 118,
+      "name": "goldeen",
+      "imagePath": "118.png",
+      "region": null
+    },
+    {
+      "id": 119,
+      "name": "seaking",
+      "imagePath": "119.png",
+      "region": null
+    },
+    {
+      "id": 120,
+      "name": "staryu",
+      "imagePath": "120.png",
+      "region": null
+    },
+    {
+      "id": 121,
+      "name": "starmie",
+      "imagePath": "121.png",
+      "region": null
+    },
+    {
+      "id": 122,
+      "name": "mr-mime",
+      "imagePath": "122.png",
+      "region": null
+    },
+    {
+      "id": 123,
+      "name": "scyther",
+      "imagePath": "123.png",
+      "region": null
+    },
+    {
+      "id": 124,
+      "name": "jynx",
+      "imagePath": "124.png",
+      "region": null
+    },
+    {
+      "id": 125,
+      "name": "electabuzz",
+      "imagePath": "125.png",
+      "region": null
+    },
+    {
+      "id": 126,
+      "name": "magmar",
+      "imagePath": "126.png",
+      "region": null
+    },
+    {
+      "id": 127,
+      "name": "pinsir",
+      "imagePath": "127.png",
+      "region": null
+    },
+    {
+      "id": 128,
+      "name": "tauros",
+      "imagePath": "128.png",
+      "region": null
+    },
+    {
+      "id": 129,
+      "name": "magikarp",
+      "imagePath": "129.png",
+      "region": null
+    },
+    {
+      "id": 130,
+      "name": "gyarados",
+      "imagePath": "130.png",
+      "region": null
+    },
+    {
+      "id": 131,
+      "name": "lapras",
+      "imagePath": "131.png",
+      "region": null
+    },
+    {
+      "id": 132,
+      "name": "ditto",
+      "imagePath": "132.png",
+      "region": null
+    },
+    {
+      "id": 133,
+      "name": "eevee",
+      "imagePath": "133.png",
+      "region": null
+    },
+    {
+      "id": 134,
+      "name": "vaporeon",
+      "imagePath": "134.png",
+      "region": null
+    },
+    {
+      "id": 135,
+      "name": "jolteon",
+      "imagePath": "135.png",
+      "region": null
+    },
+    {
+      "id": 136,
+      "name": "flareon",
+      "imagePath": "136.png",
+      "region": null
+    },
+    {
+      "id": 137,
+      "name": "porygon",
+      "imagePath": "137.png",
+      "region": null
+    },
+    {
+      "id": 138,
+      "name": "omanyte",
+      "imagePath": "138.png",
+      "region": null
+    },
+    {
+      "id": 139,
+      "name": "omastar",
+      "imagePath": "139.png",
+      "region": null
+    },
+    {
+      "id": 140,
+      "name": "kabuto",
+      "imagePath": "140.png",
+      "region": null
+    },
+    {
+      "id": 141,
+      "name": "kabutops",
+      "imagePath": "141.png",
+      "region": null
+    },
+    {
+      "id": 142,
+      "name": "aerodactyl",
+      "imagePath": "142.png",
+      "region": null
+    },
+    {
+      "id": 143,
+      "name": "snorlax",
+      "imagePath": "143.png",
+      "region": null
+    },
+    {
+      "id": 144,
+      "name": "articuno",
+      "imagePath": "144.png",
+      "region": null
+    },
+    {
+      "id": 145,
+      "name": "zapdos",
+      "imagePath": "145.png",
+      "region": null
+    },
+    {
+      "id": 146,
+      "name": "moltres",
+      "imagePath": "146.png",
+      "region": null
+    },
+    {
+      "id": 147,
+      "name": "dratini",
+      "imagePath": "147.png",
+      "region": null
+    },
+    {
+      "id": 148,
+      "name": "dragonair",
+      "imagePath": "148.png",
+      "region": null
+    },
+    {
+      "id": 149,
+      "name": "dragonite",
+      "imagePath": "149.png",
+      "region": null
+    },
+    {
+      "id": 150,
+      "name": "mewtwo",
+      "imagePath": "150.png",
+      "region": null
+    },
+    {
+      "id": 151,
+      "name": "mew",
+      "imagePath": "151.png",
+      "region": null
+    },
+    {
+      "id": 152,
+      "name": "chikorita",
+      "imagePath": "152.png",
+      "region": null
+    },
+    {
+      "id": 153,
+      "name": "bayleef",
+      "imagePath": "153.png",
+      "region": null
+    },
+    {
+      "id": 154,
+      "name": "meganium",
+      "imagePath": "154.png",
+      "region": null
+    },
+    {
+      "id": 155,
+      "name": "cyndaquil",
+      "imagePath": "155.png",
+      "region": null
+    },
+    {
+      "id": 156,
+      "name": "quilava",
+      "imagePath": "156.png",
+      "region": null
+    },
+    {
+      "id": 157,
+      "name": "typhlosion",
+      "imagePath": "157.png",
+      "region": null
+    },
+    {
+      "id": 158,
+      "name": "totodile",
+      "imagePath": "158.png",
+      "region": null
+    },
+    {
+      "id": 159,
+      "name": "croconaw",
+      "imagePath": "159.png",
+      "region": null
+    },
+    {
+      "id": 160,
+      "name": "feraligatr",
+      "imagePath": "160.png",
+      "region": null
+    },
+    {
+      "id": 161,
+      "name": "sentret",
+      "imagePath": "161.png",
+      "region": null
+    },
+    {
+      "id": 162,
+      "name": "furret",
+      "imagePath": "162.png",
+      "region": null
+    },
+    {
+      "id": 163,
+      "name": "hoothoot",
+      "imagePath": "163.png",
+      "region": null
+    },
+    {
+      "id": 164,
+      "name": "noctowl",
+      "imagePath": "164.png",
+      "region": null
+    },
+    {
+      "id": 165,
+      "name": "ledyba",
+      "imagePath": "165.png",
+      "region": null
+    },
+    {
+      "id": 166,
+      "name": "ledian",
+      "imagePath": "166.png",
+      "region": null
+    },
+    {
+      "id": 167,
+      "name": "spinarak",
+      "imagePath": "167.png",
+      "region": null
+    },
+    {
+      "id": 168,
+      "name": "ariados",
+      "imagePath": "168.png",
+      "region": null
+    },
+    {
+      "id": 169,
+      "name": "crobat",
+      "imagePath": "169.png",
+      "region": null
+    },
+    {
+      "id": 170,
+      "name": "chinchou",
+      "imagePath": "170.png",
+      "region": null
+    },
+    {
+      "id": 171,
+      "name": "lanturn",
+      "imagePath": "171.png",
+      "region": null
+    },
+    {
+      "id": 172,
+      "name": "pichu",
+      "imagePath": "172.png",
+      "region": null
+    },
+    {
+      "id": 173,
+      "name": "cleffa",
+      "imagePath": "173.png",
+      "region": null
+    },
+    {
+      "id": 174,
+      "name": "igglybuff",
+      "imagePath": "174.png",
+      "region": null
+    },
+    {
+      "id": 175,
+      "name": "togepi",
+      "imagePath": "175.png",
+      "region": null
+    },
+    {
+      "id": 176,
+      "name": "togetic",
+      "imagePath": "176.png",
+      "region": null
+    },
+    {
+      "id": 177,
+      "name": "natu",
+      "imagePath": "177.png",
+      "region": null
+    },
+    {
+      "id": 178,
+      "name": "xatu",
+      "imagePath": "178.png",
+      "region": null
+    },
+    {
+      "id": 179,
+      "name": "mareep",
+      "imagePath": "179.png",
+      "region": null
+    },
+    {
+      "id": 180,
+      "name": "flaaffy",
+      "imagePath": "180.png",
+      "region": null
+    },
+    {
+      "id": 181,
+      "name": "ampharos",
+      "imagePath": "181.png",
+      "region": null
+    },
+    {
+      "id": 182,
+      "name": "bellossom",
+      "imagePath": "182.png",
+      "region": null
+    },
+    {
+      "id": 183,
+      "name": "marill",
+      "imagePath": "183.png",
+      "region": null
+    },
+    {
+      "id": 184,
+      "name": "azumarill",
+      "imagePath": "184.png",
+      "region": null
+    },
+    {
+      "id": 185,
+      "name": "sudowoodo",
+      "imagePath": "185.png",
+      "region": null
+    },
+    {
+      "id": 186,
+      "name": "politoed",
+      "imagePath": "186.png",
+      "region": null
+    },
+    {
+      "id": 187,
+      "name": "hoppip",
+      "imagePath": "187.png",
+      "region": null
+    },
+    {
+      "id": 188,
+      "name": "skiploom",
+      "imagePath": "188.png",
+      "region": null
+    },
+    {
+      "id": 189,
+      "name": "jumpluff",
+      "imagePath": "189.png",
+      "region": null
+    },
+    {
+      "id": 190,
+      "name": "aipom",
+      "imagePath": "190.png",
+      "region": null
+    },
+    {
+      "id": 191,
+      "name": "sunkern",
+      "imagePath": "191.png",
+      "region": null
+    },
+    {
+      "id": 192,
+      "name": "sunflora",
+      "imagePath": "192.png",
+      "region": null
+    },
+    {
+      "id": 193,
+      "name": "yanma",
+      "imagePath": "193.png",
+      "region": null
+    },
+    {
+      "id": 194,
+      "name": "wooper",
+      "imagePath": "194.png",
+      "region": null
+    },
+    {
+      "id": 195,
+      "name": "quagsire",
+      "imagePath": "195.png",
+      "region": null
+    },
+    {
+      "id": 196,
+      "name": "espeon",
+      "imagePath": "196.png",
+      "region": null
+    },
+    {
+      "id": 197,
+      "name": "umbreon",
+      "imagePath": "197.png",
+      "region": null
+    },
+    {
+      "id": 198,
+      "name": "murkrow",
+      "imagePath": "198.png",
+      "region": null
+    },
+    {
+      "id": 199,
+      "name": "slowking",
+      "imagePath": "199.png",
+      "region": null
+    },
+    {
+      "id": 200,
+      "name": "misdreavus",
+      "imagePath": "200.png",
+      "region": null
+    },
+    {
+      "id": 201,
+      "name": "unown",
+      "imagePath": "201.png",
+      "region": null
+    },
+    {
+      "id": 202,
+      "name": "wobbuffet",
+      "imagePath": "202.png",
+      "region": null
+    },
+    {
+      "id": 203,
+      "name": "girafarig",
+      "imagePath": "203.png",
+      "region": null
+    },
+    {
+      "id": 204,
+      "name": "pineco",
+      "imagePath": "204.png",
+      "region": null
+    },
+    {
+      "id": 205,
+      "name": "forretress",
+      "imagePath": "205.png",
+      "region": null
+    },
+    {
+      "id": 206,
+      "name": "dunsparce",
+      "imagePath": "206.png",
+      "region": null
+    },
+    {
+      "id": 207,
+      "name": "gligar",
+      "imagePath": "207.png",
+      "region": null
+    },
+    {
+      "id": 208,
+      "name": "steelix",
+      "imagePath": "208.png",
+      "region": null
+    },
+    {
+      "id": 209,
+      "name": "snubbull",
+      "imagePath": "209.png",
+      "region": null
+    },
+    {
+      "id": 210,
+      "name": "granbull",
+      "imagePath": "210.png",
+      "region": null
+    },
+    {
+      "id": 211,
+      "name": "qwilfish",
+      "imagePath": "211.png",
+      "region": null
+    },
+    {
+      "id": 212,
+      "name": "scizor",
+      "imagePath": "212.png",
+      "region": null
+    },
+    {
+      "id": 213,
+      "name": "shuckle",
+      "imagePath": "213.png",
+      "region": null
+    },
+    {
+      "id": 214,
+      "name": "heracross",
+      "imagePath": "214.png",
+      "region": null
+    },
+    {
+      "id": 215,
+      "name": "sneasel",
+      "imagePath": "215.png",
+      "region": null
+    },
+    {
+      "id": 216,
+      "name": "teddiursa",
+      "imagePath": "216.png",
+      "region": null
+    },
+    {
+      "id": 217,
+      "name": "ursaring",
+      "imagePath": "217.png",
+      "region": null
+    },
+    {
+      "id": 218,
+      "name": "slugma",
+      "imagePath": "218.png",
+      "region": null
+    },
+    {
+      "id": 219,
+      "name": "magcargo",
+      "imagePath": "219.png",
+      "region": null
+    },
+    {
+      "id": 220,
+      "name": "swinub",
+      "imagePath": "220.png",
+      "region": null
+    },
+    {
+      "id": 221,
+      "name": "piloswine",
+      "imagePath": "221.png",
+      "region": null
+    },
+    {
+      "id": 222,
+      "name": "corsola",
+      "imagePath": "222.png",
+      "region": null
+    },
+    {
+      "id": 223,
+      "name": "remoraid",
+      "imagePath": "223.png",
+      "region": null
+    },
+    {
+      "id": 224,
+      "name": "octillery",
+      "imagePath": "224.png",
+      "region": null
+    },
+    {
+      "id": 225,
+      "name": "delibird",
+      "imagePath": "225.png",
+      "region": null
+    },
+    {
+      "id": 226,
+      "name": "mantine",
+      "imagePath": "226.png",
+      "region": null
+    },
+    {
+      "id": 227,
+      "name": "skarmory",
+      "imagePath": "227.png",
+      "region": null
+    },
+    {
+      "id": 228,
+      "name": "houndour",
+      "imagePath": "228.png",
+      "region": null
+    },
+    {
+      "id": 229,
+      "name": "houndoom",
+      "imagePath": "229.png",
+      "region": null
+    },
+    {
+      "id": 230,
+      "name": "kingdra",
+      "imagePath": "230.png",
+      "region": null
+    },
+    {
+      "id": 231,
+      "name": "phanpy",
+      "imagePath": "231.png",
+      "region": null
+    },
+    {
+      "id": 232,
+      "name": "donphan",
+      "imagePath": "232.png",
+      "region": null
+    },
+    {
+      "id": 233,
+      "name": "porygon2",
+      "imagePath": "233.png",
+      "region": null
+    },
+    {
+      "id": 234,
+      "name": "stantler",
+      "imagePath": "234.png",
+      "region": null
+    },
+    {
+      "id": 235,
+      "name": "smeargle",
+      "imagePath": "235.png",
+      "region": null
+    },
+    {
+      "id": 236,
+      "name": "tyrogue",
+      "imagePath": "236.png",
+      "region": null
+    },
+    {
+      "id": 237,
+      "name": "hitmontop",
+      "imagePath": "237.png",
+      "region": null
+    },
+    {
+      "id": 238,
+      "name": "smoochum",
+      "imagePath": "238.png",
+      "region": null
+    },
+    {
+      "id": 239,
+      "name": "elekid",
+      "imagePath": "239.png",
+      "region": null
+    },
+    {
+      "id": 240,
+      "name": "magby",
+      "imagePath": "240.png",
+      "region": null
+    },
+    {
+      "id": 241,
+      "name": "miltank",
+      "imagePath": "241.png",
+      "region": null
+    },
+    {
+      "id": 242,
+      "name": "blissey",
+      "imagePath": "242.png",
+      "region": null
+    },
+    {
+      "id": 243,
+      "name": "raikou",
+      "imagePath": "243.png",
+      "region": null
+    },
+    {
+      "id": 244,
+      "name": "entei",
+      "imagePath": "244.png",
+      "region": null
+    },
+    {
+      "id": 245,
+      "name": "suicune",
+      "imagePath": "245.png",
+      "region": null
+    },
+    {
+      "id": 246,
+      "name": "larvitar",
+      "imagePath": "246.png",
+      "region": null
+    },
+    {
+      "id": 247,
+      "name": "pupitar",
+      "imagePath": "247.png",
+      "region": null
+    },
+    {
+      "id": 248,
+      "name": "tyranitar",
+      "imagePath": "248.png",
+      "region": null
+    },
+    {
+      "id": 249,
+      "name": "lugia",
+      "imagePath": "249.png",
+      "region": null
+    },
+    {
+      "id": 250,
+      "name": "ho-oh",
+      "imagePath": "250.png",
+      "region": null
+    },
+    {
+      "id": 251,
+      "name": "celebi",
+      "imagePath": "251.png",
+      "region": null
+    },
+    {
+      "id": 252,
+      "name": "treecko",
+      "imagePath": "252.png",
+      "region": null
+    },
+    {
+      "id": 253,
+      "name": "grovyle",
+      "imagePath": "253.png",
+      "region": null
+    },
+    {
+      "id": 254,
+      "name": "sceptile",
+      "imagePath": "254.png",
+      "region": null
+    },
+    {
+      "id": 255,
+      "name": "torchic",
+      "imagePath": "255.png",
+      "region": null
+    },
+    {
+      "id": 256,
+      "name": "combusken",
+      "imagePath": "256.png",
+      "region": null
+    },
+    {
+      "id": 257,
+      "name": "blaziken",
+      "imagePath": "257.png",
+      "region": null
+    },
+    {
+      "id": 258,
+      "name": "mudkip",
+      "imagePath": "258.png",
+      "region": null
+    },
+    {
+      "id": 259,
+      "name": "marshtomp",
+      "imagePath": "259.png",
+      "region": null
+    },
+    {
+      "id": 260,
+      "name": "swampert",
+      "imagePath": "260.png",
+      "region": null
+    },
+    {
+      "id": 261,
+      "name": "poochyena",
+      "imagePath": "261.png",
+      "region": null
+    },
+    {
+      "id": 262,
+      "name": "mightyena",
+      "imagePath": "262.png",
+      "region": null
+    },
+    {
+      "id": 263,
+      "name": "zigzagoon",
+      "imagePath": "263.png",
+      "region": null
+    },
+    {
+      "id": 264,
+      "name": "linoone",
+      "imagePath": "264.png",
+      "region": null
+    },
+    {
+      "id": 265,
+      "name": "wurmple",
+      "imagePath": "265.png",
+      "region": null
+    },
+    {
+      "id": 266,
+      "name": "silcoon",
+      "imagePath": "266.png",
+      "region": null
+    },
+    {
+      "id": 267,
+      "name": "beautifly",
+      "imagePath": "267.png",
+      "region": null
+    },
+    {
+      "id": 268,
+      "name": "cascoon",
+      "imagePath": "268.png",
+      "region": null
+    },
+    {
+      "id": 269,
+      "name": "dustox",
+      "imagePath": "269.png",
+      "region": null
+    },
+    {
+      "id": 270,
+      "name": "lotad",
+      "imagePath": "270.png",
+      "region": null
+    },
+    {
+      "id": 271,
+      "name": "lombre",
+      "imagePath": "271.png",
+      "region": null
+    },
+    {
+      "id": 272,
+      "name": "ludicolo",
+      "imagePath": "272.png",
+      "region": null
+    },
+    {
+      "id": 273,
+      "name": "seedot",
+      "imagePath": "273.png",
+      "region": null
+    },
+    {
+      "id": 274,
+      "name": "nuzleaf",
+      "imagePath": "274.png",
+      "region": null
+    },
+    {
+      "id": 275,
+      "name": "shiftry",
+      "imagePath": "275.png",
+      "region": null
+    },
+    {
+      "id": 276,
+      "name": "taillow",
+      "imagePath": "276.png",
+      "region": null
+    },
+    {
+      "id": 277,
+      "name": "swellow",
+      "imagePath": "277.png",
+      "region": null
+    },
+    {
+      "id": 278,
+      "name": "wingull",
+      "imagePath": "278.png",
+      "region": null
+    },
+    {
+      "id": 279,
+      "name": "pelipper",
+      "imagePath": "279.png",
+      "region": null
+    },
+    {
+      "id": 280,
+      "name": "ralts",
+      "imagePath": "280.png",
+      "region": null
+    },
+    {
+      "id": 281,
+      "name": "kirlia",
+      "imagePath": "281.png",
+      "region": null
+    },
+    {
+      "id": 282,
+      "name": "gardevoir",
+      "imagePath": "282.png",
+      "region": null
+    },
+    {
+      "id": 283,
+      "name": "surskit",
+      "imagePath": "283.png",
+      "region": null
+    },
+    {
+      "id": 284,
+      "name": "masquerain",
+      "imagePath": "284.png",
+      "region": null
+    },
+    {
+      "id": 285,
+      "name": "shroomish",
+      "imagePath": "285.png",
+      "region": null
+    },
+    {
+      "id": 286,
+      "name": "breloom",
+      "imagePath": "286.png",
+      "region": null
+    },
+    {
+      "id": 287,
+      "name": "slakoth",
+      "imagePath": "287.png",
+      "region": null
+    },
+    {
+      "id": 288,
+      "name": "vigoroth",
+      "imagePath": "288.png",
+      "region": null
+    },
+    {
+      "id": 289,
+      "name": "slaking",
+      "imagePath": "289.png",
+      "region": null
+    },
+    {
+      "id": 290,
+      "name": "nincada",
+      "imagePath": "290.png",
+      "region": null
+    },
+    {
+      "id": 291,
+      "name": "ninjask",
+      "imagePath": "291.png",
+      "region": null
+    },
+    {
+      "id": 292,
+      "name": "shedinja",
+      "imagePath": "292.png",
+      "region": null
+    },
+    {
+      "id": 293,
+      "name": "whismur",
+      "imagePath": "293.png",
+      "region": null
+    },
+    {
+      "id": 294,
+      "name": "loudred",
+      "imagePath": "294.png",
+      "region": null
+    },
+    {
+      "id": 295,
+      "name": "exploud",
+      "imagePath": "295.png",
+      "region": null
+    },
+    {
+      "id": 296,
+      "name": "makuhita",
+      "imagePath": "296.png",
+      "region": null
+    },
+    {
+      "id": 297,
+      "name": "hariyama",
+      "imagePath": "297.png",
+      "region": null
+    },
+    {
+      "id": 298,
+      "name": "azurill",
+      "imagePath": "298.png",
+      "region": null
+    },
+    {
+      "id": 299,
+      "name": "nosepass",
+      "imagePath": "299.png",
+      "region": null
+    },
+    {
+      "id": 300,
+      "name": "skitty",
+      "imagePath": "300.png",
+      "region": null
+    },
+    {
+      "id": 301,
+      "name": "delcatty",
+      "imagePath": "301.png",
+      "region": null
+    },
+    {
+      "id": 302,
+      "name": "sableye",
+      "imagePath": "302.png",
+      "region": null
+    },
+    {
+      "id": 303,
+      "name": "mawile",
+      "imagePath": "303.png",
+      "region": null
+    },
+    {
+      "id": 304,
+      "name": "aron",
+      "imagePath": "304.png",
+      "region": null
+    },
+    {
+      "id": 305,
+      "name": "lairon",
+      "imagePath": "305.png",
+      "region": null
+    },
+    {
+      "id": 306,
+      "name": "aggron",
+      "imagePath": "306.png",
+      "region": null
+    },
+    {
+      "id": 307,
+      "name": "meditite",
+      "imagePath": "307.png",
+      "region": null
+    },
+    {
+      "id": 308,
+      "name": "medicham",
+      "imagePath": "308.png",
+      "region": null
+    },
+    {
+      "id": 309,
+      "name": "electrike",
+      "imagePath": "309.png",
+      "region": null
+    },
+    {
+      "id": 310,
+      "name": "manectric",
+      "imagePath": "310.png",
+      "region": null
+    },
+    {
+      "id": 311,
+      "name": "plusle",
+      "imagePath": "311.png",
+      "region": null
+    },
+    {
+      "id": 312,
+      "name": "minun",
+      "imagePath": "312.png",
+      "region": null
+    },
+    {
+      "id": 313,
+      "name": "volbeat",
+      "imagePath": "313.png",
+      "region": null
+    },
+    {
+      "id": 314,
+      "name": "illumise",
+      "imagePath": "314.png",
+      "region": null
+    },
+    {
+      "id": 315,
+      "name": "roselia",
+      "imagePath": "315.png",
+      "region": null
+    },
+    {
+      "id": 316,
+      "name": "gulpin",
+      "imagePath": "316.png",
+      "region": null
+    },
+    {
+      "id": 317,
+      "name": "swalot",
+      "imagePath": "317.png",
+      "region": null
+    },
+    {
+      "id": 318,
+      "name": "carvanha",
+      "imagePath": "318.png",
+      "region": null
+    },
+    {
+      "id": 319,
+      "name": "sharpedo",
+      "imagePath": "319.png",
+      "region": null
+    },
+    {
+      "id": 320,
+      "name": "wailmer",
+      "imagePath": "320.png",
+      "region": null
+    },
+    {
+      "id": 321,
+      "name": "wailord",
+      "imagePath": "321.png",
+      "region": null
+    },
+    {
+      "id": 322,
+      "name": "numel",
+      "imagePath": "322.png",
+      "region": null
+    },
+    {
+      "id": 323,
+      "name": "camerupt",
+      "imagePath": "323.png",
+      "region": null
+    },
+    {
+      "id": 324,
+      "name": "torkoal",
+      "imagePath": "324.png",
+      "region": null
+    },
+    {
+      "id": 325,
+      "name": "spoink",
+      "imagePath": "325.png",
+      "region": null
+    },
+    {
+      "id": 326,
+      "name": "grumpig",
+      "imagePath": "326.png",
+      "region": null
+    },
+    {
+      "id": 327,
+      "name": "spinda",
+      "imagePath": "327.png",
+      "region": null
+    },
+    {
+      "id": 328,
+      "name": "trapinch",
+      "imagePath": "328.png",
+      "region": null
+    },
+    {
+      "id": 329,
+      "name": "vibrava",
+      "imagePath": "329.png",
+      "region": null
+    },
+    {
+      "id": 330,
+      "name": "flygon",
+      "imagePath": "330.png",
+      "region": null
+    },
+    {
+      "id": 331,
+      "name": "cacnea",
+      "imagePath": "331.png",
+      "region": null
+    },
+    {
+      "id": 332,
+      "name": "cacturne",
+      "imagePath": "332.png",
+      "region": null
+    },
+    {
+      "id": 333,
+      "name": "swablu",
+      "imagePath": "333.png",
+      "region": null
+    },
+    {
+      "id": 334,
+      "name": "altaria",
+      "imagePath": "334.png",
+      "region": null
+    },
+    {
+      "id": 335,
+      "name": "zangoose",
+      "imagePath": "335.png",
+      "region": null
+    },
+    {
+      "id": 336,
+      "name": "seviper",
+      "imagePath": "336.png",
+      "region": null
+    },
+    {
+      "id": 337,
+      "name": "lunatone",
+      "imagePath": "337.png",
+      "region": null
+    },
+    {
+      "id": 338,
+      "name": "solrock",
+      "imagePath": "338.png",
+      "region": null
+    },
+    {
+      "id": 339,
+      "name": "barboach",
+      "imagePath": "339.png",
+      "region": null
+    },
+    {
+      "id": 340,
+      "name": "whiscash",
+      "imagePath": "340.png",
+      "region": null
+    },
+    {
+      "id": 341,
+      "name": "corphish",
+      "imagePath": "341.png",
+      "region": null
+    },
+    {
+      "id": 342,
+      "name": "crawdaunt",
+      "imagePath": "342.png",
+      "region": null
+    },
+    {
+      "id": 343,
+      "name": "baltoy",
+      "imagePath": "343.png",
+      "region": null
+    },
+    {
+      "id": 344,
+      "name": "claydol",
+      "imagePath": "344.png",
+      "region": null
+    },
+    {
+      "id": 345,
+      "name": "lileep",
+      "imagePath": "345.png",
+      "region": null
+    },
+    {
+      "id": 346,
+      "name": "cradily",
+      "imagePath": "346.png",
+      "region": null
+    },
+    {
+      "id": 347,
+      "name": "anorith",
+      "imagePath": "347.png",
+      "region": null
+    },
+    {
+      "id": 348,
+      "name": "armaldo",
+      "imagePath": "348.png",
+      "region": null
+    },
+    {
+      "id": 349,
+      "name": "feebas",
+      "imagePath": "349.png",
+      "region": null
+    },
+    {
+      "id": 350,
+      "name": "milotic",
+      "imagePath": "350.png",
+      "region": null
+    },
+    {
+      "id": 351,
+      "name": "castform",
+      "imagePath": "351.png",
+      "region": null
+    },
+    {
+      "id": 352,
+      "name": "kecleon",
+      "imagePath": "352.png",
+      "region": null
+    },
+    {
+      "id": 353,
+      "name": "shuppet",
+      "imagePath": "353.png",
+      "region": null
+    },
+    {
+      "id": 354,
+      "name": "banette",
+      "imagePath": "354.png",
+      "region": null
+    },
+    {
+      "id": 355,
+      "name": "duskull",
+      "imagePath": "355.png",
+      "region": null
+    },
+    {
+      "id": 356,
+      "name": "dusclops",
+      "imagePath": "356.png",
+      "region": null
+    },
+    {
+      "id": 357,
+      "name": "tropius",
+      "imagePath": "357.png",
+      "region": null
+    },
+    {
+      "id": 358,
+      "name": "chimecho",
+      "imagePath": "358.png",
+      "region": null
+    },
+    {
+      "id": 359,
+      "name": "absol",
+      "imagePath": "359.png",
+      "region": null
+    },
+    {
+      "id": 360,
+      "name": "wynaut",
+      "imagePath": "360.png",
+      "region": null
+    },
+    {
+      "id": 361,
+      "name": "snorunt",
+      "imagePath": "361.png",
+      "region": null
+    },
+    {
+      "id": 362,
+      "name": "glalie",
+      "imagePath": "362.png",
+      "region": null
+    },
+    {
+      "id": 363,
+      "name": "spheal",
+      "imagePath": "363.png",
+      "region": null
+    },
+    {
+      "id": 364,
+      "name": "sealeo",
+      "imagePath": "364.png",
+      "region": null
+    },
+    {
+      "id": 365,
+      "name": "walrein",
+      "imagePath": "365.png",
+      "region": null
+    },
+    {
+      "id": 366,
+      "name": "clamperl",
+      "imagePath": "366.png",
+      "region": null
+    },
+    {
+      "id": 367,
+      "name": "huntail",
+      "imagePath": "367.png",
+      "region": null
+    },
+    {
+      "id": 368,
+      "name": "gorebyss",
+      "imagePath": "368.png",
+      "region": null
+    },
+    {
+      "id": 369,
+      "name": "relicanth",
+      "imagePath": "369.png",
+      "region": null
+    },
+    {
+      "id": 370,
+      "name": "luvdisc",
+      "imagePath": "370.png",
+      "region": null
+    },
+    {
+      "id": 371,
+      "name": "bagon",
+      "imagePath": "371.png",
+      "region": null
+    },
+    {
+      "id": 372,
+      "name": "shelgon",
+      "imagePath": "372.png",
+      "region": null
+    },
+    {
+      "id": 373,
+      "name": "salamence",
+      "imagePath": "373.png",
+      "region": null
+    },
+    {
+      "id": 374,
+      "name": "beldum",
+      "imagePath": "374.png",
+      "region": null
+    },
+    {
+      "id": 375,
+      "name": "metang",
+      "imagePath": "375.png",
+      "region": null
+    },
+    {
+      "id": 376,
+      "name": "metagross",
+      "imagePath": "376.png",
+      "region": null
+    },
+    {
+      "id": 377,
+      "name": "regirock",
+      "imagePath": "377.png",
+      "region": null
+    },
+    {
+      "id": 378,
+      "name": "regice",
+      "imagePath": "378.png",
+      "region": null
+    },
+    {
+      "id": 379,
+      "name": "registeel",
+      "imagePath": "379.png",
+      "region": null
+    },
+    {
+      "id": 380,
+      "name": "latias",
+      "imagePath": "380.png",
+      "region": null
+    },
+    {
+      "id": 381,
+      "name": "latios",
+      "imagePath": "381.png",
+      "region": null
+    },
+    {
+      "id": 382,
+      "name": "kyogre",
+      "imagePath": "382.png",
+      "region": null
+    },
+    {
+      "id": 383,
+      "name": "groudon",
+      "imagePath": "383.png",
+      "region": null
+    },
+    {
+      "id": 384,
+      "name": "rayquaza",
+      "imagePath": "384.png",
+      "region": null
+    },
+    {
+      "id": 385,
+      "name": "jirachi",
+      "imagePath": "385.png",
+      "region": null
+    },
+    {
+      "id": 386,
+      "name": "deoxys",
+      "imagePath": "386.png",
+      "region": null
+    },
+    {
+      "id": 387,
+      "name": "turtwig",
+      "imagePath": "387.png",
+      "region": null
+    },
+    {
+      "id": 388,
+      "name": "grotle",
+      "imagePath": "388.png",
+      "region": null
+    },
+    {
+      "id": 389,
+      "name": "torterra",
+      "imagePath": "389.png",
+      "region": null
+    },
+    {
+      "id": 390,
+      "name": "chimchar",
+      "imagePath": "390.png",
+      "region": null
+    },
+    {
+      "id": 391,
+      "name": "monferno",
+      "imagePath": "391.png",
+      "region": null
+    },
+    {
+      "id": 392,
+      "name": "infernape",
+      "imagePath": "392.png",
+      "region": null
+    },
+    {
+      "id": 393,
+      "name": "piplup",
+      "imagePath": "393.png",
+      "region": null
+    },
+    {
+      "id": 394,
+      "name": "prinplup",
+      "imagePath": "394.png",
+      "region": null
+    },
+    {
+      "id": 395,
+      "name": "empoleon",
+      "imagePath": "395.png",
+      "region": null
+    },
+    {
+      "id": 396,
+      "name": "starly",
+      "imagePath": "396.png",
+      "region": null
+    },
+    {
+      "id": 397,
+      "name": "staravia",
+      "imagePath": "397.png",
+      "region": null
+    },
+    {
+      "id": 398,
+      "name": "staraptor",
+      "imagePath": "398.png",
+      "region": null
+    },
+    {
+      "id": 399,
+      "name": "bidoof",
+      "imagePath": "399.png",
+      "region": null
+    },
+    {
+      "id": 400,
+      "name": "bibarel",
+      "imagePath": "400.png",
+      "region": null
+    },
+    {
+      "id": 401,
+      "name": "kricketot",
+      "imagePath": "401.png",
+      "region": null
+    },
+    {
+      "id": 402,
+      "name": "kricketune",
+      "imagePath": "402.png",
+      "region": null
+    },
+    {
+      "id": 403,
+      "name": "shinx",
+      "imagePath": "403.png",
+      "region": null
+    },
+    {
+      "id": 404,
+      "name": "luxio",
+      "imagePath": "404.png",
+      "region": null
+    },
+    {
+      "id": 405,
+      "name": "luxray",
+      "imagePath": "405.png",
+      "region": null
+    },
+    {
+      "id": 406,
+      "name": "budew",
+      "imagePath": "406.png",
+      "region": null
+    },
+    {
+      "id": 407,
+      "name": "roserade",
+      "imagePath": "407.png",
+      "region": null
+    },
+    {
+      "id": 408,
+      "name": "cranidos",
+      "imagePath": "408.png",
+      "region": null
+    },
+    {
+      "id": 409,
+      "name": "rampardos",
+      "imagePath": "409.png",
+      "region": null
+    },
+    {
+      "id": 410,
+      "name": "shieldon",
+      "imagePath": "410.png",
+      "region": null
+    },
+    {
+      "id": 411,
+      "name": "bastiodon",
+      "imagePath": "411.png",
+      "region": null
+    },
+    {
+      "id": 412,
+      "name": "burmy",
+      "imagePath": "412.png",
+      "region": null
+    },
+    {
+      "id": 413,
+      "name": "wormadam",
+      "imagePath": "413.png",
+      "region": null
+    },
+    {
+      "id": 414,
+      "name": "mothim",
+      "imagePath": "414.png",
+      "region": null
+    },
+    {
+      "id": 415,
+      "name": "combee",
+      "imagePath": "415.png",
+      "region": null
+    },
+    {
+      "id": 416,
+      "name": "vespiquen",
+      "imagePath": "416.png",
+      "region": null
+    },
+    {
+      "id": 417,
+      "name": "pachirisu",
+      "imagePath": "417.png",
+      "region": null
+    },
+    {
+      "id": 418,
+      "name": "buizel",
+      "imagePath": "418.png",
+      "region": null
+    },
+    {
+      "id": 419,
+      "name": "floatzel",
+      "imagePath": "419.png",
+      "region": null
+    },
+    {
+      "id": 420,
+      "name": "cherubi",
+      "imagePath": "420.png",
+      "region": null
+    },
+    {
+      "id": 421,
+      "name": "cherrim",
+      "imagePath": "421.png",
+      "region": null
+    },
+    {
+      "id": 422,
+      "name": "shellos",
+      "imagePath": "422.png",
+      "region": null
+    },
+    {
+      "id": 423,
+      "name": "gastrodon",
+      "imagePath": "423.png",
+      "region": null
+    },
+    {
+      "id": 424,
+      "name": "ambipom",
+      "imagePath": "424.png",
+      "region": null
+    },
+    {
+      "id": 425,
+      "name": "drifloon",
+      "imagePath": "425.png",
+      "region": null
+    },
+    {
+      "id": 426,
+      "name": "drifblim",
+      "imagePath": "426.png",
+      "region": null
+    },
+    {
+      "id": 427,
+      "name": "buneary",
+      "imagePath": "427.png",
+      "region": null
+    },
+    {
+      "id": 428,
+      "name": "lopunny",
+      "imagePath": "428.png",
+      "region": null
+    },
+    {
+      "id": 429,
+      "name": "mismagius",
+      "imagePath": "429.png",
+      "region": null
+    },
+    {
+      "id": 430,
+      "name": "honchkrow",
+      "imagePath": "430.png",
+      "region": null
+    },
+    {
+      "id": 431,
+      "name": "glameow",
+      "imagePath": "431.png",
+      "region": null
+    },
+    {
+      "id": 432,
+      "name": "purugly",
+      "imagePath": "432.png",
+      "region": null
+    },
+    {
+      "id": 433,
+      "name": "chingling",
+      "imagePath": "433.png",
+      "region": null
+    },
+    {
+      "id": 434,
+      "name": "stunky",
+      "imagePath": "434.png",
+      "region": null
+    },
+    {
+      "id": 435,
+      "name": "skuntank",
+      "imagePath": "435.png",
+      "region": null
+    },
+    {
+      "id": 436,
+      "name": "bronzor",
+      "imagePath": "436.png",
+      "region": null
+    },
+    {
+      "id": 437,
+      "name": "bronzong",
+      "imagePath": "437.png",
+      "region": null
+    },
+    {
+      "id": 438,
+      "name": "bonsly",
+      "imagePath": "438.png",
+      "region": null
+    },
+    {
+      "id": 439,
+      "name": "mime-jr",
+      "imagePath": "439.png",
+      "region": null
+    },
+    {
+      "id": 440,
+      "name": "happiny",
+      "imagePath": "440.png",
+      "region": null
+    },
+    {
+      "id": 441,
+      "name": "chatot",
+      "imagePath": "441.png",
+      "region": null
+    },
+    {
+      "id": 442,
+      "name": "spiritomb",
+      "imagePath": "442.png",
+      "region": null
+    },
+    {
+      "id": 443,
+      "name": "gible",
+      "imagePath": "443.png",
+      "region": null
+    },
+    {
+      "id": 444,
+      "name": "gabite",
+      "imagePath": "444.png",
+      "region": null
+    },
+    {
+      "id": 445,
+      "name": "garchomp",
+      "imagePath": "445.png",
+      "region": null
+    },
+    {
+      "id": 446,
+      "name": "munchlax",
+      "imagePath": "446.png",
+      "region": null
+    },
+    {
+      "id": 447,
+      "name": "riolu",
+      "imagePath": "447.png",
+      "region": null
+    },
+    {
+      "id": 448,
+      "name": "lucario",
+      "imagePath": "448.png",
+      "region": null
+    },
+    {
+      "id": 449,
+      "name": "hippopotas",
+      "imagePath": "449.png",
+      "region": null
+    },
+    {
+      "id": 450,
+      "name": "hippowdon",
+      "imagePath": "450.png",
+      "region": null
+    },
+    {
+      "id": 451,
+      "name": "skorupi",
+      "imagePath": "451.png",
+      "region": null
+    },
+    {
+      "id": 452,
+      "name": "drapion",
+      "imagePath": "452.png",
+      "region": null
+    },
+    {
+      "id": 453,
+      "name": "croagunk",
+      "imagePath": "453.png",
+      "region": null
+    },
+    {
+      "id": 454,
+      "name": "toxicroak",
+      "imagePath": "454.png",
+      "region": null
+    },
+    {
+      "id": 455,
+      "name": "carnivine",
+      "imagePath": "455.png",
+      "region": null
+    },
+    {
+      "id": 456,
+      "name": "finneon",
+      "imagePath": "456.png",
+      "region": null
+    },
+    {
+      "id": 457,
+      "name": "lumineon",
+      "imagePath": "457.png",
+      "region": null
+    },
+    {
+      "id": 458,
+      "name": "mantyke",
+      "imagePath": "458.png",
+      "region": null
+    },
+    {
+      "id": 459,
+      "name": "snover",
+      "imagePath": "459.png",
+      "region": null
+    },
+    {
+      "id": 460,
+      "name": "abomasnow",
+      "imagePath": "460.png",
+      "region": null
+    },
+    {
+      "id": 461,
+      "name": "weavile",
+      "imagePath": "461.png",
+      "region": null
+    },
+    {
+      "id": 462,
+      "name": "magnezone",
+      "imagePath": "462.png",
+      "region": null
+    },
+    {
+      "id": 463,
+      "name": "lickilicky",
+      "imagePath": "463.png",
+      "region": null
+    },
+    {
+      "id": 464,
+      "name": "rhyperior",
+      "imagePath": "464.png",
+      "region": null
+    },
+    {
+      "id": 465,
+      "name": "tangrowth",
+      "imagePath": "465.png",
+      "region": null
+    },
+    {
+      "id": 466,
+      "name": "electivire",
+      "imagePath": "466.png",
+      "region": null
+    },
+    {
+      "id": 467,
+      "name": "magmortar",
+      "imagePath": "467.png",
+      "region": null
+    },
+    {
+      "id": 468,
+      "name": "togekiss",
+      "imagePath": "468.png",
+      "region": null
+    },
+    {
+      "id": 469,
+      "name": "yanmega",
+      "imagePath": "469.png",
+      "region": null
+    },
+    {
+      "id": 470,
+      "name": "leafeon",
+      "imagePath": "470.png",
+      "region": null
+    },
+    {
+      "id": 471,
+      "name": "glaceon",
+      "imagePath": "471.png",
+      "region": null
+    },
+    {
+      "id": 472,
+      "name": "gliscor",
+      "imagePath": "472.png",
+      "region": null
+    },
+    {
+      "id": 473,
+      "name": "mamoswine",
+      "imagePath": "473.png",
+      "region": null
+    },
+    {
+      "id": 474,
+      "name": "porygon-z",
+      "imagePath": "474.png",
+      "region": null
+    },
+    {
+      "id": 475,
+      "name": "gallade",
+      "imagePath": "475.png",
+      "region": null
+    },
+    {
+      "id": 476,
+      "name": "probopass",
+      "imagePath": "476.png",
+      "region": null
+    },
+    {
+      "id": 477,
+      "name": "dusknoir",
+      "imagePath": "477.png",
+      "region": null
+    },
+    {
+      "id": 478,
+      "name": "froslass",
+      "imagePath": "478.png",
+      "region": null
+    },
+    {
+      "id": 479,
+      "name": "rotom",
+      "imagePath": "479.png",
+      "region": null
+    },
+    {
+      "id": 480,
+      "name": "uxie",
+      "imagePath": "480.png",
+      "region": null
+    },
+    {
+      "id": 481,
+      "name": "mesprit",
+      "imagePath": "481.png",
+      "region": null
+    },
+    {
+      "id": 482,
+      "name": "azelf",
+      "imagePath": "482.png",
+      "region": null
+    },
+    {
+      "id": 483,
+      "name": "dialga",
+      "imagePath": "483.png",
+      "region": null
+    },
+    {
+      "id": 484,
+      "name": "palkia",
+      "imagePath": "484.png",
+      "region": null
+    },
+    {
+      "id": 485,
+      "name": "heatran",
+      "imagePath": "485.png",
+      "region": null
+    },
+    {
+      "id": 486,
+      "name": "regigigas",
+      "imagePath": "486.png",
+      "region": null
+    },
+    {
+      "id": 487,
+      "name": "giratina",
+      "imagePath": "487.png",
+      "region": null
+    },
+    {
+      "id": 488,
+      "name": "cresselia",
+      "imagePath": "488.png",
+      "region": null
+    },
+    {
+      "id": 489,
+      "name": "phione",
+      "imagePath": "489.png",
+      "region": null
+    },
+    {
+      "id": 490,
+      "name": "manaphy",
+      "imagePath": "490.png",
+      "region": null
+    },
+    {
+      "id": 491,
+      "name": "darkrai",
+      "imagePath": "491.png",
+      "region": null
+    },
+    {
+      "id": 492,
+      "name": "shaymin",
+      "imagePath": "492.png",
+      "region": null
+    },
+    {
+      "id": 493,
+      "name": "arceus",
+      "imagePath": "493.png",
+      "region": null
+    },
+    {
+      "id": 494,
+      "name": "victini",
+      "imagePath": "494.png",
+      "region": null
+    },
+    {
+      "id": 495,
+      "name": "snivy",
+      "imagePath": "495.png",
+      "region": null
+    },
+    {
+      "id": 496,
+      "name": "servine",
+      "imagePath": "496.png",
+      "region": null
+    },
+    {
+      "id": 497,
+      "name": "serperior",
+      "imagePath": "497.png",
+      "region": null
+    },
+    {
+      "id": 498,
+      "name": "tepig",
+      "imagePath": "498.png",
+      "region": null
+    },
+    {
+      "id": 499,
+      "name": "pignite",
+      "imagePath": "499.png",
+      "region": null
+    },
+    {
+      "id": 500,
+      "name": "emboar",
+      "imagePath": "500.png",
+      "region": null
+    },
+    {
+      "id": 501,
+      "name": "oshawott",
+      "imagePath": "501.png",
+      "region": null
+    },
+    {
+      "id": 502,
+      "name": "dewott",
+      "imagePath": "502.png",
+      "region": null
+    },
+    {
+      "id": 503,
+      "name": "samurott",
+      "imagePath": "503.png",
+      "region": null
+    },
+    {
+      "id": 504,
+      "name": "patrat",
+      "imagePath": "504.png",
+      "region": null
+    },
+    {
+      "id": 505,
+      "name": "watchog",
+      "imagePath": "505.png",
+      "region": null
+    },
+    {
+      "id": 506,
+      "name": "lillipup",
+      "imagePath": "506.png",
+      "region": null
+    },
+    {
+      "id": 507,
+      "name": "herdier",
+      "imagePath": "507.png",
+      "region": null
+    },
+    {
+      "id": 508,
+      "name": "stoutland",
+      "imagePath": "508.png",
+      "region": null
+    },
+    {
+      "id": 509,
+      "name": "purrloin",
+      "imagePath": "509.png",
+      "region": null
+    },
+    {
+      "id": 510,
+      "name": "liepard",
+      "imagePath": "510.png",
+      "region": null
+    },
+    {
+      "id": 511,
+      "name": "pansage",
+      "imagePath": "511.png",
+      "region": null
+    },
+    {
+      "id": 512,
+      "name": "simisage",
+      "imagePath": "512.png",
+      "region": null
+    },
+    {
+      "id": 513,
+      "name": "pansear",
+      "imagePath": "513.png",
+      "region": null
+    },
+    {
+      "id": 514,
+      "name": "simisear",
+      "imagePath": "514.png",
+      "region": null
+    },
+    {
+      "id": 515,
+      "name": "panpour",
+      "imagePath": "515.png",
+      "region": null
+    },
+    {
+      "id": 516,
+      "name": "simipour",
+      "imagePath": "516.png",
+      "region": null
+    },
+    {
+      "id": 517,
+      "name": "munna",
+      "imagePath": "517.png",
+      "region": null
+    },
+    {
+      "id": 518,
+      "name": "musharna",
+      "imagePath": "518.png",
+      "region": null
+    },
+    {
+      "id": 519,
+      "name": "pidove",
+      "imagePath": "519.png",
+      "region": null
+    },
+    {
+      "id": 520,
+      "name": "tranquill",
+      "imagePath": "520.png",
+      "region": null
+    },
+    {
+      "id": 521,
+      "name": "unfezant",
+      "imagePath": "521.png",
+      "region": null
+    },
+    {
+      "id": 522,
+      "name": "blitzle",
+      "imagePath": "522.png",
+      "region": null
+    },
+    {
+      "id": 523,
+      "name": "zebstrika",
+      "imagePath": "523.png",
+      "region": null
+    },
+    {
+      "id": 524,
+      "name": "roggenrola",
+      "imagePath": "524.png",
+      "region": null
+    },
+    {
+      "id": 525,
+      "name": "boldore",
+      "imagePath": "525.png",
+      "region": null
+    },
+    {
+      "id": 526,
+      "name": "gigalith",
+      "imagePath": "526.png",
+      "region": null
+    },
+    {
+      "id": 527,
+      "name": "woobat",
+      "imagePath": "527.png",
+      "region": null
+    },
+    {
+      "id": 528,
+      "name": "swoobat",
+      "imagePath": "528.png",
+      "region": null
+    },
+    {
+      "id": 529,
+      "name": "drilbur",
+      "imagePath": "529.png",
+      "region": null
+    },
+    {
+      "id": 530,
+      "name": "excadrill",
+      "imagePath": "530.png",
+      "region": null
+    },
+    {
+      "id": 531,
+      "name": "audino",
+      "imagePath": "531.png",
+      "region": null
+    },
+    {
+      "id": 532,
+      "name": "timburr",
+      "imagePath": "532.png",
+      "region": null
+    },
+    {
+      "id": 533,
+      "name": "gurdurr",
+      "imagePath": "533.png",
+      "region": null
+    },
+    {
+      "id": 534,
+      "name": "conkeldurr",
+      "imagePath": "534.png",
+      "region": null
+    },
+    {
+      "id": 535,
+      "name": "tympole",
+      "imagePath": "535.png",
+      "region": null
+    },
+    {
+      "id": 536,
+      "name": "palpitoad",
+      "imagePath": "536.png",
+      "region": null
+    },
+    {
+      "id": 537,
+      "name": "seismitoad",
+      "imagePath": "537.png",
+      "region": null
+    },
+    {
+      "id": 538,
+      "name": "throh",
+      "imagePath": "538.png",
+      "region": null
+    },
+    {
+      "id": 539,
+      "name": "sawk",
+      "imagePath": "539.png",
+      "region": null
+    },
+    {
+      "id": 540,
+      "name": "sewaddle",
+      "imagePath": "540.png",
+      "region": null
+    },
+    {
+      "id": 541,
+      "name": "swadloon",
+      "imagePath": "541.png",
+      "region": null
+    },
+    {
+      "id": 542,
+      "name": "leavanny",
+      "imagePath": "542.png",
+      "region": null
+    },
+    {
+      "id": 543,
+      "name": "venipede",
+      "imagePath": "543.png",
+      "region": null
+    },
+    {
+      "id": 544,
+      "name": "whirlipede",
+      "imagePath": "544.png",
+      "region": null
+    },
+    {
+      "id": 545,
+      "name": "scolipede",
+      "imagePath": "545.png",
+      "region": null
+    },
+    {
+      "id": 546,
+      "name": "cottonee",
+      "imagePath": "546.png",
+      "region": null
+    },
+    {
+      "id": 547,
+      "name": "whimsicott",
+      "imagePath": "547.png",
+      "region": null
+    },
+    {
+      "id": 548,
+      "name": "petilil",
+      "imagePath": "548.png",
+      "region": null
+    },
+    {
+      "id": 549,
+      "name": "lilligant",
+      "imagePath": "549.png",
+      "region": null
+    },
+    {
+      "id": 550,
+      "name": "basculin",
+      "imagePath": "550.png",
+      "region": null
+    },
+    {
+      "id": 551,
+      "name": "sandile",
+      "imagePath": "551.png",
+      "region": null
+    },
+    {
+      "id": 552,
+      "name": "krokorok",
+      "imagePath": "552.png",
+      "region": null
+    },
+    {
+      "id": 553,
+      "name": "krookodile",
+      "imagePath": "553.png",
+      "region": null
+    },
+    {
+      "id": 554,
+      "name": "darumaka",
+      "imagePath": "554.png",
+      "region": null
+    },
+    {
+      "id": 555,
+      "name": "darmanitan",
+      "imagePath": "555.png",
+      "region": null
+    },
+    {
+      "id": 556,
+      "name": "maractus",
+      "imagePath": "556.png",
+      "region": null
+    },
+    {
+      "id": 557,
+      "name": "dwebble",
+      "imagePath": "557.png",
+      "region": null
+    },
+    {
+      "id": 558,
+      "name": "crustle",
+      "imagePath": "558.png",
+      "region": null
+    },
+    {
+      "id": 559,
+      "name": "scraggy",
+      "imagePath": "559.png",
+      "region": null
+    },
+    {
+      "id": 560,
+      "name": "scrafty",
+      "imagePath": "560.png",
+      "region": null
+    },
+    {
+      "id": 561,
+      "name": "sigilyph",
+      "imagePath": "561.png",
+      "region": null
+    },
+    {
+      "id": 562,
+      "name": "yamask",
+      "imagePath": "562.png",
+      "region": null
+    },
+    {
+      "id": 563,
+      "name": "cofagrigus",
+      "imagePath": "563.png",
+      "region": null
+    },
+    {
+      "id": 564,
+      "name": "tirtouga",
+      "imagePath": "564.png",
+      "region": null
+    },
+    {
+      "id": 565,
+      "name": "carracosta",
+      "imagePath": "565.png",
+      "region": null
+    },
+    {
+      "id": 566,
+      "name": "archen",
+      "imagePath": "566.png",
+      "region": null
+    },
+    {
+      "id": 567,
+      "name": "archeops",
+      "imagePath": "567.png",
+      "region": null
+    },
+    {
+      "id": 568,
+      "name": "trubbish",
+      "imagePath": "568.png",
+      "region": null
+    },
+    {
+      "id": 569,
+      "name": "garbodor",
+      "imagePath": "569.png",
+      "region": null
+    },
+    {
+      "id": 570,
+      "name": "zorua",
+      "imagePath": "570.png",
+      "region": null
+    },
+    {
+      "id": 571,
+      "name": "zoroark",
+      "imagePath": "571.png",
+      "region": null
+    },
+    {
+      "id": 572,
+      "name": "minccino",
+      "imagePath": "572.png",
+      "region": null
+    },
+    {
+      "id": 573,
+      "name": "cinccino",
+      "imagePath": "573.png",
+      "region": null
+    },
+    {
+      "id": 574,
+      "name": "gothita",
+      "imagePath": "574.png",
+      "region": null
+    },
+    {
+      "id": 575,
+      "name": "gothorita",
+      "imagePath": "575.png",
+      "region": null
+    },
+    {
+      "id": 576,
+      "name": "gothitelle",
+      "imagePath": "576.png",
+      "region": null
+    },
+    {
+      "id": 577,
+      "name": "solosis",
+      "imagePath": "577.png",
+      "region": null
+    },
+    {
+      "id": 578,
+      "name": "duosion",
+      "imagePath": "578.png",
+      "region": null
+    },
+    {
+      "id": 579,
+      "name": "reuniclus",
+      "imagePath": "579.png",
+      "region": null
+    },
+    {
+      "id": 580,
+      "name": "ducklett",
+      "imagePath": "580.png",
+      "region": null
+    },
+    {
+      "id": 581,
+      "name": "swanna",
+      "imagePath": "581.png",
+      "region": null
+    },
+    {
+      "id": 582,
+      "name": "vanillite",
+      "imagePath": "582.png",
+      "region": null
+    },
+    {
+      "id": 583,
+      "name": "vanillish",
+      "imagePath": "583.png",
+      "region": null
+    },
+    {
+      "id": 584,
+      "name": "vanilluxe",
+      "imagePath": "584.png",
+      "region": null
+    },
+    {
+      "id": 585,
+      "name": "deerling",
+      "imagePath": "585.png",
+      "region": null
+    },
+    {
+      "id": 586,
+      "name": "sawsbuck",
+      "imagePath": "586.png",
+      "region": null
+    },
+    {
+      "id": 587,
+      "name": "emolga",
+      "imagePath": "587.png",
+      "region": null
+    },
+    {
+      "id": 588,
+      "name": "karrablast",
+      "imagePath": "588.png",
+      "region": null
+    },
+    {
+      "id": 589,
+      "name": "escavalier",
+      "imagePath": "589.png",
+      "region": null
+    },
+    {
+      "id": 590,
+      "name": "foongus",
+      "imagePath": "590.png",
+      "region": null
+    },
+    {
+      "id": 591,
+      "name": "amoonguss",
+      "imagePath": "591.png",
+      "region": null
+    },
+    {
+      "id": 592,
+      "name": "frillish",
+      "imagePath": "592.png",
+      "region": null
+    },
+    {
+      "id": 593,
+      "name": "jellicent",
+      "imagePath": "593.png",
+      "region": null
+    },
+    {
+      "id": 594,
+      "name": "alomomola",
+      "imagePath": "594.png",
+      "region": null
+    },
+    {
+      "id": 595,
+      "name": "joltik",
+      "imagePath": "595.png",
+      "region": null
+    },
+    {
+      "id": 596,
+      "name": "galvantula",
+      "imagePath": "596.png",
+      "region": null
+    },
+    {
+      "id": 597,
+      "name": "ferroseed",
+      "imagePath": "597.png",
+      "region": null
+    },
+    {
+      "id": 598,
+      "name": "ferrothorn",
+      "imagePath": "598.png",
+      "region": null
+    },
+    {
+      "id": 599,
+      "name": "klink",
+      "imagePath": "599.png",
+      "region": null
+    },
+    {
+      "id": 600,
+      "name": "klang",
+      "imagePath": "600.png",
+      "region": null
+    },
+    {
+      "id": 601,
+      "name": "klinklang",
+      "imagePath": "601.png",
+      "region": null
+    },
+    {
+      "id": 602,
+      "name": "tynamo",
+      "imagePath": "602.png",
+      "region": null
+    },
+    {
+      "id": 603,
+      "name": "eelektrik",
+      "imagePath": "603.png",
+      "region": null
+    },
+    {
+      "id": 604,
+      "name": "eelektross",
+      "imagePath": "604.png",
+      "region": null
+    },
+    {
+      "id": 605,
+      "name": "elgyem",
+      "imagePath": "605.png",
+      "region": null
+    },
+    {
+      "id": 606,
+      "name": "beheeyem",
+      "imagePath": "606.png",
+      "region": null
+    },
+    {
+      "id": 607,
+      "name": "litwick",
+      "imagePath": "607.png",
+      "region": null
+    },
+    {
+      "id": 608,
+      "name": "lampent",
+      "imagePath": "608.png",
+      "region": null
+    },
+    {
+      "id": 609,
+      "name": "chandelure",
+      "imagePath": "609.png",
+      "region": null
+    },
+    {
+      "id": 610,
+      "name": "axew",
+      "imagePath": "610.png",
+      "region": null
+    },
+    {
+      "id": 611,
+      "name": "fraxure",
+      "imagePath": "611.png",
+      "region": null
+    },
+    {
+      "id": 612,
+      "name": "haxorus",
+      "imagePath": "612.png",
+      "region": null
+    },
+    {
+      "id": 613,
+      "name": "cubchoo",
+      "imagePath": "613.png",
+      "region": null
+    },
+    {
+      "id": 614,
+      "name": "beartic",
+      "imagePath": "614.png",
+      "region": null
+    },
+    {
+      "id": 615,
+      "name": "cryogonal",
+      "imagePath": "615.png",
+      "region": null
+    },
+    {
+      "id": 616,
+      "name": "shelmet",
+      "imagePath": "616.png",
+      "region": null
+    },
+    {
+      "id": 617,
+      "name": "accelgor",
+      "imagePath": "617.png",
+      "region": null
+    },
+    {
+      "id": 618,
+      "name": "stunfisk",
+      "imagePath": "618.png",
+      "region": null
+    },
+    {
+      "id": 619,
+      "name": "mienfoo",
+      "imagePath": "619.png",
+      "region": null
+    },
+    {
+      "id": 620,
+      "name": "mienshao",
+      "imagePath": "620.png",
+      "region": null
+    },
+    {
+      "id": 621,
+      "name": "druddigon",
+      "imagePath": "621.png",
+      "region": null
+    },
+    {
+      "id": 622,
+      "name": "golett",
+      "imagePath": "622.png",
+      "region": null
+    },
+    {
+      "id": 623,
+      "name": "golurk",
+      "imagePath": "623.png",
+      "region": null
+    },
+    {
+      "id": 624,
+      "name": "pawniard",
+      "imagePath": "624.png",
+      "region": null
+    },
+    {
+      "id": 625,
+      "name": "bisharp",
+      "imagePath": "625.png",
+      "region": null
+    },
+    {
+      "id": 626,
+      "name": "bouffalant",
+      "imagePath": "626.png",
+      "region": null
+    },
+    {
+      "id": 627,
+      "name": "rufflet",
+      "imagePath": "627.png",
+      "region": null
+    },
+    {
+      "id": 628,
+      "name": "braviary",
+      "imagePath": "628.png",
+      "region": null
+    },
+    {
+      "id": 629,
+      "name": "vullaby",
+      "imagePath": "629.png",
+      "region": null
+    },
+    {
+      "id": 630,
+      "name": "mandibuzz",
+      "imagePath": "630.png",
+      "region": null
+    },
+    {
+      "id": 631,
+      "name": "heatmor",
+      "imagePath": "631.png",
+      "region": null
+    },
+    {
+      "id": 632,
+      "name": "durant",
+      "imagePath": "632.png",
+      "region": null
+    },
+    {
+      "id": 633,
+      "name": "deino",
+      "imagePath": "633.png",
+      "region": null
+    },
+    {
+      "id": 634,
+      "name": "zweilous",
+      "imagePath": "634.png",
+      "region": null
+    },
+    {
+      "id": 635,
+      "name": "hydreigon",
+      "imagePath": "635.png",
+      "region": null
+    },
+    {
+      "id": 636,
+      "name": "larvesta",
+      "imagePath": "636.png",
+      "region": null
+    },
+    {
+      "id": 637,
+      "name": "volcarona",
+      "imagePath": "637.png",
+      "region": null
+    },
+    {
+      "id": 638,
+      "name": "cobalion",
+      "imagePath": "638.png",
+      "region": null
+    },
+    {
+      "id": 639,
+      "name": "terrakion",
+      "imagePath": "639.png",
+      "region": null
+    },
+    {
+      "id": 640,
+      "name": "virizion",
+      "imagePath": "640.png",
+      "region": null
+    },
+    {
+      "id": 641,
+      "name": "tornadus",
+      "imagePath": "641.png",
+      "region": null
+    },
+    {
+      "id": 642,
+      "name": "thundurus",
+      "imagePath": "642.png",
+      "region": null
+    },
+    {
+      "id": 643,
+      "name": "reshiram",
+      "imagePath": "643.png",
+      "region": null
+    },
+    {
+      "id": 644,
+      "name": "zekrom",
+      "imagePath": "644.png",
+      "region": null
+    },
+    {
+      "id": 645,
+      "name": "landorus",
+      "imagePath": "645.png",
+      "region": null
+    },
+    {
+      "id": 646,
+      "name": "kyurem",
+      "imagePath": "646.png",
+      "region": null
+    },
+    {
+      "id": 647,
+      "name": "keldeo",
+      "imagePath": "647.png",
+      "region": null
+    },
+    {
+      "id": 648,
+      "name": "meloetta",
+      "imagePath": "648.png",
+      "region": null
+    },
+    {
+      "id": 649,
+      "name": "genesect",
+      "imagePath": "649.png",
+      "region": null
+    },
+    {
+      "id": 650,
+      "name": "chespin",
+      "imagePath": "650.png",
+      "region": null
+    },
+    {
+      "id": 651,
+      "name": "quilladin",
+      "imagePath": "651.png",
+      "region": null
+    },
+    {
+      "id": 652,
+      "name": "chesnaught",
+      "imagePath": "652.png",
+      "region": null
+    },
+    {
+      "id": 653,
+      "name": "fennekin",
+      "imagePath": "653.png",
+      "region": null
+    },
+    {
+      "id": 654,
+      "name": "braixen",
+      "imagePath": "654.png",
+      "region": null
+    },
+    {
+      "id": 655,
+      "name": "delphox",
+      "imagePath": "655.png",
+      "region": null
+    },
+    {
+      "id": 656,
+      "name": "froakie",
+      "imagePath": "656.png",
+      "region": null
+    },
+    {
+      "id": 657,
+      "name": "frogadier",
+      "imagePath": "657.png",
+      "region": null
+    },
+    {
+      "id": 658,
+      "name": "greninja",
+      "imagePath": "658.png",
+      "region": null
+    },
+    {
+      "id": 659,
+      "name": "bunnelby",
+      "imagePath": "659.png",
+      "region": null
+    },
+    {
+      "id": 660,
+      "name": "diggersby",
+      "imagePath": "660.png",
+      "region": null
+    },
+    {
+      "id": 661,
+      "name": "fletchling",
+      "imagePath": "661.png",
+      "region": null
+    },
+    {
+      "id": 662,
+      "name": "fletchinder",
+      "imagePath": "662.png",
+      "region": null
+    },
+    {
+      "id": 663,
+      "name": "talonflame",
+      "imagePath": "663.png",
+      "region": null
+    },
+    {
+      "id": 664,
+      "name": "scatterbug",
+      "imagePath": "664.png",
+      "region": null
+    },
+    {
+      "id": 665,
+      "name": "spewpa",
+      "imagePath": "665.png",
+      "region": null
+    },
+    {
+      "id": 666,
+      "name": "vivillon",
+      "imagePath": "666.png",
+      "region": null
+    },
+    {
+      "id": 667,
+      "name": "litleo",
+      "imagePath": "667.png",
+      "region": null
+    },
+    {
+      "id": 668,
+      "name": "pyroar",
+      "imagePath": "668.png",
+      "region": null
+    },
+    {
+      "id": 669,
+      "name": "flabebe",
+      "imagePath": "669.png",
+      "region": null
+    },
+    {
+      "id": 670,
+      "name": "floette",
+      "imagePath": "670.png",
+      "region": null
+    },
+    {
+      "id": 671,
+      "name": "florges",
+      "imagePath": "671.png",
+      "region": null
+    },
+    {
+      "id": 672,
+      "name": "skiddo",
+      "imagePath": "672.png",
+      "region": null
+    },
+    {
+      "id": 673,
+      "name": "gogoat",
+      "imagePath": "673.png",
+      "region": null
+    },
+    {
+      "id": 674,
+      "name": "pancham",
+      "imagePath": "674.png",
+      "region": null
+    },
+    {
+      "id": 675,
+      "name": "pangoro",
+      "imagePath": "675.png",
+      "region": null
+    },
+    {
+      "id": 676,
+      "name": "furfrou",
+      "imagePath": "676.png",
+      "region": null
+    },
+    {
+      "id": 677,
+      "name": "espurr",
+      "imagePath": "677.png",
+      "region": null
+    },
+    {
+      "id": 678,
+      "name": "meowstic",
+      "imagePath": "678.png",
+      "region": null
+    },
+    {
+      "id": 679,
+      "name": "honedge",
+      "imagePath": "679.png",
+      "region": null
+    },
+    {
+      "id": 680,
+      "name": "doublade",
+      "imagePath": "680.png",
+      "region": null
+    },
+    {
+      "id": 681,
+      "name": "aegislash",
+      "imagePath": "681.png",
+      "region": null
+    },
+    {
+      "id": 682,
+      "name": "spritzee",
+      "imagePath": "682.png",
+      "region": null
+    },
+    {
+      "id": 683,
+      "name": "aromatisse",
+      "imagePath": "683.png",
+      "region": null
+    },
+    {
+      "id": 684,
+      "name": "swirlix",
+      "imagePath": "684.png",
+      "region": null
+    },
+    {
+      "id": 685,
+      "name": "slurpuff",
+      "imagePath": "685.png",
+      "region": null
+    },
+    {
+      "id": 686,
+      "name": "inkay",
+      "imagePath": "686.png",
+      "region": null
+    },
+    {
+      "id": 687,
+      "name": "malamar",
+      "imagePath": "687.png",
+      "region": null
+    },
+    {
+      "id": 688,
+      "name": "binacle",
+      "imagePath": "688.png",
+      "region": null
+    },
+    {
+      "id": 689,
+      "name": "barbaracle",
+      "imagePath": "689.png",
+      "region": null
+    },
+    {
+      "id": 690,
+      "name": "skrelp",
+      "imagePath": "690.png",
+      "region": null
+    },
+    {
+      "id": 691,
+      "name": "dragalge",
+      "imagePath": "691.png",
+      "region": null
+    },
+    {
+      "id": 692,
+      "name": "clauncher",
+      "imagePath": "692.png",
+      "region": null
+    },
+    {
+      "id": 693,
+      "name": "clawitzer",
+      "imagePath": "693.png",
+      "region": null
+    },
+    {
+      "id": 694,
+      "name": "helioptile",
+      "imagePath": "694.png",
+      "region": null
+    },
+    {
+      "id": 695,
+      "name": "heliolisk",
+      "imagePath": "695.png",
+      "region": null
+    },
+    {
+      "id": 696,
+      "name": "tyrunt",
+      "imagePath": "696.png",
+      "region": null
+    },
+    {
+      "id": 697,
+      "name": "tyrantrum",
+      "imagePath": "697.png",
+      "region": null
+    },
+    {
+      "id": 698,
+      "name": "amaura",
+      "imagePath": "698.png",
+      "region": null
+    },
+    {
+      "id": 699,
+      "name": "aurorus",
+      "imagePath": "699.png",
+      "region": null
+    },
+    {
+      "id": 700,
+      "name": "sylveon",
+      "imagePath": "700.png",
+      "region": null
+    },
+    {
+      "id": 701,
+      "name": "hawlucha",
+      "imagePath": "701.png",
+      "region": null
+    },
+    {
+      "id": 702,
+      "name": "dedenne",
+      "imagePath": "702.png",
+      "region": null
+    },
+    {
+      "id": 703,
+      "name": "carbink",
+      "imagePath": "703.png",
+      "region": null
+    },
+    {
+      "id": 704,
+      "name": "goomy",
+      "imagePath": "704.png",
+      "region": null
+    },
+    {
+      "id": 705,
+      "name": "sliggoo",
+      "imagePath": "705.png",
+      "region": null
+    },
+    {
+      "id": 706,
+      "name": "goodra",
+      "imagePath": "706.png",
+      "region": null
+    },
+    {
+      "id": 707,
+      "name": "klefki",
+      "imagePath": "707.png",
+      "region": null
+    },
+    {
+      "id": 708,
+      "name": "phantump",
+      "imagePath": "708.png",
+      "region": null
+    },
+    {
+      "id": 709,
+      "name": "trevenant",
+      "imagePath": "709.png",
+      "region": null
+    },
+    {
+      "id": 710,
+      "name": "pumpkaboo",
+      "imagePath": "710.png",
+      "region": null
+    },
+    {
+      "id": 711,
+      "name": "gourgeist",
+      "imagePath": "711.png",
+      "region": null
+    },
+    {
+      "id": 712,
+      "name": "bergmite",
+      "imagePath": "712.png",
+      "region": null
+    },
+    {
+      "id": 713,
+      "name": "avalugg",
+      "imagePath": "713.png",
+      "region": null
+    },
+    {
+      "id": 714,
+      "name": "noibat",
+      "imagePath": "714.png",
+      "region": null
+    },
+    {
+      "id": 715,
+      "name": "noivern",
+      "imagePath": "715.png",
+      "region": null
+    },
+    {
+      "id": 716,
+      "name": "xerneas",
+      "imagePath": "716.png",
+      "region": null
+    },
+    {
+      "id": 717,
+      "name": "yveltal",
+      "imagePath": "717.png",
+      "region": null
+    },
+    {
+      "id": 718,
+      "name": "zygarde",
+      "imagePath": "718.png",
+      "region": null
+    },
+    {
+      "id": 719,
+      "name": "diancie",
+      "imagePath": "719.png",
+      "region": null
+    },
+    {
+      "id": 720,
+      "name": "hoopa",
+      "imagePath": "720.png",
+      "region": null
+    },
+    {
+      "id": 721,
+      "name": "volcanion",
+      "imagePath": "721.png",
+      "region": null
+    },
+    {
+      "id": 722,
+      "name": "rowlet",
+      "imagePath": "722.png",
+      "region": null
+    },
+    {
+      "id": 723,
+      "name": "dartrix",
+      "imagePath": "723.png",
+      "region": null
+    },
+    {
+      "id": 724,
+      "name": "decidueye",
+      "imagePath": "724.png",
+      "region": null
+    },
+    {
+      "id": 725,
+      "name": "litten",
+      "imagePath": "725.png",
+      "region": null
+    },
+    {
+      "id": 726,
+      "name": "torracat",
+      "imagePath": "726.png",
+      "region": null
+    },
+    {
+      "id": 727,
+      "name": "incineroar",
+      "imagePath": "727.png",
+      "region": null
+    },
+    {
+      "id": 728,
+      "name": "popplio",
+      "imagePath": "728.png",
+      "region": null
+    },
+    {
+      "id": 729,
+      "name": "brionne",
+      "imagePath": "729.png",
+      "region": null
+    },
+    {
+      "id": 730,
+      "name": "primarina",
+      "imagePath": "730.png",
+      "region": null
+    },
+    {
+      "id": 731,
+      "name": "pikipek",
+      "imagePath": "731.png",
+      "region": null
+    },
+    {
+      "id": 732,
+      "name": "trumbeak",
+      "imagePath": "732.png",
+      "region": null
+    },
+    {
+      "id": 733,
+      "name": "toucannon",
+      "imagePath": "733.png",
+      "region": null
+    },
+    {
+      "id": 734,
+      "name": "yungoos",
+      "imagePath": "734.png",
+      "region": null
+    },
+    {
+      "id": 735,
+      "name": "gumshoos",
+      "imagePath": "735.png",
+      "region": null
+    },
+    {
+      "id": 736,
+      "name": "grubbin",
+      "imagePath": "736.png",
+      "region": null
+    },
+    {
+      "id": 737,
+      "name": "charjabug",
+      "imagePath": "737.png",
+      "region": null
+    },
+    {
+      "id": 738,
+      "name": "vikavolt",
+      "imagePath": "738.png",
+      "region": null
+    },
+    {
+      "id": 739,
+      "name": "crabrawler",
+      "imagePath": "739.png",
+      "region": null
+    },
+    {
+      "id": 740,
+      "name": "crabominable",
+      "imagePath": "740.png",
+      "region": null
+    },
+    {
+      "id": 741,
+      "name": "oricorio",
+      "imagePath": "741.png",
+      "region": null
+    },
+    {
+      "id": 742,
+      "name": "cutiefly",
+      "imagePath": "742.png",
+      "region": null
+    },
+    {
+      "id": 743,
+      "name": "ribombee",
+      "imagePath": "743.png",
+      "region": null
+    },
+    {
+      "id": 744,
+      "name": "rockruff",
+      "imagePath": "744.png",
+      "region": null
+    },
+    {
+      "id": 745,
+      "name": "lycanroc",
+      "imagePath": "745.png",
+      "region": null
+    },
+    {
+      "id": 746,
+      "name": "wishiwashi",
+      "imagePath": "746.png",
+      "region": null
+    },
+    {
+      "id": 747,
+      "name": "mareanie",
+      "imagePath": "747.png",
+      "region": null
+    },
+    {
+      "id": 748,
+      "name": "toxapex",
+      "imagePath": "748.png",
+      "region": null
+    },
+    {
+      "id": 749,
+      "name": "mudbray",
+      "imagePath": "749.png",
+      "region": null
+    },
+    {
+      "id": 750,
+      "name": "mudsdale",
+      "imagePath": "750.png",
+      "region": null
+    },
+    {
+      "id": 751,
+      "name": "dewpider",
+      "imagePath": "751.png",
+      "region": null
+    },
+    {
+      "id": 752,
+      "name": "araquanid",
+      "imagePath": "752.png",
+      "region": null
+    },
+    {
+      "id": 753,
+      "name": "fomantis",
+      "imagePath": "753.png",
+      "region": null
+    },
+    {
+      "id": 754,
+      "name": "lurantis",
+      "imagePath": "754.png",
+      "region": null
+    },
+    {
+      "id": 755,
+      "name": "morelull",
+      "imagePath": "755.png",
+      "region": null
+    },
+    {
+      "id": 756,
+      "name": "shiinotic",
+      "imagePath": "756.png",
+      "region": null
+    },
+    {
+      "id": 757,
+      "name": "salandit",
+      "imagePath": "757.png",
+      "region": null
+    },
+    {
+      "id": 758,
+      "name": "salazzle",
+      "imagePath": "758.png",
+      "region": null
+    },
+    {
+      "id": 759,
+      "name": "stufful",
+      "imagePath": "759.png",
+      "region": null
+    },
+    {
+      "id": 760,
+      "name": "bewear",
+      "imagePath": "760.png",
+      "region": null
+    },
+    {
+      "id": 761,
+      "name": "bounsweet",
+      "imagePath": "761.png",
+      "region": null
+    },
+    {
+      "id": 762,
+      "name": "steenee",
+      "imagePath": "762.png",
+      "region": null
+    },
+    {
+      "id": 763,
+      "name": "tsareena",
+      "imagePath": "763.png",
+      "region": null
+    },
+    {
+      "id": 764,
+      "name": "comfey",
+      "imagePath": "764.png",
+      "region": null
+    },
+    {
+      "id": 765,
+      "name": "oranguru",
+      "imagePath": "765.png",
+      "region": null
+    },
+    {
+      "id": 766,
+      "name": "passimian",
+      "imagePath": "766.png",
+      "region": null
+    },
+    {
+      "id": 767,
+      "name": "wimpod",
+      "imagePath": "767.png",
+      "region": null
+    },
+    {
+      "id": 768,
+      "name": "golisopod",
+      "imagePath": "768.png",
+      "region": null
+    },
+    {
+      "id": 769,
+      "name": "sandygast",
+      "imagePath": "769.png",
+      "region": null
+    },
+    {
+      "id": 770,
+      "name": "palossand",
+      "imagePath": "770.png",
+      "region": null
+    },
+    {
+      "id": 771,
+      "name": "pyukumuku",
+      "imagePath": "771.png",
+      "region": null
+    },
+    {
+      "id": 772,
+      "name": "type-null",
+      "imagePath": "772.png",
+      "region": null
+    },
+    {
+      "id": 773,
+      "name": "silvally",
+      "imagePath": "773.png",
+      "region": null
+    },
+    {
+      "id": 774,
+      "name": "minior",
+      "imagePath": "774.png",
+      "region": null
+    },
+    {
+      "id": 775,
+      "name": "komala",
+      "imagePath": "775.png",
+      "region": null
+    },
+    {
+      "id": 776,
+      "name": "turtonator",
+      "imagePath": "776.png",
+      "region": null
+    },
+    {
+      "id": 777,
+      "name": "togedemaru",
+      "imagePath": "777.png",
+      "region": null
+    },
+    {
+      "id": 778,
+      "name": "mimikyu",
+      "imagePath": "778.png",
+      "region": null
+    },
+    {
+      "id": 779,
+      "name": "bruxish",
+      "imagePath": "779.png",
+      "region": null
+    },
+    {
+      "id": 780,
+      "name": "drampa",
+      "imagePath": "780.png",
+      "region": null
+    },
+    {
+      "id": 781,
+      "name": "dhelmise",
+      "imagePath": "781.png",
+      "region": null
+    },
+    {
+      "id": 782,
+      "name": "jangmo-o",
+      "imagePath": "782.png",
+      "region": null
+    },
+    {
+      "id": 783,
+      "name": "hakamo-o",
+      "imagePath": "783.png",
+      "region": null
+    },
+    {
+      "id": 784,
+      "name": "kommo-o",
+      "imagePath": "784.png",
+      "region": null
+    },
+    {
+      "id": 785,
+      "name": "tapu-koko",
+      "imagePath": "785.png",
+      "region": null
+    },
+    {
+      "id": 786,
+      "name": "tapu-lele",
+      "imagePath": "786.png",
+      "region": null
+    },
+    {
+      "id": 787,
+      "name": "tapu-bulu",
+      "imagePath": "787.png",
+      "region": null
+    },
+    {
+      "id": 788,
+      "name": "tapu-fini",
+      "imagePath": "788.png",
+      "region": null
+    },
+    {
+      "id": 789,
+      "name": "cosmog",
+      "imagePath": "789.png",
+      "region": null
+    },
+    {
+      "id": 790,
+      "name": "cosmoem",
+      "imagePath": "790.png",
+      "region": null
+    },
+    {
+      "id": 791,
+      "name": "solgaleo",
+      "imagePath": "791.png",
+      "region": null
+    },
+    {
+      "id": 792,
+      "name": "lunala",
+      "imagePath": "792.png",
+      "region": null
+    },
+    {
+      "id": 793,
+      "name": "nihilego",
+      "imagePath": "793.png",
+      "region": null
+    },
+    {
+      "id": 794,
+      "name": "buzzwole",
+      "imagePath": "794.png",
+      "region": null
+    },
+    {
+      "id": 795,
+      "name": "pheromosa",
+      "imagePath": "795.png",
+      "region": null
+    },
+    {
+      "id": 796,
+      "name": "xurkitree",
+      "imagePath": "796.png",
+      "region": null
+    },
+    {
+      "id": 797,
+      "name": "celesteela",
+      "imagePath": "797.png",
+      "region": null
+    },
+    {
+      "id": 798,
+      "name": "kartana",
+      "imagePath": "798.png",
+      "region": null
+    },
+    {
+      "id": 799,
+      "name": "guzzlord",
+      "imagePath": "799.png",
+      "region": null
+    },
+    {
+      "id": 800,
+      "name": "necrozma",
+      "imagePath": "800.png",
+      "region": null
+    },
+    {
+      "id": 801,
+      "name": "magearna",
+      "imagePath": "801.png",
+      "region": null
+    },
+    {
+      "id": 802,
+      "name": "marshadow",
+      "imagePath": "802.png",
+      "region": null
+    },
+    {
+      "id": 803,
+      "name": "poipole",
+      "imagePath": "803.png",
+      "region": null
+    },
+    {
+      "id": 804,
+      "name": "naganadel",
+      "imagePath": "804.png",
+      "region": null
+    },
+    {
+      "id": 805,
+      "name": "stakataka",
+      "imagePath": "805.png",
+      "region": null
+    },
+    {
+      "id": 806,
+      "name": "blacephalon",
+      "imagePath": "806.png",
+      "region": null
+    },
+    {
+      "id": 807,
+      "name": "zeraora",
+      "imagePath": "807.png",
+      "region": null
+    },
+    {
+      "id": 808,
+      "name": "meltan",
+      "imagePath": "808.png",
+      "region": null
+    },
+    {
+      "id": 809,
+      "name": "melmetal",
+      "imagePath": "809.png",
+      "region": null
+    },
+    {
+      "id": 810,
+      "name": "grookey",
+      "imagePath": "810.png",
+      "region": null
+    },
+    {
+      "id": 811,
+      "name": "thwackey",
+      "imagePath": "811.png",
+      "region": null
+    },
+    {
+      "id": 812,
+      "name": "rillaboom",
+      "imagePath": "812.png",
+      "region": null
+    },
+    {
+      "id": 813,
+      "name": "scorbunny",
+      "imagePath": "813.png",
+      "region": null
+    },
+    {
+      "id": 814,
+      "name": "raboot",
+      "imagePath": "814.png",
+      "region": null
+    },
+    {
+      "id": 815,
+      "name": "cinderace",
+      "imagePath": "815.png",
+      "region": null
+    },
+    {
+      "id": 816,
+      "name": "sobble",
+      "imagePath": "816.png",
+      "region": null
+    },
+    {
+      "id": 817,
+      "name": "drizzile",
+      "imagePath": "817.png",
+      "region": null
+    },
+    {
+      "id": 818,
+      "name": "inteleon",
+      "imagePath": "818.png",
+      "region": null
+    },
+    {
+      "id": 819,
+      "name": "skwovet",
+      "imagePath": "819.png",
+      "region": null
+    },
+    {
+      "id": 820,
+      "name": "greedent",
+      "imagePath": "820.png",
+      "region": null
+    },
+    {
+      "id": 821,
+      "name": "rookidee",
+      "imagePath": "821.png",
+      "region": null
+    },
+    {
+      "id": 822,
+      "name": "corvisquire",
+      "imagePath": "822.png",
+      "region": null
+    },
+    {
+      "id": 823,
+      "name": "corviknight",
+      "imagePath": "823.png",
+      "region": null
+    },
+    {
+      "id": 824,
+      "name": "blipbug",
+      "imagePath": "824.png",
+      "region": null
+    },
+    {
+      "id": 825,
+      "name": "dottler",
+      "imagePath": "825.png",
+      "region": null
+    },
+    {
+      "id": 826,
+      "name": "orbeetle",
+      "imagePath": "826.png",
+      "region": null
+    },
+    {
+      "id": 827,
+      "name": "nickit",
+      "imagePath": "827.png",
+      "region": null
+    },
+    {
+      "id": 828,
+      "name": "thievul",
+      "imagePath": "828.png",
+      "region": null
+    },
+    {
+      "id": 829,
+      "name": "gossifleur",
+      "imagePath": "829.png",
+      "region": null
+    },
+    {
+      "id": 830,
+      "name": "eldegoss",
+      "imagePath": "830.png",
+      "region": null
+    },
+    {
+      "id": 831,
+      "name": "wooloo",
+      "imagePath": "831.png",
+      "region": null
+    },
+    {
+      "id": 832,
+      "name": "dubwool",
+      "imagePath": "832.png",
+      "region": null
+    },
+    {
+      "id": 833,
+      "name": "chewtle",
+      "imagePath": "833.png",
+      "region": null
+    },
+    {
+      "id": 834,
+      "name": "drednaw",
+      "imagePath": "834.png",
+      "region": null
+    },
+    {
+      "id": 835,
+      "name": "yamper",
+      "imagePath": "835.png",
+      "region": null
+    },
+    {
+      "id": 836,
+      "name": "boltund",
+      "imagePath": "836.png",
+      "region": null
+    },
+    {
+      "id": 837,
+      "name": "rolycoly",
+      "imagePath": "837.png",
+      "region": null
+    },
+    {
+      "id": 838,
+      "name": "carkol",
+      "imagePath": "838.png",
+      "region": null
+    },
+    {
+      "id": 839,
+      "name": "coalossal",
+      "imagePath": "839.png",
+      "region": null
+    },
+    {
+      "id": 840,
+      "name": "applin",
+      "imagePath": "840.png",
+      "region": null
+    },
+    {
+      "id": 841,
+      "name": "flapple",
+      "imagePath": "841.png",
+      "region": null
+    },
+    {
+      "id": 842,
+      "name": "appletun",
+      "imagePath": "842.png",
+      "region": null
+    },
+    {
+      "id": 843,
+      "name": "silicobra",
+      "imagePath": "843.png",
+      "region": null
+    },
+    {
+      "id": 844,
+      "name": "sandaconda",
+      "imagePath": "844.png",
+      "region": null
+    },
+    {
+      "id": 845,
+      "name": "cramorant",
+      "imagePath": "845.png",
+      "region": null
+    },
+    {
+      "id": 846,
+      "name": "arrokuda",
+      "imagePath": "846.png",
+      "region": null
+    },
+    {
+      "id": 847,
+      "name": "barraskewda",
+      "imagePath": "847.png",
+      "region": null
+    },
+    {
+      "id": 848,
+      "name": "toxel",
+      "imagePath": "848.png",
+      "region": null
+    },
+    {
+      "id": 849,
+      "name": "toxtricity",
+      "imagePath": "849.png",
+      "region": null
+    },
+    {
+      "id": 850,
+      "name": "sizzlipede",
+      "imagePath": "850.png",
+      "region": null
+    },
+    {
+      "id": 851,
+      "name": "centiskorch",
+      "imagePath": "851.png",
+      "region": null
+    },
+    {
+      "id": 852,
+      "name": "clobbopus",
+      "imagePath": "852.png",
+      "region": null
+    },
+    {
+      "id": 853,
+      "name": "grapploct",
+      "imagePath": "853.png",
+      "region": null
+    },
+    {
+      "id": 854,
+      "name": "sinistea",
+      "imagePath": "854.png",
+      "region": null
+    },
+    {
+      "id": 855,
+      "name": "polteageist",
+      "imagePath": "855.png",
+      "region": null
+    },
+    {
+      "id": 856,
+      "name": "hatenna",
+      "imagePath": "856.png",
+      "region": null
+    },
+    {
+      "id": 857,
+      "name": "hattrem",
+      "imagePath": "857.png",
+      "region": null
+    },
+    {
+      "id": 858,
+      "name": "hatterene",
+      "imagePath": "858.png",
+      "region": null
+    },
+    {
+      "id": 859,
+      "name": "impidimp",
+      "imagePath": "859.png",
+      "region": null
+    },
+    {
+      "id": 860,
+      "name": "morgrem",
+      "imagePath": "860.png",
+      "region": null
+    },
+    {
+      "id": 861,
+      "name": "grimmsnarl",
+      "imagePath": "861.png",
+      "region": null
+    },
+    {
+      "id": 862,
+      "name": "obstagoon",
+      "imagePath": "862.png",
+      "region": null
+    },
+    {
+      "id": 863,
+      "name": "perrserker",
+      "imagePath": "863.png",
+      "region": null
+    },
+    {
+      "id": 864,
+      "name": "cursola",
+      "imagePath": "864.png",
+      "region": null
+    },
+    {
+      "id": 865,
+      "name": "sirfetchd",
+      "imagePath": "865.png",
+      "region": null
+    },
+    {
+      "id": 866,
+      "name": "mr-rime",
+      "imagePath": "866.png",
+      "region": null
+    },
+    {
+      "id": 867,
+      "name": "runerigus",
+      "imagePath": "867.png",
+      "region": null
+    },
+    {
+      "id": 868,
+      "name": "milcery",
+      "imagePath": "868.png",
+      "region": null
+    },
+    {
+      "id": 869,
+      "name": "alcremie",
+      "imagePath": "869.png",
+      "region": null
+    },
+    {
+      "id": 870,
+      "name": "falinks",
+      "imagePath": "870.png",
+      "region": null
+    },
+    {
+      "id": 871,
+      "name": "pincurchin",
+      "imagePath": "871.png",
+      "region": null
+    },
+    {
+      "id": 872,
+      "name": "snom",
+      "imagePath": "872.png",
+      "region": null
+    },
+    {
+      "id": 873,
+      "name": "frosmoth",
+      "imagePath": "873.png",
+      "region": null
+    },
+    {
+      "id": 874,
+      "name": "stonjourner",
+      "imagePath": "874.png",
+      "region": null
+    },
+    {
+      "id": 875,
+      "name": "eiscue",
+      "imagePath": "875.png",
+      "region": null
+    },
+    {
+      "id": 876,
+      "name": "indeedee",
+      "imagePath": "876.png",
+      "region": null
+    },
+    {
+      "id": 877,
+      "name": "morpeko",
+      "imagePath": "877.png",
+      "region": null
+    },
+    {
+      "id": 878,
+      "name": "cufant",
+      "imagePath": "878.png",
+      "region": null
+    },
+    {
+      "id": 879,
+      "name": "copperajah",
+      "imagePath": "879.png",
+      "region": null
+    },
+    {
+      "id": 880,
+      "name": "dracozolt",
+      "imagePath": "880.png",
+      "region": null
+    },
+    {
+      "id": 881,
+      "name": "arctozolt",
+      "imagePath": "881.png",
+      "region": null
+    },
+    {
+      "id": 882,
+      "name": "dracovish",
+      "imagePath": "882.png",
+      "region": null
+    },
+    {
+      "id": 883,
+      "name": "arctovish",
+      "imagePath": "883.png",
+      "region": null
+    },
+    {
+      "id": 884,
+      "name": "duraludon",
+      "imagePath": "884.png",
+      "region": null
+    },
+    {
+      "id": 885,
+      "name": "dreepy",
+      "imagePath": "885.png",
+      "region": null
+    },
+    {
+      "id": 886,
+      "name": "drakloak",
+      "imagePath": "886.png",
+      "region": null
+    },
+    {
+      "id": 887,
+      "name": "dragapult",
+      "imagePath": "887.png",
+      "region": null
+    },
+    {
+      "id": 888,
+      "name": "zacian",
+      "imagePath": "888.png",
+      "region": null
+    },
+    {
+      "id": 889,
+      "name": "zamazenta",
+      "imagePath": "889.png",
+      "region": null
+    },
+    {
+      "id": 890,
+      "name": "eternatus",
+      "imagePath": "890.png",
+      "region": null
+    },
+    {
+      "id": 891,
+      "name": "kubfu",
+      "imagePath": "891.png",
+      "region": null
+    },
+    {
+      "id": 892,
+      "name": "urshifu",
+      "imagePath": "892.png",
+      "region": null
+    },
+    {
+      "id": 893,
+      "name": "zarude",
+      "imagePath": "893.png",
+      "region": null
+    },
+    {
+      "id": 894,
+      "name": "regieleki",
+      "imagePath": "894.png",
+      "region": null
+    },
+    {
+      "id": 895,
+      "name": "regidrago",
+      "imagePath": "895.png",
+      "region": null
+    },
+    {
+      "id": 896,
+      "name": "glastrier",
+      "imagePath": "896.png",
+      "region": null
+    },
+    {
+      "id": 897,
+      "name": "spectrier",
+      "imagePath": "897.png",
+      "region": null
+    },
+    {
+      "id": 898,
+      "name": "calyrex",
+      "imagePath": "898.png",
+      "region": null
+    },
+    {
+      "id": 899,
+      "name": "wyrdeer",
+      "imagePath": "899.png",
+      "region": null
+    },
+    {
+      "id": 900,
+      "name": "kleavor",
+      "imagePath": "900.png",
+      "region": null
+    },
+    {
+      "id": 901,
+      "name": "ursaluna",
+      "imagePath": "901.png",
+      "region": null
+    },
+    {
+      "id": 902,
+      "name": "basculegion",
+      "imagePath": "902.png",
+      "region": null
+    },
+    {
+      "id": 903,
+      "name": "sneasler",
+      "imagePath": "903.png",
+      "region": null
+    },
+    {
+      "id": 904,
+      "name": "overqwil",
+      "imagePath": "904.png",
+      "region": null
+    },
+    {
+      "id": 905,
+      "name": "enamorus",
+      "imagePath": "905.png",
+      "region": null
+    },
+    {
+      "id": 906,
+      "name": "sprigatito",
+      "imagePath": "906.png",
+      "region": null
+    },
+    {
+      "id": 907,
+      "name": "floragato",
+      "imagePath": "907.png",
+      "region": null
+    },
+    {
+      "id": 908,
+      "name": "meowscarada",
+      "imagePath": "908.png",
+      "region": null
+    },
+    {
+      "id": 909,
+      "name": "fuecoco",
+      "imagePath": "909.png",
+      "region": null
+    },
+    {
+      "id": 910,
+      "name": "crocalor",
+      "imagePath": "910.png",
+      "region": null
+    },
+    {
+      "id": 911,
+      "name": "skeledirge",
+      "imagePath": "911.png",
+      "region": null
+    },
+    {
+      "id": 912,
+      "name": "quaxly",
+      "imagePath": "912.png",
+      "region": null
+    },
+    {
+      "id": 913,
+      "name": "quaxwell",
+      "imagePath": "913.png",
+      "region": null
+    },
+    {
+      "id": 914,
+      "name": "quaquaval",
+      "imagePath": "914.png",
+      "region": null
+    },
+    {
+      "id": 915,
+      "name": "lechonk",
+      "imagePath": "915.png",
+      "region": null
+    },
+    {
+      "id": 916,
+      "name": "oinkologne",
+      "imagePath": "916.png",
+      "region": null
+    },
+    {
+      "id": 917,
+      "name": "tarountula",
+      "imagePath": "917.png",
+      "region": null
+    },
+    {
+      "id": 918,
+      "name": "spidops",
+      "imagePath": "918.png",
+      "region": null
+    },
+    {
+      "id": 919,
+      "name": "nymble",
+      "imagePath": "919.png",
+      "region": null
+    },
+    {
+      "id": 920,
+      "name": "lokix",
+      "imagePath": "920.png",
+      "region": null
+    },
+    {
+      "id": 921,
+      "name": "pawmi",
+      "imagePath": "921.png",
+      "region": null
+    },
+    {
+      "id": 922,
+      "name": "pawmo",
+      "imagePath": "922.png",
+      "region": null
+    },
+    {
+      "id": 923,
+      "name": "pawmot",
+      "imagePath": "923.png",
+      "region": null
+    },
+    {
+      "id": 924,
+      "name": "tandemaus",
+      "imagePath": "924.png",
+      "region": null
+    },
+    {
+      "id": 925,
+      "name": "maushold",
+      "imagePath": "925.png",
+      "region": null
+    },
+    {
+      "id": 926,
+      "name": "fidough",
+      "imagePath": "926.png",
+      "region": null
+    },
+    {
+      "id": 927,
+      "name": "dachsbun",
+      "imagePath": "927.png",
+      "region": null
+    },
+    {
+      "id": 928,
+      "name": "smoliv",
+      "imagePath": "928.png",
+      "region": null
+    },
+    {
+      "id": 929,
+      "name": "dolliv",
+      "imagePath": "929.png",
+      "region": null
+    },
+    {
+      "id": 930,
+      "name": "arboliva",
+      "imagePath": "930.png",
+      "region": null
+    },
+    {
+      "id": 931,
+      "name": "squawkabilly",
+      "imagePath": "931.png",
+      "region": null
+    },
+    {
+      "id": 932,
+      "name": "nacli",
+      "imagePath": "932.png",
+      "region": null
+    },
+    {
+      "id": 933,
+      "name": "naclstack",
+      "imagePath": "933.png",
+      "region": null
+    },
+    {
+      "id": 934,
+      "name": "garganacl",
+      "imagePath": "934.png",
+      "region": null
+    },
+    {
+      "id": 935,
+      "name": "charcadet",
+      "imagePath": "935.png",
+      "region": null
+    },
+    {
+      "id": 936,
+      "name": "armarouge",
+      "imagePath": "936.png",
+      "region": null
+    },
+    {
+      "id": 937,
+      "name": "ceruledge",
+      "imagePath": "937.png",
+      "region": null
+    },
+    {
+      "id": 938,
+      "name": "tadbulb",
+      "imagePath": "938.png",
+      "region": null
+    },
+    {
+      "id": 939,
+      "name": "bellibolt",
+      "imagePath": "939.png",
+      "region": null
+    },
+    {
+      "id": 940,
+      "name": "wattrel",
+      "imagePath": "940.png",
+      "region": null
+    },
+    {
+      "id": 941,
+      "name": "kilowattrel",
+      "imagePath": "941.png",
+      "region": null
+    },
+    {
+      "id": 942,
+      "name": "maschiff",
+      "imagePath": "942.png",
+      "region": null
+    },
+    {
+      "id": 943,
+      "name": "mabosstiff",
+      "imagePath": "943.png",
+      "region": null
+    },
+    {
+      "id": 944,
+      "name": "shroodle",
+      "imagePath": "944.png",
+      "region": null
+    },
+    {
+      "id": 945,
+      "name": "grafaiai",
+      "imagePath": "945.png",
+      "region": null
+    },
+    {
+      "id": 946,
+      "name": "bramblin",
+      "imagePath": "946.png",
+      "region": null
+    },
+    {
+      "id": 947,
+      "name": "brambleghast",
+      "imagePath": "947.png",
+      "region": null
+    },
+    {
+      "id": 948,
+      "name": "toedscool",
+      "imagePath": "948.png",
+      "region": null
+    },
+    {
+      "id": 949,
+      "name": "toedscruel",
+      "imagePath": "949.png",
+      "region": null
+    },
+    {
+      "id": 950,
+      "name": "klawf",
+      "imagePath": "950.png",
+      "region": null
+    },
+    {
+      "id": 951,
+      "name": "capsakid",
+      "imagePath": "951.png",
+      "region": null
+    },
+    {
+      "id": 952,
+      "name": "scovillain",
+      "imagePath": "952.png",
+      "region": null
+    },
+    {
+      "id": 953,
+      "name": "rellor",
+      "imagePath": "953.png",
+      "region": null
+    },
+    {
+      "id": 954,
+      "name": "rabsca",
+      "imagePath": "954.png",
+      "region": null
+    },
+    {
+      "id": 955,
+      "name": "flittle",
+      "imagePath": "955.png",
+      "region": null
+    },
+    {
+      "id": 956,
+      "name": "espathra",
+      "imagePath": "956.png",
+      "region": null
+    },
+    {
+      "id": 957,
+      "name": "tinkatink",
+      "imagePath": "957.png",
+      "region": null
+    },
+    {
+      "id": 958,
+      "name": "tinkatuff",
+      "imagePath": "958.png",
+      "region": null
+    },
+    {
+      "id": 959,
+      "name": "tinkaton",
+      "imagePath": "959.png",
+      "region": null
+    },
+    {
+      "id": 960,
+      "name": "wiglett",
+      "imagePath": "960.png",
+      "region": null
+    },
+    {
+      "id": 961,
+      "name": "wugtrio",
+      "imagePath": "961.png",
+      "region": null
+    },
+    {
+      "id": 962,
+      "name": "bombirdier",
+      "imagePath": "962.png",
+      "region": null
+    },
+    {
+      "id": 963,
+      "name": "finizen",
+      "imagePath": "963.png",
+      "region": null
+    },
+    {
+      "id": 964,
+      "name": "palafin",
+      "imagePath": "964.png",
+      "region": null
+    },
+    {
+      "id": 965,
+      "name": "varoom",
+      "imagePath": "965.png",
+      "region": null
+    },
+    {
+      "id": 966,
+      "name": "revavroom",
+      "imagePath": "966.png",
+      "region": null
+    },
+    {
+      "id": 967,
+      "name": "cyclizar",
+      "imagePath": "967.png",
+      "region": null
+    },
+    {
+      "id": 968,
+      "name": "orthworm",
+      "imagePath": "968.png",
+      "region": null
+    },
+    {
+      "id": 969,
+      "name": "glimmet",
+      "imagePath": "969.png",
+      "region": null
+    },
+    {
+      "id": 970,
+      "name": "glimmora",
+      "imagePath": "970.png",
+      "region": null
+    },
+    {
+      "id": 971,
+      "name": "greavard",
+      "imagePath": "971.png",
+      "region": null
+    },
+    {
+      "id": 972,
+      "name": "houndstone",
+      "imagePath": "972.png",
+      "region": null
+    },
+    {
+      "id": 973,
+      "name": "flamigo",
+      "imagePath": "973.png",
+      "region": null
+    },
+    {
+      "id": 974,
+      "name": "cetoddle",
+      "imagePath": "974.png",
+      "region": null
+    },
+    {
+      "id": 975,
+      "name": "cetitan",
+      "imagePath": "975.png",
+      "region": null
+    },
+    {
+      "id": 976,
+      "name": "veluza",
+      "imagePath": "976.png",
+      "region": null
+    },
+    {
+      "id": 977,
+      "name": "dondozo",
+      "imagePath": "977.png",
+      "region": null
+    },
+    {
+      "id": 978,
+      "name": "tatsugiri",
+      "imagePath": "978.png",
+      "region": null
+    },
+    {
+      "id": 979,
+      "name": "annihilape",
+      "imagePath": "979.png",
+      "region": null
+    },
+    {
+      "id": 980,
+      "name": "clodsire",
+      "imagePath": "980.png",
+      "region": null
+    },
+    {
+      "id": 981,
+      "name": "farigiraf",
+      "imagePath": "981.png",
+      "region": null
+    },
+    {
+      "id": 982,
+      "name": "dudunsparce",
+      "imagePath": "982.png",
+      "region": null
+    },
+    {
+      "id": 983,
+      "name": "kingambit",
+      "imagePath": "983.png",
+      "region": null
+    },
+    {
+      "id": 984,
+      "name": "great-tusk",
+      "imagePath": "984.png",
+      "region": null
+    },
+    {
+      "id": 985,
+      "name": "scream-tail",
+      "imagePath": "985.png",
+      "region": null
+    },
+    {
+      "id": 986,
+      "name": "brute-bonnet",
+      "imagePath": "986.png",
+      "region": null
+    },
+    {
+      "id": 987,
+      "name": "flutter-mane",
+      "imagePath": "987.png",
+      "region": null
+    },
+    {
+      "id": 988,
+      "name": "slither-wing",
+      "imagePath": "988.png",
+      "region": null
+    },
+    {
+      "id": 989,
+      "name": "sandy-shocks",
+      "imagePath": "989.png",
+      "region": null
+    },
+    {
+      "id": 990,
+      "name": "iron-treads",
+      "imagePath": "990.png",
+      "region": null
+    },
+    {
+      "id": 991,
+      "name": "iron-bundle",
+      "imagePath": "991.png",
+      "region": null
+    },
+    {
+      "id": 992,
+      "name": "iron-hands",
+      "imagePath": "992.png",
+      "region": null
+    },
+    {
+      "id": 993,
+      "name": "iron-jugulis",
+      "imagePath": "993.png",
+      "region": null
+    },
+    {
+      "id": 994,
+      "name": "iron-moth",
+      "imagePath": "994.png",
+      "region": null
+    },
+    {
+      "id": 995,
+      "name": "iron-thorns",
+      "imagePath": "995.png",
+      "region": null
+    },
+    {
+      "id": 996,
+      "name": "frigibax",
+      "imagePath": "996.png",
+      "region": null
+    },
+    {
+      "id": 997,
+      "name": "arctibax",
+      "imagePath": "997.png",
+      "region": null
+    },
+    {
+      "id": 998,
+      "name": "baxcalibur",
+      "imagePath": "998.png",
+      "region": null
+    },
+    {
+      "id": 999,
+      "name": "gimmighoul",
+      "imagePath": "999.png",
+      "region": null
+    },
+    {
+      "id": 1000,
+      "name": "gholdengo",
+      "imagePath": "1000.png",
+      "region": null
+    },
+    {
+      "id": 1001,
+      "name": "wo-chien",
+      "imagePath": "1001.png",
+      "region": null
+    },
+    {
+      "id": 1002,
+      "name": "chien-pao",
+      "imagePath": "1002.png",
+      "region": null
+    },
+    {
+      "id": 1003,
+      "name": "ting-lu",
+      "imagePath": "1003.png",
+      "region": null
+    },
+    {
+      "id": 1004,
+      "name": "chi-yu",
+      "imagePath": "1004.png",
+      "region": null
+    },
+    {
+      "id": 1005,
+      "name": "roaring-moon",
+      "imagePath": "1005.png",
+      "region": null
+    },
+    {
+      "id": 1006,
+      "name": "iron-valiant",
+      "imagePath": "1006.png",
+      "region": null
+    },
+    {
+      "id": 1007,
+      "name": "koraidon",
+      "imagePath": "1007.png",
+      "region": null
+    },
+    {
+      "id": 1008,
+      "name": "miraidon",
+      "imagePath": "1008.png",
+      "region": null
+    },
+    {
+      "id": 1009,
+      "name": "walking-wake",
+      "imagePath": "1009.png",
+      "region": null
+    },
+    {
+      "id": 1010,
+      "name": "iron-leaves",
+      "imagePath": "1010.png",
+      "region": null
+    },
+    {
+      "id": 1011,
+      "name": "dipplin",
+      "imagePath": "1011.png",
+      "region": null
+    },
+    {
+      "id": 1012,
+      "name": "poltchageist",
+      "imagePath": "1012.png",
+      "region": null
+    },
+    {
+      "id": 1013,
+      "name": "sinistcha",
+      "imagePath": "1013.png",
+      "region": null
+    },
+    {
+      "id": 1014,
+      "name": "okidogi",
+      "imagePath": "1014.png",
+      "region": null
+    },
+    {
+      "id": 1015,
+      "name": "munkidori",
+      "imagePath": "1015.png",
+      "region": null
+    },
+    {
+      "id": 1016,
+      "name": "fezandipiti",
+      "imagePath": "1016.png",
+      "region": null
+    },
+    {
+      "id": 1017,
+      "name": "ogerpon",
+      "imagePath": "1017.png",
+      "region": null
+    },
+    {
+      "id": 1018,
+      "name": "archaludon",
+      "imagePath": "1018.png",
+      "region": null
+    },
+    {
+      "id": 1019,
+      "name": "hydrapple",
+      "imagePath": "1019.png",
+      "region": null
+    },
+    {
+      "id": 1020,
+      "name": "gouging-fire",
+      "imagePath": "1020.png",
+      "region": null
+    },
+    {
+      "id": 1021,
+      "name": "raging-bolt",
+      "imagePath": "1021.png",
+      "region": null
+    },
+    {
+      "id": 1022,
+      "name": "iron-boulder",
+      "imagePath": "1022.png",
+      "region": null
+    },
+    {
+      "id": 1023,
+      "name": "iron-crown",
+      "imagePath": "1023.png",
+      "region": null
+    },
+    {
+      "id": 1024,
+      "name": "terapagos",
+      "imagePath": "1024.png",
+      "region": null
+    },
+    {
+      "id": 1025,
+      "name": "pecharunt",
+      "imagePath": "1025.png",
+      "region": null
+    }
+  ],
+  "defaultFemalePokemons": [
+    {
+      "id": 3,
+      "name": "venusaur",
+      "imagePath": "female/3.png",
+      "region": null
+    },
+    {
+      "id": 12,
+      "name": "butterfree",
+      "imagePath": "female/12.png",
+      "region": null
+    },
+    {
+      "id": 19,
+      "name": "rattata",
+      "imagePath": "female/19.png",
+      "region": null
+    },
+    {
+      "id": 20,
+      "name": "raticate",
+      "imagePath": "female/20.png",
+      "region": null
+    },
+    {
+      "id": 25,
+      "name": "pikachu",
+      "imagePath": "female/25.png",
+      "region": null
+    },
+    {
+      "id": 26,
+      "name": "raichu",
+      "imagePath": "female/26.png",
+      "region": null
+    },
+    {
+      "id": 41,
+      "name": "zubat",
+      "imagePath": "female/41.png",
+      "region": null
+    },
+    {
+      "id": 42,
+      "name": "golbat",
+      "imagePath": "female/42.png",
+      "region": null
+    },
+    {
+      "id": 44,
+      "name": "gloom",
+      "imagePath": "female/44.png",
+      "region": null
+    },
+    {
+      "id": 45,
+      "name": "vileplume",
+      "imagePath": "female/45.png",
+      "region": null
+    },
+    {
+      "id": 64,
+      "name": "kadabra",
+      "imagePath": "female/64.png",
+      "region": null
+    },
+    {
+      "id": 65,
+      "name": "alakazam",
+      "imagePath": "female/65.png",
+      "region": null
+    },
+    {
+      "id": 84,
+      "name": "doduo",
+      "imagePath": "female/84.png",
+      "region": null
+    },
+    {
+      "id": 85,
+      "name": "dodrio",
+      "imagePath": "female/85.png",
+      "region": null
+    },
+    {
+      "id": 97,
+      "name": "hypno",
+      "imagePath": "female/97.png",
+      "region": null
+    },
+    {
+      "id": 111,
+      "name": "rhyhorn",
+      "imagePath": "female/111.png",
+      "region": null
+    },
+    {
+      "id": 112,
+      "name": "rhydon",
+      "imagePath": "female/112.png",
+      "region": null
+    },
+    {
+      "id": 118,
+      "name": "goldeen",
+      "imagePath": "female/118.png",
+      "region": null
+    },
+    {
+      "id": 119,
+      "name": "seaking",
+      "imagePath": "female/119.png",
+      "region": null
+    },
+    {
+      "id": 123,
+      "name": "scyther",
+      "imagePath": "female/123.png",
+      "region": null
+    },
+    {
+      "id": 129,
+      "name": "magikarp",
+      "imagePath": "female/129.png",
+      "region": null
+    },
+    {
+      "id": 130,
+      "name": "gyarados",
+      "imagePath": "female/130.png",
+      "region": null
+    },
+    {
+      "id": 133,
+      "name": "eevee",
+      "imagePath": "female/133.png",
+      "region": null
+    },
+    {
+      "id": 154,
+      "name": "meganium",
+      "imagePath": "female/154.png",
+      "region": null
+    },
+    {
+      "id": 165,
+      "name": "ledyba",
+      "imagePath": "female/165.png",
+      "region": null
+    },
+    {
+      "id": 166,
+      "name": "ledian",
+      "imagePath": "female/166.png",
+      "region": null
+    },
+    {
+      "id": 178,
+      "name": "xatu",
+      "imagePath": "female/178.png",
+      "region": null
+    },
+    {
+      "id": 185,
+      "name": "sudowoodo",
+      "imagePath": "female/185.png",
+      "region": null
+    },
+    {
+      "id": 186,
+      "name": "politoed",
+      "imagePath": "female/186.png",
+      "region": null
+    },
+    {
+      "id": 190,
+      "name": "aipom",
+      "imagePath": "female/190.png",
+      "region": null
+    },
+    {
+      "id": 194,
+      "name": "wooper",
+      "imagePath": "female/194.png",
+      "region": null
+    },
+    {
+      "id": 195,
+      "name": "quagsire",
+      "imagePath": "female/195.png",
+      "region": null
+    },
+    {
+      "id": 198,
+      "name": "murkrow",
+      "imagePath": "female/198.png",
+      "region": null
+    },
+    {
+      "id": 202,
+      "name": "wobbuffet",
+      "imagePath": "female/202.png",
+      "region": null
+    },
+    {
+      "id": 203,
+      "name": "girafarig",
+      "imagePath": "female/203.png",
+      "region": null
+    },
+    {
+      "id": 207,
+      "name": "gligar",
+      "imagePath": "female/207.png",
+      "region": null
+    },
+    {
+      "id": 208,
+      "name": "steelix",
+      "imagePath": "female/208.png",
+      "region": null
+    },
+    {
+      "id": 212,
+      "name": "scizor",
+      "imagePath": "female/212.png",
+      "region": null
+    },
+    {
+      "id": 214,
+      "name": "heracross",
+      "imagePath": "female/214.png",
+      "region": null
+    },
+    {
+      "id": 215,
+      "name": "sneasel",
+      "imagePath": "female/215.png",
+      "region": null
+    },
+    {
+      "id": 217,
+      "name": "ursaring",
+      "imagePath": "female/217.png",
+      "region": null
+    },
+    {
+      "id": 221,
+      "name": "piloswine",
+      "imagePath": "female/221.png",
+      "region": null
+    },
+    {
+      "id": 224,
+      "name": "octillery",
+      "imagePath": "female/224.png",
+      "region": null
+    },
+    {
+      "id": 229,
+      "name": "houndoom",
+      "imagePath": "female/229.png",
+      "region": null
+    },
+    {
+      "id": 232,
+      "name": "donphan",
+      "imagePath": "female/232.png",
+      "region": null
+    },
+    {
+      "id": 256,
+      "name": "combusken",
+      "imagePath": "female/256.png",
+      "region": null
+    },
+    {
+      "id": 257,
+      "name": "blaziken",
+      "imagePath": "female/257.png",
+      "region": null
+    },
+    {
+      "id": 267,
+      "name": "beautifly",
+      "imagePath": "female/267.png",
+      "region": null
+    },
+    {
+      "id": 269,
+      "name": "dustox",
+      "imagePath": "female/269.png",
+      "region": null
+    },
+    {
+      "id": 272,
+      "name": "ludicolo",
+      "imagePath": "female/272.png",
+      "region": null
+    },
+    {
+      "id": 274,
+      "name": "nuzleaf",
+      "imagePath": "female/274.png",
+      "region": null
+    },
+    {
+      "id": 275,
+      "name": "shiftry",
+      "imagePath": "female/275.png",
+      "region": null
+    },
+    {
+      "id": 307,
+      "name": "meditite",
+      "imagePath": "female/307.png",
+      "region": null
+    },
+    {
+      "id": 308,
+      "name": "medicham",
+      "imagePath": "female/308.png",
+      "region": null
+    },
+    {
+      "id": 315,
+      "name": "roselia",
+      "imagePath": "female/315.png",
+      "region": null
+    },
+    {
+      "id": 316,
+      "name": "gulpin",
+      "imagePath": "female/316.png",
+      "region": null
+    },
+    {
+      "id": 317,
+      "name": "swalot",
+      "imagePath": "female/317.png",
+      "region": null
+    },
+    {
+      "id": 322,
+      "name": "numel",
+      "imagePath": "female/322.png",
+      "region": null
+    },
+    {
+      "id": 323,
+      "name": "camerupt",
+      "imagePath": "female/323.png",
+      "region": null
+    },
+    {
+      "id": 332,
+      "name": "cacturne",
+      "imagePath": "female/332.png",
+      "region": null
+    },
+    {
+      "id": 350,
+      "name": "milotic",
+      "imagePath": "female/350.png",
+      "region": null
+    },
+    {
+      "id": 369,
+      "name": "relicanth",
+      "imagePath": "female/369.png",
+      "region": null
+    },
+    {
+      "id": 396,
+      "name": "starly",
+      "imagePath": "female/396.png",
+      "region": null
+    },
+    {
+      "id": 397,
+      "name": "staravia",
+      "imagePath": "female/397.png",
+      "region": null
+    },
+    {
+      "id": 398,
+      "name": "staraptor",
+      "imagePath": "female/398.png",
+      "region": null
+    },
+    {
+      "id": 399,
+      "name": "bidoof",
+      "imagePath": "female/399.png",
+      "region": null
+    },
+    {
+      "id": 400,
+      "name": "bibarel",
+      "imagePath": "female/400.png",
+      "region": null
+    },
+    {
+      "id": 401,
+      "name": "kricketot",
+      "imagePath": "female/401.png",
+      "region": null
+    },
+    {
+      "id": 402,
+      "name": "kricketune",
+      "imagePath": "female/402.png",
+      "region": null
+    },
+    {
+      "id": 403,
+      "name": "shinx",
+      "imagePath": "female/403.png",
+      "region": null
+    },
+    {
+      "id": 404,
+      "name": "luxio",
+      "imagePath": "female/404.png",
+      "region": null
+    },
+    {
+      "id": 405,
+      "name": "luxray",
+      "imagePath": "female/405.png",
+      "region": null
+    },
+    {
+      "id": 407,
+      "name": "roserade",
+      "imagePath": "female/407.png",
+      "region": null
+    },
+    {
+      "id": 415,
+      "name": "combee",
+      "imagePath": "female/415.png",
+      "region": null
+    },
+    {
+      "id": 417,
+      "name": "pachirisu",
+      "imagePath": "female/417.png",
+      "region": null
+    },
+    {
+      "id": 418,
+      "name": "buizel",
+      "imagePath": "female/418.png",
+      "region": null
+    },
+    {
+      "id": 419,
+      "name": "floatzel",
+      "imagePath": "female/419.png",
+      "region": null
+    },
+    {
+      "id": 424,
+      "name": "ambipom",
+      "imagePath": "female/424.png",
+      "region": null
+    },
+    {
+      "id": 443,
+      "name": "gible",
+      "imagePath": "female/443.png",
+      "region": null
+    },
+    {
+      "id": 444,
+      "name": "gabite",
+      "imagePath": "female/444.png",
+      "region": null
+    },
+    {
+      "id": 445,
+      "name": "garchomp",
+      "imagePath": "female/445.png",
+      "region": null
+    },
+    {
+      "id": 449,
+      "name": "hippopotas",
+      "imagePath": "female/449.png",
+      "region": null
+    },
+    {
+      "id": 450,
+      "name": "hippowdon",
+      "imagePath": "female/450.png",
+      "region": null
+    },
+    {
+      "id": 453,
+      "name": "croagunk",
+      "imagePath": "female/453.png",
+      "region": null
+    },
+    {
+      "id": 454,
+      "name": "toxicroak",
+      "imagePath": "female/454.png",
+      "region": null
+    },
+    {
+      "id": 456,
+      "name": "finneon",
+      "imagePath": "female/456.png",
+      "region": null
+    },
+    {
+      "id": 457,
+      "name": "lumineon",
+      "imagePath": "female/457.png",
+      "region": null
+    },
+    {
+      "id": 459,
+      "name": "snover",
+      "imagePath": "female/459.png",
+      "region": null
+    },
+    {
+      "id": 460,
+      "name": "abomasnow",
+      "imagePath": "female/460.png",
+      "region": null
+    },
+    {
+      "id": 461,
+      "name": "weavile",
+      "imagePath": "female/461.png",
+      "region": null
+    },
+    {
+      "id": 464,
+      "name": "rhyperior",
+      "imagePath": "female/464.png",
+      "region": null
+    },
+    {
+      "id": 465,
+      "name": "tangrowth",
+      "imagePath": "female/465.png",
+      "region": null
+    },
+    {
+      "id": 473,
+      "name": "mamoswine",
+      "imagePath": "female/473.png",
+      "region": null
+    },
+    {
+      "id": 521,
+      "name": "unfezant",
+      "imagePath": "female/521.png",
+      "region": null
+    },
+    {
+      "id": 592,
+      "name": "frillish",
+      "imagePath": "female/592.png",
+      "region": null
+    },
+    {
+      "id": 593,
+      "name": "jellicent",
+      "imagePath": "female/593.png",
+      "region": null
+    },
+    {
+      "id": 668,
+      "name": "pyroar",
+      "imagePath": "female/668.png",
+      "region": null
+    },
+    {
+      "id": 916,
+      "name": "oinkologne",
+      "imagePath": "female/916.png",
+      "region": null
+    }
+  ],
+  "varieties": [
+    {
+      "id": 19,
+      "name": "rattata-alola",
+      "imagePath": "10091.png",
+      "region": "alola"
+    },
+    {
+      "id": 20,
+      "name": "raticate-alola",
+      "imagePath": "10092.png",
+      "region": "alola"
+    },
+    {
+      "id": 20,
+      "name": "raticate-totem-alola",
+      "imagePath": "10093.png",
+      "region": "alola"
+    },
+    {
+      "id": 25,
+      "name": "pikachu-original-cap",
+      "imagePath": "10094.png",
+      "region": null
+    },
+    {
+      "id": 25,
+      "name": "pikachu-hoenn-cap",
+      "imagePath": "10095.png",
+      "region": null
+    },
+    {
+      "id": 25,
+      "name": "pikachu-sinnoh-cap",
+      "imagePath": "10096.png",
+      "region": null
+    },
+    {
+      "id": 25,
+      "name": "pikachu-unova-cap",
+      "imagePath": "10097.png",
+      "region": null
+    },
+    {
+      "id": 25,
+      "name": "pikachu-kalos-cap",
+      "imagePath": "10098.png",
+      "region": null
+    },
+    {
+      "id": 25,
+      "name": "pikachu-alola-cap",
+      "imagePath": "10099.png",
+      "region": null
+    },
+    {
+      "id": 25,
+      "name": "pikachu-partner-cap",
+      "imagePath": "10148.png",
+      "region": null
+    },
+    {
+      "id": 25,
+      "name": "pikachu-world-cap",
+      "imagePath": "10160.png",
+      "region": null
+    },
+    {
+      "id": 26,
+      "name": "raichu-alola",
+      "imagePath": "10100.png",
+      "region": "alola"
+    },
+    {
+      "id": 27,
+      "name": "sandshrew-alola",
+      "imagePath": "10101.png",
+      "region": "alola"
+    },
+    {
+      "id": 28,
+      "name": "sandslash-alola",
+      "imagePath": "10102.png",
+      "region": "alola"
+    },
+    {
+      "id": 37,
+      "name": "vulpix-alola",
+      "imagePath": "10103.png",
+      "region": "alola"
+    },
+    {
+      "id": 38,
+      "name": "ninetales-alola",
+      "imagePath": "10104.png",
+      "region": "alola"
+    },
+    {
+      "id": 50,
+      "name": "diglett-alola",
+      "imagePath": "10105.png",
+      "region": "alola"
+    },
+    {
+      "id": 51,
+      "name": "dugtrio-alola",
+      "imagePath": "10106.png",
+      "region": "alola"
+    },
+    {
+      "id": 52,
+      "name": "meowth-alola",
+      "imagePath": "10107.png",
+      "region": "alola"
+    },
+    {
+      "id": 52,
+      "name": "meowth-galar",
+      "imagePath": "10161.png",
+      "region": "galar"
+    },
+    {
+      "id": 53,
+      "name": "persian-alola",
+      "imagePath": "10108.png",
+      "region": "alola"
+    },
+    {
+      "id": 58,
+      "name": "growlithe-hisui",
+      "imagePath": "10229.png",
+      "region": "hisui"
+    },
+    {
+      "id": 59,
+      "name": "arcanine-hisui",
+      "imagePath": "10230.png",
+      "region": "hisui"
+    },
+    {
+      "id": 74,
+      "name": "geodude-alola",
+      "imagePath": "10109.png",
+      "region": "alola"
+    },
+    {
+      "id": 75,
+      "name": "graveler-alola",
+      "imagePath": "10110.png",
+      "region": "alola"
+    },
+    {
+      "id": 76,
+      "name": "golem-alola",
+      "imagePath": "10111.png",
+      "region": "alola"
+    },
+    {
+      "id": 77,
+      "name": "ponyta-galar",
+      "imagePath": "10162.png",
+      "region": "galar"
+    },
+    {
+      "id": 78,
+      "name": "rapidash-galar",
+      "imagePath": "10163.png",
+      "region": "galar"
+    },
+    {
+      "id": 79,
+      "name": "slowpoke-galar",
+      "imagePath": "10164.png",
+      "region": "galar"
+    },
+    {
+      "id": 80,
+      "name": "slowbro-galar",
+      "imagePath": "10165.png",
+      "region": "galar"
+    },
+    {
+      "id": 83,
+      "name": "farfetchd-galar",
+      "imagePath": "10166.png",
+      "region": "galar"
+    },
+    {
+      "id": 88,
+      "name": "grimer-alola",
+      "imagePath": "10112.png",
+      "region": "alola"
+    },
+    {
+      "id": 89,
+      "name": "muk-alola",
+      "imagePath": "10113.png",
+      "region": "alola"
+    },
+    {
+      "id": 100,
+      "name": "voltorb-hisui",
+      "imagePath": "10231.png",
+      "region": "hisui"
+    },
+    {
+      "id": 101,
+      "name": "electrode-hisui",
+      "imagePath": "10232.png",
+      "region": "hisui"
+    },
+    {
+      "id": 103,
+      "name": "exeggutor-alola",
+      "imagePath": "10114.png",
+      "region": "alola"
+    },
+    {
+      "id": 105,
+      "name": "marowak-alola",
+      "imagePath": "10115.png",
+      "region": "alola"
+    },
+    {
+      "id": 110,
+      "name": "weezing-galar",
+      "imagePath": "10167.png",
+      "region": "galar"
+    },
+    {
+      "id": 122,
+      "name": "mr-mime-galar",
+      "imagePath": "10168.png",
+      "region": "galar"
+    },
+    {
+      "id": 128,
+      "name": "tauros-paldea-combat-breed",
+      "imagePath": "10250.png",
+      "region": "paldea"
+    },
+    {
+      "id": 128,
+      "name": "tauros-paldea-blaze-breed",
+      "imagePath": "10251.png",
+      "region": "paldea"
+    },
+    {
+      "id": 128,
+      "name": "tauros-paldea-aqua-breed",
+      "imagePath": "10252.png",
+      "region": "paldea"
+    },
+    {
+      "id": 144,
+      "name": "articuno-galar",
+      "imagePath": "10169.png",
+      "region": "galar"
+    },
+    {
+      "id": 145,
+      "name": "zapdos-galar",
+      "imagePath": "10170.png",
+      "region": "galar"
+    },
+    {
+      "id": 146,
+      "name": "moltres-galar",
+      "imagePath": "10171.png",
+      "region": "galar"
+    },
+    {
+      "id": 157,
+      "name": "typhlosion-hisui",
+      "imagePath": "10233.png",
+      "region": "hisui"
+    },
+    {
+      "id": 194,
+      "name": "wooper-paldea",
+      "imagePath": "10253.png",
+      "region": "paldea"
+    },
+    {
+      "id": 199,
+      "name": "slowking-galar",
+      "imagePath": "10172.png",
+      "region": "galar"
+    },
+    {
+      "id": 201,
+      "name": "unown-a",
+      "imagePath": "201-a.png",
+      "region": null
+    },
+    {
+      "id": 201,
+      "name": "unown-b",
+      "imagePath": "201-b.png",
+      "region": null
+    },
+    {
+      "id": 201,
+      "name": "unown-c",
+      "imagePath": "201-c.png",
+      "region": null
+    },
+    {
+      "id": 201,
+      "name": "unown-d",
+      "imagePath": "201-d.png",
+      "region": null
+    },
+    {
+      "id": 201,
+      "name": "unown-e",
+      "imagePath": "201-e.png",
+      "region": null
+    },
+    {
+      "id": 201,
+      "name": "unown-f",
+      "imagePath": "201-f.png",
+      "region": null
+    },
+    {
+      "id": 201,
+      "name": "unown-g",
+      "imagePath": "201-g.png",
+      "region": null
+    },
+    {
+      "id": 201,
+      "name": "unown-h",
+      "imagePath": "201-h.png",
+      "region": null
+    },
+    {
+      "id": 201,
+      "name": "unown-i",
+      "imagePath": "201-i.png",
+      "region": null
+    },
+    {
+      "id": 201,
+      "name": "unown-j",
+      "imagePath": "201-j.png",
+      "region": null
+    },
+    {
+      "id": 201,
+      "name": "unown-k",
+      "imagePath": "201-k.png",
+      "region": null
+    },
+    {
+      "id": 201,
+      "name": "unown-l",
+      "imagePath": "201-l.png",
+      "region": null
+    },
+    {
+      "id": 201,
+      "name": "unown-m",
+      "imagePath": "201-m.png",
+      "region": null
+    },
+    {
+      "id": 201,
+      "name": "unown-n",
+      "imagePath": "201-n.png",
+      "region": null
+    },
+    {
+      "id": 201,
+      "name": "unown-o",
+      "imagePath": "201-o.png",
+      "region": null
+    },
+    {
+      "id": 201,
+      "name": "unown-p",
+      "imagePath": "201-p.png",
+      "region": null
+    },
+    {
+      "id": 201,
+      "name": "unown-q",
+      "imagePath": "201-q.png",
+      "region": null
+    },
+    {
+      "id": 201,
+      "name": "unown-r",
+      "imagePath": "201-r.png",
+      "region": null
+    },
+    {
+      "id": 201,
+      "name": "unown-s",
+      "imagePath": "201-s.png",
+      "region": null
+    },
+    {
+      "id": 201,
+      "name": "unown-t",
+      "imagePath": "201-t.png",
+      "region": null
+    },
+    {
+      "id": 201,
+      "name": "unown-u",
+      "imagePath": "201-u.png",
+      "region": null
+    },
+    {
+      "id": 201,
+      "name": "unown-v",
+      "imagePath": "201-v.png",
+      "region": null
+    },
+    {
+      "id": 201,
+      "name": "unown-w",
+      "imagePath": "201-w.png",
+      "region": null
+    },
+    {
+      "id": 201,
+      "name": "unown-x",
+      "imagePath": "201-x.png",
+      "region": null
+    },
+    {
+      "id": 201,
+      "name": "unown-y",
+      "imagePath": "201-y.png",
+      "region": null
+    },
+    {
+      "id": 201,
+      "name": "unown-z",
+      "imagePath": "201-z.png",
+      "region": null
+    },
+    {
+      "id": 201,
+      "name": "unown-exclamation",
+      "imagePath": "201-exclamation.png",
+      "region": null
+    },
+    {
+      "id": 201,
+      "name": "unown-question",
+      "imagePath": "201-question.png",
+      "region": null
+    },
+    {
+      "id": 211,
+      "name": "qwilfish-hisui",
+      "imagePath": "10234.png",
+      "region": "hisui"
+    },
+    {
+      "id": 215,
+      "name": "sneasel-hisui",
+      "imagePath": "10235.png",
+      "region": "hisui"
+    },
+    {
+      "id": 222,
+      "name": "corsola-galar",
+      "imagePath": "10173.png",
+      "region": "galar"
+    },
+    {
+      "id": 263,
+      "name": "zigzagoon-galar",
+      "imagePath": "10174.png",
+      "region": "galar"
+    },
+    {
+      "id": 264,
+      "name": "linoone-galar",
+      "imagePath": "10175.png",
+      "region": "galar"
+    },
+    {
+      "id": 351,
+      "name": "castform-sunny",
+      "imagePath": "10013.png",
+      "region": null
+    },
+    {
+      "id": 351,
+      "name": "castform-rainy",
+      "imagePath": "10014.png",
+      "region": null
+    },
+    {
+      "id": 351,
+      "name": "castform-snowy",
+      "imagePath": "10015.png",
+      "region": null
+    },
+    {
+      "id": 386,
+      "name": "deoxys-attack",
+      "imagePath": "10001.png",
+      "region": null
+    },
+    {
+      "id": 386,
+      "name": "deoxys-defense",
+      "imagePath": "10002.png",
+      "region": null
+    },
+    {
+      "id": 386,
+      "name": "deoxys-speed",
+      "imagePath": "10003.png",
+      "region": null
+    },
+    {
+      "id": 412,
+      "name": "burmy-plant",
+      "imagePath": "412-plant.png",
+      "region": null
+    },
+    {
+      "id": 412,
+      "name": "burmy-sandy",
+      "imagePath": "412-sandy.png",
+      "region": null
+    },
+    {
+      "id": 412,
+      "name": "burmy-trash",
+      "imagePath": "412-trash.png",
+      "region": null
+    },
+    {
+      "id": 413,
+      "name": "wormadam-sandy",
+      "imagePath": "10004.png",
+      "region": null
+    },
+    {
+      "id": 413,
+      "name": "wormadam-trash",
+      "imagePath": "10005.png",
+      "region": null
+    },
+    {
+      "id": 421,
+      "name": "cherrim-overcast",
+      "imagePath": "421.png",
+      "region": null
+    },
+    {
+      "id": 421,
+      "name": "cherrim-sunshine",
+      "imagePath": "421.png",
+      "region": null
+    },
+    {
+      "id": 422,
+      "name": "shellos-west",
+      "imagePath": "422.png",
+      "region": null
+    },
+    {
+      "id": 422,
+      "name": "shellos-east",
+      "imagePath": "422.png",
+      "region": null
+    },
+    {
+      "id": 423,
+      "name": "gastrodon-west",
+      "imagePath": "423.png",
+      "region": null
+    },
+    {
+      "id": 423,
+      "name": "gastrodon-east",
+      "imagePath": "423.png",
+      "region": null
+    },
+    {
+      "id": 479,
+      "name": "rotom-heat",
+      "imagePath": "10008.png",
+      "region": null
+    },
+    {
+      "id": 479,
+      "name": "rotom-wash",
+      "imagePath": "10009.png",
+      "region": null
+    },
+    {
+      "id": 479,
+      "name": "rotom-frost",
+      "imagePath": "10010.png",
+      "region": null
+    },
+    {
+      "id": 479,
+      "name": "rotom-fan",
+      "imagePath": "10011.png",
+      "region": null
+    },
+    {
+      "id": 479,
+      "name": "rotom-mow",
+      "imagePath": "10012.png",
+      "region": null
+    },
+    {
+      "id": 483,
+      "name": "dialga-origin",
+      "imagePath": "10245.png",
+      "region": null
+    },
+    {
+      "id": 484,
+      "name": "palkia-origin",
+      "imagePath": "10246.png",
+      "region": null
+    },
+    {
+      "id": 487,
+      "name": "giratina-origin",
+      "imagePath": "10007.png",
+      "region": null
+    },
+    {
+      "id": 492,
+      "name": "shaymin-sky",
+      "imagePath": "10006.png",
+      "region": null
+    },
+    {
+      "id": 493,
+      "name": "arceus-normal",
+      "imagePath": "493.png",
+      "region": null
+    },
+    {
+      "id": 493,
+      "name": "arceus-bug",
+      "imagePath": "493-bug.png",
+      "region": null
+    },
+    {
+      "id": 493,
+      "name": "arceus-dark",
+      "imagePath": "493-dark.png",
+      "region": null
+    },
+    {
+      "id": 493,
+      "name": "arceus-dragon",
+      "imagePath": "493-dragon.png",
+      "region": null
+    },
+    {
+      "id": 493,
+      "name": "arceus-electric",
+      "imagePath": "493-electric.png",
+      "region": null
+    },
+    {
+      "id": 493,
+      "name": "arceus-fighting",
+      "imagePath": "493-fighting.png",
+      "region": null
+    },
+    {
+      "id": 493,
+      "name": "arceus-fire",
+      "imagePath": "493-fire.png",
+      "region": null
+    },
+    {
+      "id": 493,
+      "name": "arceus-flying",
+      "imagePath": "493-flying.png",
+      "region": null
+    },
+    {
+      "id": 493,
+      "name": "arceus-ghost",
+      "imagePath": "493-ghost.png",
+      "region": null
+    },
+    {
+      "id": 493,
+      "name": "arceus-grass",
+      "imagePath": "493-grass.png",
+      "region": null
+    },
+    {
+      "id": 493,
+      "name": "arceus-ground",
+      "imagePath": "493-ground.png",
+      "region": null
+    },
+    {
+      "id": 493,
+      "name": "arceus-ice",
+      "imagePath": "493-ice.png",
+      "region": null
+    },
+    {
+      "id": 493,
+      "name": "arceus-poison",
+      "imagePath": "493-poison.png",
+      "region": null
+    },
+    {
+      "id": 493,
+      "name": "arceus-psychic",
+      "imagePath": "493-psychic.png",
+      "region": null
+    },
+    {
+      "id": 493,
+      "name": "arceus-rock",
+      "imagePath": "493-rock.png",
+      "region": null
+    },
+    {
+      "id": 493,
+      "name": "arceus-steel",
+      "imagePath": "493-steel.png",
+      "region": null
+    },
+    {
+      "id": 493,
+      "name": "arceus-water",
+      "imagePath": "493-water.png",
+      "region": null
+    },
+    {
+      "id": 493,
+      "name": "arceus-unknown",
+      "imagePath": "493-unknown.png",
+      "region": null
+    },
+    {
+      "id": 493,
+      "name": "arceus-fairy",
+      "imagePath": "493-fairy.png",
+      "region": null
+    },
+    {
+      "id": 503,
+      "name": "samurott-hisui",
+      "imagePath": "10236.png",
+      "region": "hisui"
+    },
+    {
+      "id": 549,
+      "name": "lilligant-hisui",
+      "imagePath": "10237.png",
+      "region": "hisui"
+    },
+    {
+      "id": 550,
+      "name": "basculin-blue-striped",
+      "imagePath": "10016.png",
+      "region": null
+    },
+    {
+      "id": 550,
+      "name": "basculin-white-striped",
+      "imagePath": "10247.png",
+      "region": null
+    },
+    {
+      "id": 554,
+      "name": "darumaka-galar",
+      "imagePath": "10176.png",
+      "region": "galar"
+    },
+    {
+      "id": 555,
+      "name": "darmanitan-zen",
+      "imagePath": "10017.png",
+      "region": null
+    },
+    {
+      "id": 555,
+      "name": "darmanitan-galar-standard",
+      "imagePath": "10177.png",
+      "region": "galar"
+    },
+    {
+      "id": 555,
+      "name": "darmanitan-galar-zen",
+      "imagePath": "10178.png",
+      "region": "galar"
+    },
+    {
+      "id": 562,
+      "name": "yamask-galar",
+      "imagePath": "10179.png",
+      "region": "galar"
+    },
+    {
+      "id": 570,
+      "name": "zorua-hisui",
+      "imagePath": "10238.png",
+      "region": "hisui"
+    },
+    {
+      "id": 571,
+      "name": "zoroark-hisui",
+      "imagePath": "10239.png",
+      "region": "hisui"
+    },
+    {
+      "id": 585,
+      "name": "deerling-spring",
+      "imagePath": "585-spring.png",
+      "region": null
+    },
+    {
+      "id": 585,
+      "name": "deerling-summer",
+      "imagePath": "585-summer.png",
+      "region": null
+    },
+    {
+      "id": 585,
+      "name": "deerling-autumn",
+      "imagePath": "585-autumn.png",
+      "region": null
+    },
+    {
+      "id": 585,
+      "name": "deerling-winter",
+      "imagePath": "585-winter.png",
+      "region": null
+    },
+    {
+      "id": 586,
+      "name": "sawsbuck-spring",
+      "imagePath": "586-spring.png",
+      "region": null
+    },
+    {
+      "id": 586,
+      "name": "sawsbuck-summer",
+      "imagePath": "586-summer.png",
+      "region": null
+    },
+    {
+      "id": 586,
+      "name": "sawsbuck-autumn",
+      "imagePath": "586-autumn.png",
+      "region": null
+    },
+    {
+      "id": 586,
+      "name": "sawsbuck-winter",
+      "imagePath": "586-winter.png",
+      "region": null
+    },
+    {
+      "id": 618,
+      "name": "stunfisk-galar",
+      "imagePath": "10180.png",
+      "region": "galar"
+    },
+    {
+      "id": 628,
+      "name": "braviary-hisui",
+      "imagePath": "10240.png",
+      "region": "hisui"
+    },
+    {
+      "id": 641,
+      "name": "tornadus-therian",
+      "imagePath": "10019.png",
+      "region": null
+    },
+    {
+      "id": 642,
+      "name": "thundurus-therian",
+      "imagePath": "10020.png",
+      "region": null
+    },
+    {
+      "id": 645,
+      "name": "landorus-therian",
+      "imagePath": "10021.png",
+      "region": null
+    },
+    {
+      "id": 646,
+      "name": "kyurem-black",
+      "imagePath": "10022.png",
+      "region": null
+    },
+    {
+      "id": 646,
+      "name": "kyurem-white",
+      "imagePath": "10023.png",
+      "region": null
+    },
+    {
+      "id": 647,
+      "name": "keldeo-resolute",
+      "imagePath": "10024.png",
+      "region": null
+    },
+    {
+      "id": 648,
+      "name": "meloetta-pirouette",
+      "imagePath": "10018.png",
+      "region": null
+    },
+    {
+      "id": 649,
+      "name": "genesect",
+      "imagePath": "649.png",
+      "region": null
+    },
+    {
+      "id": 649,
+      "name": "genesect-douse",
+      "imagePath": "649-douse.png",
+      "region": null
+    },
+    {
+      "id": 649,
+      "name": "genesect-shock",
+      "imagePath": "649-shock.png",
+      "region": null
+    },
+    {
+      "id": 649,
+      "name": "genesect-burn",
+      "imagePath": "649-burn.png",
+      "region": null
+    },
+    {
+      "id": 649,
+      "name": "genesect-chill",
+      "imagePath": "649-chill.png",
+      "region": null
+    },
+    {
+      "id": 658,
+      "name": "greninja-ash",
+      "imagePath": "10117.png",
+      "region": null
+    },
+    {
+      "id": 666,
+      "name": "vivillon-meadow",
+      "imagePath": "666-meadow.png",
+      "region": null
+    },
+    {
+      "id": 666,
+      "name": "vivillon-icy-snow",
+      "imagePath": "666-icy-snow.png",
+      "region": null
+    },
+    {
+      "id": 666,
+      "name": "vivillon-polar",
+      "imagePath": "666-polar.png",
+      "region": null
+    },
+    {
+      "id": 666,
+      "name": "vivillon-tundra",
+      "imagePath": "666-tundra.png",
+      "region": null
+    },
+    {
+      "id": 666,
+      "name": "vivillon-continental",
+      "imagePath": "666-continental.png",
+      "region": null
+    },
+    {
+      "id": 666,
+      "name": "vivillon-garden",
+      "imagePath": "666-garden.png",
+      "region": null
+    },
+    {
+      "id": 666,
+      "name": "vivillon-elegant",
+      "imagePath": "666-elegant.png",
+      "region": null
+    },
+    {
+      "id": 666,
+      "name": "vivillon-modern",
+      "imagePath": "666-modern.png",
+      "region": null
+    },
+    {
+      "id": 666,
+      "name": "vivillon-marine",
+      "imagePath": "666-marine.png",
+      "region": null
+    },
+    {
+      "id": 666,
+      "name": "vivillon-archipelago",
+      "imagePath": "666-archipelago.png",
+      "region": null
+    },
+    {
+      "id": 666,
+      "name": "vivillon-high-plains",
+      "imagePath": "666-high-plains.png",
+      "region": null
+    },
+    {
+      "id": 666,
+      "name": "vivillon-sandstorm",
+      "imagePath": "666-sandstorm.png",
+      "region": null
+    },
+    {
+      "id": 666,
+      "name": "vivillon-river",
+      "imagePath": "666-river.png",
+      "region": null
+    },
+    {
+      "id": 666,
+      "name": "vivillon-monsoon",
+      "imagePath": "666-monsoon.png",
+      "region": null
+    },
+    {
+      "id": 666,
+      "name": "vivillon-savanna",
+      "imagePath": "666-savanna.png",
+      "region": null
+    },
+    {
+      "id": 666,
+      "name": "vivillon-sun",
+      "imagePath": "666-sun.png",
+      "region": null
+    },
+    {
+      "id": 666,
+      "name": "vivillon-ocean",
+      "imagePath": "666-ocean.png",
+      "region": null
+    },
+    {
+      "id": 666,
+      "name": "vivillon-jungle",
+      "imagePath": "666-jungle.png",
+      "region": null
+    },
+    {
+      "id": 666,
+      "name": "vivillon-fancy",
+      "imagePath": "666-fancy.png",
+      "region": null
+    },
+    {
+      "id": 666,
+      "name": "vivillon-poke-ball",
+      "imagePath": "666-poke-ball.png",
+      "region": null
+    },
+    {
+      "id": 669,
+      "name": "flabebe-red",
+      "imagePath": "669-red.png",
+      "region": null
+    },
+    {
+      "id": 669,
+      "name": "flabebe-yellow",
+      "imagePath": "669-yellow.png",
+      "region": null
+    },
+    {
+      "id": 669,
+      "name": "flabebe-orange",
+      "imagePath": "669-orange.png",
+      "region": null
+    },
+    {
+      "id": 669,
+      "name": "flabebe-blue",
+      "imagePath": "669-blue.png",
+      "region": null
+    },
+    {
+      "id": 669,
+      "name": "flabebe-white",
+      "imagePath": "669-white.png",
+      "region": null
+    },
+    {
+      "id": 670,
+      "name": "floette-red",
+      "imagePath": "670-red.png",
+      "region": null
+    },
+    {
+      "id": 670,
+      "name": "floette-yellow",
+      "imagePath": "670-yellow.png",
+      "region": null
+    },
+    {
+      "id": 670,
+      "name": "floette-orange",
+      "imagePath": "670-orange.png",
+      "region": null
+    },
+    {
+      "id": 670,
+      "name": "floette-blue",
+      "imagePath": "670-blue.png",
+      "region": null
+    },
+    {
+      "id": 670,
+      "name": "floette-white",
+      "imagePath": "670-white.png",
+      "region": null
+    },
+    {
+      "id": 671,
+      "name": "florges-red",
+      "imagePath": "671-red.png",
+      "region": null
+    },
+    {
+      "id": 671,
+      "name": "florges-yellow",
+      "imagePath": "671-yellow.png",
+      "region": null
+    },
+    {
+      "id": 671,
+      "name": "florges-orange",
+      "imagePath": "671-orange.png",
+      "region": null
+    },
+    {
+      "id": 671,
+      "name": "florges-blue",
+      "imagePath": "671-blue.png",
+      "region": null
+    },
+    {
+      "id": 671,
+      "name": "florges-white",
+      "imagePath": "671-white.png",
+      "region": null
+    },
+    {
+      "id": 676,
+      "name": "furfrou-natural",
+      "imagePath": "676-natural.png",
+      "region": null
+    },
+    {
+      "id": 676,
+      "name": "furfrou-heart",
+      "imagePath": "676-heart.png",
+      "region": null
+    },
+    {
+      "id": 676,
+      "name": "furfrou-star",
+      "imagePath": "676-star.png",
+      "region": null
+    },
+    {
+      "id": 676,
+      "name": "furfrou-diamond",
+      "imagePath": "676-diamond.png",
+      "region": null
+    },
+    {
+      "id": 676,
+      "name": "furfrou-debutante",
+      "imagePath": "676-debutante.png",
+      "region": null
+    },
+    {
+      "id": 676,
+      "name": "furfrou-matron",
+      "imagePath": "676-matron.png",
+      "region": null
+    },
+    {
+      "id": 676,
+      "name": "furfrou-dandy",
+      "imagePath": "676-dandy.png",
+      "region": null
+    },
+    {
+      "id": 676,
+      "name": "furfrou-la-reine",
+      "imagePath": "676-la-reine.png",
+      "region": null
+    },
+    {
+      "id": 676,
+      "name": "furfrou-kabuki",
+      "imagePath": "676-kabuki.png",
+      "region": null
+    },
+    {
+      "id": 676,
+      "name": "furfrou-pharaoh",
+      "imagePath": "676-pharaoh.png",
+      "region": null
+    },
+    {
+      "id": 681,
+      "name": "aegislash-blade",
+      "imagePath": "10026.png",
+      "region": null
+    },
+    {
+      "id": 705,
+      "name": "sliggoo-hisui",
+      "imagePath": "10241.png",
+      "region": "hisui"
+    },
+    {
+      "id": 706,
+      "name": "goodra-hisui",
+      "imagePath": "10242.png",
+      "region": "hisui"
+    },
+    {
+      "id": 710,
+      "name": "pumpkaboo-small",
+      "imagePath": "10027.png",
+      "region": null
+    },
+    {
+      "id": 710,
+      "name": "pumpkaboo-large",
+      "imagePath": "10028.png",
+      "region": null
+    },
+    {
+      "id": 710,
+      "name": "pumpkaboo-super",
+      "imagePath": "10029.png",
+      "region": null
+    },
+    {
+      "id": 711,
+      "name": "gourgeist-small",
+      "imagePath": "10030.png",
+      "region": null
+    },
+    {
+      "id": 711,
+      "name": "gourgeist-large",
+      "imagePath": "10031.png",
+      "region": null
+    },
+    {
+      "id": 711,
+      "name": "gourgeist-super",
+      "imagePath": "10032.png",
+      "region": null
+    },
+    {
+      "id": 713,
+      "name": "avalugg-hisui",
+      "imagePath": "10243.png",
+      "region": "hisui"
+    },
+    {
+      "id": 716,
+      "name": "xerneas-active",
+      "imagePath": "716.png",
+      "region": null
+    },
+    {
+      "id": 716,
+      "name": "xerneas-neutral",
+      "imagePath": "716.png",
+      "region": null
+    },
+    {
+      "id": 718,
+      "name": "zygarde-10-power-construct",
+      "imagePath": "10118.png",
+      "region": null
+    },
+    {
+      "id": 718,
+      "name": "zygarde-50-power-construct",
+      "imagePath": "10119.png",
+      "region": null
+    },
+    {
+      "id": 718,
+      "name": "zygarde-complete",
+      "imagePath": "10120.png",
+      "region": null
+    },
+    {
+      "id": 718,
+      "name": "zygarde-10",
+      "imagePath": "10181.png",
+      "region": null
+    },
+    {
+      "id": 720,
+      "name": "hoopa-unbound",
+      "imagePath": "10086.png",
+      "region": null
+    },
+    {
+      "id": 724,
+      "name": "decidueye-hisui",
+      "imagePath": "10244.png",
+      "region": "hisui"
+    },
+    {
+      "id": 735,
+      "name": "gumshoos-totem",
+      "imagePath": "10121.png",
+      "region": null
+    },
+    {
+      "id": 738,
+      "name": "vikavolt-totem",
+      "imagePath": "10122.png",
+      "region": null
+    },
+    {
+      "id": 741,
+      "name": "oricorio-pom-pom",
+      "imagePath": "10123.png",
+      "region": null
+    },
+    {
+      "id": 741,
+      "name": "oricorio-pau",
+      "imagePath": "10124.png",
+      "region": null
+    },
+    {
+      "id": 741,
+      "name": "oricorio-sensu",
+      "imagePath": "10125.png",
+      "region": null
+    },
+    {
+      "id": 743,
+      "name": "ribombee-totem",
+      "imagePath": "10150.png",
+      "region": null
+    },
+    {
+      "id": 745,
+      "name": "lycanroc-midnight",
+      "imagePath": "10126.png",
+      "region": null
+    },
+    {
+      "id": 745,
+      "name": "lycanroc-dusk",
+      "imagePath": "10152.png",
+      "region": null
+    },
+    {
+      "id": 746,
+      "name": "wishiwashi-school",
+      "imagePath": "10127.png",
+      "region": null
+    },
+    {
+      "id": 752,
+      "name": "araquanid-totem",
+      "imagePath": "10153.png",
+      "region": null
+    },
+    {
+      "id": 754,
+      "name": "lurantis-totem",
+      "imagePath": "10128.png",
+      "region": null
+    },
+    {
+      "id": 758,
+      "name": "salazzle-totem",
+      "imagePath": "10129.png",
+      "region": null
+    },
+    {
+      "id": 773,
+      "name": "silvally-normal",
+      "imagePath": "773-normal.png",
+      "region": null
+    },
+    {
+      "id": 773,
+      "name": "silvally-fighting",
+      "imagePath": "773-fighting.png",
+      "region": null
+    },
+    {
+      "id": 773,
+      "name": "silvally-flying",
+      "imagePath": "773-flying.png",
+      "region": null
+    },
+    {
+      "id": 773,
+      "name": "silvally-poison",
+      "imagePath": "773-poison.png",
+      "region": null
+    },
+    {
+      "id": 773,
+      "name": "silvally-ground",
+      "imagePath": "773-ground.png",
+      "region": null
+    },
+    {
+      "id": 773,
+      "name": "silvally-rock",
+      "imagePath": "773-rock.png",
+      "region": null
+    },
+    {
+      "id": 773,
+      "name": "silvally-bug",
+      "imagePath": "773-bug.png",
+      "region": null
+    },
+    {
+      "id": 773,
+      "name": "silvally-ghost",
+      "imagePath": "773-ghost.png",
+      "region": null
+    },
+    {
+      "id": 773,
+      "name": "silvally-steel",
+      "imagePath": "773-steel.png",
+      "region": null
+    },
+    {
+      "id": 773,
+      "name": "silvally-fire",
+      "imagePath": "773-fire.png",
+      "region": null
+    },
+    {
+      "id": 773,
+      "name": "silvally-water",
+      "imagePath": "773-water.png",
+      "region": null
+    },
+    {
+      "id": 773,
+      "name": "silvally-grass",
+      "imagePath": "773-grass.png",
+      "region": null
+    },
+    {
+      "id": 773,
+      "name": "silvally-electric",
+      "imagePath": "773-electric.png",
+      "region": null
+    },
+    {
+      "id": 773,
+      "name": "silvally-psychic",
+      "imagePath": "773-psychic.png",
+      "region": null
+    },
+    {
+      "id": 773,
+      "name": "silvally-ice",
+      "imagePath": "773-ice.png",
+      "region": null
+    },
+    {
+      "id": 773,
+      "name": "silvally-dragon",
+      "imagePath": "773-dragon.png",
+      "region": null
+    },
+    {
+      "id": 773,
+      "name": "silvally-dark",
+      "imagePath": "773-dark.png",
+      "region": null
+    },
+    {
+      "id": 773,
+      "name": "silvally-fairy",
+      "imagePath": "773-fairy.png",
+      "region": null
+    },
+    {
+      "id": 774,
+      "name": "minior-orange-meteor",
+      "imagePath": "10130.png",
+      "region": null
+    },
+    {
+      "id": 774,
+      "name": "minior-yellow-meteor",
+      "imagePath": "10131.png",
+      "region": null
+    },
+    {
+      "id": 774,
+      "name": "minior-green-meteor",
+      "imagePath": "10132.png",
+      "region": null
+    },
+    {
+      "id": 774,
+      "name": "minior-blue-meteor",
+      "imagePath": "10133.png",
+      "region": null
+    },
+    {
+      "id": 774,
+      "name": "minior-indigo-meteor",
+      "imagePath": "10134.png",
+      "region": null
+    },
+    {
+      "id": 774,
+      "name": "minior-violet-meteor",
+      "imagePath": "10135.png",
+      "region": null
+    },
+    {
+      "id": 774,
+      "name": "minior-red",
+      "imagePath": "10136.png",
+      "region": null
+    },
+    {
+      "id": 774,
+      "name": "minior-orange",
+      "imagePath": "10137.png",
+      "region": null
+    },
+    {
+      "id": 774,
+      "name": "minior-yellow",
+      "imagePath": "10138.png",
+      "region": null
+    },
+    {
+      "id": 774,
+      "name": "minior-green",
+      "imagePath": "10139.png",
+      "region": null
+    },
+    {
+      "id": 774,
+      "name": "minior-blue",
+      "imagePath": "10140.png",
+      "region": null
+    },
+    {
+      "id": 774,
+      "name": "minior-indigo",
+      "imagePath": "10141.png",
+      "region": null
+    },
+    {
+      "id": 774,
+      "name": "minior-violet",
+      "imagePath": "10142.png",
+      "region": null
+    },
+    {
+      "id": 777,
+      "name": "togedemaru-totem",
+      "imagePath": "10154.png",
+      "region": null
+    },
+    {
+      "id": 778,
+      "name": "mimikyu-busted",
+      "imagePath": "10143.png",
+      "region": null
+    },
+    {
+      "id": 778,
+      "name": "mimikyu-totem-busted",
+      "imagePath": "10145.png",
+      "region": null
+    },
+    {
+      "id": 784,
+      "name": "kommo-o-totem",
+      "imagePath": "10146.png",
+      "region": null
+    },
+    {
+      "id": 800,
+      "name": "necrozma-dusk",
+      "imagePath": "10155.png",
+      "region": null
+    },
+    {
+      "id": 800,
+      "name": "necrozma-dawn",
+      "imagePath": "10156.png",
+      "region": null
+    },
+    {
+      "id": 800,
+      "name": "necrozma-ultra",
+      "imagePath": "10157.png",
+      "region": null
+    },
+    {
+      "id": 801,
+      "name": "magearna-original",
+      "imagePath": "10147.png",
+      "region": null
+    },
+    {
+      "id": 845,
+      "name": "cramorant-gulping",
+      "imagePath": "845-gulping.png",
+      "region": null
+    },
+    {
+      "id": 845,
+      "name": "cramorant-gorging",
+      "imagePath": "845-gorging.png",
+      "region": null
+    },
+    {
+      "id": 849,
+      "name": "toxtricity-low-key",
+      "imagePath": "10184.png",
+      "region": null
+    },
+    {
+      "id": 854,
+      "name": "sinistea-phony",
+      "imagePath": "854.png",
+      "region": null
+    },
+    {
+      "id": 854,
+      "name": "sinistea-antique",
+      "imagePath": "854.png",
+      "region": null
+    },
+    {
+      "id": 855,
+      "name": "polteageist-phony",
+      "imagePath": "855.png",
+      "region": null
+    },
+    {
+      "id": 855,
+      "name": "polteageist-antique",
+      "imagePath": "855.png",
+      "region": null
+    },
+    {
+      "id": 869,
+      "name": "alcremie-vanilla-cream-strawberry-sweet",
+      "imagePath": "869-vanilla-cream-strawberry-sweet.png",
+      "region": null
+    },
+    {
+      "id": 869,
+      "name": "alcremie-ruby-cream-strawberry-sweet",
+      "imagePath": "869-ruby-cream-strawberry-sweet.png",
+      "region": null
+    },
+    {
+      "id": 869,
+      "name": "alcremie-matcha-cream-strawberry-sweet",
+      "imagePath": "869-matcha-cream-strawberry-sweet.png",
+      "region": null
+    },
+    {
+      "id": 869,
+      "name": "alcremie-mint-cream-strawberry-sweet",
+      "imagePath": "869-mint-cream-strawberry-sweet.png",
+      "region": null
+    },
+    {
+      "id": 869,
+      "name": "alcremie-lemon-cream-strawberry-sweet",
+      "imagePath": "869-lemon-cream-strawberry-sweet.png",
+      "region": null
+    },
+    {
+      "id": 869,
+      "name": "alcremie-salted-cream-strawberry-sweet",
+      "imagePath": "869-salted-cream-strawberry-sweet.png",
+      "region": null
+    },
+    {
+      "id": 869,
+      "name": "alcremie-ruby-swirl-strawberry-sweet",
+      "imagePath": "869-ruby-swirl-strawberry-sweet.png",
+      "region": null
+    },
+    {
+      "id": 869,
+      "name": "alcremie-caramel-swirl-strawberry-sweet",
+      "imagePath": "869-caramel-swirl-strawberry-sweet.png",
+      "region": null
+    },
+    {
+      "id": 869,
+      "name": "alcremie-rainbow-swirl-strawberry-sweet",
+      "imagePath": "869-rainbow-swirl-strawberry-sweet.png",
+      "region": null
+    },
+    {
+      "id": 869,
+      "name": "alcremie-vanilla-cream-berry-sweet",
+      "imagePath": "869-vanilla-cream-berry-sweet.png",
+      "region": null
+    },
+    {
+      "id": 869,
+      "name": "alcremie-ruby-cream-berry-sweet",
+      "imagePath": "869-ruby-cream-berry-sweet.png",
+      "region": null
+    },
+    {
+      "id": 869,
+      "name": "alcremie-matcha-cream-berry-sweet",
+      "imagePath": "869-matcha-cream-berry-sweet.png",
+      "region": null
+    },
+    {
+      "id": 869,
+      "name": "alcremie-mint-cream-berry-sweet",
+      "imagePath": "869-mint-cream-berry-sweet.png",
+      "region": null
+    },
+    {
+      "id": 869,
+      "name": "alcremie-lemon-cream-berry-sweet",
+      "imagePath": "869-lemon-cream-berry-sweet.png",
+      "region": null
+    },
+    {
+      "id": 869,
+      "name": "alcremie-salted-cream-berry-sweet",
+      "imagePath": "869-salted-cream-berry-sweet.png",
+      "region": null
+    },
+    {
+      "id": 869,
+      "name": "alcremie-ruby-swirl-berry-sweet",
+      "imagePath": "869-ruby-swirl-berry-sweet.png",
+      "region": null
+    },
+    {
+      "id": 869,
+      "name": "alcremie-caramel-swirl-berry-sweet",
+      "imagePath": "869-caramel-swirl-berry-sweet.png",
+      "region": null
+    },
+    {
+      "id": 869,
+      "name": "alcremie-rainbow-swirl-berry-sweet",
+      "imagePath": "869-rainbow-swirl-berry-sweet.png",
+      "region": null
+    },
+    {
+      "id": 869,
+      "name": "alcremie-vanilla-cream-love-sweet",
+      "imagePath": "869-vanilla-cream-love-sweet.png",
+      "region": null
+    },
+    {
+      "id": 869,
+      "name": "alcremie-ruby-cream-love-sweet",
+      "imagePath": "869-ruby-cream-love-sweet.png",
+      "region": null
+    },
+    {
+      "id": 869,
+      "name": "alcremie-matcha-cream-love-sweet",
+      "imagePath": "869-matcha-cream-love-sweet.png",
+      "region": null
+    },
+    {
+      "id": 869,
+      "name": "alcremie-mint-cream-love-sweet",
+      "imagePath": "869-mint-cream-love-sweet.png",
+      "region": null
+    },
+    {
+      "id": 869,
+      "name": "alcremie-lemon-cream-love-sweet",
+      "imagePath": "869-lemon-cream-love-sweet.png",
+      "region": null
+    },
+    {
+      "id": 869,
+      "name": "alcremie-salted-cream-love-sweet",
+      "imagePath": "869-salted-cream-love-sweet.png",
+      "region": null
+    },
+    {
+      "id": 869,
+      "name": "alcremie-ruby-swirl-love-sweet",
+      "imagePath": "869-ruby-swirl-love-sweet.png",
+      "region": null
+    },
+    {
+      "id": 869,
+      "name": "alcremie-caramel-swirl-love-sweet",
+      "imagePath": "869-caramel-swirl-love-sweet.png",
+      "region": null
+    },
+    {
+      "id": 869,
+      "name": "alcremie-rainbow-swirl-love-sweet",
+      "imagePath": "869-rainbow-swirl-love-sweet.png",
+      "region": null
+    },
+    {
+      "id": 869,
+      "name": "alcremie-vanilla-cream-star-sweet",
+      "imagePath": "869-vanilla-cream-star-sweet.png",
+      "region": null
+    },
+    {
+      "id": 869,
+      "name": "alcremie-ruby-cream-star-sweet",
+      "imagePath": "869-ruby-cream-star-sweet.png",
+      "region": null
+    },
+    {
+      "id": 869,
+      "name": "alcremie-matcha-cream-star-sweet",
+      "imagePath": "869-matcha-cream-star-sweet.png",
+      "region": null
+    },
+    {
+      "id": 869,
+      "name": "alcremie-mint-cream-star-sweet",
+      "imagePath": "869-mint-cream-star-sweet.png",
+      "region": null
+    },
+    {
+      "id": 869,
+      "name": "alcremie-lemon-cream-star-sweet",
+      "imagePath": "869-lemon-cream-star-sweet.png",
+      "region": null
+    },
+    {
+      "id": 869,
+      "name": "alcremie-salted-cream-star-sweet",
+      "imagePath": "869-salted-cream-star-sweet.png",
+      "region": null
+    },
+    {
+      "id": 869,
+      "name": "alcremie-ruby-swirl-star-sweet",
+      "imagePath": "869-ruby-swirl-star-sweet.png",
+      "region": null
+    },
+    {
+      "id": 869,
+      "name": "alcremie-caramel-swirl-star-sweet",
+      "imagePath": "869-caramel-swirl-star-sweet.png",
+      "region": null
+    },
+    {
+      "id": 869,
+      "name": "alcremie-rainbow-swirl-star-sweet",
+      "imagePath": "869-rainbow-swirl-star-sweet.png",
+      "region": null
+    },
+    {
+      "id": 869,
+      "name": "alcremie-vanilla-cream-clover-sweet",
+      "imagePath": "869-vanilla-cream-clover-sweet.png",
+      "region": null
+    },
+    {
+      "id": 869,
+      "name": "alcremie-ruby-cream-clover-sweet",
+      "imagePath": "869-ruby-cream-clover-sweet.png",
+      "region": null
+    },
+    {
+      "id": 869,
+      "name": "alcremie-matcha-cream-clover-sweet",
+      "imagePath": "869-matcha-cream-clover-sweet.png",
+      "region": null
+    },
+    {
+      "id": 869,
+      "name": "alcremie-mint-cream-clover-sweet",
+      "imagePath": "869-mint-cream-clover-sweet.png",
+      "region": null
+    },
+    {
+      "id": 869,
+      "name": "alcremie-lemon-cream-clover-sweet",
+      "imagePath": "869-lemon-cream-clover-sweet.png",
+      "region": null
+    },
+    {
+      "id": 869,
+      "name": "alcremie-salted-cream-clover-sweet",
+      "imagePath": "869-salted-cream-clover-sweet.png",
+      "region": null
+    },
+    {
+      "id": 869,
+      "name": "alcremie-ruby-swirl-clover-sweet",
+      "imagePath": "869-ruby-swirl-clover-sweet.png",
+      "region": null
+    },
+    {
+      "id": 869,
+      "name": "alcremie-caramel-swirl-clover-sweet",
+      "imagePath": "869-caramel-swirl-clover-sweet.png",
+      "region": null
+    },
+    {
+      "id": 869,
+      "name": "alcremie-rainbow-swirl-clover-sweet",
+      "imagePath": "869-rainbow-swirl-clover-sweet.png",
+      "region": null
+    },
+    {
+      "id": 869,
+      "name": "alcremie-vanilla-cream-flower-sweet",
+      "imagePath": "869-vanilla-cream-flower-sweet.png",
+      "region": null
+    },
+    {
+      "id": 869,
+      "name": "alcremie-ruby-cream-flower-sweet",
+      "imagePath": "869-ruby-cream-flower-sweet.png",
+      "region": null
+    },
+    {
+      "id": 869,
+      "name": "alcremie-matcha-cream-flower-sweet",
+      "imagePath": "869-matcha-cream-flower-sweet.png",
+      "region": null
+    },
+    {
+      "id": 869,
+      "name": "alcremie-mint-cream-flower-sweet",
+      "imagePath": "869-mint-cream-flower-sweet.png",
+      "region": null
+    },
+    {
+      "id": 869,
+      "name": "alcremie-lemon-cream-flower-sweet",
+      "imagePath": "869-lemon-cream-flower-sweet.png",
+      "region": null
+    },
+    {
+      "id": 869,
+      "name": "alcremie-salted-cream-flower-sweet",
+      "imagePath": "869-salted-cream-flower-sweet.png",
+      "region": null
+    },
+    {
+      "id": 869,
+      "name": "alcremie-ruby-swirl-flower-sweet",
+      "imagePath": "869-ruby-swirl-flower-sweet.png",
+      "region": null
+    },
+    {
+      "id": 869,
+      "name": "alcremie-caramel-swirl-flower-sweet",
+      "imagePath": "869-caramel-swirl-flower-sweet.png",
+      "region": null
+    },
+    {
+      "id": 869,
+      "name": "alcremie-rainbow-swirl-flower-sweet",
+      "imagePath": "869-rainbow-swirl-flower-sweet.png",
+      "region": null
+    },
+    {
+      "id": 869,
+      "name": "alcremie-vanilla-cream-ribbon-sweet",
+      "imagePath": "869-vanilla-cream-ribbon-sweet.png",
+      "region": null
+    },
+    {
+      "id": 869,
+      "name": "alcremie-ruby-cream-ribbon-sweet",
+      "imagePath": "869-ruby-cream-ribbon-sweet.png",
+      "region": null
+    },
+    {
+      "id": 869,
+      "name": "alcremie-matcha-cream-ribbon-sweet",
+      "imagePath": "869-matcha-cream-ribbon-sweet.png",
+      "region": null
+    },
+    {
+      "id": 869,
+      "name": "alcremie-mint-cream-ribbon-sweet",
+      "imagePath": "869-mint-cream-ribbon-sweet.png",
+      "region": null
+    },
+    {
+      "id": 869,
+      "name": "alcremie-lemon-cream-ribbon-sweet",
+      "imagePath": "869-lemon-cream-ribbon-sweet.png",
+      "region": null
+    },
+    {
+      "id": 869,
+      "name": "alcremie-salted-cream-ribbon-sweet",
+      "imagePath": "869-salted-cream-ribbon-sweet.png",
+      "region": null
+    },
+    {
+      "id": 869,
+      "name": "alcremie-ruby-swirl-ribbon-sweet",
+      "imagePath": "869-ruby-swirl-ribbon-sweet.png",
+      "region": null
+    },
+    {
+      "id": 869,
+      "name": "alcremie-caramel-swirl-ribbon-sweet",
+      "imagePath": "869-caramel-swirl-ribbon-sweet.png",
+      "region": null
+    },
+    {
+      "id": 869,
+      "name": "alcremie-rainbow-swirl-ribbon-sweet",
+      "imagePath": "869-rainbow-swirl-ribbon-sweet.png",
+      "region": null
+    },
+    {
+      "id": 875,
+      "name": "eiscue-noice",
+      "imagePath": "10185.png",
+      "region": null
+    },
+    {
+      "id": 877,
+      "name": "morpeko-hangry",
+      "imagePath": "877-hangry.png",
+      "region": null
+    },
+    {
+      "id": 888,
+      "name": "zacian-crowned",
+      "imagePath": "10188.png",
+      "region": null
+    },
+    {
+      "id": 889,
+      "name": "zamazenta-crowned",
+      "imagePath": "10189.png",
+      "region": null
+    },
+    {
+      "id": 890,
+      "name": "eternatus-eternamax",
+      "imagePath": "10190.png",
+      "region": null
+    },
+    {
+      "id": 892,
+      "name": "urshifu-rapid-strike",
+      "imagePath": "10191.png",
+      "region": null
+    },
+    {
+      "id": 893,
+      "name": "zarude-dada",
+      "imagePath": "893-dada.png",
+      "region": null
+    },
+    {
+      "id": 898,
+      "name": "calyrex-ice",
+      "imagePath": "10193.png",
+      "region": null
+    },
+    {
+      "id": 898,
+      "name": "calyrex-shadow",
+      "imagePath": "10194.png",
+      "region": null
+    },
+    {
+      "id": 901,
+      "name": "ursaluna-bloodmoon",
+      "imagePath": "10272.png",
+      "region": null
+    },
+    {
+      "id": 905,
+      "name": "enamorus-therian",
+      "imagePath": "10249.png",
+      "region": null
+    },
+    {
+      "id": 925,
+      "name": "maushold-family-of-three",
+      "imagePath": "10257.png",
+      "region": null
+    },
+    {
+      "id": 931,
+      "name": "squawkabilly-blue-plumage",
+      "imagePath": "10260.png",
+      "region": null
+    },
+    {
+      "id": 931,
+      "name": "squawkabilly-yellow-plumage",
+      "imagePath": "10261.png",
+      "region": null
+    },
+    {
+      "id": 931,
+      "name": "squawkabilly-white-plumage",
+      "imagePath": "10262.png",
+      "region": null
+    },
+    {
+      "id": 964,
+      "name": "palafin-hero",
+      "imagePath": "10256.png",
+      "region": null
+    },
+    {
+      "id": 978,
+      "name": "tatsugiri-droopy",
+      "imagePath": "10258.png",
+      "region": null
+    },
+    {
+      "id": 978,
+      "name": "tatsugiri-stretchy",
+      "imagePath": "10259.png",
+      "region": null
+    },
+    {
+      "id": 982,
+      "name": "dudunsparce-three-segment",
+      "imagePath": "10255.png",
+      "region": null
+    },
+    {
+      "id": 999,
+      "name": "gimmighoul-roaming",
+      "imagePath": "10263.png",
+      "region": null
+    },
+    {
+      "id": 1012,
+      "name": "poltchageist-counterfeit",
+      "imagePath": "1012.png",
+      "region": null
+    },
+    {
+      "id": 1012,
+      "name": "poltchageist-artisan",
+      "imagePath": "1012.png",
+      "region": null
+    },
+    {
+      "id": 1013,
+      "name": "sinistcha-unremarkable",
+      "imagePath": "1013.png",
+      "region": null
+    },
+    {
+      "id": 1013,
+      "name": "sinistcha-masterpiece",
+      "imagePath": "1013.png",
+      "region": null
+    },
+    {
+      "id": 1017,
+      "name": "ogerpon-wellspring-mask",
+      "imagePath": "10273.png",
+      "region": null
+    },
+    {
+      "id": 1017,
+      "name": "ogerpon-hearthflame-mask",
+      "imagePath": "10274.png",
+      "region": null
+    },
+    {
+      "id": 1017,
+      "name": "ogerpon-cornerstone-mask",
+      "imagePath": "10275.png",
+      "region": null
+    },
+    {
+      "id": 1024,
+      "name": "terapagos-terastal",
+      "imagePath": "10276.png",
+      "region": null
+    },
+    {
+      "id": 1024,
+      "name": "terapagos-stellar",
+      "imagePath": "10277.png",
+      "region": null
+    }
+  ],
+  "varietiesFemales": [
+    {
+      "id": 215,
+      "name": "sneasel-hisui",
+      "imagePath": "female/10235.png",
+      "region": "hisui"
+    }
+  ]
+}

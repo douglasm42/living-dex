@@ -1,0 +1,42 @@
+.pokemon-container {
+  padding: 5px;
+}
+
+.pokemon-card {
+  padding: 5px;
+  cursor: pointer;
+  border: 1px solid #aaa;
+  border-radius: 5px;
+  background-color: #ddd;
+  color: #666;
+}
+
+.pokemon-card-catched {
+  border-color: #88bc94;
+  background-color: #b9e0b6;
+  color: #053718;
+}
+
+.pokemon-card-empty {
+  border-color: #eee;
+  background-color: #f7f7f7;
+  color: #ddd;
+}
+
+.pokemon-picture {
+  background-size: contain;
+  background-position: center;
+  background-repeat: no-repeat;
+  opacity: 0.5;
+  margin: 0 auto;
+  height: 96px;
+}
+
+.pokemon-picture-catched {
+  opacity: 1;
+}
+
+.pokemon-name {
+  font-size: 10px;
+  text-align: center;
+}

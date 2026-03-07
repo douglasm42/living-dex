@@ -1,0 +1,17 @@
+.box {
+  width: 830px;
+  margin: 15px;
+}
+
+.box-title {
+  text-align: center;
+  font-size: 24px;
+}
+
+.box-row {
+  display: flex;
+}
+
+.box-cell {
+  flex: 1;
+}
