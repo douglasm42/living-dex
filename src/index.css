@@ -48,6 +48,8 @@ a:active {
 }
 
 body {
+  margin: 0;
+  padding: 0;
   background-color: var(--cp-base);
   color: var(--cp-text);
 }

@@ -8,12 +8,7 @@ export class PokemonsStatus {
 
     const storedValue = window.localStorage.getItem(ITEM_ID)
     if (storedValue) {
-      try {
-        this.pokemons = JSON.parse(storedValue)
-      } catch (error) {
-        console.error(error)
-        window.localStorage.removeItem(ITEM_ID)
-      }
+      this.load(storedValue)
     }
   }
 
@@ -30,23 +25,48 @@ export class PokemonsStatus {
     return JSON.stringify(this.pokemons)
   }
 
-  import(value: string) {
-    const imported = JSON.parse(value)
+  isValid(value: string): boolean {
+    try {
+      const imported = JSON.parse(value)
 
-    console.log(Object.keys(imported).some(v => typeof v !== 'string'))
+      if(typeof imported !== 'object') {
+        return false
+      }
+      if(Object.keys(imported).some(v => typeof v !== 'string')) {
+        return false
+      }
+      if(Object.values(imported).some(v => typeof v !== 'boolean')) {
+        return false
+      }
 
-    if(typeof imported !== 'object') {
-      throw new Error('invalid imported string! it needs to be a valid JSON object!')
+      return true
+    } catch (error) {
+      console.error(error)
+      return false
     }
-    if(Object.keys(imported).some(v => typeof v !== 'string')) {
-      throw new Error('invalid imported string! it needs to be a valid JSON object containing only string keys!')
-    }
-    if(Object.values(imported).some(v => typeof v !== 'boolean')) {
-      throw new Error('invalid imported string! it needs to be a valid JSON object containing only boolean values!')
-    }
+  }
 
-    this.pokemons = imported
-    window.localStorage.setItem(ITEM_ID, value)
+  load(value: string) {
+    try {
+      const imported = JSON.parse(value)
+
+      if(typeof imported !== 'object') {
+        throw new Error('invalid imported string! it needs to be a valid JSON object!')
+      }
+      if(Object.keys(imported).some(v => typeof v !== 'string')) {
+        throw new Error('invalid imported string! it needs to be a valid JSON object containing only string keys!')
+      }
+      if(Object.values(imported).some(v => typeof v !== 'boolean')) {
+        throw new Error('invalid imported string! it needs to be a valid JSON object containing only boolean values!')
+      }
+
+      this.pokemons = imported
+      window.localStorage.setItem(ITEM_ID, value)
+    } catch (error) {
+      console.error(error)
+      this.pokemons = {}
+      window.localStorage.removeItem(ITEM_ID)
+    }
   }
 }
 

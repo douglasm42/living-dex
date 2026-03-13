@@ -2,14 +2,8 @@ import { Info } from 'lucide-react'
 import { DynamicIcon, type IconName } from 'lucide-react/dynamic'
 import './Pokemon.css'
 
-import React from 'react'
-
-type OnToggleCatched = (uuid: string, value: boolean) => void
-
-export interface PokemonsStateProps {
-  pokemonsCatched: Record<string, boolean>
-  onToggleCatched: OnToggleCatched
-}
+import React, { useState } from 'react'
+import { storage } from '../lib/storage'
 
 export interface PokemonProps {
   id: string
@@ -17,13 +11,14 @@ export interface PokemonProps {
   imagePath: string
   uuid: string
   icon?: IconName
-  catched: boolean
-  onToggleCatched: OnToggleCatched
 }
 
-export default function Pokemon({ id, name, imagePath, uuid, icon, catched, onToggleCatched }: PokemonProps): React.ReactNode {
+export default function Pokemon({ id, name, imagePath, uuid, icon }: PokemonProps): React.ReactNode {
+  const [catched, setCatched] = useState(storage.catched(uuid))
+
   const handleCatch = () => {
-    onToggleCatched(uuid, !catched)
+    setCatched(!catched)
+    storage.setCatched(uuid, !catched)
   }
 
   const handleChildClick = (e: React.MouseEvent) => {

@@ -1,6 +1,7 @@
 .box {
-  width: 830px;
-  margin: 15px;
+  width: 100%;
+  max-width: 850px;
+  padding: 10px;
 }
 
 .box-title {
@@ -14,5 +15,5 @@
 }
 
 .box-cell {
-  flex: 1;
+  width: 16.6666666667%;
 }

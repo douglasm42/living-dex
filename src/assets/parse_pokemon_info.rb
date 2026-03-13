@@ -22,10 +22,11 @@ end
 data = JSON.parse(File.read('pokemons_info.json'))
 
 def build_pokemon(id, name, imagePath, species_name)
-  puts "id: #{id}, name: #{name}, img: #{imagePath}"
+  title = name.split('-').select{|n| !%w[alola galar hisui paldea breed].include?(n) || id == 25}.join(' ').titleize
   {
     id: id,
-    title: name.split('-').select{|n| !%w[alola galar hisui paldea breed].include?(n) || id == 25}.join(' ').titleize,
+    title: title,
+    fullTitle: title,
     name: name,
     imagePath: imagePath,
     region: get_region(name),
@@ -120,6 +121,8 @@ varieties = varieties.map do |pokemon|
     pokemon[:imagePath] = "422#{pokemon[:name].match(/shellos(.*)/)[1]}.png"
   elsif pokemon[:id] == 423
     pokemon[:imagePath] = "423#{pokemon[:name].match(/gastrodon(.*)/)[1]}.png"
+  elsif pokemon[:imagePath] == "893-dada.png"
+    pokemon[:imagePath] = "10192.png"
   end
   pokemon
 end.select do |pokemon|

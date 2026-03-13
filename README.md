@@ -11,9 +11,10 @@ Checklist to build a living dex including HOME storable alternate forms and vari
 - [x] Remove duplicates
 - [x] Use catppuccin theme with dark/light variations and toggle at the top.
 - [x] Add an export/import feature to save living dex data locally.
-- [ ] Make the catch toggle faster.
-  - [ ] Change the storage to use a key for each pokemon.
-  - [ ] Change the Pokemon to register a callback on load so the storage can redraw everything when imported.
+- [x] Make the catch toggle faster.
+  - [x] Change the storage to use a key for each pokemon.
+  - [x] Change the Pokemon to register a callback on load so the storage can redraw everything when imported.
+- [ ] Add modal box to show pokemon info
 - [ ] Merge the two generate scripts (`src/assets/parse_pokemon_info.rb` and
       `src/assets/generate_pokemon_info.py`) and move them into a scripts folder.
 

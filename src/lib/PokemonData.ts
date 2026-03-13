@@ -5,6 +5,7 @@ export interface PokemonData {
   id: number,
   name: string,
   title: string,
+  fullTitle: string,
   imagePath: string,
   region: string | null,
   uuid: string,

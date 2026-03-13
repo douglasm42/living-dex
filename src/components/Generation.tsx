@@ -3,7 +3,6 @@ import './Generation.css'
 import React from 'react'
 import Box from './Box'
 import { type GenData, type PokemonData } from '../lib/PokemonData'
-import type { PokemonsStateProps } from './Pokemon'
 
 function boxesTitleSequence(allPokemons: PokemonData[], title: string): (p: PokemonData[], index: number) => string {
   return (_, index) => allPokemons.length > 30 ? `${title} ${index + 1}` : title
@@ -13,7 +12,6 @@ function buildBoxes(
   boxes: React.ReactNode[],
   pokemons: PokemonData[],
   titleGen: (p: PokemonData[], index: number) => string,
-  pokemonState: PokemonsStateProps
 ): void {
   let pokemonsLeft = pokemons
   let index = 0
@@ -26,7 +24,6 @@ function buildBoxes(
         title={title} 
         key={title} 
         pokemons={pokemonsSlice} 
-        pokemonState={pokemonState} 
       />
     )
 
@@ -40,9 +37,8 @@ function buildSimpleBoxes(
   boxes: React.ReactNode[],
   pokemons: PokemonData[],
   title: string,
-  pokemonState: PokemonsStateProps
 ): void {
-  buildBoxes(boxes, pokemons, boxesTitleSequence(pokemons, title), pokemonState)
+  buildBoxes(boxes, pokemons, boxesTitleSequence(pokemons, title))
 }
 
 function buildSpeciesBoxes(
@@ -50,52 +46,50 @@ function buildSpeciesBoxes(
   gen: GenData,
   ids: number[],
   title: string,
-  pokemonState: PokemonsStateProps
 ): void {
   if(ids[0] <= gen.first || ids[0] >= gen.last) {
     return
   }
 
-  buildSimpleBoxes(boxes, gen.pokemons.varieties.filter( p => ids.includes(p.id)), title, pokemonState)
+  buildSimpleBoxes(boxes, gen.pokemons.varieties.filter( p => ids.includes(p.id)), title)
 }
 
 interface GenerationProps {
   gen: GenData
-  pokemonState: PokemonsStateProps
 }
 
-export default function Generation({ gen, pokemonState }: GenerationProps) {
+export default function Generation({ gen }: GenerationProps) {
   const boxes: React.ReactNode[] = []
 
   const pokemons = gen.pokemons.default
-  buildBoxes(boxes, pokemons, (pokemons) => `${pokemons.at(0)?.id}..${pokemons.at(-1)?.id}`, pokemonState)
+  buildBoxes(boxes, pokemons, (pokemons) => `${pokemons.at(0)?.id}..${pokemons.at(-1)?.id}`)
 
   const genFemales = gen.pokemons.females
-  buildSimpleBoxes(boxes, genFemales, 'Females', pokemonState)
+  buildSimpleBoxes(boxes, genFemales, 'Females')
 
   const varietiesIgnore = [25, 201, 493, 676, 666, 669, 670, 671, 773, 869]
 
   const genVarieties = gen.pokemons.varieties.filter( p => !varietiesIgnore.includes(p.id))
-  buildSimpleBoxes(boxes, genVarieties, 'Varieties', pokemonState)
+  buildSimpleBoxes(boxes, genVarieties, 'Varieties')
 
-  buildSimpleBoxes(boxes, gen.pokemons.varietiesFemales, 'Varieties', pokemonState)
+  buildSimpleBoxes(boxes, gen.pokemons.varietiesFemales, 'Varieties')
 
-  buildSpeciesBoxes(boxes, gen, [25], 'Cap Pikachu', pokemonState)
-  buildSpeciesBoxes(boxes, gen, [201], 'Unown', pokemonState)
-  buildSpeciesBoxes(boxes, gen, [676], 'Furfrou', pokemonState)
-  buildSpeciesBoxes(boxes, gen, [666], 'Vivillon', pokemonState)
-  buildSpeciesBoxes(boxes, gen, [669, 670, 671], 'Florges', pokemonState)
-  buildSpeciesBoxes(boxes, gen, [869], 'Alcremie', pokemonState)
+  buildSpeciesBoxes(boxes, gen, [25], 'Cap Pikachu')
+  buildSpeciesBoxes(boxes, gen, [201], 'Unown')
+  buildSpeciesBoxes(boxes, gen, [676], 'Furfrou')
+  buildSpeciesBoxes(boxes, gen, [666], 'Vivillon')
+  buildSpeciesBoxes(boxes, gen, [669, 670, 671], 'Florges')
+  buildSpeciesBoxes(boxes, gen, [869], 'Alcremie')
 
   gen.regions.forEach( region => {
-    buildSimpleBoxes(boxes, gen.pokemons.regionalForms, region, pokemonState)
+    buildSimpleBoxes(boxes, gen.pokemons.regionalForms, region)
   })
 
   return (
-    <div key={gen.title}>
+    <div className='generation-container' key={gen.title}>
       <h1 className='generation-title'>{gen.title}</h1>
       <hr className='divider' />
-      <div className='generation-container'>
+      <div className='generation-box-container'>
         {boxes}
       </div>
     </div>

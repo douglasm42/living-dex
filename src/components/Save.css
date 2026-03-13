@@ -1,0 +1,44 @@
+.save-resting-place {
+  position: relative;
+  height: 0;
+}
+
+@media screen and (max-width: 1200px) {
+  .save-resting-place {
+    height: 46px;
+  }
+}
+
+.save-container {
+  position: absolute;
+  top: 15px;
+  right: 15px;
+  display: flex;
+}
+
+.save-button {
+  border: 1px solid var(--cp-green);
+  border-radius: 0.3em;
+  background-color: var(--cp-surface-0);
+  color: var(--cp-green);
+  font-size: 25px;
+  margin: 0.1em;
+  padding: 0.1em 0.3em;
+
+  position: relative;
+
+  display: flex;
+  align-items: center;
+  gap: 0.2em;
+}
+
+.save-button:hover {
+  border: 1px solid var(--cp-text);
+  background-color: var(--cp-surface-1);
+  color: var(--cp-teal);
+}
+
+.save-button:active {
+  border: 1px solid var(--cp-text);
+  background-color: var(--cp-surface-2);
+}
