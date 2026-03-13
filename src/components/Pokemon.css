@@ -3,8 +3,9 @@
 }
 
 .pokemon-card {
+  position: relative;
   padding: 5px;
-  cursor: pointer;
+  cursor: copy;
   border: 1px solid var(--cp-overlay-2);
   border-radius: 5px;
   background-color: var(--cp-surface-2);
@@ -18,6 +19,7 @@
 }
 
 .pokemon-card-empty {
+  cursor: default;
   border-color: var(--cp-surface-2);
   background-color: var(--cp-surface-0);
   color: var(--cp-surface-2);
@@ -27,7 +29,7 @@
   background-size: contain;
   background-position: center;
   background-repeat: no-repeat;
-  opacity: 0.5;
+  opacity: 0.6;
   margin: 0 auto;
   height: 96px;
 }
@@ -39,4 +41,26 @@
 .pokemon-name {
   font-size: 10px;
   text-align: center;
+}
+
+.pokemon-info,
+.pokemon-info:link,
+.pokemon-info:visited,
+.pokemon-info:active {
+  color: var(--cp-overlay-1);
+  position: absolute;
+  top: 5px;
+  right: 5px;
+}
+
+.pokemon-info:hover {
+  color: var(--cp-text)
+}
+
+
+.pokemon-icon {
+  color: var(--cp-text);
+  position: absolute;
+  top: 5px;
+  left: 5px;
 }

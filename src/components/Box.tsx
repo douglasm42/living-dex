@@ -12,7 +12,18 @@ interface BoxProps {
 }
 
 function row(i: number, arr: PokemonData[]): React.ReactNode[] {
-  return addMissing(arr.slice(i*6, (i+1)*6).map( (pokemon, i) => <Pokemon key={i} id={pokemon.id.toString()} name={pokemon.title} imagePath={pokemon.imagePath} uuid={pokemon.uuid} />))
+  return addMissing(arr.slice(i*6, (i+1)*6).map(
+    (pokemon, i) =>
+      <Pokemon 
+        key={i} 
+        id={pokemon.id.toString()} 
+        name={pokemon.title} 
+        imagePath={pokemon.imagePath} 
+        uuid={pokemon.uuid} 
+        icon={pokemon.icon}
+      />
+    )
+  )
 }
 
 function addMissing(row: React.ReactNode[]): React.ReactNode[] {
