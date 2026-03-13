@@ -15,3 +15,39 @@ a:hover,
 a:active {
   color: inherit;
 }
+
+:root {
+  color-scheme: light dark;
+
+  --cp-rosewater: light-dark(#dc8a78, #f5e0dc);
+  --cp-flamingo: light-dark(#dd7878, #f2cdcd);
+  --cp-pink: light-dark(#ea76cb, #f5c2e7);
+  --cp-mauve: light-dark(#8839ef, #cba6f7);
+  --cp-red: light-dark(#d20f39, #f38ba8);
+  --cp-maroon: light-dark(#e64553, #eba0ac);
+  --cp-peach: light-dark(#fe640b, #fab387);
+  --cp-yellow: light-dark(#df8e1d, #f9e2af);
+  --cp-green: light-dark(#40a02b, #a6e3a1);
+  --cp-teal: light-dark(#179299, #94e2d5);
+  --cp-sky: light-dark(#04a5e5, #89dceb);
+  --cp-sapphire: light-dark(#209fb5, #74c7ec);
+  --cp-blue: light-dark(#1e66f5, #89b4fa);
+  --cp-lavender: light-dark(#7287fd, #b4befe);
+  --cp-text: light-dark(#4c4f69, #cdd6f4);
+  --cp-subtext-1: light-dark(#5c5f77, #bac2de);
+  --cp-subtext-0: light-dark(#6c6f85, #a6adc8);
+  --cp-overlay-2: light-dark(#7c7f93, #9399b2);
+  --cp-overlay-1: light-dark(#8c8fa1, #7f849c);
+  --cp-overlay-0: light-dark(#9ca0b0, #6c7086);
+  --cp-surface-2: light-dark(#acb0be, #585b70);
+  --cp-surface-1: light-dark(#bcc0cc, #45475a);
+  --cp-surface-0: light-dark(#ccd0da, #313244);
+  --cp-base: light-dark(#eff1f5, #1e1e2e);
+  --cp-mantle: light-dark(#e6e9ef, #181825);
+  --cp-crust: light-dark(#dce0e8, #11111b);
+}
+
+body {
+  background-color: var(--cp-base);
+  color: var(--cp-text);
+}

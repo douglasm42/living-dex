@@ -5,22 +5,22 @@
 .pokemon-card {
   padding: 5px;
   cursor: pointer;
-  border: 1px solid #aaa;
+  border: 1px solid var(--cp-overlay-2);
   border-radius: 5px;
-  background-color: #ddd;
-  color: #666;
+  background-color: var(--cp-surface-2);
+  color: var(--cp-text);
 }
 
 .pokemon-card-catched {
-  border-color: #88bc94;
-  background-color: #b9e0b6;
-  color: #053718;
+  border-color: var(--cp-green);
+  background-color: var(--cp-surface-0);
+  color: var(--cp-green);
 }
 
 .pokemon-card-empty {
-  border-color: #eee;
-  background-color: #f7f7f7;
-  color: #ddd;
+  border-color: var(--cp-surface-2);
+  background-color: var(--cp-surface-0);
+  color: var(--cp-surface-2);
 }
 
 .pokemon-picture {

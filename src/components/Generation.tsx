@@ -47,8 +47,8 @@ function buildBoxes(pokemons: PokemonData[], titleGen: (pokemons: PokemonData[],
   return boxes
 }
 
-function buildSpecialBox(gen: GenInfo, id: number, name: string): React.ReactNode[] {
-  const specialGroup = VARIETIES.filter( p => p.id === id).filter(onThisGen(gen))
+function buildSpecialBox(gen: GenInfo, ids: number[], name: string): React.ReactNode[] {
+  const specialGroup = VARIETIES.filter( p => ids.includes(p.id)).filter(onThisGen(gen))
   if(specialGroup.length > 0) {
     return buildBoxes(specialGroup, (_pokemons, i) => specialGroup.length > 30 ? `${name} ${i+1}` : name)
   }
@@ -73,16 +73,19 @@ function buildGenBoxes(gen: GenInfo): React.ReactNode {
   const genFemales = (DEFAULT_FEMALE_POKEMONS.concat(VARIETIES_FEMALES)).filter(onThisGen(gen))
   boxes = boxes.concat(buildBoxes(genFemales, (_pokemons, i) => genFemales.length > 30 ? `Females ${i+1}` : 'Females'))
 
-  const varietiesIgnore = [201, 493, 676, 773, 869]
+  const varietiesIgnore = [25, 201, 493, 676, 666, 669, 670, 671, 773, 869]
 
   const genVarieties = VARIETIES.filter( p => !varietiesIgnore.includes(p.id)).filter(onThisGen(gen))
   if(genVarieties.length > 0) {
     boxes = boxes.concat(buildBoxes(genVarieties, (_pokemons, i) => genVarieties.length > 30 ? `Varieties ${i+1}` : 'Varieties'))
   }
 
-  boxes = boxes.concat(buildSpecialBox(gen, 201, 'Unown'))
-  boxes = boxes.concat(buildSpecialBox(gen, 676, 'Furfrou'))
-  boxes = boxes.concat(buildSpecialBox(gen, 869, 'Alcremie'))
+  boxes = boxes.concat(buildSpecialBox(gen, [25], 'Cap Pikachu'))
+  boxes = boxes.concat(buildSpecialBox(gen, [201], 'Unown'))
+  boxes = boxes.concat(buildSpecialBox(gen, [676], 'Furfrou'))
+  boxes = boxes.concat(buildSpecialBox(gen, [666], 'Vivillon'))
+  boxes = boxes.concat(buildSpecialBox(gen, [669, 670, 671], 'Florges'))
+  boxes = boxes.concat(buildSpecialBox(gen, [869], 'Alcremie'))
 
   gen.regions.forEach( region => {
     boxes = boxes.concat(buildRegionBox(region))
