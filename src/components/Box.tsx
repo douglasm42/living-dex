@@ -2,16 +2,17 @@ import './Box.css'
 
 import React from 'react'
 
-import Pokemon from './Pokemon'
+import Pokemon, { type PokemonsStateProps } from './Pokemon'
 import EmptyCell from './EmptyCell'
 import type { PokemonData } from '../lib/PokemonData'
 
 interface BoxProps {
   title: string
   pokemons: PokemonData[]
+  pokemonState: PokemonsStateProps
 }
 
-function row(i: number, arr: PokemonData[]): React.ReactNode[] {
+function row(i: number, arr: PokemonData[], pokemonState: PokemonsStateProps): React.ReactNode[] {
   return addMissing(arr.slice(i*6, (i+1)*6).map(
     (pokemon, i) =>
       <Pokemon 
@@ -21,6 +22,8 @@ function row(i: number, arr: PokemonData[]): React.ReactNode[] {
         imagePath={pokemon.imagePath} 
         uuid={pokemon.uuid} 
         icon={pokemon.icon}
+        catched={pokemonState.pokemonsCatched[pokemon.uuid]}
+        onToggleCatched={pokemonState.onToggleCatched}
       />
     )
   )
@@ -36,13 +39,13 @@ function addMissing(row: React.ReactNode[]): React.ReactNode[] {
   return row
 }
 
-export default function Box({ title, pokemons }: BoxProps): React.ReactNode {
+export default function Box({ title, pokemons, pokemonState }: BoxProps): React.ReactNode {
   const rows = [
-    row(0, pokemons),
-    row(1, pokemons),
-    row(2, pokemons),
-    row(3, pokemons),
-    row(4, pokemons),
+    row(0, pokemons, pokemonState),
+    row(1, pokemons, pokemonState),
+    row(2, pokemons, pokemonState),
+    row(3, pokemons, pokemonState),
+    row(4, pokemons, pokemonState),
   ].map( (row, i) => (<div className="box-row" key={i}>{row}</div>) )
 
   return (

@@ -2,104 +2,94 @@ import './Generation.css'
 
 import React from 'react'
 import Box from './Box'
-import { DEFAULT_FEMALE_POKEMONS, DEFAULT_POKEMONS, VARIETIES, VARIETIES_FEMALES, type PokemonData } from '../lib/PokemonData'
+import { type GenData, type PokemonData } from '../lib/PokemonData'
+import type { PokemonsStateProps } from './Pokemon'
 
-const REGION_NAMES: Record<string, string> = {
-  'kanto': 'Kanto Region Forms',
-  'johto': 'Johto Region Forms',
-  'hoenn': 'Hoenn Region Forms',
-  'sinnoh': 'Sinnoh Form',
-  'unova': 'Unova Form',
-  'kalos': 'Kalos Form',
-  'alola': 'Alolan Forms',
-  'galar': 'Galarian Forms',
-  'hisui': 'Hisuian Forms',
-  'paldea': 'Paldean Forms',
+function boxesTitleSequence(allPokemons: PokemonData[], title: string): (p: PokemonData[], index: number) => string {
+  return (_, index) => allPokemons.length > 30 ? `${title} ${index + 1}` : title
 }
 
-export interface GenInfo {
-  title: string,
-  first: number,
-  last: number,
-  regions: string[]
-}
-
-function onThisGen(gen: GenInfo): (pokemon: PokemonData) => boolean {
-  return (pokemon: PokemonData) => {
-    return pokemon.id >= gen.first && pokemon.id <= gen.last && pokemon.region === null
-  }
-}
-
-function buildBoxes(pokemons: PokemonData[], titleGen: (pokemons: PokemonData[], index: number) => string): React.ReactNode[] {
-  const boxes: React.ReactNode[] = []
+function buildBoxes(
+  boxes: React.ReactNode[],
+  pokemons: PokemonData[],
+  titleGen: (p: PokemonData[], index: number) => string,
+  pokemonState: PokemonsStateProps
+): void {
   let pokemonsLeft = pokemons
   let index = 0
   while(pokemonsLeft.length > 0) {
     const pokemonsSlice = pokemonsLeft.slice(0, 30)
     const title = titleGen(pokemonsSlice, index)
 
-    boxes.push(<Box title={title} key={title} pokemons={pokemonsSlice} />)
+    boxes.push(
+      <Box 
+        title={title} 
+        key={title} 
+        pokemons={pokemonsSlice} 
+        pokemonState={pokemonState} 
+      />
+    )
 
+    
     pokemonsLeft = pokemonsLeft.slice(30)
     index++
   }
-
-  return boxes
 }
 
-function buildSpecialBox(gen: GenInfo, ids: number[], name: string): React.ReactNode[] {
-  const specialGroup = VARIETIES.filter( p => ids.includes(p.id)).filter(onThisGen(gen))
-  if(specialGroup.length > 0) {
-    return buildBoxes(specialGroup, (_pokemons, i) => specialGroup.length > 30 ? `${name} ${i+1}` : name)
-  }
-  return []
+function buildSimpleBoxes(
+  boxes: React.ReactNode[],
+  pokemons: PokemonData[],
+  title: string,
+  pokemonState: PokemonsStateProps
+): void {
+  buildBoxes(boxes, pokemons, boxesTitleSequence(pokemons, title), pokemonState)
 }
 
-function buildRegionBox(region: string): React.ReactNode[] {
-  const name = REGION_NAMES[region]
-  const regionGroup = VARIETIES.filter( p => p.region === region)
-  if(regionGroup.length > 0) {
-    return buildBoxes(regionGroup, (_pokemons, i) => regionGroup.length > 30 ? `${name} ${i+1}` : name)
-  }
-  return []
-}
-
-function buildGenBoxes(gen: GenInfo): React.ReactNode {
-  let boxes: React.ReactNode[] = []
-
-  const pokemons = DEFAULT_POKEMONS.filter(onThisGen(gen))
-  boxes = boxes.concat(buildBoxes(pokemons, (pokemons) => `${pokemons.at(0)?.id}..${pokemons.at(-1)?.id}`))
-
-  const genFemales = (DEFAULT_FEMALE_POKEMONS.concat(VARIETIES_FEMALES)).filter(onThisGen(gen))
-  boxes = boxes.concat(buildBoxes(genFemales, (_pokemons, i) => genFemales.length > 30 ? `Females ${i+1}` : 'Females'))
-
-  const varietiesIgnore = [25, 201, 493, 676, 666, 669, 670, 671, 773, 869]
-
-  const genVarieties = VARIETIES.filter( p => !varietiesIgnore.includes(p.id)).filter(onThisGen(gen))
-  if(genVarieties.length > 0) {
-    boxes = boxes.concat(buildBoxes(genVarieties, (_pokemons, i) => genVarieties.length > 30 ? `Varieties ${i+1}` : 'Varieties'))
+function buildSpeciesBoxes(
+  boxes: React.ReactNode[],
+  gen: GenData,
+  ids: number[],
+  title: string,
+  pokemonState: PokemonsStateProps
+): void {
+  if(ids[0] <= gen.first || ids[0] >= gen.last) {
+    return
   }
 
-  boxes = boxes.concat(buildSpecialBox(gen, [25], 'Cap Pikachu'))
-  boxes = boxes.concat(buildSpecialBox(gen, [201], 'Unown'))
-  boxes = boxes.concat(buildSpecialBox(gen, [676], 'Furfrou'))
-  boxes = boxes.concat(buildSpecialBox(gen, [666], 'Vivillon'))
-  boxes = boxes.concat(buildSpecialBox(gen, [669, 670, 671], 'Florges'))
-  boxes = boxes.concat(buildSpecialBox(gen, [869], 'Alcremie'))
-
-  gen.regions.forEach( region => {
-    boxes = boxes.concat(buildRegionBox(region))
-  })
-
-  return boxes
+  buildSimpleBoxes(boxes, gen.pokemons.varieties.filter( p => ids.includes(p.id)), title, pokemonState)
 }
 
 interface GenerationProps {
-  gen: GenInfo
+  gen: GenData
+  pokemonState: PokemonsStateProps
 }
 
-export default function Generation({ gen }: GenerationProps) {
-  const boxes = buildGenBoxes(gen)
+export default function Generation({ gen, pokemonState }: GenerationProps) {
+  const boxes: React.ReactNode[] = []
+
+  const pokemons = gen.pokemons.default
+  buildBoxes(boxes, pokemons, (pokemons) => `${pokemons.at(0)?.id}..${pokemons.at(-1)?.id}`, pokemonState)
+
+  const genFemales = gen.pokemons.females
+  buildSimpleBoxes(boxes, genFemales, 'Females', pokemonState)
+
+  const varietiesIgnore = [25, 201, 493, 676, 666, 669, 670, 671, 773, 869]
+
+  const genVarieties = gen.pokemons.varieties.filter( p => !varietiesIgnore.includes(p.id))
+  buildSimpleBoxes(boxes, genVarieties, 'Varieties', pokemonState)
+
+  buildSimpleBoxes(boxes, gen.pokemons.varietiesFemales, 'Varieties', pokemonState)
+
+  buildSpeciesBoxes(boxes, gen, [25], 'Cap Pikachu', pokemonState)
+  buildSpeciesBoxes(boxes, gen, [201], 'Unown', pokemonState)
+  buildSpeciesBoxes(boxes, gen, [676], 'Furfrou', pokemonState)
+  buildSpeciesBoxes(boxes, gen, [666], 'Vivillon', pokemonState)
+  buildSpeciesBoxes(boxes, gen, [669, 670, 671], 'Florges', pokemonState)
+  buildSpeciesBoxes(boxes, gen, [869], 'Alcremie', pokemonState)
+
+  gen.regions.forEach( region => {
+    buildSimpleBoxes(boxes, gen.pokemons.regionalForms, region, pokemonState)
+  })
 
   return (
     <div key={gen.title}>

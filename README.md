@@ -9,8 +9,11 @@ Checklist to build a living dex including HOME storable alternate forms and vari
 - [x] Add torchick back and other female variations that may have been removed by mistake. (difference can be in the back)
 - [x] Make sure images match
 - [x] Remove duplicates
-- [ ] Use catppuccin theme with dark/light variations and toggle at the top.
-- [ ] Add an export/import feature to save living dex data locally.
+- [x] Use catppuccin theme with dark/light variations and toggle at the top.
+- [x] Add an export/import feature to save living dex data locally.
+- [ ] Make the catch toggle faster.
+  - [ ] Change the storage to use a key for each pokemon.
+  - [ ] Change the Pokemon to register a callback on load so the storage can redraw everything when imported.
 - [ ] Merge the two generate scripts (`src/assets/parse_pokemon_info.rb` and
       `src/assets/generate_pokemon_info.py`) and move them into a scripts folder.
 
