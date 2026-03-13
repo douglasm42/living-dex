@@ -1,26 +1,8 @@
-import type { PokemonInfo } from './Box'
 import './Generation.css'
 
-import untypedPokemonsData from '../assets/pokemons_data.json'
-
-interface PokemonData {
-  id: number,
-  name: string,
-  imagePath: string,
-  region: string | null
-}
-
-const ALL_POKEMONS_DATA: {
-  defaultPokemons: PokemonData[]
-  defaultFemalePokemons: PokemonData[]
-  varieties: PokemonData[]
-  varietiesFemales: PokemonData[]
-} = untypedPokemonsData
-
-const DEFAULT_POKEMONS = ALL_POKEMONS_DATA.defaultPokemons
-const DEFAULT_FEMALE_POKEMONS = ALL_POKEMONS_DATA.defaultFemalePokemons
-const VARIETIES = ALL_POKEMONS_DATA.varieties
-const VARIETIES_FEMALES = ALL_POKEMONS_DATA.varietiesFemales
+import React from 'react'
+import Box from './Box'
+import { DEFAULT_FEMALE_POKEMONS, DEFAULT_POKEMONS, VARIETIES, VARIETIES_FEMALES, type PokemonData } from '../lib/PokemonData'
 
 const REGION_NAMES: Record<string, string> = {
   'kanto': 'Kanto Region Forms',
@@ -35,10 +17,6 @@ const REGION_NAMES: Record<string, string> = {
   'paldea': 'Paldean Forms',
 }
 
-
-import React from 'react'
-import Box from './Box'
-
 export interface GenInfo {
   title: string,
   first: number,
@@ -52,7 +30,7 @@ function onThisGen(gen: GenInfo): (pokemon: PokemonData) => boolean {
   }
 }
 
-function buildBoxes(pokemons: PokemonInfo[], titleGen: (pokemons: PokemonInfo[], index: number) => string): React.ReactNode[] {
+function buildBoxes(pokemons: PokemonData[], titleGen: (pokemons: PokemonData[], index: number) => string): React.ReactNode[] {
   const boxes: React.ReactNode[] = []
   let pokemonsLeft = pokemons
   let index = 0
@@ -103,9 +81,7 @@ function buildGenBoxes(gen: GenInfo): React.ReactNode {
   }
 
   boxes = boxes.concat(buildSpecialBox(gen, 201, 'Unown'))
-  boxes = boxes.concat(buildSpecialBox(gen, 493, 'Arceus'))
   boxes = boxes.concat(buildSpecialBox(gen, 676, 'Furfrou'))
-  boxes = boxes.concat(buildSpecialBox(gen, 773, 'Silvally'))
   boxes = boxes.concat(buildSpecialBox(gen, 869, 'Alcremie'))
 
   gen.regions.forEach( region => {

@@ -4,20 +4,15 @@ import React from 'react'
 
 import Pokemon from './Pokemon'
 import EmptyCell from './EmptyCell'
-
-export interface PokemonInfo {
-  id: number,
-  name: string,
-  imagePath: string,
-}
+import type { PokemonData } from '../lib/PokemonData'
 
 interface BoxProps {
   title: string
-  pokemons: PokemonInfo[]
+  pokemons: PokemonData[]
 }
 
-function row(i: number, arr: PokemonInfo[]): React.ReactNode[] {
-  return addMissing(arr.slice(i*6, (i+1)*6).map( (pokemon, i) => <Pokemon key={i} id={pokemon.id.toString()} name={pokemon.name} imagePath={pokemon.imagePath} />))
+function row(i: number, arr: PokemonData[]): React.ReactNode[] {
+  return addMissing(arr.slice(i*6, (i+1)*6).map( (pokemon, i) => <Pokemon key={i} id={pokemon.id.toString()} name={pokemon.title} imagePath={pokemon.imagePath} uuid={pokemon.uuid} />))
 }
 
 function addMissing(row: React.ReactNode[]): React.ReactNode[] {

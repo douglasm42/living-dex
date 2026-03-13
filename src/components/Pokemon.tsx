@@ -7,14 +7,15 @@ export interface PokemonProps {
   id: string,
   name: string,
   imagePath: string,
+  uuid: string
 }
 
-export default function Pokemon({ id, name, imagePath }: PokemonProps): React.ReactNode {
-  const [catched, setStatus] = useState(storage.catched(id))
+export default function Pokemon({ id, name, imagePath, uuid }: PokemonProps): React.ReactNode {
+  const [catched, setStatus] = useState(storage.catched(uuid))
 
   React.useEffect(() => {
-    storage.setCatched(id, catched)
-  }, [id, catched])
+    storage.setCatched(uuid, catched)
+  }, [uuid, catched])
 
   const handleCatch = () => {
     setStatus(!catched)
@@ -25,7 +26,7 @@ export default function Pokemon({ id, name, imagePath }: PokemonProps): React.Re
   }
 
   const style = {
-    backgroundImage: id ? `url(https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/home/${imagePath})` : undefined,
+    backgroundImage: uuid ? `url(https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/home/${imagePath})` : undefined,
   }
 
   const nameLink = name ? <a className="pokemon-name-link" onClick={handleChildClick} href={`https://pokemondb.net/pokedex/${id}`} target="_blank">{name}</a> : '---'

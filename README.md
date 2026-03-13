@@ -1,73 +1,34 @@
-# React + TypeScript + Vite
+# Living Dex
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Checklist to build a living dex including HOME storable alternate forms and variations.
 
-Currently, two official plugins are available:
+- [x] Fix this README
+  - [x] How to run?
+  - [x] How to deploy?
+- [x] Remove forms that are not storable.
+- [x] Add torchick back and other female variations that may have been removed by mistake. (difference can be in the back)
+- [x] Make sure images match
+- [x] Remove duplicates
+- [ ] Use catppuccin theme with dark/light variations and toggle at the top.
+- [ ] Add an export/import feature to save living dex data locally.
+- [ ] Merge the two generate scripts (`src/assets/parse_pokemon_info.rb` and
+      `src/assets/generate_pokemon_info.py`) and move them into a scripts folder.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
 
-## React Compiler
+## Development
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+To setup after a clone, do:
 
-## Expanding the ESLint configuration
+1. `nvm install`
+2. `npm install -g pnpm`
+3. `pnpm install`
 
-If you are developing a production application, we recommend updating the configuration to enable type-aware lint rules:
+To run, use this `pnpm dev`
 
-```js
-export default defineConfig([
-  globalIgnores(['dist']),
-  {
-    files: ['**/*.{ts,tsx}'],
-    extends: [
-      // Other configs...
+To deploy, just push to main.
 
-      // Remove tseslint.configs.recommended and replace with this
-      tseslint.configs.recommendedTypeChecked,
-      // Alternatively, use this for stricter rules
-      tseslint.configs.strictTypeChecked,
-      // Optionally, add this for stylistic rules
-      tseslint.configs.stylisticTypeChecked,
+### Scripts
 
-      // Other configs...
-    ],
-    languageOptions: {
-      parserOptions: {
-        project: ['./tsconfig.node.json', './tsconfig.app.json'],
-        tsconfigRootDir: import.meta.dirname,
-      },
-      // other options...
-    },
-  },
-])
-```
-
-You can also install [eslint-plugin-react-x](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-x) and [eslint-plugin-react-dom](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-dom) for React-specific lint rules:
-
-```js
-// eslint.config.js
-import reactX from 'eslint-plugin-react-x'
-import reactDom from 'eslint-plugin-react-dom'
-
-export default defineConfig([
-  globalIgnores(['dist']),
-  {
-    files: ['**/*.{ts,tsx}'],
-    extends: [
-      // Other configs...
-      // Enable lint rules for React
-      reactX.configs['recommended-typescript'],
-      // Enable lint rules for React DOM
-      reactDom.configs.recommended,
-    ],
-    languageOptions: {
-      parserOptions: {
-        project: ['./tsconfig.node.json', './tsconfig.app.json'],
-        tsconfigRootDir: import.meta.dirname,
-      },
-      // other options...
-    },
-  },
-])
-```
+- `src/assets/parse_pokemon_info.rb` - This one is used to parse the pokemons_info.json
+  file and build the pokemons_data.json ready to be use by the app.
+- `src/assets/generate_pokemon_info.py` - This one can be used to pull the pokemon info from PokeAPI and generate the pokemons_info.json file.
