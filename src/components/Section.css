@@ -2,22 +2,50 @@
   width: 100%;
 }
 
+.section-container-collapsible-toggle {
+  width: 100%;
+  padding: 0;
+  margin: 0;
+  background-color: inherit;
+  border: none;
+}
+
 .section-box-container {
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
   width: 100%;
   margin: 0 auto;
+  overflow: hidden;
+}
+
+.section-collapsible-container {
+  width: 100%;
+  display: grid;
+  grid-template-rows: 0fr;
+  transition: grid-template-rows 0.3s ease-in-out;
+  overflow: hidden;
+}
+
+.section-collapsible-container.open {
+  grid-template-rows: 1fr;
 }
 
 .section-title {
+  position: relative;
   font-family: "Instrument Serif", serif;
   font-weight: 400;
   font-style: normal;
   font-size: 48px;
   text-align: center;
   margin: 0;
-  padding-top: 0.8em;
+}
+
+.section-title-toggle {
+  position: absolute;
+  top: 0.3em;
+  left: 0;
+  color: var(--cp-subtext-0)
 }
 
 .section-sub-title {
@@ -26,7 +54,6 @@
   font-size: 30px;
   text-align: center;
   margin: 0;
-  padding-top: 0.1em;
 }
 
 .divider {
