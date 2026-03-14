@@ -102,253 +102,253 @@ export interface PokemonGame {
   backgroundColor: string
 }
 
-export const GAMES: PokemonGame[] = [
-  {
+export const GAMES: Record<string, PokemonGame> = {
+  red: {
     gen: 1,
     name: 'Red',
     color: 'var(--cp-red)',
     backgroundColor: 'color-mix(in srgb, var(--cp-red) 20%, transparent)',
   },
-  {
+  green: {
     gen: 1,
     name: 'Green',
     color: 'var(--cp-green)',
     backgroundColor: 'color-mix(in srgb, var(--cp-green) 20%, transparent)',
   },
-  {
+  blue: {
     gen: 1,
     name: 'Blue',
     color: 'var(--cp-blue)',
     backgroundColor: 'color-mix(in srgb, var(--cp-blue) 20%, transparent)',
   },
-  {
+  yellow: {
     gen: 1,
     name: 'Yellow',
     color: 'var(--cp-yellow)',
     backgroundColor: 'color-mix(in srgb, var(--cp-yellow) 20%, transparent)',
   },
-  {
+  fireRed: {
     gen: 1,
     name: 'FireRed',
     color: 'var(--cp-red)',
     backgroundColor: 'color-mix(in srgb, var(--cp-red) 20%, transparent)',
   },
-  {
+  leafGreen: {
     gen: 1,
     name: 'LeafGreen',
     color: 'var(--cp-green)',
     backgroundColor: 'color-mix(in srgb, var(--cp-green) 20%, transparent)',
   },
-  {
+  pikachu: {
     gen: 1,
     name: "Let's Go, Pikachu!",
     color: 'var(--cp-yellow)',
     backgroundColor: 'color-mix(in srgb, var(--cp-yellow) 20%, transparent)',
   },
-  {
+  eevee: {
     gen: 1,
     name: "Let's Go, Eevee!",
     color: 'var(--cp-rosewater)',
     backgroundColor: 'color-mix(in srgb, var(--cp-rosewater) 20%, transparent)',
   },
-  {
+  gold: {
     gen: 2,
     name: 'Gold',
     color: 'var(--cp-yellow)',
     backgroundColor: 'color-mix(in srgb, var(--cp-yellow) 20%, transparent)',
   },
-  {
+  silver: {
     gen: 2,
     name: 'Silver',
     color: '#4c4f69',
     backgroundColor: '#dce0e8',
   },
-  {
+  crystal: {
     gen: 2,
     name: 'Crystal',
     color: 'var(--cp-teal)',
     backgroundColor: 'color-mix(in srgb, var(--cp-teal) 20%, transparent)',
   },
-  {
+  heartGold: {
     gen: 2,
     name: 'HeartGold',
     color: 'var(--cp-yellow)',
     backgroundColor: 'color-mix(in srgb, var(--cp-yellow) 20%, transparent)',
   },
-  {
+  soulSilver: {
     gen: 2,
     name: 'SoulSilver',
     color: '#4c4f69',
     backgroundColor: '#dce0e8',
   },
-  {
+  ruby: {
     gen: 3,
     name: 'Ruby',
     color: 'var(--cp-red)',
     backgroundColor: 'color-mix(in srgb, var(--cp-red) 20%, transparent)',
   },
-  {
+  sapphire: {
     gen: 3,
     name: 'Sapphire',
     color: 'var(--cp-sapphire)',
     backgroundColor: 'color-mix(in srgb, var(--cp-sapphire) 20%, transparent)',
   },
-  {
+  emerald: {
     gen: 3,
     name: 'Emerald',
     color: 'var(--cp-green)',
     backgroundColor: 'color-mix(in srgb, var(--cp-green) 20%, transparent)',
   },
-  {
+  omegaRuby: {
     gen: 3,
     name: 'Omega Ruby',
     color: 'var(--cp-red)',
     backgroundColor: 'color-mix(in srgb, var(--cp-red) 20%, transparent)',
   },
-  {
+  alphaSapphire: {
     gen: 3,
     name: 'Alpha Sapphire',
     color: 'var(--cp-sapphire)',
     backgroundColor: 'color-mix(in srgb, var(--cp-sapphire) 20%, transparent)',
   },
-  {
+  diamond: {
     gen: 4,
     name: 'Diamond',
     color: 'var(--cp-lavender)',
     backgroundColor: 'color-mix(in srgb, var(--cp-lavender) 20%, transparent)',
   },
-  {
+  pearl: {
     gen: 4,
     name: 'Pearl',
     color: 'var(--cp-flamingo)',
     backgroundColor: 'color-mix(in srgb, var(--cp-flamingo) 20%, transparent)',
   },
-  {
+  platinum: {
     gen: 4,
     name: 'Platinum',
     color: 'var(--cp-rosewater)',
     backgroundColor: 'color-mix(in srgb, var(--cp-rosewater) 20%, transparent)',
   },
-  {
+  brilliantDiamond: {
     gen: 4,
     name: 'Brilliant Diamond',
     color: 'var(--cp-lavender)',
     backgroundColor: 'color-mix(in srgb, var(--cp-lavender) 20%, transparent)',
   },
-  {
+  shiningPearl: {
     gen: 4,
     name: 'Shining Pearl',
     color: 'var(--cp-flamingo)',
     backgroundColor: 'color-mix(in srgb, var(--cp-flamingo) 20%, transparent)',
   },
-  {
+  black: {
     gen: 5,
     name: 'Black',
     color: '#dce0e8',
     backgroundColor: '#232323',
   },
-  {
+  white: {
     gen: 5,
     name: 'White',
     color: '#232323',
     backgroundColor: '#dce0e8',
   },
-  {
+  black2: {
     gen: 5,
     name: 'Black 2',
     color: '#dce0e8',
     backgroundColor: '#232323',
   },
-  {
+  white2: {
     gen: 5,
     name: 'White 2',
     color: '#232323',
     backgroundColor: '#dce0e8',
   },
-  {
+  x: {
     gen: 6,
     name: 'X',
     color: 'var(--cp-blue)',
     backgroundColor: 'color-mix(in srgb, var(--cp-blue) 20%, transparent)',
   },
-  {
+  y: {
     gen: 6,
     name: 'Y',
     color: 'var(--cp-red)',
     backgroundColor: 'color-mix(in srgb, var(--cp-red) 20%, transparent)',
   },
-  {
+  sun: {
     gen: 7,
     name: 'Sun',
     color: 'var(--cp-yellow)',
     backgroundColor: 'color-mix(in srgb, var(--cp-yellow) 20%, transparent)',
   },
-  {
+  moon: {
     gen: 7,
     name: 'Moon',
     color: 'var(--cp-sky)',
     backgroundColor: 'color-mix(in srgb, var(--cp-sky) 20%, transparent)',
   },
-  {
+  ultraSun: {
     gen: 7,
     name: 'Ultra Sun',
     color: 'var(--cp-yellow)',
     backgroundColor: 'color-mix(in srgb, var(--cp-yellow) 20%, transparent)',
   },
-  {
+  ultraMoon: {
     gen: 7,
     name: 'Ultra Moon',
     color: 'var(--cp-sky)',
     backgroundColor: 'color-mix(in srgb, var(--cp-sky) 20%, transparent)',
   },
-  {
+  sword: {
     gen: 8,
     name: 'Sword',
     color: 'var(--cp-red)',
     backgroundColor: 'color-mix(in srgb, var(--cp-red) 20%, transparent)',
   },
-  {
+  shield: {
     gen: 8,
     name: 'Shield',
     color: 'var(--cp-blue)',
     backgroundColor: 'color-mix(in srgb, var(--cp-blue) 20%, transparent)',
   },
-  {
+  arceus: {
     gen: 8,
     name: 'Legends: Arceus',
     color: 'var(--cp-teal)',
     backgroundColor: 'color-mix(in srgb, var(--cp-teal) 20%, transparent)',
   },
-  {
+  scarlet: {
     gen: 9,
     name: 'Scarlet',
     color: 'var(--cp-red)',
     backgroundColor: 'color-mix(in srgb, var(--cp-red) 20%, transparent)',
   },
-  {
+  violet: {
     gen: 9,
     name: 'Violet',
     color: 'var(--cp-mauve)',
     backgroundColor: 'color-mix(in srgb, var(--cp-mauve) 20%, transparent)',
   },
-  {
+  za: {
     gen: 9,
     name: 'Legends: Z-A',
     color: 'var(--cp-teal)',
     backgroundColor: 'color-mix(in srgb, var(--cp-teal) 20%, transparent)',
   },
-]
+}
 
 export const GENERATIONS: GenData[] = [
-  buildGen({ id: '1', title: 'Generation I', subTitle: 'Kanto', games: GAMES.filter( g => g.gen === 1), first: 1, last: 151, regions: ['kanto'] }),
-  buildGen({ id: '2', title: 'Generation II', subTitle: 'Johto', games: GAMES.filter( g => g.gen === 2), first: 152, last: 251, regions: ['johto'] }),
-  buildGen({ id: '3', title: 'Generation III', subTitle: 'Hoenn', games: GAMES.filter( g => g.gen === 3), first: 252, last: 386, regions: ['hoenn'] }),
-  buildGen({ id: '4', title: 'Generation IV', subTitle: 'Sinnoh', games: GAMES.filter( g => g.gen === 4), first: 387, last: 493, regions: ['sinnoh'] }),
-  buildGen({ id: '5', title: 'Generation V', subTitle: 'Unova', games: GAMES.filter( g => g.gen === 5), first: 494, last: 649, regions: ['unova'] }),
-  buildGen({ id: '6', title: 'Generation VI', subTitle: 'Kalos', games: GAMES.filter( g => g.gen === 6), first: 650, last: 721, regions: ['kalos'] }),
-  buildGen({ id: '7', title: 'Generation VII', subTitle: 'Alola', games: GAMES.filter( g => g.gen === 7), first: 722, last: 809, regions: ['alola'] }),
-  buildGen({ id: '8', title: 'Generation VIII', subTitle: 'Galar', games: GAMES.filter( g => g.gen === 8), first: 810, last: 905, regions: ['galar', 'hisui', 'gmax'] }),
-  buildGen({ id: '9', title: 'Generation IX', subTitle: 'Paldea', games: GAMES.filter( g => g.gen === 9), first: 906, last: 1025, regions: ['paldea'] }),
+  buildGen({ id: '1', title: 'Generation I', subTitle: 'Kanto', games: Object.values(GAMES).filter( g => g.gen === 1), first: 1, last: 151, regions: ['kanto'] }),
+  buildGen({ id: '2', title: 'Generation II', subTitle: 'Johto', games: Object.values(GAMES).filter( g => g.gen === 2), first: 152, last: 251, regions: ['johto'] }),
+  buildGen({ id: '3', title: 'Generation III', subTitle: 'Hoenn', games: Object.values(GAMES).filter( g => g.gen === 3), first: 252, last: 386, regions: ['hoenn'] }),
+  buildGen({ id: '4', title: 'Generation IV', subTitle: 'Sinnoh', games: Object.values(GAMES).filter( g => g.gen === 4), first: 387, last: 493, regions: ['sinnoh'] }),
+  buildGen({ id: '5', title: 'Generation V', subTitle: 'Unova', games: Object.values(GAMES).filter( g => g.gen === 5), first: 494, last: 649, regions: ['unova'] }),
+  buildGen({ id: '6', title: 'Generation VI', subTitle: 'Kalos', games: Object.values(GAMES).filter( g => g.gen === 6), first: 650, last: 721, regions: ['kalos'] }),
+  buildGen({ id: '7', title: 'Generation VII', subTitle: 'Alola', games: Object.values(GAMES).filter( g => g.gen === 7), first: 722, last: 809, regions: ['alola'] }),
+  buildGen({ id: '8', title: 'Generation VIII', subTitle: 'Galar', games: Object.values(GAMES).filter( g => g.gen === 8), first: 810, last: 905, regions: ['galar', 'hisui', 'gmax'] }),
+  buildGen({ id: '9', title: 'Generation IX', subTitle: 'Paldea', games: Object.values(GAMES).filter( g => g.gen === 9), first: 906, last: 1025, regions: ['paldea'] }),
 ]
 
 function bp(base: PokemonData, changes: Partial<PokemonData>): PokemonData {

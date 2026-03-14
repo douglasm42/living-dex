@@ -43,16 +43,17 @@
 
 .app-instructions code {
   font-family: "Fira Code", monospace;
-  line-height: 1em;
-  font-weight: 300;
+  line-height: 0.7em;
+  font-weight: 400;
+  font-size: 0.7em;
   display: inline-block;
   background-color: var(--cp-surface-1);
   color: var(--cp-text);
   border-radius: 0.3em;
-  padding: 0.1em 0.3em;
+  padding: 0.3em 0.3em;
   opacity: 1;
   white-space: nowrap;
-  margin-inline: 0.15em;
+  margin-inline: 0.1em;
 }
 
 .app-footer {
