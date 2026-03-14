@@ -69,7 +69,6 @@ function App() {
             <li>{linkTo('https://mapgenie.io/pokemon-legends-arceus', 'Legends: Arceus')}</li>
             <li>{linkTo('https://mapgenie.io/pokemon-scarlet-violet', 'Scarlet, Violet')}</li>
           </ul>
-          <li>{linkTo('https://mapgenie.io/pokemon-firered-leafgreen', 'Pokemon FireRed & LeafGreen Guide Map')}</li>
           <li>Hidden Machine Charts:</li>
           <ul>
             <li>{linkTo('https://pokemondb.net/red-blue/hms', 'Red, Blue, Yellow')}</li>
