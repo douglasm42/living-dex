@@ -41,12 +41,16 @@ export const REGION_NAMES: Record<string, string> = {
   'galar': 'Galarian Forms',
   'hisui': 'Hisuian Forms',
   'paldea': 'Paldean Forms',
+  'gmax': 'Gigantamax',
 }
 
 interface GenParams {
-  title: string,
-  first: number,
-  last: number,
+  id: string
+  title: string
+  subTitle: string
+  games: PokemonGame[]
+  first: number
+  last: number
   regions: string[]
 }
 
@@ -91,14 +95,315 @@ function buildGen(gen: GenParams): GenData {
   }
 }
 
+export interface PokemonGame {
+  gen: number
+  name: string
+  color: string
+  backgroundColor: string
+}
+
+export const GAMES: PokemonGame[] = [
+  {
+    gen: 1,
+    name: 'Red',
+    color: 'var(--cp-red)',
+    backgroundColor: 'color-mix(in srgb, var(--cp-red) 20%, transparent)',
+  },
+  {
+    gen: 1,
+    name: 'Green',
+    color: 'var(--cp-green)',
+    backgroundColor: 'color-mix(in srgb, var(--cp-green) 20%, transparent)',
+  },
+  {
+    gen: 1,
+    name: 'Blue',
+    color: 'var(--cp-blue)',
+    backgroundColor: 'color-mix(in srgb, var(--cp-blue) 20%, transparent)',
+  },
+  {
+    gen: 1,
+    name: 'Yellow',
+    color: 'var(--cp-yellow)',
+    backgroundColor: 'color-mix(in srgb, var(--cp-yellow) 20%, transparent)',
+  },
+  {
+    gen: 1,
+    name: 'FireRed',
+    color: 'var(--cp-red)',
+    backgroundColor: 'color-mix(in srgb, var(--cp-red) 20%, transparent)',
+  },
+  {
+    gen: 1,
+    name: 'LeafGreen',
+    color: 'var(--cp-green)',
+    backgroundColor: 'color-mix(in srgb, var(--cp-green) 20%, transparent)',
+  },
+  {
+    gen: 1,
+    name: "Let's Go, Pikachu!",
+    color: 'var(--cp-yellow)',
+    backgroundColor: 'color-mix(in srgb, var(--cp-yellow) 20%, transparent)',
+  },
+  {
+    gen: 1,
+    name: "Let's Go, Eevee!",
+    color: 'var(--cp-rosewater)',
+    backgroundColor: 'color-mix(in srgb, var(--cp-rosewater) 20%, transparent)',
+  },
+  {
+    gen: 2,
+    name: 'Gold',
+    color: 'var(--cp-yellow)',
+    backgroundColor: 'color-mix(in srgb, var(--cp-yellow) 20%, transparent)',
+  },
+  {
+    gen: 2,
+    name: 'Silver',
+    color: '#4c4f69',
+    backgroundColor: '#dce0e8',
+  },
+  {
+    gen: 2,
+    name: 'Crystal',
+    color: 'var(--cp-teal)',
+    backgroundColor: 'color-mix(in srgb, var(--cp-teal) 20%, transparent)',
+  },
+  {
+    gen: 2,
+    name: 'HeartGold',
+    color: 'var(--cp-yellow)',
+    backgroundColor: 'color-mix(in srgb, var(--cp-yellow) 20%, transparent)',
+  },
+  {
+    gen: 2,
+    name: 'SoulSilver',
+    color: '#4c4f69',
+    backgroundColor: '#dce0e8',
+  },
+  {
+    gen: 3,
+    name: 'Ruby',
+    color: 'var(--cp-red)',
+    backgroundColor: 'color-mix(in srgb, var(--cp-red) 20%, transparent)',
+  },
+  {
+    gen: 3,
+    name: 'Sapphire',
+    color: 'var(--cp-sapphire)',
+    backgroundColor: 'color-mix(in srgb, var(--cp-sapphire) 20%, transparent)',
+  },
+  {
+    gen: 3,
+    name: 'Emerald',
+    color: 'var(--cp-green)',
+    backgroundColor: 'color-mix(in srgb, var(--cp-green) 20%, transparent)',
+  },
+  {
+    gen: 3,
+    name: 'Omega Ruby',
+    color: 'var(--cp-red)',
+    backgroundColor: 'color-mix(in srgb, var(--cp-red) 20%, transparent)',
+  },
+  {
+    gen: 3,
+    name: 'Alpha Sapphire',
+    color: 'var(--cp-sapphire)',
+    backgroundColor: 'color-mix(in srgb, var(--cp-sapphire) 20%, transparent)',
+  },
+  {
+    gen: 4,
+    name: 'Diamond',
+    color: 'var(--cp-lavender)',
+    backgroundColor: 'color-mix(in srgb, var(--cp-lavender) 20%, transparent)',
+  },
+  {
+    gen: 4,
+    name: 'Pearl',
+    color: 'var(--cp-flamingo)',
+    backgroundColor: 'color-mix(in srgb, var(--cp-flamingo) 20%, transparent)',
+  },
+  {
+    gen: 4,
+    name: 'Platinum',
+    color: 'var(--cp-rosewater)',
+    backgroundColor: 'color-mix(in srgb, var(--cp-rosewater) 20%, transparent)',
+  },
+  {
+    gen: 4,
+    name: 'Brilliant Diamond',
+    color: 'var(--cp-lavender)',
+    backgroundColor: 'color-mix(in srgb, var(--cp-lavender) 20%, transparent)',
+  },
+  {
+    gen: 4,
+    name: 'Shining Pearl',
+    color: 'var(--cp-flamingo)',
+    backgroundColor: 'color-mix(in srgb, var(--cp-flamingo) 20%, transparent)',
+  },
+  {
+    gen: 5,
+    name: 'Black',
+    color: '#dce0e8',
+    backgroundColor: '#232323',
+  },
+  {
+    gen: 5,
+    name: 'White',
+    color: '#232323',
+    backgroundColor: '#dce0e8',
+  },
+  {
+    gen: 5,
+    name: 'Black 2',
+    color: '#dce0e8',
+    backgroundColor: '#232323',
+  },
+  {
+    gen: 5,
+    name: 'White 2',
+    color: '#232323',
+    backgroundColor: '#dce0e8',
+  },
+  {
+    gen: 6,
+    name: 'X',
+    color: 'var(--cp-blue)',
+    backgroundColor: 'color-mix(in srgb, var(--cp-blue) 20%, transparent)',
+  },
+  {
+    gen: 6,
+    name: 'Y',
+    color: 'var(--cp-red)',
+    backgroundColor: 'color-mix(in srgb, var(--cp-red) 20%, transparent)',
+  },
+  {
+    gen: 7,
+    name: 'Sun',
+    color: 'var(--cp-yellow)',
+    backgroundColor: 'color-mix(in srgb, var(--cp-yellow) 20%, transparent)',
+  },
+  {
+    gen: 7,
+    name: 'Moon',
+    color: 'var(--cp-sky)',
+    backgroundColor: 'color-mix(in srgb, var(--cp-sky) 20%, transparent)',
+  },
+  {
+    gen: 7,
+    name: 'Ultra Sun',
+    color: 'var(--cp-yellow)',
+    backgroundColor: 'color-mix(in srgb, var(--cp-yellow) 20%, transparent)',
+  },
+  {
+    gen: 7,
+    name: 'Ultra Moon',
+    color: 'var(--cp-sky)',
+    backgroundColor: 'color-mix(in srgb, var(--cp-sky) 20%, transparent)',
+  },
+  {
+    gen: 8,
+    name: 'Sword',
+    color: 'var(--cp-red)',
+    backgroundColor: 'color-mix(in srgb, var(--cp-red) 20%, transparent)',
+  },
+  {
+    gen: 8,
+    name: 'Shield',
+    color: 'var(--cp-blue)',
+    backgroundColor: 'color-mix(in srgb, var(--cp-blue) 20%, transparent)',
+  },
+  {
+    gen: 8,
+    name: 'Legends: Arceus',
+    color: 'var(--cp-teal)',
+    backgroundColor: 'color-mix(in srgb, var(--cp-teal) 20%, transparent)',
+  },
+  {
+    gen: 9,
+    name: 'Scarlet',
+    color: 'var(--cp-red)',
+    backgroundColor: 'color-mix(in srgb, var(--cp-red) 20%, transparent)',
+  },
+  {
+    gen: 9,
+    name: 'Violet',
+    color: 'var(--cp-mauve)',
+    backgroundColor: 'color-mix(in srgb, var(--cp-mauve) 20%, transparent)',
+  },
+  {
+    gen: 9,
+    name: 'Legends: Z-A',
+    color: 'var(--cp-teal)',
+    backgroundColor: 'color-mix(in srgb, var(--cp-teal) 20%, transparent)',
+  },
+]
+
 export const GENERATIONS: GenData[] = [
-  buildGen({title: 'Gen I - Kanto - Red, Blue', first: 1, last: 151, regions: ['kanto']}),
-  buildGen({title: 'Gen II - Johto - Gold, Silver', first: 152, last: 251, regions: ['johto']}),
-  buildGen({title: 'Gen III - Hoenn - Ruby, Sapphire', first: 252, last: 386, regions: ['hoenn']}),
-  buildGen({title: 'Gen IV - Sinnoh - Diamond, Pearl', first: 387, last: 493, regions: ['sinnoh']}),
-  buildGen({title: 'Gen V - Unova - Black, White', first: 494, last: 649, regions: ['unova']}),
-  buildGen({title: 'Gen VI - Kalos - X, Y', first: 650, last: 721, regions: ['kalos']}),
-  buildGen({title: 'Gen VII - Alola - Sun, Moon', first: 722, last: 809, regions: ['alola']}),
-  buildGen({title: 'Gen VIII - Galar - Sword, Shield', first: 810, last: 905, regions: ['galar', 'hisui']}),
-  buildGen({title: 'Gen IX - Paldea - Scarlet, Violet', first: 906, last: 1025, regions: ['paldea']}),
+  buildGen({ id: '1', title: 'Generation I', subTitle: 'Kanto', games: GAMES.filter( g => g.gen === 1), first: 1, last: 151, regions: ['kanto'] }),
+  buildGen({ id: '2', title: 'Generation II', subTitle: 'Johto', games: GAMES.filter( g => g.gen === 2), first: 152, last: 251, regions: ['johto'] }),
+  buildGen({ id: '3', title: 'Generation III', subTitle: 'Hoenn', games: GAMES.filter( g => g.gen === 3), first: 252, last: 386, regions: ['hoenn'] }),
+  buildGen({ id: '4', title: 'Generation IV', subTitle: 'Sinnoh', games: GAMES.filter( g => g.gen === 4), first: 387, last: 493, regions: ['sinnoh'] }),
+  buildGen({ id: '5', title: 'Generation V', subTitle: 'Unova', games: GAMES.filter( g => g.gen === 5), first: 494, last: 649, regions: ['unova'] }),
+  buildGen({ id: '6', title: 'Generation VI', subTitle: 'Kalos', games: GAMES.filter( g => g.gen === 6), first: 650, last: 721, regions: ['kalos'] }),
+  buildGen({ id: '7', title: 'Generation VII', subTitle: 'Alola', games: GAMES.filter( g => g.gen === 7), first: 722, last: 809, regions: ['alola'] }),
+  buildGen({ id: '8', title: 'Generation VIII', subTitle: 'Galar', games: GAMES.filter( g => g.gen === 8), first: 810, last: 905, regions: ['galar', 'hisui', 'gmax'] }),
+  buildGen({ id: '9', title: 'Generation IX', subTitle: 'Paldea', games: GAMES.filter( g => g.gen === 9), first: 906, last: 1025, regions: ['paldea'] }),
+]
+
+function bp(base: PokemonData, changes: Partial<PokemonData>): PokemonData {
+  return {
+    ...base,
+    ...changes,
+  }
+}
+
+function findPokemon(id: number): PokemonData {
+  return DEFAULT_POKEMONS.find( p => p.id === id ) as PokemonData
+}
+
+const ditto = findPokemon(132)
+const natures: string[] = [
+  'Hardy' ,'Lonely','Adamant','Naughty','Brave',
+  'Bold'  ,'Docile','Impish' ,'Lax'    ,'Relaxed',
+  'Modest','Mild'  ,'Bashful','Rash'   ,'Quiet',
+  'Calm'  ,'Gentle','Careful','Quirky' ,'Sassy',
+  'Timid' ,'Hasty' ,'Jolly'  ,'Naive'  ,'Serious',
+]
+
+function makeDitto(nature: string): PokemonData {
+  return bp(ditto, { uuid: `${ditto.id}-${nature.toLowerCase()}`, title: nature })
+}
+
+export const DITTOES: (PokemonData | null)[] = [
+  makeDitto(natures[0]),  makeDitto(natures[1]),  makeDitto(natures[2]),  makeDitto(natures[3]),  makeDitto(natures[4]), null,
+  makeDitto(natures[5]),  makeDitto(natures[6]),  makeDitto(natures[7]),  makeDitto(natures[8]),  makeDitto(natures[9]), null,
+  makeDitto(natures[10]), makeDitto(natures[11]), makeDitto(natures[12]), makeDitto(natures[13]), makeDitto(natures[14]), null,
+  makeDitto(natures[15]), makeDitto(natures[16]), makeDitto(natures[17]), makeDitto(natures[18]), makeDitto(natures[19]), null,
+  makeDitto(natures[20]), makeDitto(natures[21]), makeDitto(natures[22]), makeDitto(natures[23]), makeDitto(natures[24]),
+]
+
+function makeStarter(id: number): PokemonData {
+  const pokemon = findPokemon(id)
+  return bp(pokemon, { uuid: `${pokemon.id}-starter` })
+}
+
+export const STARTERS: (PokemonData | null)[] = [
+  makeStarter(1),   makeStarter(1 + 3),   makeStarter(1 + 6),   makeStarter(650), makeStarter(650 + 3), makeStarter(650 + 6),
+  makeStarter(152), makeStarter(152 + 3), makeStarter(152 + 6), makeStarter(722), makeStarter(722 + 3), makeStarter(722 + 6),
+  makeStarter(252), makeStarter(252 + 3), makeStarter(252 + 6), makeStarter(810), makeStarter(810 + 3), makeStarter(810 + 6),
+  makeStarter(387), makeStarter(387 + 3), makeStarter(387 + 6), makeStarter(906), makeStarter(906 + 3), makeStarter(906 + 6),
+  makeStarter(495), makeStarter(495 + 3), makeStarter(495 + 6),
+]
+
+export const EEVEE_EVOLUTIONS: (PokemonData | null)[] = [
+  makeStarter(133),
+  makeStarter(134),
+  makeStarter(135),
+  makeStarter(136),
+  makeStarter(196),
+  makeStarter(197),
+  makeStarter(470),
+  makeStarter(471),
+  makeStarter(700),
 ]

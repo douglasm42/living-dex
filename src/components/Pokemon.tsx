@@ -1,4 +1,3 @@
-import { Info } from 'lucide-react'
 import { DynamicIcon, type IconName } from 'lucide-react/dynamic'
 import './Pokemon.css'
 
@@ -29,17 +28,17 @@ export default function Pokemon({ id, name, imagePath, uuid, icon }: PokemonProp
     backgroundImage: uuid ? `url(https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/home/${imagePath})` : undefined,
   }
 
-  const infoLink = <a className="pokemon-info" onClick={handleChildClick} href={`https://pokemondb.net/pokedex/${id}`} target="_blank"><Info /></a>
-  const iconSpan = icon ? <span className="pokemon-icon"><DynamicIcon name={icon} size="1em" /></span> : undefined
+  const infoLink = <a className="pokemon-info" onClick={handleChildClick} href={`https://pokemondb.net/pokedex/${id}`} target="_blank">i</a>
+  const iconSpan = icon ? <DynamicIcon name={icon} size="1em" />: undefined
 
   return (
-    <div className="box-cell pokemon-container">
-      <div className={`pokemon-card ${catched ? 'pokemon-card-catched' : ''}`} onClick={handleCatch}>
-        <div className="pokemon-name">#{id}</div>
-        <div className={`pokemon-picture ${catched ? 'pokemon-picture-catched' : ''}`} style={style} />
-        <div className="pokemon-name">{name ? name : '---'}</div>
-        {infoLink}
-        {iconSpan}
+    <div className="box-cell">
+      <div className='pokemon-container'>
+        <div className={`pokemon-card ${catched ? 'pokemon-card-catched' : ''} pokemon-picture ${catched ? 'pokemon-picture-catched' : ''}`} style={style} onClick={handleCatch}>
+          <div className="pokemon-id label">{iconSpan}#{id}</div>
+          <div className="pokemon-name label">{name ? name : '---'}</div>
+          {infoLink}
+        </div>
       </div>
     </div>
   )

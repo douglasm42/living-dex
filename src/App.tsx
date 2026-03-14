@@ -1,10 +1,14 @@
+import './App.css'
+
 import { useState } from 'react'
 import Generation from './components/Generation'
 import Save from './components/Save'
 import { storage } from './lib/storage'
-import { GENERATIONS } from './lib/PokemonData'
+import { DITTOES, EEVEE_EVOLUTIONS, GENERATIONS, STARTERS } from './lib/PokemonData'
 import type { Notification, NotificationColor } from './components/Notifications'
 import Notifications from './components/Notifications'
+import Section from './components/Section'
+import Box from './components/Box'
 
 function nextId(notifications: Notification[]) {
   return notifications.reduce(function (a, b) {
@@ -53,10 +57,32 @@ function App() {
   }
 
   return (
-    <div>
+    <div className='app-container'>
       <Notifications notifications={notifications} />
       <Save onImport={onImport} />
+      <h1 className='app-title'>Living Dex</h1>
+      <hr className='app-divider' />
+      <div className='app-instructions'>
+        <p>
+          The data is daved on localstorage. You can use the Copy and Paste button
+          up top to save it somewhere safe and then restore it later on in another
+          computer.
+        </p>
+        <p>
+          You can click on the Pokemon card to mark it as catched and also on the
+          <code>i</code> button to view more details in <a href="https://pokemondb.net/" target="_blank">pokemondb.net</a>.
+        </p>
+      </div>
+      <Section title="Cross Generations" subTitle="Interesting Groups not related to any generation">
+        <Box title='Dittoes' pokemons={DITTOES} />
+        <Box title='Starters' pokemons={STARTERS} />
+        <Box title='Eevolutions' pokemons={EEVEE_EVOLUTIONS} />
+      </Section>
       {generations}
+      <hr className='app-divider' />
+      <footer className='app-footer'>
+        Pokémon images & names © 1995-2026 Nintendo/Game Freak.
+      </footer>
     </div>
   )
 }

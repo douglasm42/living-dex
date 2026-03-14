@@ -11275,6 +11275,46 @@
   ],
   "varieties": [
     {
+      "id": 3,
+      "title": "Venusaur",
+      "fullTitle": "Venusaur",
+      "name": "venusaur-gmax",
+      "imagePath": "10195.png",
+      "region": "gmax",
+      "species_name": "venusaur",
+      "uuid": "3-gmax"
+    },
+    {
+      "id": 6,
+      "title": "Charizard",
+      "fullTitle": "Charizard",
+      "name": "charizard-gmax",
+      "imagePath": "10196.png",
+      "region": "gmax",
+      "species_name": "charizard",
+      "uuid": "6-gmax"
+    },
+    {
+      "id": 9,
+      "title": "Blastoise",
+      "fullTitle": "Blastoise",
+      "name": "blastoise-gmax",
+      "imagePath": "10197.png",
+      "region": "gmax",
+      "species_name": "blastoise",
+      "uuid": "9-gmax"
+    },
+    {
+      "id": 12,
+      "title": "Butterfree",
+      "fullTitle": "Butterfree",
+      "name": "butterfree-gmax",
+      "imagePath": "10198.png",
+      "region": "gmax",
+      "species_name": "butterfree",
+      "uuid": "12-gmax"
+    },
+    {
       "id": 19,
       "title": "Rattata",
       "fullTitle": "Rattata",
@@ -11296,13 +11336,23 @@
     },
     {
       "id": 25,
-      "title": "Original",
-      "fullTitle": "Pikachu Original Cap",
-      "name": "pikachu-original-cap",
-      "imagePath": "10094.png",
+      "title": "Alola",
+      "fullTitle": "Pikachu Alola Cap",
+      "name": "pikachu-alola-cap",
+      "imagePath": "10099.png",
       "region": null,
       "species_name": "pikachu",
-      "uuid": "25-original-cap"
+      "uuid": "25-alola-cap"
+    },
+    {
+      "id": 25,
+      "title": "Pikachu Gmax",
+      "fullTitle": "Pikachu Gmax",
+      "name": "pikachu-gmax",
+      "imagePath": "10199.png",
+      "region": "gmax",
+      "species_name": "pikachu",
+      "uuid": "25-gmax"
     },
     {
       "id": 25,
@@ -11313,6 +11363,36 @@
       "region": null,
       "species_name": "pikachu",
       "uuid": "25-hoenn-cap"
+    },
+    {
+      "id": 25,
+      "title": "Kalos",
+      "fullTitle": "Pikachu Kalos Cap",
+      "name": "pikachu-kalos-cap",
+      "imagePath": "10098.png",
+      "region": null,
+      "species_name": "pikachu",
+      "uuid": "25-kalos-cap"
+    },
+    {
+      "id": 25,
+      "title": "Original",
+      "fullTitle": "Pikachu Original Cap",
+      "name": "pikachu-original-cap",
+      "imagePath": "10094.png",
+      "region": null,
+      "species_name": "pikachu",
+      "uuid": "25-original-cap"
+    },
+    {
+      "id": 25,
+      "title": "Partner",
+      "fullTitle": "Pikachu Partner Cap",
+      "name": "pikachu-partner-cap",
+      "imagePath": "10148.png",
+      "region": null,
+      "species_name": "pikachu",
+      "uuid": "25-partner-cap"
     },
     {
       "id": 25,
@@ -11333,36 +11413,6 @@
       "region": null,
       "species_name": "pikachu",
       "uuid": "25-unova-cap"
-    },
-    {
-      "id": 25,
-      "title": "Kalos",
-      "fullTitle": "Pikachu Kalos Cap",
-      "name": "pikachu-kalos-cap",
-      "imagePath": "10098.png",
-      "region": null,
-      "species_name": "pikachu",
-      "uuid": "25-kalos-cap"
-    },
-    {
-      "id": 25,
-      "title": "Alola",
-      "fullTitle": "Pikachu Alola Cap",
-      "name": "pikachu-alola-cap",
-      "imagePath": "10099.png",
-      "region": null,
-      "species_name": "pikachu",
-      "uuid": "25-alola-cap"
-    },
-    {
-      "id": 25,
-      "title": "Partner",
-      "fullTitle": "Pikachu Partner Cap",
-      "name": "pikachu-partner-cap",
-      "imagePath": "10148.png",
-      "region": null,
-      "species_name": "pikachu",
-      "uuid": "25-partner-cap"
     },
     {
       "id": 25,
@@ -11465,6 +11515,16 @@
       "uuid": "52-galar"
     },
     {
+      "id": 52,
+      "title": "Meowth",
+      "fullTitle": "Meowth",
+      "name": "meowth-gmax",
+      "imagePath": "10200.png",
+      "region": "gmax",
+      "species_name": "meowth",
+      "uuid": "52-gmax"
+    },
+    {
       "id": 53,
       "title": "Persian",
       "fullTitle": "Persian",
@@ -11493,6 +11553,16 @@
       "region": "hisui",
       "species_name": "arcanine",
       "uuid": "59-hisui"
+    },
+    {
+      "id": 68,
+      "title": "Machamp",
+      "fullTitle": "Machamp",
+      "name": "machamp-gmax",
+      "imagePath": "10201.png",
+      "region": "gmax",
+      "species_name": "machamp",
+      "uuid": "68-gmax"
     },
     {
       "id": 74,
@@ -11595,6 +11665,26 @@
       "uuid": "89-alola"
     },
     {
+      "id": 94,
+      "title": "Gengar",
+      "fullTitle": "Gengar",
+      "name": "gengar-gmax",
+      "imagePath": "10202.png",
+      "region": "gmax",
+      "species_name": "gengar",
+      "uuid": "94-gmax"
+    },
+    {
+      "id": 99,
+      "title": "Kingler",
+      "fullTitle": "Kingler",
+      "name": "kingler-gmax",
+      "imagePath": "10203.png",
+      "region": "gmax",
+      "species_name": "kingler",
+      "uuid": "99-gmax"
+    },
+    {
       "id": 100,
       "title": "Voltorb",
       "fullTitle": "Voltorb",
@@ -11656,13 +11746,13 @@
     },
     {
       "id": 128,
-      "title": "Tauros Combat",
-      "fullTitle": "Tauros Combat",
-      "name": "tauros-paldea-combat-breed",
-      "imagePath": "10250.png",
+      "title": "Tauros Aqua",
+      "fullTitle": "Tauros Aqua",
+      "name": "tauros-paldea-aqua-breed",
+      "imagePath": "10252.png",
       "region": "paldea",
       "species_name": "tauros",
-      "uuid": "128-paldea-combat-breed"
+      "uuid": "128-paldea-aqua-breed"
     },
     {
       "id": 128,
@@ -11676,13 +11766,43 @@
     },
     {
       "id": 128,
-      "title": "Tauros Aqua",
-      "fullTitle": "Tauros Aqua",
-      "name": "tauros-paldea-aqua-breed",
-      "imagePath": "10252.png",
+      "title": "Tauros Combat",
+      "fullTitle": "Tauros Combat",
+      "name": "tauros-paldea-combat-breed",
+      "imagePath": "10250.png",
       "region": "paldea",
       "species_name": "tauros",
-      "uuid": "128-paldea-aqua-breed"
+      "uuid": "128-paldea-combat-breed"
+    },
+    {
+      "id": 131,
+      "title": "Lapras",
+      "fullTitle": "Lapras",
+      "name": "lapras-gmax",
+      "imagePath": "10204.png",
+      "region": "gmax",
+      "species_name": "lapras",
+      "uuid": "131-gmax"
+    },
+    {
+      "id": 133,
+      "title": "Eevee",
+      "fullTitle": "Eevee",
+      "name": "eevee-gmax",
+      "imagePath": "10205.png",
+      "region": "gmax",
+      "species_name": "eevee",
+      "uuid": "133-gmax"
+    },
+    {
+      "id": 143,
+      "title": "Snorlax",
+      "fullTitle": "Snorlax",
+      "name": "snorlax-gmax",
+      "imagePath": "10206.png",
+      "region": "gmax",
+      "species_name": "snorlax",
+      "uuid": "143-gmax"
     },
     {
       "id": 144,
@@ -11793,6 +11913,16 @@
       "region": null,
       "species_name": "unown",
       "uuid": "201-e"
+    },
+    {
+      "id": 201,
+      "title": "Exclamation",
+      "fullTitle": "Unown Exclamation",
+      "name": "unown-exclamation",
+      "imagePath": "201-exclamation.png",
+      "region": null,
+      "species_name": "unown",
+      "uuid": "201-exclamation"
     },
     {
       "id": 201,
@@ -11916,6 +12046,16 @@
     },
     {
       "id": 201,
+      "title": "Question",
+      "fullTitle": "Unown Question",
+      "name": "unown-question",
+      "imagePath": "201-question.png",
+      "region": null,
+      "species_name": "unown",
+      "uuid": "201-question"
+    },
+    {
+      "id": 201,
       "title": "R",
       "fullTitle": "Unown R",
       "name": "unown-r",
@@ -12003,26 +12143,6 @@
       "region": null,
       "species_name": "unown",
       "uuid": "201-z"
-    },
-    {
-      "id": 201,
-      "title": "Exclamation",
-      "fullTitle": "Unown Exclamation",
-      "name": "unown-exclamation",
-      "imagePath": "201-exclamation.png",
-      "region": null,
-      "species_name": "unown",
-      "uuid": "201-exclamation"
-    },
-    {
-      "id": 201,
-      "title": "Question",
-      "fullTitle": "Unown Question",
-      "name": "unown-question",
-      "imagePath": "201-question.png",
-      "region": null,
-      "species_name": "unown",
-      "uuid": "201-question"
     },
     {
       "id": 211,
@@ -12156,16 +12276,6 @@
     },
     {
       "id": 422,
-      "title": "Shellos West",
-      "fullTitle": "Shellos West",
-      "name": "shellos-west",
-      "imagePath": "422-west.png",
-      "region": null,
-      "species_name": "shellos",
-      "uuid": "422-west"
-    },
-    {
-      "id": 422,
       "title": "Shellos East",
       "fullTitle": "Shellos East",
       "name": "shellos-east",
@@ -12175,14 +12285,14 @@
       "uuid": "422-east"
     },
     {
-      "id": 423,
-      "title": "Gastrodon West",
-      "fullTitle": "Gastrodon West",
-      "name": "gastrodon-west",
-      "imagePath": "423-west.png",
+      "id": 422,
+      "title": "Shellos West",
+      "fullTitle": "Shellos West",
+      "name": "shellos-west",
+      "imagePath": "422-west.png",
       "region": null,
-      "species_name": "gastrodon",
-      "uuid": "423-west"
+      "species_name": "shellos",
+      "uuid": "422-west"
     },
     {
       "id": 423,
@@ -12195,34 +12305,14 @@
       "uuid": "423-east"
     },
     {
-      "id": 479,
-      "title": "Rotom Heat",
-      "fullTitle": "Rotom Heat",
-      "name": "rotom-heat",
-      "imagePath": "10008.png",
+      "id": 423,
+      "title": "Gastrodon West",
+      "fullTitle": "Gastrodon West",
+      "name": "gastrodon-west",
+      "imagePath": "423-west.png",
       "region": null,
-      "species_name": "rotom",
-      "uuid": "479-heat"
-    },
-    {
-      "id": 479,
-      "title": "Rotom Wash",
-      "fullTitle": "Rotom Wash",
-      "name": "rotom-wash",
-      "imagePath": "10009.png",
-      "region": null,
-      "species_name": "rotom",
-      "uuid": "479-wash"
-    },
-    {
-      "id": 479,
-      "title": "Rotom Frost",
-      "fullTitle": "Rotom Frost",
-      "name": "rotom-frost",
-      "imagePath": "10010.png",
-      "region": null,
-      "species_name": "rotom",
-      "uuid": "479-frost"
+      "species_name": "gastrodon",
+      "uuid": "423-west"
     },
     {
       "id": 479,
@@ -12236,6 +12326,26 @@
     },
     {
       "id": 479,
+      "title": "Rotom Frost",
+      "fullTitle": "Rotom Frost",
+      "name": "rotom-frost",
+      "imagePath": "10010.png",
+      "region": null,
+      "species_name": "rotom",
+      "uuid": "479-frost"
+    },
+    {
+      "id": 479,
+      "title": "Rotom Heat",
+      "fullTitle": "Rotom Heat",
+      "name": "rotom-heat",
+      "imagePath": "10008.png",
+      "region": null,
+      "species_name": "rotom",
+      "uuid": "479-heat"
+    },
+    {
+      "id": 479,
       "title": "Rotom Mow",
       "fullTitle": "Rotom Mow",
       "name": "rotom-mow",
@@ -12243,6 +12353,16 @@
       "region": null,
       "species_name": "rotom",
       "uuid": "479-mow"
+    },
+    {
+      "id": 479,
+      "title": "Rotom Wash",
+      "fullTitle": "Rotom Wash",
+      "name": "rotom-wash",
+      "imagePath": "10009.png",
+      "region": null,
+      "species_name": "rotom",
+      "uuid": "479-wash"
     },
     {
       "id": 492,
@@ -12323,6 +12443,16 @@
       "region": "galar",
       "species_name": "yamask",
       "uuid": "562-galar"
+    },
+    {
+      "id": 569,
+      "title": "Garbodor",
+      "fullTitle": "Garbodor",
+      "name": "garbodor-gmax",
+      "imagePath": "10207.png",
+      "region": "gmax",
+      "species_name": "garbodor",
+      "uuid": "569-gmax"
     },
     {
       "id": 570,
@@ -12506,43 +12636,13 @@
     },
     {
       "id": 666,
-      "title": "Meadow",
-      "fullTitle": "Vivillon Meadow",
-      "name": "vivillon-meadow",
-      "imagePath": "666-meadow.png",
+      "title": "Archipelago",
+      "fullTitle": "Vivillon Archipelago",
+      "name": "vivillon-archipelago",
+      "imagePath": "666-archipelago.png",
       "region": null,
       "species_name": "vivillon",
-      "uuid": "666-meadow"
-    },
-    {
-      "id": 666,
-      "title": "Icy Snow",
-      "fullTitle": "Vivillon Icy Snow",
-      "name": "vivillon-icy-snow",
-      "imagePath": "666-icy-snow.png",
-      "region": null,
-      "species_name": "vivillon",
-      "uuid": "666-icy-snow"
-    },
-    {
-      "id": 666,
-      "title": "Polar",
-      "fullTitle": "Vivillon Polar",
-      "name": "vivillon-polar",
-      "imagePath": "666-polar.png",
-      "region": null,
-      "species_name": "vivillon",
-      "uuid": "666-polar"
-    },
-    {
-      "id": 666,
-      "title": "Tundra",
-      "fullTitle": "Vivillon Tundra",
-      "name": "vivillon-tundra",
-      "imagePath": "666-tundra.png",
-      "region": null,
-      "species_name": "vivillon",
-      "uuid": "666-tundra"
+      "uuid": "666-archipelago"
     },
     {
       "id": 666,
@@ -12556,16 +12656,6 @@
     },
     {
       "id": 666,
-      "title": "Garden",
-      "fullTitle": "Vivillon Garden",
-      "name": "vivillon-garden",
-      "imagePath": "666-garden.png",
-      "region": null,
-      "species_name": "vivillon",
-      "uuid": "666-garden"
-    },
-    {
-      "id": 666,
       "title": "Elegant",
       "fullTitle": "Vivillon Elegant",
       "name": "vivillon-elegant",
@@ -12576,33 +12666,23 @@
     },
     {
       "id": 666,
-      "title": "Modern",
-      "fullTitle": "Vivillon Modern",
-      "name": "vivillon-modern",
-      "imagePath": "666-modern.png",
+      "title": "Fancy",
+      "fullTitle": "Vivillon Fancy",
+      "name": "vivillon-fancy",
+      "imagePath": "666-fancy.png",
       "region": null,
       "species_name": "vivillon",
-      "uuid": "666-modern"
+      "uuid": "666-fancy"
     },
     {
       "id": 666,
-      "title": "Marine",
-      "fullTitle": "Vivillon Marine",
-      "name": "vivillon-marine",
-      "imagePath": "666-marine.png",
+      "title": "Garden",
+      "fullTitle": "Vivillon Garden",
+      "name": "vivillon-garden",
+      "imagePath": "666-garden.png",
       "region": null,
       "species_name": "vivillon",
-      "uuid": "666-marine"
-    },
-    {
-      "id": 666,
-      "title": "Archipelago",
-      "fullTitle": "Vivillon Archipelago",
-      "name": "vivillon-archipelago",
-      "imagePath": "666-archipelago.png",
-      "region": null,
-      "species_name": "vivillon",
-      "uuid": "666-archipelago"
+      "uuid": "666-garden"
     },
     {
       "id": 666,
@@ -12616,13 +12696,93 @@
     },
     {
       "id": 666,
-      "title": "Sandstorm",
-      "fullTitle": "Vivillon Sandstorm",
-      "name": "vivillon-sandstorm",
-      "imagePath": "666-sandstorm.png",
+      "title": "Icy Snow",
+      "fullTitle": "Vivillon Icy Snow",
+      "name": "vivillon-icy-snow",
+      "imagePath": "666-icy-snow.png",
       "region": null,
       "species_name": "vivillon",
-      "uuid": "666-sandstorm"
+      "uuid": "666-icy-snow"
+    },
+    {
+      "id": 666,
+      "title": "Jungle",
+      "fullTitle": "Vivillon Jungle",
+      "name": "vivillon-jungle",
+      "imagePath": "666-jungle.png",
+      "region": null,
+      "species_name": "vivillon",
+      "uuid": "666-jungle"
+    },
+    {
+      "id": 666,
+      "title": "Marine",
+      "fullTitle": "Vivillon Marine",
+      "name": "vivillon-marine",
+      "imagePath": "666-marine.png",
+      "region": null,
+      "species_name": "vivillon",
+      "uuid": "666-marine"
+    },
+    {
+      "id": 666,
+      "title": "Meadow",
+      "fullTitle": "Vivillon Meadow",
+      "name": "vivillon-meadow",
+      "imagePath": "666-meadow.png",
+      "region": null,
+      "species_name": "vivillon",
+      "uuid": "666-meadow"
+    },
+    {
+      "id": 666,
+      "title": "Modern",
+      "fullTitle": "Vivillon Modern",
+      "name": "vivillon-modern",
+      "imagePath": "666-modern.png",
+      "region": null,
+      "species_name": "vivillon",
+      "uuid": "666-modern"
+    },
+    {
+      "id": 666,
+      "title": "Monsoon",
+      "fullTitle": "Vivillon Monsoon",
+      "name": "vivillon-monsoon",
+      "imagePath": "666-monsoon.png",
+      "region": null,
+      "species_name": "vivillon",
+      "uuid": "666-monsoon"
+    },
+    {
+      "id": 666,
+      "title": "Ocean",
+      "fullTitle": "Vivillon Ocean",
+      "name": "vivillon-ocean",
+      "imagePath": "666-ocean.png",
+      "region": null,
+      "species_name": "vivillon",
+      "uuid": "666-ocean"
+    },
+    {
+      "id": 666,
+      "title": "Poke Ball",
+      "fullTitle": "Vivillon Poke Ball",
+      "name": "vivillon-poke-ball",
+      "imagePath": "666-poke-ball.png",
+      "region": null,
+      "species_name": "vivillon",
+      "uuid": "666-poke-ball"
+    },
+    {
+      "id": 666,
+      "title": "Polar",
+      "fullTitle": "Vivillon Polar",
+      "name": "vivillon-polar",
+      "imagePath": "666-polar.png",
+      "region": null,
+      "species_name": "vivillon",
+      "uuid": "666-polar"
     },
     {
       "id": 666,
@@ -12636,13 +12796,13 @@
     },
     {
       "id": 666,
-      "title": "Monsoon",
-      "fullTitle": "Vivillon Monsoon",
-      "name": "vivillon-monsoon",
-      "imagePath": "666-monsoon.png",
+      "title": "Sandstorm",
+      "fullTitle": "Vivillon Sandstorm",
+      "name": "vivillon-sandstorm",
+      "imagePath": "666-sandstorm.png",
       "region": null,
       "species_name": "vivillon",
-      "uuid": "666-monsoon"
+      "uuid": "666-sandstorm"
     },
     {
       "id": 666,
@@ -12666,73 +12826,13 @@
     },
     {
       "id": 666,
-      "title": "Ocean",
-      "fullTitle": "Vivillon Ocean",
-      "name": "vivillon-ocean",
-      "imagePath": "666-ocean.png",
+      "title": "Tundra",
+      "fullTitle": "Vivillon Tundra",
+      "name": "vivillon-tundra",
+      "imagePath": "666-tundra.png",
       "region": null,
       "species_name": "vivillon",
-      "uuid": "666-ocean"
-    },
-    {
-      "id": 666,
-      "title": "Jungle",
-      "fullTitle": "Vivillon Jungle",
-      "name": "vivillon-jungle",
-      "imagePath": "666-jungle.png",
-      "region": null,
-      "species_name": "vivillon",
-      "uuid": "666-jungle"
-    },
-    {
-      "id": 666,
-      "title": "Fancy",
-      "fullTitle": "Vivillon Fancy",
-      "name": "vivillon-fancy",
-      "imagePath": "666-fancy.png",
-      "region": null,
-      "species_name": "vivillon",
-      "uuid": "666-fancy"
-    },
-    {
-      "id": 666,
-      "title": "Poke Ball",
-      "fullTitle": "Vivillon Poke Ball",
-      "name": "vivillon-poke-ball",
-      "imagePath": "666-poke-ball.png",
-      "region": null,
-      "species_name": "vivillon",
-      "uuid": "666-poke-ball"
-    },
-    {
-      "id": 669,
-      "title": "Flabebe Red",
-      "fullTitle": "Flabebe Red",
-      "name": "flabebe-red",
-      "imagePath": "669-red.png",
-      "region": null,
-      "species_name": "flabebe",
-      "uuid": "669-red"
-    },
-    {
-      "id": 669,
-      "title": "Flabebe Yellow",
-      "fullTitle": "Flabebe Yellow",
-      "name": "flabebe-yellow",
-      "imagePath": "669-yellow.png",
-      "region": null,
-      "species_name": "flabebe",
-      "uuid": "669-yellow"
-    },
-    {
-      "id": 669,
-      "title": "Flabebe Orange",
-      "fullTitle": "Flabebe Orange",
-      "name": "flabebe-orange",
-      "imagePath": "669-orange.png",
-      "region": null,
-      "species_name": "flabebe",
-      "uuid": "669-orange"
+      "uuid": "666-tundra"
     },
     {
       "id": 669,
@@ -12746,6 +12846,26 @@
     },
     {
       "id": 669,
+      "title": "Flabebe Orange",
+      "fullTitle": "Flabebe Orange",
+      "name": "flabebe-orange",
+      "imagePath": "669-orange.png",
+      "region": null,
+      "species_name": "flabebe",
+      "uuid": "669-orange"
+    },
+    {
+      "id": 669,
+      "title": "Flabebe Red",
+      "fullTitle": "Flabebe Red",
+      "name": "flabebe-red",
+      "imagePath": "669-red.png",
+      "region": null,
+      "species_name": "flabebe",
+      "uuid": "669-red"
+    },
+    {
+      "id": 669,
       "title": "Flabebe White",
       "fullTitle": "Flabebe White",
       "name": "flabebe-white",
@@ -12755,34 +12875,14 @@
       "uuid": "669-white"
     },
     {
-      "id": 670,
-      "title": "Floette Red",
-      "fullTitle": "Floette Red",
-      "name": "floette-red",
-      "imagePath": "670-red.png",
+      "id": 669,
+      "title": "Flabebe Yellow",
+      "fullTitle": "Flabebe Yellow",
+      "name": "flabebe-yellow",
+      "imagePath": "669-yellow.png",
       "region": null,
-      "species_name": "floette",
-      "uuid": "670-red"
-    },
-    {
-      "id": 670,
-      "title": "Floette Yellow",
-      "fullTitle": "Floette Yellow",
-      "name": "floette-yellow",
-      "imagePath": "670-yellow.png",
-      "region": null,
-      "species_name": "floette",
-      "uuid": "670-yellow"
-    },
-    {
-      "id": 670,
-      "title": "Floette Orange",
-      "fullTitle": "Floette Orange",
-      "name": "floette-orange",
-      "imagePath": "670-orange.png",
-      "region": null,
-      "species_name": "floette",
-      "uuid": "670-orange"
+      "species_name": "flabebe",
+      "uuid": "669-yellow"
     },
     {
       "id": 670,
@@ -12796,6 +12896,26 @@
     },
     {
       "id": 670,
+      "title": "Floette Orange",
+      "fullTitle": "Floette Orange",
+      "name": "floette-orange",
+      "imagePath": "670-orange.png",
+      "region": null,
+      "species_name": "floette",
+      "uuid": "670-orange"
+    },
+    {
+      "id": 670,
+      "title": "Floette Red",
+      "fullTitle": "Floette Red",
+      "name": "floette-red",
+      "imagePath": "670-red.png",
+      "region": null,
+      "species_name": "floette",
+      "uuid": "670-red"
+    },
+    {
+      "id": 670,
       "title": "Floette White",
       "fullTitle": "Floette White",
       "name": "floette-white",
@@ -12805,34 +12925,14 @@
       "uuid": "670-white"
     },
     {
-      "id": 671,
-      "title": "Florges Red",
-      "fullTitle": "Florges Red",
-      "name": "florges-red",
-      "imagePath": "671-red.png",
+      "id": 670,
+      "title": "Floette Yellow",
+      "fullTitle": "Floette Yellow",
+      "name": "floette-yellow",
+      "imagePath": "670-yellow.png",
       "region": null,
-      "species_name": "florges",
-      "uuid": "671-red"
-    },
-    {
-      "id": 671,
-      "title": "Florges Yellow",
-      "fullTitle": "Florges Yellow",
-      "name": "florges-yellow",
-      "imagePath": "671-yellow.png",
-      "region": null,
-      "species_name": "florges",
-      "uuid": "671-yellow"
-    },
-    {
-      "id": 671,
-      "title": "Florges Orange",
-      "fullTitle": "Florges Orange",
-      "name": "florges-orange",
-      "imagePath": "671-orange.png",
-      "region": null,
-      "species_name": "florges",
-      "uuid": "671-orange"
+      "species_name": "floette",
+      "uuid": "670-yellow"
     },
     {
       "id": 671,
@@ -12846,6 +12946,26 @@
     },
     {
       "id": 671,
+      "title": "Florges Orange",
+      "fullTitle": "Florges Orange",
+      "name": "florges-orange",
+      "imagePath": "671-orange.png",
+      "region": null,
+      "species_name": "florges",
+      "uuid": "671-orange"
+    },
+    {
+      "id": 671,
+      "title": "Florges Red",
+      "fullTitle": "Florges Red",
+      "name": "florges-red",
+      "imagePath": "671-red.png",
+      "region": null,
+      "species_name": "florges",
+      "uuid": "671-red"
+    },
+    {
+      "id": 671,
       "title": "Florges White",
       "fullTitle": "Florges White",
       "name": "florges-white",
@@ -12855,64 +12975,14 @@
       "uuid": "671-white"
     },
     {
-      "id": 676,
-      "title": "Natural",
-      "fullTitle": "Furfrou Natural",
-      "name": "furfrou-natural",
-      "imagePath": "676-natural.png",
+      "id": 671,
+      "title": "Florges Yellow",
+      "fullTitle": "Florges Yellow",
+      "name": "florges-yellow",
+      "imagePath": "671-yellow.png",
       "region": null,
-      "species_name": "furfrou",
-      "uuid": "676-natural"
-    },
-    {
-      "id": 676,
-      "title": "Heart",
-      "fullTitle": "Furfrou Heart",
-      "name": "furfrou-heart",
-      "imagePath": "676-heart.png",
-      "region": null,
-      "species_name": "furfrou",
-      "uuid": "676-heart"
-    },
-    {
-      "id": 676,
-      "title": "Star",
-      "fullTitle": "Furfrou Star",
-      "name": "furfrou-star",
-      "imagePath": "676-star.png",
-      "region": null,
-      "species_name": "furfrou",
-      "uuid": "676-star"
-    },
-    {
-      "id": 676,
-      "title": "Diamond",
-      "fullTitle": "Furfrou Diamond",
-      "name": "furfrou-diamond",
-      "imagePath": "676-diamond.png",
-      "region": null,
-      "species_name": "furfrou",
-      "uuid": "676-diamond"
-    },
-    {
-      "id": 676,
-      "title": "Debutante",
-      "fullTitle": "Furfrou Debutante",
-      "name": "furfrou-debutante",
-      "imagePath": "676-debutante.png",
-      "region": null,
-      "species_name": "furfrou",
-      "uuid": "676-debutante"
-    },
-    {
-      "id": 676,
-      "title": "Matron",
-      "fullTitle": "Furfrou Matron",
-      "name": "furfrou-matron",
-      "imagePath": "676-matron.png",
-      "region": null,
-      "species_name": "furfrou",
-      "uuid": "676-matron"
+      "species_name": "florges",
+      "uuid": "671-yellow"
     },
     {
       "id": 676,
@@ -12926,13 +12996,33 @@
     },
     {
       "id": 676,
-      "title": "La Reine",
-      "fullTitle": "Furfrou La Reine",
-      "name": "furfrou-la-reine",
-      "imagePath": "676-la-reine.png",
+      "title": "Debutante",
+      "fullTitle": "Furfrou Debutante",
+      "name": "furfrou-debutante",
+      "imagePath": "676-debutante.png",
       "region": null,
       "species_name": "furfrou",
-      "uuid": "676-la-reine"
+      "uuid": "676-debutante"
+    },
+    {
+      "id": 676,
+      "title": "Diamond",
+      "fullTitle": "Furfrou Diamond",
+      "name": "furfrou-diamond",
+      "imagePath": "676-diamond.png",
+      "region": null,
+      "species_name": "furfrou",
+      "uuid": "676-diamond"
+    },
+    {
+      "id": 676,
+      "title": "Heart",
+      "fullTitle": "Furfrou Heart",
+      "name": "furfrou-heart",
+      "imagePath": "676-heart.png",
+      "region": null,
+      "species_name": "furfrou",
+      "uuid": "676-heart"
     },
     {
       "id": 676,
@@ -12946,6 +13036,36 @@
     },
     {
       "id": 676,
+      "title": "La Reine",
+      "fullTitle": "Furfrou La Reine",
+      "name": "furfrou-la-reine",
+      "imagePath": "676-la-reine.png",
+      "region": null,
+      "species_name": "furfrou",
+      "uuid": "676-la-reine"
+    },
+    {
+      "id": 676,
+      "title": "Matron",
+      "fullTitle": "Furfrou Matron",
+      "name": "furfrou-matron",
+      "imagePath": "676-matron.png",
+      "region": null,
+      "species_name": "furfrou",
+      "uuid": "676-matron"
+    },
+    {
+      "id": 676,
+      "title": "Natural",
+      "fullTitle": "Furfrou Natural",
+      "name": "furfrou-natural",
+      "imagePath": "676-natural.png",
+      "region": null,
+      "species_name": "furfrou",
+      "uuid": "676-natural"
+    },
+    {
+      "id": 676,
       "title": "Pharaoh",
       "fullTitle": "Furfrou Pharaoh",
       "name": "furfrou-pharaoh",
@@ -12953,6 +13073,16 @@
       "region": null,
       "species_name": "furfrou",
       "uuid": "676-pharaoh"
+    },
+    {
+      "id": 676,
+      "title": "Star",
+      "fullTitle": "Furfrou Star",
+      "name": "furfrou-star",
+      "imagePath": "676-star.png",
+      "region": null,
+      "species_name": "furfrou",
+      "uuid": "676-star"
     },
     {
       "id": 681,
@@ -13055,26 +13185,6 @@
       "uuid": "713-hisui"
     },
     {
-      "id": 716,
-      "title": "Xerneas Active",
-      "fullTitle": "Xerneas Active",
-      "name": "xerneas-active",
-      "imagePath": "716.png",
-      "region": null,
-      "species_name": "xerneas",
-      "uuid": "716-active"
-    },
-    {
-      "id": 716,
-      "title": "Xerneas Neutral",
-      "fullTitle": "Xerneas Neutral",
-      "name": "xerneas-neutral",
-      "imagePath": "716.png",
-      "region": null,
-      "species_name": "xerneas",
-      "uuid": "716-neutral"
-    },
-    {
       "id": 718,
       "title": "Zygarde 10 Power Construct",
       "fullTitle": "Zygarde 10 Power Construct",
@@ -13093,26 +13203,6 @@
       "region": null,
       "species_name": "zygarde",
       "uuid": "718-50-power-construct"
-    },
-    {
-      "id": 718,
-      "title": "Zygarde Complete",
-      "fullTitle": "Zygarde Complete",
-      "name": "zygarde-complete",
-      "imagePath": "10120.png",
-      "region": null,
-      "species_name": "zygarde",
-      "uuid": "718-complete"
-    },
-    {
-      "id": 718,
-      "title": "Zygarde 10",
-      "fullTitle": "Zygarde 10",
-      "name": "zygarde-10",
-      "imagePath": "10181.png",
-      "region": null,
-      "species_name": "zygarde",
-      "uuid": "718-10"
     },
     {
       "id": 720,
@@ -13136,16 +13226,6 @@
     },
     {
       "id": 741,
-      "title": "Oricorio Pom Pom",
-      "fullTitle": "Oricorio Pom Pom",
-      "name": "oricorio-pom-pom",
-      "imagePath": "10123.png",
-      "region": null,
-      "species_name": "oricorio",
-      "uuid": "741-pom-pom"
-    },
-    {
-      "id": 741,
       "title": "Oricorio Pau",
       "fullTitle": "Oricorio Pau",
       "name": "oricorio-pau",
@@ -13153,6 +13233,16 @@
       "region": null,
       "species_name": "oricorio",
       "uuid": "741-pau"
+    },
+    {
+      "id": 741,
+      "title": "Oricorio Pom Pom",
+      "fullTitle": "Oricorio Pom Pom",
+      "name": "oricorio-pom-pom",
+      "imagePath": "10123.png",
+      "region": null,
+      "species_name": "oricorio",
+      "uuid": "741-pom-pom"
     },
     {
       "id": 741,
@@ -13166,16 +13256,6 @@
     },
     {
       "id": 745,
-      "title": "Lycanroc Midnight",
-      "fullTitle": "Lycanroc Midnight",
-      "name": "lycanroc-midnight",
-      "imagePath": "10126.png",
-      "region": null,
-      "species_name": "lycanroc",
-      "uuid": "745-midnight"
-    },
-    {
-      "id": 745,
       "title": "Lycanroc Dusk",
       "fullTitle": "Lycanroc Dusk",
       "name": "lycanroc-dusk",
@@ -13185,44 +13265,14 @@
       "uuid": "745-dusk"
     },
     {
-      "id": 774,
-      "title": "Minior Red",
-      "fullTitle": "Minior Red",
-      "name": "minior-red",
-      "imagePath": "10136.png",
+      "id": 745,
+      "title": "Lycanroc Midnight",
+      "fullTitle": "Lycanroc Midnight",
+      "name": "lycanroc-midnight",
+      "imagePath": "10126.png",
       "region": null,
-      "species_name": "minior",
-      "uuid": "774-red"
-    },
-    {
-      "id": 774,
-      "title": "Minior Orange",
-      "fullTitle": "Minior Orange",
-      "name": "minior-orange",
-      "imagePath": "10137.png",
-      "region": null,
-      "species_name": "minior",
-      "uuid": "774-orange"
-    },
-    {
-      "id": 774,
-      "title": "Minior Yellow",
-      "fullTitle": "Minior Yellow",
-      "name": "minior-yellow",
-      "imagePath": "10138.png",
-      "region": null,
-      "species_name": "minior",
-      "uuid": "774-yellow"
-    },
-    {
-      "id": 774,
-      "title": "Minior Green",
-      "fullTitle": "Minior Green",
-      "name": "minior-green",
-      "imagePath": "10139.png",
-      "region": null,
-      "species_name": "minior",
-      "uuid": "774-green"
+      "species_name": "lycanroc",
+      "uuid": "745-midnight"
     },
     {
       "id": 774,
@@ -13236,6 +13286,16 @@
     },
     {
       "id": 774,
+      "title": "Minior Green",
+      "fullTitle": "Minior Green",
+      "name": "minior-green",
+      "imagePath": "10139.png",
+      "region": null,
+      "species_name": "minior",
+      "uuid": "774-green"
+    },
+    {
+      "id": 774,
       "title": "Minior Indigo",
       "fullTitle": "Minior Indigo",
       "name": "minior-indigo",
@@ -13243,6 +13303,26 @@
       "region": null,
       "species_name": "minior",
       "uuid": "774-indigo"
+    },
+    {
+      "id": 774,
+      "title": "Minior Orange",
+      "fullTitle": "Minior Orange",
+      "name": "minior-orange",
+      "imagePath": "10137.png",
+      "region": null,
+      "species_name": "minior",
+      "uuid": "774-orange"
+    },
+    {
+      "id": 774,
+      "title": "Minior Red",
+      "fullTitle": "Minior Red",
+      "name": "minior-red",
+      "imagePath": "10136.png",
+      "region": null,
+      "species_name": "minior",
+      "uuid": "774-red"
     },
     {
       "id": 774,
@@ -13255,6 +13335,16 @@
       "uuid": "774-violet"
     },
     {
+      "id": 774,
+      "title": "Minior Yellow",
+      "fullTitle": "Minior Yellow",
+      "name": "minior-yellow",
+      "imagePath": "10138.png",
+      "region": null,
+      "species_name": "minior",
+      "uuid": "774-yellow"
+    },
+    {
       "id": 801,
       "title": "Magearna Original",
       "fullTitle": "Magearna Original",
@@ -13263,6 +13353,126 @@
       "region": null,
       "species_name": "magearna",
       "uuid": "801-original"
+    },
+    {
+      "id": 809,
+      "title": "Melmetal",
+      "fullTitle": "Melmetal",
+      "name": "melmetal-gmax",
+      "imagePath": "10208.png",
+      "region": "gmax",
+      "species_name": "melmetal",
+      "uuid": "809-gmax"
+    },
+    {
+      "id": 812,
+      "title": "Rillaboom",
+      "fullTitle": "Rillaboom",
+      "name": "rillaboom-gmax",
+      "imagePath": "10209.png",
+      "region": "gmax",
+      "species_name": "rillaboom",
+      "uuid": "812-gmax"
+    },
+    {
+      "id": 815,
+      "title": "Cinderace",
+      "fullTitle": "Cinderace",
+      "name": "cinderace-gmax",
+      "imagePath": "10210.png",
+      "region": "gmax",
+      "species_name": "cinderace",
+      "uuid": "815-gmax"
+    },
+    {
+      "id": 818,
+      "title": "Inteleon",
+      "fullTitle": "Inteleon",
+      "name": "inteleon-gmax",
+      "imagePath": "10211.png",
+      "region": "gmax",
+      "species_name": "inteleon",
+      "uuid": "818-gmax"
+    },
+    {
+      "id": 823,
+      "title": "Corviknight",
+      "fullTitle": "Corviknight",
+      "name": "corviknight-gmax",
+      "imagePath": "10212.png",
+      "region": "gmax",
+      "species_name": "corviknight",
+      "uuid": "823-gmax"
+    },
+    {
+      "id": 826,
+      "title": "Orbeetle",
+      "fullTitle": "Orbeetle",
+      "name": "orbeetle-gmax",
+      "imagePath": "10213.png",
+      "region": "gmax",
+      "species_name": "orbeetle",
+      "uuid": "826-gmax"
+    },
+    {
+      "id": 834,
+      "title": "Drednaw",
+      "fullTitle": "Drednaw",
+      "name": "drednaw-gmax",
+      "imagePath": "10214.png",
+      "region": "gmax",
+      "species_name": "drednaw",
+      "uuid": "834-gmax"
+    },
+    {
+      "id": 839,
+      "title": "Coalossal",
+      "fullTitle": "Coalossal",
+      "name": "coalossal-gmax",
+      "imagePath": "10215.png",
+      "region": "gmax",
+      "species_name": "coalossal",
+      "uuid": "839-gmax"
+    },
+    {
+      "id": 841,
+      "title": "Flapple",
+      "fullTitle": "Flapple",
+      "name": "flapple-gmax",
+      "imagePath": "10216.png",
+      "region": "gmax",
+      "species_name": "flapple",
+      "uuid": "841-gmax"
+    },
+    {
+      "id": 842,
+      "title": "Appletun",
+      "fullTitle": "Appletun",
+      "name": "appletun-gmax",
+      "imagePath": "10217.png",
+      "region": "gmax",
+      "species_name": "appletun",
+      "uuid": "842-gmax"
+    },
+    {
+      "id": 844,
+      "title": "Sandaconda",
+      "fullTitle": "Sandaconda",
+      "name": "sandaconda-gmax",
+      "imagePath": "10218.png",
+      "region": "gmax",
+      "species_name": "sandaconda",
+      "uuid": "844-gmax"
+    },
+    {
+      "id": 849,
+      "title": "Toxtricity Amped",
+      "fullTitle": "Toxtricity Amped",
+      "name": "toxtricity-amped-gmax",
+      "imagePath": "10219.png",
+      "region": "gmax",
+      "species_name": "toxtricity",
+      "uuid": "849-amped-gmax"
     },
     {
       "id": 849,
@@ -13275,14 +13485,24 @@
       "uuid": "849-low-key"
     },
     {
-      "id": 854,
-      "title": "Sinistea Phony",
-      "fullTitle": "Sinistea Phony",
-      "name": "sinistea-phony",
-      "imagePath": "854.png",
-      "region": null,
-      "species_name": "sinistea",
-      "uuid": "854-phony"
+      "id": 849,
+      "title": "Toxtricity Low Key",
+      "fullTitle": "Toxtricity Low Key",
+      "name": "toxtricity-low-key-gmax",
+      "imagePath": "10228.png",
+      "region": "gmax",
+      "species_name": "toxtricity",
+      "uuid": "849-low-key-gmax"
+    },
+    {
+      "id": 851,
+      "title": "Centiskorch",
+      "fullTitle": "Centiskorch",
+      "name": "centiskorch-gmax",
+      "imagePath": "10220.png",
+      "region": "gmax",
+      "species_name": "centiskorch",
+      "uuid": "851-gmax"
     },
     {
       "id": 854,
@@ -13295,14 +13515,14 @@
       "uuid": "854-antique"
     },
     {
-      "id": 855,
-      "title": "Polteageist Phony",
-      "fullTitle": "Polteageist Phony",
-      "name": "polteageist-phony",
-      "imagePath": "855.png",
+      "id": 854,
+      "title": "Sinistea Phony",
+      "fullTitle": "Sinistea Phony",
+      "name": "sinistea-phony",
+      "imagePath": "854.png",
       "region": null,
-      "species_name": "polteageist",
-      "uuid": "855-phony"
+      "species_name": "sinistea",
+      "uuid": "854-phony"
     },
     {
       "id": 855,
@@ -13315,164 +13535,34 @@
       "uuid": "855-antique"
     },
     {
-      "id": 869,
-      "title": "Vanilla Cream Strawberry",
-      "fullTitle": "Alcremie Vanilla Cream Strawberry Sweet",
-      "name": "alcremie-vanilla-cream-strawberry-sweet",
-      "imagePath": "869-vanilla-cream-strawberry-sweet.png",
+      "id": 855,
+      "title": "Polteageist Phony",
+      "fullTitle": "Polteageist Phony",
+      "name": "polteageist-phony",
+      "imagePath": "855.png",
       "region": null,
-      "species_name": "alcremie",
-      "uuid": "869-vanilla-cream-strawberry"
+      "species_name": "polteageist",
+      "uuid": "855-phony"
     },
     {
-      "id": 869,
-      "title": "Ruby Cream Strawberry",
-      "fullTitle": "Alcremie Ruby Cream Strawberry Sweet",
-      "name": "alcremie-ruby-cream-strawberry-sweet",
-      "imagePath": "869-ruby-cream-strawberry-sweet.png",
-      "region": null,
-      "species_name": "alcremie",
-      "uuid": "869-ruby-cream-strawberry"
+      "id": 858,
+      "title": "Hatterene",
+      "fullTitle": "Hatterene",
+      "name": "hatterene-gmax",
+      "imagePath": "10221.png",
+      "region": "gmax",
+      "species_name": "hatterene",
+      "uuid": "858-gmax"
     },
     {
-      "id": 869,
-      "title": "Matcha Cream Strawberry",
-      "fullTitle": "Alcremie Matcha Cream Strawberry Sweet",
-      "name": "alcremie-matcha-cream-strawberry-sweet",
-      "imagePath": "869-matcha-cream-strawberry-sweet.png",
-      "region": null,
-      "species_name": "alcremie",
-      "uuid": "869-matcha-cream-strawberry"
-    },
-    {
-      "id": 869,
-      "title": "Mint Cream Strawberry",
-      "fullTitle": "Alcremie Mint Cream Strawberry Sweet",
-      "name": "alcremie-mint-cream-strawberry-sweet",
-      "imagePath": "869-mint-cream-strawberry-sweet.png",
-      "region": null,
-      "species_name": "alcremie",
-      "uuid": "869-mint-cream-strawberry"
-    },
-    {
-      "id": 869,
-      "title": "Lemon Cream Strawberry",
-      "fullTitle": "Alcremie Lemon Cream Strawberry Sweet",
-      "name": "alcremie-lemon-cream-strawberry-sweet",
-      "imagePath": "869-lemon-cream-strawberry-sweet.png",
-      "region": null,
-      "species_name": "alcremie",
-      "uuid": "869-lemon-cream-strawberry"
-    },
-    {
-      "id": 869,
-      "title": "Salted Cream Strawberry",
-      "fullTitle": "Alcremie Salted Cream Strawberry Sweet",
-      "name": "alcremie-salted-cream-strawberry-sweet",
-      "imagePath": "869-salted-cream-strawberry-sweet.png",
-      "region": null,
-      "species_name": "alcremie",
-      "uuid": "869-salted-cream-strawberry"
-    },
-    {
-      "id": 869,
-      "title": "Ruby Swirl Strawberry",
-      "fullTitle": "Alcremie Ruby Swirl Strawberry Sweet",
-      "name": "alcremie-ruby-swirl-strawberry-sweet",
-      "imagePath": "869-ruby-swirl-strawberry-sweet.png",
-      "region": null,
-      "species_name": "alcremie",
-      "uuid": "869-ruby-swirl-strawberry"
-    },
-    {
-      "id": 869,
-      "title": "Caramel Swirl Strawberry",
-      "fullTitle": "Alcremie Caramel Swirl Strawberry Sweet",
-      "name": "alcremie-caramel-swirl-strawberry-sweet",
-      "imagePath": "869-caramel-swirl-strawberry-sweet.png",
-      "region": null,
-      "species_name": "alcremie",
-      "uuid": "869-caramel-swirl-strawberry"
-    },
-    {
-      "id": 869,
-      "title": "Rainbow Swirl Strawberry",
-      "fullTitle": "Alcremie Rainbow Swirl Strawberry Sweet",
-      "name": "alcremie-rainbow-swirl-strawberry-sweet",
-      "imagePath": "869-rainbow-swirl-strawberry-sweet.png",
-      "region": null,
-      "species_name": "alcremie",
-      "uuid": "869-rainbow-swirl-strawberry"
-    },
-    {
-      "id": 869,
-      "title": "Vanilla Cream Berry",
-      "fullTitle": "Alcremie Vanilla Cream Berry Sweet",
-      "name": "alcremie-vanilla-cream-berry-sweet",
-      "imagePath": "869-vanilla-cream-berry-sweet.png",
-      "region": null,
-      "species_name": "alcremie",
-      "uuid": "869-vanilla-cream-berry"
-    },
-    {
-      "id": 869,
-      "title": "Ruby Cream Berry",
-      "fullTitle": "Alcremie Ruby Cream Berry Sweet",
-      "name": "alcremie-ruby-cream-berry-sweet",
-      "imagePath": "869-ruby-cream-berry-sweet.png",
-      "region": null,
-      "species_name": "alcremie",
-      "uuid": "869-ruby-cream-berry"
-    },
-    {
-      "id": 869,
-      "title": "Matcha Cream Berry",
-      "fullTitle": "Alcremie Matcha Cream Berry Sweet",
-      "name": "alcremie-matcha-cream-berry-sweet",
-      "imagePath": "869-matcha-cream-berry-sweet.png",
-      "region": null,
-      "species_name": "alcremie",
-      "uuid": "869-matcha-cream-berry"
-    },
-    {
-      "id": 869,
-      "title": "Mint Cream Berry",
-      "fullTitle": "Alcremie Mint Cream Berry Sweet",
-      "name": "alcremie-mint-cream-berry-sweet",
-      "imagePath": "869-mint-cream-berry-sweet.png",
-      "region": null,
-      "species_name": "alcremie",
-      "uuid": "869-mint-cream-berry"
-    },
-    {
-      "id": 869,
-      "title": "Lemon Cream Berry",
-      "fullTitle": "Alcremie Lemon Cream Berry Sweet",
-      "name": "alcremie-lemon-cream-berry-sweet",
-      "imagePath": "869-lemon-cream-berry-sweet.png",
-      "region": null,
-      "species_name": "alcremie",
-      "uuid": "869-lemon-cream-berry"
-    },
-    {
-      "id": 869,
-      "title": "Salted Cream Berry",
-      "fullTitle": "Alcremie Salted Cream Berry Sweet",
-      "name": "alcremie-salted-cream-berry-sweet",
-      "imagePath": "869-salted-cream-berry-sweet.png",
-      "region": null,
-      "species_name": "alcremie",
-      "uuid": "869-salted-cream-berry"
-    },
-    {
-      "id": 869,
-      "title": "Ruby Swirl Berry",
-      "fullTitle": "Alcremie Ruby Swirl Berry Sweet",
-      "name": "alcremie-ruby-swirl-berry-sweet",
-      "imagePath": "869-ruby-swirl-berry-sweet.png",
-      "region": null,
-      "species_name": "alcremie",
-      "uuid": "869-ruby-swirl-berry"
+      "id": 861,
+      "title": "Grimmsnarl",
+      "fullTitle": "Grimmsnarl",
+      "name": "grimmsnarl-gmax",
+      "imagePath": "10222.png",
+      "region": "gmax",
+      "species_name": "grimmsnarl",
+      "uuid": "861-gmax"
     },
     {
       "id": 869,
@@ -13486,266 +13576,6 @@
     },
     {
       "id": 869,
-      "title": "Rainbow Swirl Berry",
-      "fullTitle": "Alcremie Rainbow Swirl Berry Sweet",
-      "name": "alcremie-rainbow-swirl-berry-sweet",
-      "imagePath": "869-rainbow-swirl-berry-sweet.png",
-      "region": null,
-      "species_name": "alcremie",
-      "uuid": "869-rainbow-swirl-berry"
-    },
-    {
-      "id": 869,
-      "title": "Vanilla Cream Love",
-      "fullTitle": "Alcremie Vanilla Cream Love Sweet",
-      "name": "alcremie-vanilla-cream-love-sweet",
-      "imagePath": "869-vanilla-cream-love-sweet.png",
-      "region": null,
-      "species_name": "alcremie",
-      "uuid": "869-vanilla-cream-love"
-    },
-    {
-      "id": 869,
-      "title": "Ruby Cream Love",
-      "fullTitle": "Alcremie Ruby Cream Love Sweet",
-      "name": "alcremie-ruby-cream-love-sweet",
-      "imagePath": "869-ruby-cream-love-sweet.png",
-      "region": null,
-      "species_name": "alcremie",
-      "uuid": "869-ruby-cream-love"
-    },
-    {
-      "id": 869,
-      "title": "Matcha Cream Love",
-      "fullTitle": "Alcremie Matcha Cream Love Sweet",
-      "name": "alcremie-matcha-cream-love-sweet",
-      "imagePath": "869-matcha-cream-love-sweet.png",
-      "region": null,
-      "species_name": "alcremie",
-      "uuid": "869-matcha-cream-love"
-    },
-    {
-      "id": 869,
-      "title": "Mint Cream Love",
-      "fullTitle": "Alcremie Mint Cream Love Sweet",
-      "name": "alcremie-mint-cream-love-sweet",
-      "imagePath": "869-mint-cream-love-sweet.png",
-      "region": null,
-      "species_name": "alcremie",
-      "uuid": "869-mint-cream-love"
-    },
-    {
-      "id": 869,
-      "title": "Lemon Cream Love",
-      "fullTitle": "Alcremie Lemon Cream Love Sweet",
-      "name": "alcremie-lemon-cream-love-sweet",
-      "imagePath": "869-lemon-cream-love-sweet.png",
-      "region": null,
-      "species_name": "alcremie",
-      "uuid": "869-lemon-cream-love"
-    },
-    {
-      "id": 869,
-      "title": "Salted Cream Love",
-      "fullTitle": "Alcremie Salted Cream Love Sweet",
-      "name": "alcremie-salted-cream-love-sweet",
-      "imagePath": "869-salted-cream-love-sweet.png",
-      "region": null,
-      "species_name": "alcremie",
-      "uuid": "869-salted-cream-love"
-    },
-    {
-      "id": 869,
-      "title": "Ruby Swirl Love",
-      "fullTitle": "Alcremie Ruby Swirl Love Sweet",
-      "name": "alcremie-ruby-swirl-love-sweet",
-      "imagePath": "869-ruby-swirl-love-sweet.png",
-      "region": null,
-      "species_name": "alcremie",
-      "uuid": "869-ruby-swirl-love"
-    },
-    {
-      "id": 869,
-      "title": "Caramel Swirl Love",
-      "fullTitle": "Alcremie Caramel Swirl Love Sweet",
-      "name": "alcremie-caramel-swirl-love-sweet",
-      "imagePath": "869-caramel-swirl-love-sweet.png",
-      "region": null,
-      "species_name": "alcremie",
-      "uuid": "869-caramel-swirl-love"
-    },
-    {
-      "id": 869,
-      "title": "Rainbow Swirl Love",
-      "fullTitle": "Alcremie Rainbow Swirl Love Sweet",
-      "name": "alcremie-rainbow-swirl-love-sweet",
-      "imagePath": "869-rainbow-swirl-love-sweet.png",
-      "region": null,
-      "species_name": "alcremie",
-      "uuid": "869-rainbow-swirl-love"
-    },
-    {
-      "id": 869,
-      "title": "Vanilla Cream Star",
-      "fullTitle": "Alcremie Vanilla Cream Star Sweet",
-      "name": "alcremie-vanilla-cream-star-sweet",
-      "imagePath": "869-vanilla-cream-star-sweet.png",
-      "region": null,
-      "species_name": "alcremie",
-      "uuid": "869-vanilla-cream-star"
-    },
-    {
-      "id": 869,
-      "title": "Ruby Cream Star",
-      "fullTitle": "Alcremie Ruby Cream Star Sweet",
-      "name": "alcremie-ruby-cream-star-sweet",
-      "imagePath": "869-ruby-cream-star-sweet.png",
-      "region": null,
-      "species_name": "alcremie",
-      "uuid": "869-ruby-cream-star"
-    },
-    {
-      "id": 869,
-      "title": "Matcha Cream Star",
-      "fullTitle": "Alcremie Matcha Cream Star Sweet",
-      "name": "alcremie-matcha-cream-star-sweet",
-      "imagePath": "869-matcha-cream-star-sweet.png",
-      "region": null,
-      "species_name": "alcremie",
-      "uuid": "869-matcha-cream-star"
-    },
-    {
-      "id": 869,
-      "title": "Mint Cream Star",
-      "fullTitle": "Alcremie Mint Cream Star Sweet",
-      "name": "alcremie-mint-cream-star-sweet",
-      "imagePath": "869-mint-cream-star-sweet.png",
-      "region": null,
-      "species_name": "alcremie",
-      "uuid": "869-mint-cream-star"
-    },
-    {
-      "id": 869,
-      "title": "Lemon Cream Star",
-      "fullTitle": "Alcremie Lemon Cream Star Sweet",
-      "name": "alcremie-lemon-cream-star-sweet",
-      "imagePath": "869-lemon-cream-star-sweet.png",
-      "region": null,
-      "species_name": "alcremie",
-      "uuid": "869-lemon-cream-star"
-    },
-    {
-      "id": 869,
-      "title": "Salted Cream Star",
-      "fullTitle": "Alcremie Salted Cream Star Sweet",
-      "name": "alcremie-salted-cream-star-sweet",
-      "imagePath": "869-salted-cream-star-sweet.png",
-      "region": null,
-      "species_name": "alcremie",
-      "uuid": "869-salted-cream-star"
-    },
-    {
-      "id": 869,
-      "title": "Ruby Swirl Star",
-      "fullTitle": "Alcremie Ruby Swirl Star Sweet",
-      "name": "alcremie-ruby-swirl-star-sweet",
-      "imagePath": "869-ruby-swirl-star-sweet.png",
-      "region": null,
-      "species_name": "alcremie",
-      "uuid": "869-ruby-swirl-star"
-    },
-    {
-      "id": 869,
-      "title": "Caramel Swirl Star",
-      "fullTitle": "Alcremie Caramel Swirl Star Sweet",
-      "name": "alcremie-caramel-swirl-star-sweet",
-      "imagePath": "869-caramel-swirl-star-sweet.png",
-      "region": null,
-      "species_name": "alcremie",
-      "uuid": "869-caramel-swirl-star"
-    },
-    {
-      "id": 869,
-      "title": "Rainbow Swirl Star",
-      "fullTitle": "Alcremie Rainbow Swirl Star Sweet",
-      "name": "alcremie-rainbow-swirl-star-sweet",
-      "imagePath": "869-rainbow-swirl-star-sweet.png",
-      "region": null,
-      "species_name": "alcremie",
-      "uuid": "869-rainbow-swirl-star"
-    },
-    {
-      "id": 869,
-      "title": "Vanilla Cream Clover",
-      "fullTitle": "Alcremie Vanilla Cream Clover Sweet",
-      "name": "alcremie-vanilla-cream-clover-sweet",
-      "imagePath": "869-vanilla-cream-clover-sweet.png",
-      "region": null,
-      "species_name": "alcremie",
-      "uuid": "869-vanilla-cream-clover"
-    },
-    {
-      "id": 869,
-      "title": "Ruby Cream Clover",
-      "fullTitle": "Alcremie Ruby Cream Clover Sweet",
-      "name": "alcremie-ruby-cream-clover-sweet",
-      "imagePath": "869-ruby-cream-clover-sweet.png",
-      "region": null,
-      "species_name": "alcremie",
-      "uuid": "869-ruby-cream-clover"
-    },
-    {
-      "id": 869,
-      "title": "Matcha Cream Clover",
-      "fullTitle": "Alcremie Matcha Cream Clover Sweet",
-      "name": "alcremie-matcha-cream-clover-sweet",
-      "imagePath": "869-matcha-cream-clover-sweet.png",
-      "region": null,
-      "species_name": "alcremie",
-      "uuid": "869-matcha-cream-clover"
-    },
-    {
-      "id": 869,
-      "title": "Mint Cream Clover",
-      "fullTitle": "Alcremie Mint Cream Clover Sweet",
-      "name": "alcremie-mint-cream-clover-sweet",
-      "imagePath": "869-mint-cream-clover-sweet.png",
-      "region": null,
-      "species_name": "alcremie",
-      "uuid": "869-mint-cream-clover"
-    },
-    {
-      "id": 869,
-      "title": "Lemon Cream Clover",
-      "fullTitle": "Alcremie Lemon Cream Clover Sweet",
-      "name": "alcremie-lemon-cream-clover-sweet",
-      "imagePath": "869-lemon-cream-clover-sweet.png",
-      "region": null,
-      "species_name": "alcremie",
-      "uuid": "869-lemon-cream-clover"
-    },
-    {
-      "id": 869,
-      "title": "Salted Cream Clover",
-      "fullTitle": "Alcremie Salted Cream Clover Sweet",
-      "name": "alcremie-salted-cream-clover-sweet",
-      "imagePath": "869-salted-cream-clover-sweet.png",
-      "region": null,
-      "species_name": "alcremie",
-      "uuid": "869-salted-cream-clover"
-    },
-    {
-      "id": 869,
-      "title": "Ruby Swirl Clover",
-      "fullTitle": "Alcremie Ruby Swirl Clover Sweet",
-      "name": "alcremie-ruby-swirl-clover-sweet",
-      "imagePath": "869-ruby-swirl-clover-sweet.png",
-      "region": null,
-      "species_name": "alcremie",
-      "uuid": "869-ruby-swirl-clover"
-    },
-    {
-      "id": 869,
       "title": "Caramel Swirl Clover",
       "fullTitle": "Alcremie Caramel Swirl Clover Sweet",
       "name": "alcremie-caramel-swirl-clover-sweet",
@@ -13753,86 +13583,6 @@
       "region": null,
       "species_name": "alcremie",
       "uuid": "869-caramel-swirl-clover"
-    },
-    {
-      "id": 869,
-      "title": "Rainbow Swirl Clover",
-      "fullTitle": "Alcremie Rainbow Swirl Clover Sweet",
-      "name": "alcremie-rainbow-swirl-clover-sweet",
-      "imagePath": "869-rainbow-swirl-clover-sweet.png",
-      "region": null,
-      "species_name": "alcremie",
-      "uuid": "869-rainbow-swirl-clover"
-    },
-    {
-      "id": 869,
-      "title": "Vanilla Cream Flower",
-      "fullTitle": "Alcremie Vanilla Cream Flower Sweet",
-      "name": "alcremie-vanilla-cream-flower-sweet",
-      "imagePath": "869-vanilla-cream-flower-sweet.png",
-      "region": null,
-      "species_name": "alcremie",
-      "uuid": "869-vanilla-cream-flower"
-    },
-    {
-      "id": 869,
-      "title": "Ruby Cream Flower",
-      "fullTitle": "Alcremie Ruby Cream Flower Sweet",
-      "name": "alcremie-ruby-cream-flower-sweet",
-      "imagePath": "869-ruby-cream-flower-sweet.png",
-      "region": null,
-      "species_name": "alcremie",
-      "uuid": "869-ruby-cream-flower"
-    },
-    {
-      "id": 869,
-      "title": "Matcha Cream Flower",
-      "fullTitle": "Alcremie Matcha Cream Flower Sweet",
-      "name": "alcremie-matcha-cream-flower-sweet",
-      "imagePath": "869-matcha-cream-flower-sweet.png",
-      "region": null,
-      "species_name": "alcremie",
-      "uuid": "869-matcha-cream-flower"
-    },
-    {
-      "id": 869,
-      "title": "Mint Cream Flower",
-      "fullTitle": "Alcremie Mint Cream Flower Sweet",
-      "name": "alcremie-mint-cream-flower-sweet",
-      "imagePath": "869-mint-cream-flower-sweet.png",
-      "region": null,
-      "species_name": "alcremie",
-      "uuid": "869-mint-cream-flower"
-    },
-    {
-      "id": 869,
-      "title": "Lemon Cream Flower",
-      "fullTitle": "Alcremie Lemon Cream Flower Sweet",
-      "name": "alcremie-lemon-cream-flower-sweet",
-      "imagePath": "869-lemon-cream-flower-sweet.png",
-      "region": null,
-      "species_name": "alcremie",
-      "uuid": "869-lemon-cream-flower"
-    },
-    {
-      "id": 869,
-      "title": "Salted Cream Flower",
-      "fullTitle": "Alcremie Salted Cream Flower Sweet",
-      "name": "alcremie-salted-cream-flower-sweet",
-      "imagePath": "869-salted-cream-flower-sweet.png",
-      "region": null,
-      "species_name": "alcremie",
-      "uuid": "869-salted-cream-flower"
-    },
-    {
-      "id": 869,
-      "title": "Ruby Swirl Flower",
-      "fullTitle": "Alcremie Ruby Swirl Flower Sweet",
-      "name": "alcremie-ruby-swirl-flower-sweet",
-      "imagePath": "869-ruby-swirl-flower-sweet.png",
-      "region": null,
-      "species_name": "alcremie",
-      "uuid": "869-ruby-swirl-flower"
     },
     {
       "id": 869,
@@ -13846,83 +13596,13 @@
     },
     {
       "id": 869,
-      "title": "Rainbow Swirl Flower",
-      "fullTitle": "Alcremie Rainbow Swirl Flower Sweet",
-      "name": "alcremie-rainbow-swirl-flower-sweet",
-      "imagePath": "869-rainbow-swirl-flower-sweet.png",
+      "title": "Caramel Swirl Love",
+      "fullTitle": "Alcremie Caramel Swirl Love Sweet",
+      "name": "alcremie-caramel-swirl-love-sweet",
+      "imagePath": "869-caramel-swirl-love-sweet.png",
       "region": null,
       "species_name": "alcremie",
-      "uuid": "869-rainbow-swirl-flower"
-    },
-    {
-      "id": 869,
-      "title": "Vanilla Cream Ribbon",
-      "fullTitle": "Alcremie Vanilla Cream Ribbon Sweet",
-      "name": "alcremie-vanilla-cream-ribbon-sweet",
-      "imagePath": "869-vanilla-cream-ribbon-sweet.png",
-      "region": null,
-      "species_name": "alcremie",
-      "uuid": "869-vanilla-cream-ribbon"
-    },
-    {
-      "id": 869,
-      "title": "Ruby Cream Ribbon",
-      "fullTitle": "Alcremie Ruby Cream Ribbon Sweet",
-      "name": "alcremie-ruby-cream-ribbon-sweet",
-      "imagePath": "869-ruby-cream-ribbon-sweet.png",
-      "region": null,
-      "species_name": "alcremie",
-      "uuid": "869-ruby-cream-ribbon"
-    },
-    {
-      "id": 869,
-      "title": "Matcha Cream Ribbon",
-      "fullTitle": "Alcremie Matcha Cream Ribbon Sweet",
-      "name": "alcremie-matcha-cream-ribbon-sweet",
-      "imagePath": "869-matcha-cream-ribbon-sweet.png",
-      "region": null,
-      "species_name": "alcremie",
-      "uuid": "869-matcha-cream-ribbon"
-    },
-    {
-      "id": 869,
-      "title": "Mint Cream Ribbon",
-      "fullTitle": "Alcremie Mint Cream Ribbon Sweet",
-      "name": "alcremie-mint-cream-ribbon-sweet",
-      "imagePath": "869-mint-cream-ribbon-sweet.png",
-      "region": null,
-      "species_name": "alcremie",
-      "uuid": "869-mint-cream-ribbon"
-    },
-    {
-      "id": 869,
-      "title": "Lemon Cream Ribbon",
-      "fullTitle": "Alcremie Lemon Cream Ribbon Sweet",
-      "name": "alcremie-lemon-cream-ribbon-sweet",
-      "imagePath": "869-lemon-cream-ribbon-sweet.png",
-      "region": null,
-      "species_name": "alcremie",
-      "uuid": "869-lemon-cream-ribbon"
-    },
-    {
-      "id": 869,
-      "title": "Salted Cream Ribbon",
-      "fullTitle": "Alcremie Salted Cream Ribbon Sweet",
-      "name": "alcremie-salted-cream-ribbon-sweet",
-      "imagePath": "869-salted-cream-ribbon-sweet.png",
-      "region": null,
-      "species_name": "alcremie",
-      "uuid": "869-salted-cream-ribbon"
-    },
-    {
-      "id": 869,
-      "title": "Ruby Swirl Ribbon",
-      "fullTitle": "Alcremie Ruby Swirl Ribbon Sweet",
-      "name": "alcremie-ruby-swirl-ribbon-sweet",
-      "imagePath": "869-ruby-swirl-ribbon-sweet.png",
-      "region": null,
-      "species_name": "alcremie",
-      "uuid": "869-ruby-swirl-ribbon"
+      "uuid": "869-caramel-swirl-love"
     },
     {
       "id": 869,
@@ -13936,6 +13616,286 @@
     },
     {
       "id": 869,
+      "title": "Caramel Swirl Star",
+      "fullTitle": "Alcremie Caramel Swirl Star Sweet",
+      "name": "alcremie-caramel-swirl-star-sweet",
+      "imagePath": "869-caramel-swirl-star-sweet.png",
+      "region": null,
+      "species_name": "alcremie",
+      "uuid": "869-caramel-swirl-star"
+    },
+    {
+      "id": 869,
+      "title": "Caramel Swirl Strawberry",
+      "fullTitle": "Alcremie Caramel Swirl Strawberry Sweet",
+      "name": "alcremie-caramel-swirl-strawberry-sweet",
+      "imagePath": "869-caramel-swirl-strawberry-sweet.png",
+      "region": null,
+      "species_name": "alcremie",
+      "uuid": "869-caramel-swirl-strawberry"
+    },
+    {
+      "id": 869,
+      "title": "Alcremie",
+      "fullTitle": "Alcremie",
+      "name": "alcremie-gmax",
+      "imagePath": "10223.png",
+      "region": "gmax",
+      "species_name": "alcremie",
+      "uuid": "869-gmax"
+    },
+    {
+      "id": 869,
+      "title": "Lemon Cream Berry",
+      "fullTitle": "Alcremie Lemon Cream Berry Sweet",
+      "name": "alcremie-lemon-cream-berry-sweet",
+      "imagePath": "869-lemon-cream-berry-sweet.png",
+      "region": null,
+      "species_name": "alcremie",
+      "uuid": "869-lemon-cream-berry"
+    },
+    {
+      "id": 869,
+      "title": "Lemon Cream Clover",
+      "fullTitle": "Alcremie Lemon Cream Clover Sweet",
+      "name": "alcremie-lemon-cream-clover-sweet",
+      "imagePath": "869-lemon-cream-clover-sweet.png",
+      "region": null,
+      "species_name": "alcremie",
+      "uuid": "869-lemon-cream-clover"
+    },
+    {
+      "id": 869,
+      "title": "Lemon Cream Flower",
+      "fullTitle": "Alcremie Lemon Cream Flower Sweet",
+      "name": "alcremie-lemon-cream-flower-sweet",
+      "imagePath": "869-lemon-cream-flower-sweet.png",
+      "region": null,
+      "species_name": "alcremie",
+      "uuid": "869-lemon-cream-flower"
+    },
+    {
+      "id": 869,
+      "title": "Lemon Cream Love",
+      "fullTitle": "Alcremie Lemon Cream Love Sweet",
+      "name": "alcremie-lemon-cream-love-sweet",
+      "imagePath": "869-lemon-cream-love-sweet.png",
+      "region": null,
+      "species_name": "alcremie",
+      "uuid": "869-lemon-cream-love"
+    },
+    {
+      "id": 869,
+      "title": "Lemon Cream Ribbon",
+      "fullTitle": "Alcremie Lemon Cream Ribbon Sweet",
+      "name": "alcremie-lemon-cream-ribbon-sweet",
+      "imagePath": "869-lemon-cream-ribbon-sweet.png",
+      "region": null,
+      "species_name": "alcremie",
+      "uuid": "869-lemon-cream-ribbon"
+    },
+    {
+      "id": 869,
+      "title": "Lemon Cream Star",
+      "fullTitle": "Alcremie Lemon Cream Star Sweet",
+      "name": "alcremie-lemon-cream-star-sweet",
+      "imagePath": "869-lemon-cream-star-sweet.png",
+      "region": null,
+      "species_name": "alcremie",
+      "uuid": "869-lemon-cream-star"
+    },
+    {
+      "id": 869,
+      "title": "Lemon Cream Strawberry",
+      "fullTitle": "Alcremie Lemon Cream Strawberry Sweet",
+      "name": "alcremie-lemon-cream-strawberry-sweet",
+      "imagePath": "869-lemon-cream-strawberry-sweet.png",
+      "region": null,
+      "species_name": "alcremie",
+      "uuid": "869-lemon-cream-strawberry"
+    },
+    {
+      "id": 869,
+      "title": "Matcha Cream Berry",
+      "fullTitle": "Alcremie Matcha Cream Berry Sweet",
+      "name": "alcremie-matcha-cream-berry-sweet",
+      "imagePath": "869-matcha-cream-berry-sweet.png",
+      "region": null,
+      "species_name": "alcremie",
+      "uuid": "869-matcha-cream-berry"
+    },
+    {
+      "id": 869,
+      "title": "Matcha Cream Clover",
+      "fullTitle": "Alcremie Matcha Cream Clover Sweet",
+      "name": "alcremie-matcha-cream-clover-sweet",
+      "imagePath": "869-matcha-cream-clover-sweet.png",
+      "region": null,
+      "species_name": "alcremie",
+      "uuid": "869-matcha-cream-clover"
+    },
+    {
+      "id": 869,
+      "title": "Matcha Cream Flower",
+      "fullTitle": "Alcremie Matcha Cream Flower Sweet",
+      "name": "alcremie-matcha-cream-flower-sweet",
+      "imagePath": "869-matcha-cream-flower-sweet.png",
+      "region": null,
+      "species_name": "alcremie",
+      "uuid": "869-matcha-cream-flower"
+    },
+    {
+      "id": 869,
+      "title": "Matcha Cream Love",
+      "fullTitle": "Alcremie Matcha Cream Love Sweet",
+      "name": "alcremie-matcha-cream-love-sweet",
+      "imagePath": "869-matcha-cream-love-sweet.png",
+      "region": null,
+      "species_name": "alcremie",
+      "uuid": "869-matcha-cream-love"
+    },
+    {
+      "id": 869,
+      "title": "Matcha Cream Ribbon",
+      "fullTitle": "Alcremie Matcha Cream Ribbon Sweet",
+      "name": "alcremie-matcha-cream-ribbon-sweet",
+      "imagePath": "869-matcha-cream-ribbon-sweet.png",
+      "region": null,
+      "species_name": "alcremie",
+      "uuid": "869-matcha-cream-ribbon"
+    },
+    {
+      "id": 869,
+      "title": "Matcha Cream Star",
+      "fullTitle": "Alcremie Matcha Cream Star Sweet",
+      "name": "alcremie-matcha-cream-star-sweet",
+      "imagePath": "869-matcha-cream-star-sweet.png",
+      "region": null,
+      "species_name": "alcremie",
+      "uuid": "869-matcha-cream-star"
+    },
+    {
+      "id": 869,
+      "title": "Matcha Cream Strawberry",
+      "fullTitle": "Alcremie Matcha Cream Strawberry Sweet",
+      "name": "alcremie-matcha-cream-strawberry-sweet",
+      "imagePath": "869-matcha-cream-strawberry-sweet.png",
+      "region": null,
+      "species_name": "alcremie",
+      "uuid": "869-matcha-cream-strawberry"
+    },
+    {
+      "id": 869,
+      "title": "Mint Cream Berry",
+      "fullTitle": "Alcremie Mint Cream Berry Sweet",
+      "name": "alcremie-mint-cream-berry-sweet",
+      "imagePath": "869-mint-cream-berry-sweet.png",
+      "region": null,
+      "species_name": "alcremie",
+      "uuid": "869-mint-cream-berry"
+    },
+    {
+      "id": 869,
+      "title": "Mint Cream Clover",
+      "fullTitle": "Alcremie Mint Cream Clover Sweet",
+      "name": "alcremie-mint-cream-clover-sweet",
+      "imagePath": "869-mint-cream-clover-sweet.png",
+      "region": null,
+      "species_name": "alcremie",
+      "uuid": "869-mint-cream-clover"
+    },
+    {
+      "id": 869,
+      "title": "Mint Cream Flower",
+      "fullTitle": "Alcremie Mint Cream Flower Sweet",
+      "name": "alcremie-mint-cream-flower-sweet",
+      "imagePath": "869-mint-cream-flower-sweet.png",
+      "region": null,
+      "species_name": "alcremie",
+      "uuid": "869-mint-cream-flower"
+    },
+    {
+      "id": 869,
+      "title": "Mint Cream Love",
+      "fullTitle": "Alcremie Mint Cream Love Sweet",
+      "name": "alcremie-mint-cream-love-sweet",
+      "imagePath": "869-mint-cream-love-sweet.png",
+      "region": null,
+      "species_name": "alcremie",
+      "uuid": "869-mint-cream-love"
+    },
+    {
+      "id": 869,
+      "title": "Mint Cream Ribbon",
+      "fullTitle": "Alcremie Mint Cream Ribbon Sweet",
+      "name": "alcremie-mint-cream-ribbon-sweet",
+      "imagePath": "869-mint-cream-ribbon-sweet.png",
+      "region": null,
+      "species_name": "alcremie",
+      "uuid": "869-mint-cream-ribbon"
+    },
+    {
+      "id": 869,
+      "title": "Mint Cream Star",
+      "fullTitle": "Alcremie Mint Cream Star Sweet",
+      "name": "alcremie-mint-cream-star-sweet",
+      "imagePath": "869-mint-cream-star-sweet.png",
+      "region": null,
+      "species_name": "alcremie",
+      "uuid": "869-mint-cream-star"
+    },
+    {
+      "id": 869,
+      "title": "Mint Cream Strawberry",
+      "fullTitle": "Alcremie Mint Cream Strawberry Sweet",
+      "name": "alcremie-mint-cream-strawberry-sweet",
+      "imagePath": "869-mint-cream-strawberry-sweet.png",
+      "region": null,
+      "species_name": "alcremie",
+      "uuid": "869-mint-cream-strawberry"
+    },
+    {
+      "id": 869,
+      "title": "Rainbow Swirl Berry",
+      "fullTitle": "Alcremie Rainbow Swirl Berry Sweet",
+      "name": "alcremie-rainbow-swirl-berry-sweet",
+      "imagePath": "869-rainbow-swirl-berry-sweet.png",
+      "region": null,
+      "species_name": "alcremie",
+      "uuid": "869-rainbow-swirl-berry"
+    },
+    {
+      "id": 869,
+      "title": "Rainbow Swirl Clover",
+      "fullTitle": "Alcremie Rainbow Swirl Clover Sweet",
+      "name": "alcremie-rainbow-swirl-clover-sweet",
+      "imagePath": "869-rainbow-swirl-clover-sweet.png",
+      "region": null,
+      "species_name": "alcremie",
+      "uuid": "869-rainbow-swirl-clover"
+    },
+    {
+      "id": 869,
+      "title": "Rainbow Swirl Flower",
+      "fullTitle": "Alcremie Rainbow Swirl Flower Sweet",
+      "name": "alcremie-rainbow-swirl-flower-sweet",
+      "imagePath": "869-rainbow-swirl-flower-sweet.png",
+      "region": null,
+      "species_name": "alcremie",
+      "uuid": "869-rainbow-swirl-flower"
+    },
+    {
+      "id": 869,
+      "title": "Rainbow Swirl Love",
+      "fullTitle": "Alcremie Rainbow Swirl Love Sweet",
+      "name": "alcremie-rainbow-swirl-love-sweet",
+      "imagePath": "869-rainbow-swirl-love-sweet.png",
+      "region": null,
+      "species_name": "alcremie",
+      "uuid": "869-rainbow-swirl-love"
+    },
+    {
+      "id": 869,
       "title": "Rainbow Swirl Ribbon",
       "fullTitle": "Alcremie Rainbow Swirl Ribbon Sweet",
       "name": "alcremie-rainbow-swirl-ribbon-sweet",
@@ -13943,6 +13903,326 @@
       "region": null,
       "species_name": "alcremie",
       "uuid": "869-rainbow-swirl-ribbon"
+    },
+    {
+      "id": 869,
+      "title": "Rainbow Swirl Star",
+      "fullTitle": "Alcremie Rainbow Swirl Star Sweet",
+      "name": "alcremie-rainbow-swirl-star-sweet",
+      "imagePath": "869-rainbow-swirl-star-sweet.png",
+      "region": null,
+      "species_name": "alcremie",
+      "uuid": "869-rainbow-swirl-star"
+    },
+    {
+      "id": 869,
+      "title": "Rainbow Swirl Strawberry",
+      "fullTitle": "Alcremie Rainbow Swirl Strawberry Sweet",
+      "name": "alcremie-rainbow-swirl-strawberry-sweet",
+      "imagePath": "869-rainbow-swirl-strawberry-sweet.png",
+      "region": null,
+      "species_name": "alcremie",
+      "uuid": "869-rainbow-swirl-strawberry"
+    },
+    {
+      "id": 869,
+      "title": "Ruby Cream Berry",
+      "fullTitle": "Alcremie Ruby Cream Berry Sweet",
+      "name": "alcremie-ruby-cream-berry-sweet",
+      "imagePath": "869-ruby-cream-berry-sweet.png",
+      "region": null,
+      "species_name": "alcremie",
+      "uuid": "869-ruby-cream-berry"
+    },
+    {
+      "id": 869,
+      "title": "Ruby Cream Clover",
+      "fullTitle": "Alcremie Ruby Cream Clover Sweet",
+      "name": "alcremie-ruby-cream-clover-sweet",
+      "imagePath": "869-ruby-cream-clover-sweet.png",
+      "region": null,
+      "species_name": "alcremie",
+      "uuid": "869-ruby-cream-clover"
+    },
+    {
+      "id": 869,
+      "title": "Ruby Cream Flower",
+      "fullTitle": "Alcremie Ruby Cream Flower Sweet",
+      "name": "alcremie-ruby-cream-flower-sweet",
+      "imagePath": "869-ruby-cream-flower-sweet.png",
+      "region": null,
+      "species_name": "alcremie",
+      "uuid": "869-ruby-cream-flower"
+    },
+    {
+      "id": 869,
+      "title": "Ruby Cream Love",
+      "fullTitle": "Alcremie Ruby Cream Love Sweet",
+      "name": "alcremie-ruby-cream-love-sweet",
+      "imagePath": "869-ruby-cream-love-sweet.png",
+      "region": null,
+      "species_name": "alcremie",
+      "uuid": "869-ruby-cream-love"
+    },
+    {
+      "id": 869,
+      "title": "Ruby Cream Ribbon",
+      "fullTitle": "Alcremie Ruby Cream Ribbon Sweet",
+      "name": "alcremie-ruby-cream-ribbon-sweet",
+      "imagePath": "869-ruby-cream-ribbon-sweet.png",
+      "region": null,
+      "species_name": "alcremie",
+      "uuid": "869-ruby-cream-ribbon"
+    },
+    {
+      "id": 869,
+      "title": "Ruby Cream Star",
+      "fullTitle": "Alcremie Ruby Cream Star Sweet",
+      "name": "alcremie-ruby-cream-star-sweet",
+      "imagePath": "869-ruby-cream-star-sweet.png",
+      "region": null,
+      "species_name": "alcremie",
+      "uuid": "869-ruby-cream-star"
+    },
+    {
+      "id": 869,
+      "title": "Ruby Cream Strawberry",
+      "fullTitle": "Alcremie Ruby Cream Strawberry Sweet",
+      "name": "alcremie-ruby-cream-strawberry-sweet",
+      "imagePath": "869-ruby-cream-strawberry-sweet.png",
+      "region": null,
+      "species_name": "alcremie",
+      "uuid": "869-ruby-cream-strawberry"
+    },
+    {
+      "id": 869,
+      "title": "Ruby Swirl Berry",
+      "fullTitle": "Alcremie Ruby Swirl Berry Sweet",
+      "name": "alcremie-ruby-swirl-berry-sweet",
+      "imagePath": "869-ruby-swirl-berry-sweet.png",
+      "region": null,
+      "species_name": "alcremie",
+      "uuid": "869-ruby-swirl-berry"
+    },
+    {
+      "id": 869,
+      "title": "Ruby Swirl Clover",
+      "fullTitle": "Alcremie Ruby Swirl Clover Sweet",
+      "name": "alcremie-ruby-swirl-clover-sweet",
+      "imagePath": "869-ruby-swirl-clover-sweet.png",
+      "region": null,
+      "species_name": "alcremie",
+      "uuid": "869-ruby-swirl-clover"
+    },
+    {
+      "id": 869,
+      "title": "Ruby Swirl Flower",
+      "fullTitle": "Alcremie Ruby Swirl Flower Sweet",
+      "name": "alcremie-ruby-swirl-flower-sweet",
+      "imagePath": "869-ruby-swirl-flower-sweet.png",
+      "region": null,
+      "species_name": "alcremie",
+      "uuid": "869-ruby-swirl-flower"
+    },
+    {
+      "id": 869,
+      "title": "Ruby Swirl Love",
+      "fullTitle": "Alcremie Ruby Swirl Love Sweet",
+      "name": "alcremie-ruby-swirl-love-sweet",
+      "imagePath": "869-ruby-swirl-love-sweet.png",
+      "region": null,
+      "species_name": "alcremie",
+      "uuid": "869-ruby-swirl-love"
+    },
+    {
+      "id": 869,
+      "title": "Ruby Swirl Ribbon",
+      "fullTitle": "Alcremie Ruby Swirl Ribbon Sweet",
+      "name": "alcremie-ruby-swirl-ribbon-sweet",
+      "imagePath": "869-ruby-swirl-ribbon-sweet.png",
+      "region": null,
+      "species_name": "alcremie",
+      "uuid": "869-ruby-swirl-ribbon"
+    },
+    {
+      "id": 869,
+      "title": "Ruby Swirl Star",
+      "fullTitle": "Alcremie Ruby Swirl Star Sweet",
+      "name": "alcremie-ruby-swirl-star-sweet",
+      "imagePath": "869-ruby-swirl-star-sweet.png",
+      "region": null,
+      "species_name": "alcremie",
+      "uuid": "869-ruby-swirl-star"
+    },
+    {
+      "id": 869,
+      "title": "Ruby Swirl Strawberry",
+      "fullTitle": "Alcremie Ruby Swirl Strawberry Sweet",
+      "name": "alcremie-ruby-swirl-strawberry-sweet",
+      "imagePath": "869-ruby-swirl-strawberry-sweet.png",
+      "region": null,
+      "species_name": "alcremie",
+      "uuid": "869-ruby-swirl-strawberry"
+    },
+    {
+      "id": 869,
+      "title": "Salted Cream Berry",
+      "fullTitle": "Alcremie Salted Cream Berry Sweet",
+      "name": "alcremie-salted-cream-berry-sweet",
+      "imagePath": "869-salted-cream-berry-sweet.png",
+      "region": null,
+      "species_name": "alcremie",
+      "uuid": "869-salted-cream-berry"
+    },
+    {
+      "id": 869,
+      "title": "Salted Cream Clover",
+      "fullTitle": "Alcremie Salted Cream Clover Sweet",
+      "name": "alcremie-salted-cream-clover-sweet",
+      "imagePath": "869-salted-cream-clover-sweet.png",
+      "region": null,
+      "species_name": "alcremie",
+      "uuid": "869-salted-cream-clover"
+    },
+    {
+      "id": 869,
+      "title": "Salted Cream Flower",
+      "fullTitle": "Alcremie Salted Cream Flower Sweet",
+      "name": "alcremie-salted-cream-flower-sweet",
+      "imagePath": "869-salted-cream-flower-sweet.png",
+      "region": null,
+      "species_name": "alcremie",
+      "uuid": "869-salted-cream-flower"
+    },
+    {
+      "id": 869,
+      "title": "Salted Cream Love",
+      "fullTitle": "Alcremie Salted Cream Love Sweet",
+      "name": "alcremie-salted-cream-love-sweet",
+      "imagePath": "869-salted-cream-love-sweet.png",
+      "region": null,
+      "species_name": "alcremie",
+      "uuid": "869-salted-cream-love"
+    },
+    {
+      "id": 869,
+      "title": "Salted Cream Ribbon",
+      "fullTitle": "Alcremie Salted Cream Ribbon Sweet",
+      "name": "alcremie-salted-cream-ribbon-sweet",
+      "imagePath": "869-salted-cream-ribbon-sweet.png",
+      "region": null,
+      "species_name": "alcremie",
+      "uuid": "869-salted-cream-ribbon"
+    },
+    {
+      "id": 869,
+      "title": "Salted Cream Star",
+      "fullTitle": "Alcremie Salted Cream Star Sweet",
+      "name": "alcremie-salted-cream-star-sweet",
+      "imagePath": "869-salted-cream-star-sweet.png",
+      "region": null,
+      "species_name": "alcremie",
+      "uuid": "869-salted-cream-star"
+    },
+    {
+      "id": 869,
+      "title": "Salted Cream Strawberry",
+      "fullTitle": "Alcremie Salted Cream Strawberry Sweet",
+      "name": "alcremie-salted-cream-strawberry-sweet",
+      "imagePath": "869-salted-cream-strawberry-sweet.png",
+      "region": null,
+      "species_name": "alcremie",
+      "uuid": "869-salted-cream-strawberry"
+    },
+    {
+      "id": 869,
+      "title": "Vanilla Cream Berry",
+      "fullTitle": "Alcremie Vanilla Cream Berry Sweet",
+      "name": "alcremie-vanilla-cream-berry-sweet",
+      "imagePath": "869-vanilla-cream-berry-sweet.png",
+      "region": null,
+      "species_name": "alcremie",
+      "uuid": "869-vanilla-cream-berry"
+    },
+    {
+      "id": 869,
+      "title": "Vanilla Cream Clover",
+      "fullTitle": "Alcremie Vanilla Cream Clover Sweet",
+      "name": "alcremie-vanilla-cream-clover-sweet",
+      "imagePath": "869-vanilla-cream-clover-sweet.png",
+      "region": null,
+      "species_name": "alcremie",
+      "uuid": "869-vanilla-cream-clover"
+    },
+    {
+      "id": 869,
+      "title": "Vanilla Cream Flower",
+      "fullTitle": "Alcremie Vanilla Cream Flower Sweet",
+      "name": "alcremie-vanilla-cream-flower-sweet",
+      "imagePath": "869-vanilla-cream-flower-sweet.png",
+      "region": null,
+      "species_name": "alcremie",
+      "uuid": "869-vanilla-cream-flower"
+    },
+    {
+      "id": 869,
+      "title": "Vanilla Cream Love",
+      "fullTitle": "Alcremie Vanilla Cream Love Sweet",
+      "name": "alcremie-vanilla-cream-love-sweet",
+      "imagePath": "869-vanilla-cream-love-sweet.png",
+      "region": null,
+      "species_name": "alcremie",
+      "uuid": "869-vanilla-cream-love"
+    },
+    {
+      "id": 869,
+      "title": "Vanilla Cream Ribbon",
+      "fullTitle": "Alcremie Vanilla Cream Ribbon Sweet",
+      "name": "alcremie-vanilla-cream-ribbon-sweet",
+      "imagePath": "869-vanilla-cream-ribbon-sweet.png",
+      "region": null,
+      "species_name": "alcremie",
+      "uuid": "869-vanilla-cream-ribbon"
+    },
+    {
+      "id": 869,
+      "title": "Vanilla Cream Star",
+      "fullTitle": "Alcremie Vanilla Cream Star Sweet",
+      "name": "alcremie-vanilla-cream-star-sweet",
+      "imagePath": "869-vanilla-cream-star-sweet.png",
+      "region": null,
+      "species_name": "alcremie",
+      "uuid": "869-vanilla-cream-star"
+    },
+    {
+      "id": 869,
+      "title": "Vanilla Cream Strawberry",
+      "fullTitle": "Alcremie Vanilla Cream Strawberry Sweet",
+      "name": "alcremie-vanilla-cream-strawberry-sweet",
+      "imagePath": "869-vanilla-cream-strawberry-sweet.png",
+      "region": null,
+      "species_name": "alcremie",
+      "uuid": "869-vanilla-cream-strawberry"
+    },
+    {
+      "id": 879,
+      "title": "Copperajah",
+      "fullTitle": "Copperajah",
+      "name": "copperajah-gmax",
+      "imagePath": "10224.png",
+      "region": "gmax",
+      "species_name": "copperajah",
+      "uuid": "879-gmax"
+    },
+    {
+      "id": 884,
+      "title": "Duraludon",
+      "fullTitle": "Duraludon",
+      "name": "duraludon-gmax",
+      "imagePath": "10225.png",
+      "region": "gmax",
+      "species_name": "duraludon",
+      "uuid": "884-gmax"
     },
     {
       "id": 892,
@@ -13953,6 +14233,26 @@
       "region": null,
       "species_name": "urshifu",
       "uuid": "892-rapid-strike"
+    },
+    {
+      "id": 892,
+      "title": "Urshifu Rapid Strike",
+      "fullTitle": "Urshifu Rapid Strike",
+      "name": "urshifu-rapid-strike-gmax",
+      "imagePath": "10227.png",
+      "region": "gmax",
+      "species_name": "urshifu",
+      "uuid": "892-rapid-strike-gmax"
+    },
+    {
+      "id": 892,
+      "title": "Urshifu Single Strike",
+      "fullTitle": "Urshifu Single Strike",
+      "name": "urshifu-single-strike-gmax",
+      "imagePath": "10226.png",
+      "region": "gmax",
+      "species_name": "urshifu",
+      "uuid": "892-single-strike-gmax"
     },
     {
       "id": 893,
@@ -14006,16 +14306,6 @@
     },
     {
       "id": 931,
-      "title": "Squawkabilly Yellow Plumage",
-      "fullTitle": "Squawkabilly Yellow Plumage",
-      "name": "squawkabilly-yellow-plumage",
-      "imagePath": "10261.png",
-      "region": null,
-      "species_name": "squawkabilly",
-      "uuid": "931-yellow-plumage"
-    },
-    {
-      "id": 931,
       "title": "Squawkabilly White Plumage",
       "fullTitle": "Squawkabilly White Plumage",
       "name": "squawkabilly-white-plumage",
@@ -14023,6 +14313,16 @@
       "region": null,
       "species_name": "squawkabilly",
       "uuid": "931-white-plumage"
+    },
+    {
+      "id": 931,
+      "title": "Squawkabilly Yellow Plumage",
+      "fullTitle": "Squawkabilly Yellow Plumage",
+      "name": "squawkabilly-yellow-plumage",
+      "imagePath": "10261.png",
+      "region": null,
+      "species_name": "squawkabilly",
+      "uuid": "931-yellow-plumage"
     },
     {
       "id": 978,
@@ -14066,16 +14366,6 @@
     },
     {
       "id": 1012,
-      "title": "Poltchageist Counterfeit",
-      "fullTitle": "Poltchageist Counterfeit",
-      "name": "poltchageist-counterfeit",
-      "imagePath": "1012.png",
-      "region": null,
-      "species_name": "poltchageist",
-      "uuid": "1012-counterfeit"
-    },
-    {
-      "id": 1012,
       "title": "Poltchageist Artisan",
       "fullTitle": "Poltchageist Artisan",
       "name": "poltchageist-artisan",
@@ -14085,14 +14375,14 @@
       "uuid": "1012-artisan"
     },
     {
-      "id": 1013,
-      "title": "Sinistcha Unremarkable",
-      "fullTitle": "Sinistcha Unremarkable",
-      "name": "sinistcha-unremarkable",
-      "imagePath": "1013.png",
+      "id": 1012,
+      "title": "Poltchageist Counterfeit",
+      "fullTitle": "Poltchageist Counterfeit",
+      "name": "poltchageist-counterfeit",
+      "imagePath": "1012.png",
       "region": null,
-      "species_name": "sinistcha",
-      "uuid": "1013-unremarkable"
+      "species_name": "poltchageist",
+      "uuid": "1012-counterfeit"
     },
     {
       "id": 1013,
@@ -14103,6 +14393,16 @@
       "region": null,
       "species_name": "sinistcha",
       "uuid": "1013-masterpiece"
+    },
+    {
+      "id": 1013,
+      "title": "Sinistcha Unremarkable",
+      "fullTitle": "Sinistcha Unremarkable",
+      "name": "sinistcha-unremarkable",
+      "imagePath": "1013.png",
+      "region": null,
+      "species_name": "sinistcha",
+      "uuid": "1013-unremarkable"
     }
   ],
   "varietiesFemales": [

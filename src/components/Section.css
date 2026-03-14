@@ -1,0 +1,54 @@
+.section-container {
+  width: 100%;
+}
+
+.section-box-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  width: 100%;
+  margin: 0 auto;
+}
+
+.section-title {
+  font-family: "Instrument Serif", serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 48px;
+  text-align: center;
+  margin: 0;
+  padding-top: 0.8em;
+}
+
+.section-sub-title {
+  font-weight: 300;
+  font-style: normal;
+  font-size: 30px;
+  text-align: center;
+  margin: 0;
+  padding-top: 0.1em;
+}
+
+.divider {
+  border: 2px solid var(--cp-lavender);
+}
+
+@media screen and (max-width: 700px) {
+  .section-title {
+    font-size: 32px;
+  }
+
+  .section-sub-title {
+    font-size: 22px
+  }
+}
+
+@media screen and (max-width: 520px) {
+  .section-title {
+    font-size: 24px;
+  }
+
+  .section-sub-title {
+    font-size: 14px
+  }
+}

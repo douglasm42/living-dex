@@ -13,6 +13,7 @@ REGIONS = [
   'galar',
   'hisui',
   'paldea',
+  'gmax',
 ]
 
 def get_region(name)
@@ -22,7 +23,7 @@ end
 data = JSON.parse(File.read('pokemons_info.json'))
 
 def build_pokemon(id, name, imagePath, species_name)
-  title = name.split('-').select{|n| !%w[alola galar hisui paldea breed].include?(n) || id == 25}.join(' ').titleize
+  title = name.split('-').select{|n| !%w[alola galar hisui paldea breed gmax].include?(n) || id == 25}.join(' ').titleize
   {
     id: id,
     title: title,
@@ -53,13 +54,15 @@ default_female_pokemons = data.select{ |p| p['has_gender_differences'] }.map do 
   )
 end.select {|p| p[:imagePath] }
 
-BAN_NAMES = %w[-mega -gmax -primal -meteor -zen -totem-alola -gulping -gorging -crowned eiscue-noice morpeko-hangry eternatus-eternamax calyrex-ice calyrex-shadow ogerpon-cornerstone-mask ogerpon-hearthflame-mask ogerpon-wellspring-mask terapagos-terastal terapagos-stellar palafin-hero -totem necrozma-dusk necrozma-dawn necrozma-ultra wishiwashi-school]
-BAN_IDS = [351, 493, 649, 773, 778, 483, 484, 487, 421, 646]
+BAN_NAME_PARTS = %w[-mega -primal -meteor -zen -totem-alola -gulping -gorging -crowned eiscue-noice morpeko-hangry eternatus-eternamax calyrex-ice calyrex-shadow ogerpon-cornerstone-mask ogerpon-hearthflame-mask ogerpon-wellspring-mask terapagos-terastal terapagos-stellar palafin-hero -totem necrozma-dusk necrozma-dawn necrozma-ultra wishiwashi-school]
+BAN_NAMES = %w[zygarde-complete zygarde-10]
+BAN_IDS = [351, 493, 649, 773, 778, 483, 484, 487, 421, 646, 716]
 
 def is_banned?(variety)
   (
     (!variety['is_default'] || variety['forms'].size > 1 ) &&
-      BAN_NAMES.all? {|n| !variety['name'].include?(n) }
+      BAN_NAME_PARTS.all? {|n| !variety['name'].include?(n) } &&
+      !BAN_NAMES.include?(variety['name'])
   )
 end
 
@@ -108,7 +111,7 @@ varieties = varieties.map do |pokemon|
     pokemon[:imagePath] = "671-#{pokemon[:name].match(/florges-(.*)/)[1]}.png"
   elsif pokemon[:id] == 773
     pokemon[:imagePath] = "773-#{pokemon[:name].match(/silvally-(.*)/)[1]}.png"
-  elsif pokemon[:id] == 869
+  elsif pokemon[:id] == 869 && pokemon[:region] != 'gmax'
     pokemon[:imagePath] = "869-#{pokemon[:name].match(/alcremie-(.*)/)[1]}.png"
     pokemon[:title] = pokemon[:title].gsub('Alcremie ', '').gsub(' Sweet', '')
   elsif pokemon[:id] == 649
@@ -124,6 +127,7 @@ varieties = varieties.map do |pokemon|
   elsif pokemon[:imagePath] == "893-dada.png"
     pokemon[:imagePath] = "10192.png"
   end
+
   pokemon
 end.select do |pokemon|
   ![414, 664, 665, 172].include?(pokemon[:id]) && !["greninja-battle-bond", "marowak-totem"].include?(pokemon[:name])
@@ -168,9 +172,20 @@ varieties_females = varieties_females.map do |p|
   p
 end
 
-File.write('pokemons_data.json', JSON.pretty_generate({
-  defaultPokemons: default_pokemons,
-  defaultFemalePokemons: default_female_pokemons,
-  varieties: varieties,
-  varietiesFemales: varieties_females,
+def ordering_name(name)
+  name.gsub('-spring', '-a')
+    .gsub('-summer', '-b')
+    .gsub('-autumn', '-c')
+    .gsub('-winter', '-d')
+    .gsub('-small', '-a')
+    .gsub('-large', '-b')
+    .gsub('-super', '-c')
+end
+
+
+File.write('../src/assets/pokemons_data.json', JSON.pretty_generate({
+  defaultPokemons: default_pokemons.sort_by { |a| [a[:id], ordering_name(a[:name])] },
+  defaultFemalePokemons: default_female_pokemons.sort_by { |a| [a[:id], ordering_name(a[:name])] },
+  varieties: varieties.sort_by { |a| [a[:id], ordering_name(a[:name])] },
+  varietiesFemales: varieties_females.sort_by { |a| [a[:id], ordering_name(a[:name])] },
 }))

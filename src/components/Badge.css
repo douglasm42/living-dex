@@ -1,0 +1,18 @@
+.badge {
+  line-height: 1.1em;
+  font-weight: 300;
+  display: inline-block;
+  background-color: var(--cp-base);
+  color: var(--cp-text);
+  border-radius: 0.3em;
+  padding: 0.1em 0.3em;
+  opacity: 1;
+  white-space: nowrap;
+  margin-inline: 0.15em;
+}
+
+.badge svg {
+  position: relative;
+  top: 0.1em;
+  vertical-align: text-top;
+}

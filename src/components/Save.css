@@ -1,18 +1,8 @@
-.save-resting-place {
-  position: relative;
-  height: 0;
-}
-
-@media screen and (max-width: 1200px) {
-  .save-resting-place {
-    height: 46px;
-  }
-}
-
 .save-container {
   position: absolute;
-  top: 15px;
-  right: 15px;
+  font-size: 25px;
+  top: 0.6em;
+  right: 0.6em;
   display: flex;
 }
 
@@ -21,10 +11,9 @@
   border-radius: 0.3em;
   background-color: var(--cp-surface-0);
   color: var(--cp-green);
-  font-size: 25px;
+  font-size: 1em;
   margin: 0.1em;
   padding: 0.1em 0.3em;
-
   position: relative;
 
   display: flex;
@@ -41,4 +30,32 @@
 .save-button:active {
   border: 1px solid var(--cp-text);
   background-color: var(--cp-surface-2);
+}
+
+@media screen and (max-width: 1200px) {
+  .save-container {
+    position: static;
+    display: flex;
+    justify-content: flex-end;
+  }
+}
+
+@media screen and (max-width: 700px) {
+  .save-container {
+    position: static;
+    display: flex;
+    justify-content: flex-end;
+    padding: 8px;
+    font-size: 15px;
+  }
+}
+
+@media screen and (max-width: 520px) {
+  .save-container {
+    position: static;
+    display: flex;
+    justify-content: flex-end;
+    padding: 4px;
+    font-size: 15px;
+  }
 }

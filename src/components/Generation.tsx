@@ -1,17 +1,17 @@
-import './Generation.css'
-
 import React from 'react'
 import Box from './Box'
-import { type GenData, type PokemonData } from '../lib/PokemonData'
+import { REGION_NAMES, type GenData, type PokemonData } from '../lib/PokemonData'
+import Badge from './Badge'
+import Section from './Section'
 
-function boxesTitleSequence(allPokemons: PokemonData[], title: string): (p: PokemonData[], index: number) => string {
+function boxesTitleSequence(allPokemons: (PokemonData | null)[], title: string): (p: (PokemonData | null)[], index: number) => string {
   return (_, index) => allPokemons.length > 30 ? `${title} ${index + 1}` : title
 }
 
 function buildBoxes(
   boxes: React.ReactNode[],
-  pokemons: PokemonData[],
-  titleGen: (p: PokemonData[], index: number) => string,
+  pokemons: (PokemonData | null)[],
+  titleGen: (p: (PokemonData | null)[], index: number) => string,
 ): void {
   let pokemonsLeft = pokemons
   let index = 0
@@ -82,16 +82,16 @@ export default function Generation({ gen }: GenerationProps) {
   buildSpeciesBoxes(boxes, gen, [869], 'Alcremie')
 
   gen.regions.forEach( region => {
-    buildSimpleBoxes(boxes, gen.pokemons.regionalForms, region)
+    buildSimpleBoxes(boxes, gen.pokemons.regionalForms.filter( p => p.region == region ), REGION_NAMES[region])
   })
 
+  const games = gen.games.map( g => <Badge style={{ fontSize: '0.8em' }} key={g.name} color={g.color} backgroundColor={g.backgroundColor} >{g.name}</Badge>)
+
+  const subTitle = <React.Fragment>{gen.subTitle} - {games}</React.Fragment>
+
   return (
-    <div className='generation-container' key={gen.title}>
-      <h1 className='generation-title'>{gen.title}</h1>
-      <hr className='divider' />
-      <div className='generation-box-container'>
-        {boxes}
-      </div>
-    </div>
+    <Section title={gen.title} subTitle={subTitle}>
+      {boxes}
+    </Section>
   )
 }

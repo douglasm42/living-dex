@@ -36,19 +36,17 @@ export default function Save({ onImport }: SaveProps): React.ReactNode {
   }
 
   return (
-    <div className='save-resting-place'>
-      <div className='save-container'>
-        <Tooltip content="Copy the JSON data of your living dex.">
-          <button className='save-button save-export' onClick={copyToClipboard}>
-            <Copy size="1em" />Copy{isCopied ? <Check size="1em" /> : null}
-          </button>
-        </Tooltip>
-        <Tooltip rightSide content="Replace the current living dex with the data on your clipboard.">
-          <button className='save-button save-import' onClick={importValueFromClipboard}>
-            <Clipboard size="1em" />Paste{isImported == 'success' ? <Check size="1em" /> : isImported == 'failure' ? <X size="1em" /> : null}
-          </button>
-        </Tooltip>
-      </div>
+    <div className='save-container'>
+      <Tooltip content="Copy the JSON data of your living dex.">
+        <button className='save-button save-export' onClick={copyToClipboard}>
+          <Copy size="1em" />Copy{isCopied ? <Check size="1em" /> : null}
+        </button>
+      </Tooltip>
+      <Tooltip rightSide content="Replace the current living dex with the data on your clipboard.">
+        <button className='save-button save-import' onClick={importValueFromClipboard}>
+          <Clipboard size="1em" />Paste{isImported == 'success' ? <Check size="1em" /> : isImported == 'failure' ? <X size="1em" /> : null}
+        </button>
+      </Tooltip>
     </div>
   )
 }
