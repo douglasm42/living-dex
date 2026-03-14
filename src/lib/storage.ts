@@ -1,4 +1,18 @@
+import { deflate, inflate } from 'pako'
+
 const ITEM_ID = 'catchedPokemons'
+
+function base64ToBytes(base64: string): Uint8Array {
+  const binString = atob(base64);
+  return Uint8Array.from(binString, (m) => m.codePointAt(0) as number)
+}
+
+function bytesToBase64(bytes: Uint8Array) {
+  const binString = Array.from(bytes, (byte) =>
+    String.fromCodePoint(byte),
+  ).join("");
+  return btoa(binString);
+}
 
 export class PokemonsStatus {
   pokemons: Record<string, boolean>
@@ -17,12 +31,43 @@ export class PokemonsStatus {
   }
 
   setCatched(id: string, catched: boolean) {
-    this.pokemons[id] = catched
+    if(catched) {
+      this.pokemons[id] = catched
+    } else {
+      delete this.pokemons[id]
+    }
+    window.localStorage.setItem(ITEM_ID, JSON.stringify(this.pokemons))
+  }
+
+  removeUnused() {
+    Object.entries(this.pokemons).forEach( ([uuid, catched]) => {
+      if(!catched) {
+        delete this.pokemons[uuid]
+      }
+    })
     window.localStorage.setItem(ITEM_ID, JSON.stringify(this.pokemons))
   }
 
   export(): string {
-    return JSON.stringify(this.pokemons)
+    this.removeUnused()
+    return bytesToBase64(deflate(JSON.stringify(this.pokemons)))
+  }
+
+  import(value: string) {
+    try {
+      const bytes = base64ToBytes(value)
+      const inflated = inflate(bytes, { to: 'string' })
+  
+      if(this.isValid(inflated)) {
+        this.load(inflated)
+        return true
+      } else {
+        return false
+      }
+    } catch (err) {
+      console.error(err)
+      return false
+    }
   }
 
   isValid(value: string): boolean {

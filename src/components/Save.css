@@ -7,10 +7,10 @@
 }
 
 .save-button {
-  border: 1px solid var(--cp-green);
+  border: 1px solid var(--cp-teal);
   border-radius: 0.3em;
   background-color: var(--cp-surface-0);
-  color: var(--cp-green);
+  color: var(--cp-teal);
   font-size: 1em;
   margin: 0.1em;
   padding: 0.1em 0.3em;
@@ -19,6 +19,16 @@
   display: flex;
   align-items: center;
   gap: 0.2em;
+}
+
+.save-button.success {
+  color: var(--cp-green);
+  border-color: var(--cp-green);
+}
+
+.save-button.failure {
+  color: var(--cp-red);
+  border-color: var(--cp-red);
 }
 
 .save-button:hover {
