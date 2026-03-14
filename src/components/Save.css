@@ -1,5 +1,5 @@
 .save-container {
-  position: absolute;
+  position: fixed;
   font-size: 25px;
   top: 0.6em;
   right: 0.6em;
@@ -40,6 +40,12 @@
 .save-button:active {
   border: 1px solid var(--cp-text);
   background-color: var(--cp-surface-2);
+}
+
+.save-button:disabled {
+  border: 1px solid var(--cp-subtext-1);
+  color: var(--cp-subtext-1);
+  background-color: var(--cp-surface-0);
 }
 
 @media screen and (max-width: 1200px) {

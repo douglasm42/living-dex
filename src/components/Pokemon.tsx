@@ -25,7 +25,7 @@ export default function Pokemon({ id, name, imagePath, uuid, icon }: PokemonProp
   }
 
   const style = {
-    backgroundImage: uuid ? `url(https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/home/${imagePath})` : undefined,
+    backgroundImage: uuid ? `url(https://raw.githubusercontent.com/PokeAPI/sprites/d8eba5657870d202c17905a3d9c412a758164b66/sprites/pokemon/other/home/${imagePath})` : undefined,
   }
 
   const infoLink = <a className="pokemon-info" onClick={handleChildClick} href={`https://pokemondb.net/pokedex/${id}`} target="_blank">i</a>

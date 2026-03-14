@@ -8,6 +8,7 @@ import type { PokemonData } from '../lib/PokemonData'
 
 interface BoxProps {
   title: string
+  description?: string
   pokemons: (PokemonData | null)[]
 }
 
@@ -42,7 +43,7 @@ function addMissing(row: React.ReactNode[]): React.ReactNode[] {
   return row
 }
 
-export default function Box({ title, pokemons }: BoxProps): React.ReactNode {
+export default function Box({ title, description, pokemons }: BoxProps): React.ReactNode {
   const rows = [
     row(0, pokemons),
     row(1, pokemons),
@@ -54,6 +55,7 @@ export default function Box({ title, pokemons }: BoxProps): React.ReactNode {
   return (
     <article className="box">
       <h2 className='box-title'>{title}</h2>
+      {description && <p className='box-description'>{description}</p>}
       {rows}
     </article>
   )

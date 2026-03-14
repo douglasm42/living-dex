@@ -9,10 +9,21 @@
   color: var(--cp-mauve);
   font-weight: 400;
   font-style: normal;
-  font-size: 55px;
+  font-size: 100px;
   text-align: center;
   margin: 0;
   padding-top: 0.8em;
+}
+
+.app-title small {
+  color: var(--cp-lavender);
+  font-weight: 300;
+  font-size: 0.3em;
+}
+
+.app-title a {
+  font-family: "Fira Code", monospace;
+  text-decoration: none;
 }
 
 .app-divider {
@@ -20,8 +31,8 @@
 }
 
 .app-instructions {
-  max-width: 800px;
-  font-size: 18px;
+  max-width: 1200px;
+  font-size: 28px;
   margin: 0 auto;
   margin-bottom: 5em;
 }
@@ -52,15 +63,32 @@
 }
 
 
+@media screen and (max-width: 1200px) {
+  .app-title {
+    font-size: 80px;
+  }
+
+  .app-instructions {
+    max-width: 800px;
+    font-size: 24px;
+  }
+}
+
+
 @media screen and (max-width: 700px) {
   .app-title {
-    font-size: 32px;
+    font-size: 60px;
+  }
+
+  .app-instructions {
+    max-width: 800px;
+    font-size: 14px;
   }
 }
 
 @media screen and (max-width: 520px) {
   .app-title {
-    font-size: 24px;
+    font-size: 40px;
   }
 }
 

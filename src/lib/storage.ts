@@ -53,6 +53,17 @@ export class PokemonsStatus {
     return bytesToBase64(deflate(JSON.stringify(this.pokemons)))
   }
 
+  clear(): boolean {
+    try {
+      this.pokemons = {}
+      window.localStorage.setItem(ITEM_ID, JSON.stringify(this.pokemons))
+      return true
+    } catch (err) {
+      console.error(err)
+      return false
+    }
+  }
+
   import(value: string) {
     try {
       const bytes = base64ToBytes(value)
