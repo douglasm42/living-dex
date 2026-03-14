@@ -64,13 +64,14 @@ function App() {
       <hr className='app-divider' />
       <div className='app-instructions'>
         <p>
-          The data is daved on localstorage. You can use the Copy and Paste button
+          The data is saved on localstorage. You can use the Copy and Paste button
           up top to save it somewhere safe and then restore it later on in another
           computer.
         </p>
         <p>
           You can click on the Pokemon card to mark it as catched and also on the
-          <code>i</code> button to view more details in <a href="https://pokemondb.net/" target="_blank">pokemondb.net</a>.
+          <code>i</code> button to view more details in
+          <a href="https://pokemondb.net/" target="_blank">pokemondb.net</a>.
         </p>
       </div>
       <Section title="Cross Generations" subTitle="Interesting Groups not related to any generation">
