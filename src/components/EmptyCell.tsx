@@ -4,8 +4,10 @@ import React from 'react'
 
 export default function EmptyCell(): React.ReactNode {
   return (
-    <div className="box-cell pokemon-container">
-      <div className="pokemon-card pokemon-card-empty" >
+    <div className="box-cell">
+      <div className="pokemon-container">
+        <div className="pokemon-card pokemon-card-empty" >
+        </div>
       </div>
     </div>
   )
