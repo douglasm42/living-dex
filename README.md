@@ -4,11 +4,9 @@ Checklist to build a living dex including HOME storable alternate forms and vari
 
 ## Roadmap
 
-- [ ] Use atlas for loading pokemon images.
 - [ ] Add internationalization
 - [ ] Add fuzzy search
 - [ ] Add modal box to show basic pokemon info including type
-- [ ] Experiment with a spritesheet for showing the pokemon images.
 
 ## Development
 

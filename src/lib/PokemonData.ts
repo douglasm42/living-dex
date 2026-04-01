@@ -1,5 +1,6 @@
 import type { IconName } from 'lucide-react/dynamic'
 import untypedPokemonsData from '../assets/pokemons_data.json'
+import atlasSpriteMap from '../assets/atlas_sprite_map.json'
 
 export interface PokemonData {
   id: number,
@@ -18,6 +19,8 @@ export const ALL_POKEMONS_DATA: {
   varieties: PokemonData[]
   varietiesFemales: PokemonData[]
 } = untypedPokemonsData
+
+export const ATLAS_SPRITE_MAP: Record<string, { sheet: number, x: number, y: number }> = atlasSpriteMap
 
 export const DEFAULT_POKEMONS = ALL_POKEMONS_DATA.defaultPokemons
 export const DEFAULT_FEMALE_POKEMONS = ALL_POKEMONS_DATA.defaultFemalePokemons.map( p => {

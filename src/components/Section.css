@@ -3,10 +3,13 @@
 }
 
 .section-container-collapsible-toggle {
+  position: sticky;
+  top: 0;
+  z-index: 1000;
   width: 100%;
   padding: 0;
   margin: 0;
-  background-color: inherit;
+  background-color: var(--cp-base);
   border: none;
 }
 
