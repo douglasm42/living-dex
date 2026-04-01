@@ -11916,16 +11916,6 @@
     },
     {
       "id": 201,
-      "title": "Exclamation",
-      "fullTitle": "Unown Exclamation",
-      "name": "unown-exclamation",
-      "imagePath": "201-exclamation.png",
-      "region": null,
-      "species_name": "unown",
-      "uuid": "201-exclamation"
-    },
-    {
-      "id": 201,
       "title": "F",
       "fullTitle": "Unown F",
       "name": "unown-f",
@@ -12046,16 +12036,6 @@
     },
     {
       "id": 201,
-      "title": "Question",
-      "fullTitle": "Unown Question",
-      "name": "unown-question",
-      "imagePath": "201-question.png",
-      "region": null,
-      "species_name": "unown",
-      "uuid": "201-question"
-    },
-    {
-      "id": 201,
       "title": "R",
       "fullTitle": "Unown R",
       "name": "unown-r",
@@ -12143,6 +12123,26 @@
       "region": null,
       "species_name": "unown",
       "uuid": "201-z"
+    },
+    {
+      "id": 201,
+      "title": "Exclamation",
+      "fullTitle": "Unown Exclamation",
+      "name": "unown-exclamation",
+      "imagePath": "201-exclamation.png",
+      "region": null,
+      "species_name": "unown",
+      "uuid": "201-exclamation"
+    },
+    {
+      "id": 201,
+      "title": "Question",
+      "fullTitle": "Unown Question",
+      "name": "unown-question",
+      "imagePath": "201-question.png",
+      "region": null,
+      "species_name": "unown",
+      "uuid": "201-question"
     },
     {
       "id": 211,

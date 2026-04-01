@@ -180,6 +180,8 @@ def ordering_name(name)
     .gsub('-small', '-a')
     .gsub('-large', '-b')
     .gsub('-super', '-c')
+    .gsub('-exclamation', '-z-exclamation')
+    .gsub('-question', '-z-question')
 end
 
 
