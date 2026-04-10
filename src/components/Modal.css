@@ -1,0 +1,29 @@
+.modal-background {
+  display: none;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  background-color: #000000aa;
+  z-index: 100;
+}
+
+.modal-background.visible {
+  display: block;
+}
+
+.modal-container {
+  margin: 0 auto;
+  padding: 1.5em;
+  width: 100%;
+  max-width: 1200px;
+}
+
+.modal-box {
+  padding: 1.5em;
+  border-radius: 0.5em;
+  background-color: var(--cp-base);
+  color: var(--cp-text);
+  width: 100%;
+}

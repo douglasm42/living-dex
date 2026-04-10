@@ -2,29 +2,21 @@ import './Box.css'
 
 import React from 'react'
 
-import Pokemon from './Pokemon'
+import Pokemon, { type PokemonProps } from './Pokemon'
 import EmptyCell from './EmptyCell'
-import type { PokemonData } from '../lib/PokemonData'
 
 interface BoxProps {
   title: string
   description?: string
-  pokemons: (PokemonData | null)[]
+  pokemons: (PokemonProps | null)[]
 }
 
-function row(i: number, arr: (PokemonData | null)[]): React.ReactNode[] {
+function row(i: number, arr: (PokemonProps | null)[]): React.ReactNode[] {
   return addMissing(arr.slice(i*6, (i+1)*6).map(
     (pokemon, i) => {
       if(pokemon) {
         return (
-          <Pokemon 
-            key={pokemon.uuid} 
-            id={pokemon.id.toString()} 
-            name={pokemon.title} 
-            imagePath={pokemon.imagePath} 
-            uuid={pokemon.uuid} 
-            icon={pokemon.icon}
-          />
+          <Pokemon {...pokemon} />
         )
       } else {
         return <EmptyCell key={i} />

@@ -2,6 +2,8 @@ require 'json'
 require 'digest/sha1'
 require 'titleize'
 
+RAW_DATA_FILENAME = 'scripts/pokemons_info.json'
+
 REGIONS = [
   'kanto',
   'johto',
@@ -16,22 +18,66 @@ REGIONS = [
   'gmax',
 ]
 
-def get_region(name)
-  REGIONS.select { |r| name.include?(r) && !name.end_with?('-cap') }.first
+REGION_PREFIX = {
+  'alola' => 'Alolan',
+  'galar' => 'Galarian',
+  'hisui' => 'Hisuian',
+  'paldea' => 'Paldean',
+  'gmax' => 'Gigantamax',
+}
+
+def get_region(variation)
+  REGIONS.select { |r| variation.include?(r) && !variation.end_with?('-cap') }.first if variation
 end
 
-data = JSON.parse(File.read('pokemons_info.json'))
+data = JSON.parse(File.read(RAW_DATA_FILENAME))
 
-def build_pokemon(id, name, imagePath, species_name)
-  title = name.split('-').select{|n| !%w[alola galar hisui paldea breed gmax].include?(n) || id == 25}.join(' ').titleize
+def build_title(name)
+  name.split('-').join(' ').titleize
+end
+
+def build_sub_title(variation)
+  return nil unless variation
+
+  if variation == 'f'
+    '♀'
+  elsif variation
+    variation.split('-')
+             .reject{|n| %w[alola galar hisui paldea breed gmax].include?(n) && !variation.include?('-cap') }
+             .map {|t| t == 'f' ? '♀' : t }
+             .join(' ').titleize
+  end
+end
+
+def title_region(region)
+
+end
+
+def cleanup_variation(name, variation)
+  return nil unless variation
+
+  variation.gsub(name, '')
+           .split('-').compact.reject(&:empty?)
+           .join('-')
+end
+
+def build_pokemon(id, name, variation, imagePath)
+  variation = cleanup_variation(name, variation)
+  region = get_region(variation)
+
+  region_prefix = REGION_PREFIX[region]
+  title = build_title(name)
+  sub_title = build_sub_title(variation)
+
   {
     id: id,
+    prefix: region_prefix,
     title: title,
-    fullTitle: title,
+    subTitle: sub_title,
     name: name,
+    variation: variation,
     imagePath: imagePath,
-    region: get_region(name),
-    species_name: species_name,
+    region: region,
   }
 end
 
@@ -39,8 +85,8 @@ default_pokemons = data.map do |pokemon|
   build_pokemon(
     pokemon['id'],
     pokemon['name'],
+    nil,
     pokemon['varieties'].select { |v| v['is_default'] }.first['default_sprite'],
-    pokemon['name']
   )
 end
 
@@ -49,8 +95,8 @@ default_female_pokemons = data.select{ |p| p['has_gender_differences'] }.map do 
   build_pokemon(
     pokemon['id'],
     pokemon['name'],
+    'f',
     default_variety['female_sprite'] || default_variety['default_sprite'],
-    pokemon['name']
   )
 end.select {|p| p[:imagePath] }
 
@@ -66,7 +112,7 @@ def is_banned?(variety)
   )
 end
 
-only_varieties = JSON.parse(File.read('pokemons_info.json')).select {|p| !BAN_IDS.include?(p['id']) }.map do |pokemon|
+only_varieties = JSON.parse(File.read(RAW_DATA_FILENAME)).select {|p| !BAN_IDS.include?(p['id']) }.map do |pokemon|
   pokemon['varieties'] = pokemon['varieties'].select {|v| is_banned?(v) }
   pokemon
 end.select {|p| !p['varieties'].empty?}
@@ -74,63 +120,48 @@ end.select {|p| !p['varieties'].empty?}
 varieties = only_varieties.reduce([]) do |vars, pokemon|
   vars + pokemon['varieties'].map do |v|
     v['forms'].map do |f|
-      build_pokemon(pokemon['id'], f, v['default_sprite'], pokemon['name'])
+      build_pokemon(pokemon['id'], pokemon['name'], f, v['default_sprite'])
+    end + v['forms'].map do |f|
+      build_pokemon(pokemon['id'], pokemon['name'], "#{f}-f", v['female_sprite'])
     end
   end.flatten
-end.select {|p| p[:imagePath] && !p[:name].end_with?('-female') && !p[:name].end_with?('-male') }
-
-varieties_females = only_varieties.reduce([]) do |vars, pokemon|
-  vars + pokemon['varieties'].map do |v|
-    v['forms'].map do |f|
-      build_pokemon(pokemon['id'], f, v['female_sprite'], pokemon['name'])
-    end
-  end.flatten
-end.select {|p| p[:imagePath] && !p[:name].end_with?('-female') && !p[:name].end_with?('-male') }
+end.select {|p| p[:imagePath] && !p[:variation].end_with?('female') && !p[:variation].end_with?('male') }
 
 varieties = varieties.map do |pokemon|
-  if pokemon[:id] == 25 && pokemon[:title].include?('Cap')
-    pokemon[:title] = pokemon[:title].gsub('Pikachu ', '').gsub(' Cap', '')
+  if pokemon[:id] == 25 && pokemon[:subTitle].include?('Cap')
+    pokemon[:subTitle] = pokemon[:subTitle].gsub(' Cap', '')
   elsif pokemon[:id] == 201
-    pokemon[:imagePath] = "201-#{pokemon[:name].match(/unown-(.*)/)[1]}.png"
-    pokemon[:title] = pokemon[:title].gsub('Unown ', '')
+    pokemon[:imagePath] = "201-#{pokemon[:variation]}.png"
+    pokemon[:subTitle] = pokemon[:subTitle].gsub('Unown ', '')
   elsif pokemon[:id] == 412
-    pokemon[:imagePath] = "412-#{pokemon[:name].match(/burmy-(.*)/)[1]}.png"
-  elsif pokemon[:id] == 493
-    pokemon[:imagePath] = "493-#{pokemon[:name].match(/arceus-(.*)/)[1]}.png" unless pokemon[:name] == 'arceus-normal'
+    pokemon[:imagePath] = "412-#{pokemon[:variation]}.png"
   elsif pokemon[:id] == 666
-    pokemon[:imagePath] = "666-#{pokemon[:name].match(/vivillon-(.*)/)[1]}.png"
-    pokemon[:title] = pokemon[:title].gsub('Vivillon ', '')
+    pokemon[:imagePath] = "666-#{pokemon[:variation]}.png"
   elsif pokemon[:id] == 676
-    pokemon[:imagePath] = "676-#{pokemon[:name].match(/furfrou-(.*)/)[1]}.png"
-    pokemon[:title] = pokemon[:title].gsub('Furfrou ', '')
+    pokemon[:imagePath] = "676-#{pokemon[:variation]}.png"
   elsif pokemon[:id] == 669
-    pokemon[:imagePath] = "669-#{pokemon[:name].match(/flabebe-(.*)/)[1]}.png"
+    pokemon[:imagePath] = "669-#{pokemon[:variation]}.png"
   elsif pokemon[:id] == 670
-    pokemon[:imagePath] = "670-#{pokemon[:name].match(/floette-(.*)/)[1]}.png"
+    pokemon[:imagePath] = "670-#{pokemon[:variation]}.png"
   elsif pokemon[:id] == 671
-    pokemon[:imagePath] = "671-#{pokemon[:name].match(/florges-(.*)/)[1]}.png"
-  elsif pokemon[:id] == 773
-    pokemon[:imagePath] = "773-#{pokemon[:name].match(/silvally-(.*)/)[1]}.png"
+    pokemon[:imagePath] = "671-#{pokemon[:variation]}.png"
   elsif pokemon[:id] == 869 && pokemon[:region] != 'gmax'
-    pokemon[:imagePath] = "869-#{pokemon[:name].match(/alcremie-(.*)/)[1]}.png"
-    pokemon[:title] = pokemon[:title].gsub('Alcremie ', '').gsub(' Sweet', '')
-  elsif pokemon[:id] == 649
-    pokemon[:imagePath] = "649#{pokemon[:name].match(/genesect(.*)/)[1]}.png"
+    pokemon[:imagePath] = "869-#{pokemon[:variation]}.png"
   elsif pokemon[:id] == 585
-    pokemon[:imagePath] = "585#{pokemon[:name].match(/deerling(.*)/)[1]}.png"
+    pokemon[:imagePath] = "585-#{pokemon[:variation]}.png"
   elsif pokemon[:id] == 586
-    pokemon[:imagePath] = "586#{pokemon[:name].match(/sawsbuck(.*)/)[1]}.png"
+    pokemon[:imagePath] = "586-#{pokemon[:variation]}.png"
   elsif pokemon[:id] == 422
-    pokemon[:imagePath] = "422#{pokemon[:name].match(/shellos(.*)/)[1]}.png"
+    pokemon[:imagePath] = "422-#{pokemon[:variation]}.png"
   elsif pokemon[:id] == 423
-    pokemon[:imagePath] = "423#{pokemon[:name].match(/gastrodon(.*)/)[1]}.png"
+    pokemon[:imagePath] = "423-#{pokemon[:variation]}.png"
   elsif pokemon[:imagePath] == "893-dada.png"
     pokemon[:imagePath] = "10192.png"
   end
 
   pokemon
 end.select do |pokemon|
-  ![414, 664, 665, 172].include?(pokemon[:id]) && !["greninja-battle-bond", "marowak-totem"].include?(pokemon[:name])
+  ![414, 664, 665, 172].include?(pokemon[:id]) && !["battle-bond", "totem"].include?(pokemon[:variation])
 end
 
 default_pokemons = default_pokemons.map do |p|
@@ -156,38 +187,163 @@ def unique_uuid(uuid)
 end
 
 varieties = varieties.map do |p|
-  variation_sufix = p[:name].gsub(p[:species_name], '')
+  variation_sufix = p[:variation]
   if p[:id] == 869
     variation_sufix = variation_sufix.gsub('-sweet', '')
   end
 
-  p[:uuid] = unique_uuid("#{p[:id]}#{variation_sufix}")
+  p[:uuid] = unique_uuid("#{p[:id]}-#{variation_sufix}")
   p
 end
 
-varieties_females = varieties_females.map do |p|
-  variation_sufix = p[:name].gsub(p[:species_name], '')
+def ordering_name(id, name)
+  return nil unless name
 
-  p[:uuid] = unique_uuid("#{p[:id]}#{variation_sufix}-f")
-  p
+  oname = name.gsub('spring', 'a')
+              .gsub('summer', 'b')
+              .gsub('autumn', 'c')
+              .gsub('winter', 'd')
+              .gsub('small', 'a')
+              .gsub('large', 'b')
+              .gsub('super', 'c')
+              .gsub('white', '0white')
+              .gsub('red', '1red')
+              .gsub('orange', '2orange')
+              .gsub('yellow', '3yellow')
+              .gsub('green', '4green')
+              .gsub('blue', '5blue')
+              .gsub('indigo', '6indigo')
+              .gsub('violet', '7violet')
+              .gsub('black', '8black')
+              .gsub('flower', '1flower')         # orange
+              .gsub('star', '2star')             # yellow
+              .gsub('clover', '3clover')         # green
+              .gsub('berry', '4berry')           # blue
+              .gsub('ribbon', '5ribbon')         # purple
+              .gsub('strawberry', '6strawberry') # pink
+              .gsub('love', '7love')             # light pink
+              .gsub('natural', '0natural')
+              .gsub('exclamation', 'z-exclamation')
+              .gsub('question', 'z-question')
+  
+  oname = oname.gsub(/^(.+?)-(.+?)-(.+?)-(.+?)$/, '\3-\2-\1') if id == 869
+
+  oname
 end
 
-def ordering_name(name)
-  name.gsub('-spring', '-a')
-    .gsub('-summer', '-b')
-    .gsub('-autumn', '-c')
-    .gsub('-winter', '-d')
-    .gsub('-small', '-a')
-    .gsub('-large', '-b')
-    .gsub('-super', '-c')
-    .gsub('-exclamation', '-z-exclamation')
-    .gsub('-question', '-z-question')
+def edit_entry(elements, uuid)
+  entry = elements.find {|p| p[:uuid] == uuid }
+  yield(entry)
 end
 
+edit_entry(varieties, '849-amped-gmax') do |p|
+  p[:prefix] = nil
+  p[:subTitle] = 'Amped'
+  p[:variation] = 'amped'
+  p[:region] = nil
+  p[:uuid] = '849-amped'
+  p[:imagePath] = '849.png'
+end
 
-File.write('../src/assets/pokemons_data.json', JSON.pretty_generate({
-  defaultPokemons: default_pokemons.sort_by { |a| [a[:id], ordering_name(a[:name])] },
-  defaultFemalePokemons: default_female_pokemons.sort_by { |a| [a[:id], ordering_name(a[:name])] },
-  varieties: varieties.sort_by { |a| [a[:id], ordering_name(a[:name])] },
-  varietiesFemales: varieties_females.sort_by { |a| [a[:id], ordering_name(a[:name])] },
-}))
+edit_entry(varieties, '849-low-key-gmax') do |p|
+  p[:prefix] = 'Gigantamax'
+  p[:subTitle] = nil
+  p[:variation] = 'gmax'
+  p[:uuid] = '849-gmax'
+end
+
+varieties << {
+  id: 413,
+  prefix: nil,
+  title: "Wormadam",
+  subTitle: "Plant",
+  name: "wormadam",
+  variation: "plant",
+  imagePath: "413.png",
+  region: nil,
+  uuid: "413-plant",
+}
+
+varieties << {
+  id: 550,
+  prefix: nil,
+  title: "Basculin",
+  subTitle: "Red Striped",
+  name: "basculin",
+  variation: "red-striped",
+  imagePath: "550.png",
+  region: nil,
+  uuid: "550-red-striped"
+}
+
+varieties << {
+  id: 931,
+  prefix: nil,
+  title: "Squawkabilly",
+  subTitle: "Green Plumage",
+  name: "squawkabilly",
+  variation: "green-plumage",
+  imagePath: "931.png",
+  region: nil,
+  uuid: "931-green-plumage"
+}
+
+varieties << {
+  id: 978,
+  prefix: nil,
+  title: "Tatsugiri",
+  subTitle: "Curly",
+  name: "tatsugiri",
+  variation: "curly",
+  imagePath: "978.png",
+  region: nil,
+  uuid: "978-curly"
+}
+
+all_entries = default_pokemons + default_female_pokemons + varieties
+all_entries.each do |entry|
+  duplicates = all_entries.select { |e| e[:uuid] == entry[:uuid] }
+  raise "Duplicate uuids for: #{duplicates}" if duplicates.size != 1
+end
+
+result = {
+  defaultPokemons: default_pokemons.sort_by { |a| [a[:id], ordering_name(a[:id], a[:variation])] },
+  defaultFemalePokemons: default_female_pokemons.sort_by { |a| [a[:id], ordering_name(a[:id], a[:variation])] },
+  varieties: varieties.sort_by { |a| [a[:id], ordering_name(a[:id], a[:variation])] },
+}
+
+def assert_no_missing_on_second(message, first_list, second_list, compare = false)
+  missing = []
+  first_list.each do |first_record|
+    second_record = second_list.find { |p| p[:uuid] == first_record[:uuid] }
+    missing << "- Missing UUID: #{first_record[:name]}:#{first_record[:variation]} ##{first_record[:uuid]}" unless second_record
+    if compare
+      missing << "- Different Image: #{first_record[:name]}:#{first_record[:variation]} #{first_record[:imagePath]} -> #{second_record[:imagePath]}" unless second_record[:imagePath] == first_record[:imagePath]
+    end
+  end
+
+  return false if missing.empty?
+
+  puts "#{message}:"
+  puts missing.join("\n")
+  true
+end
+
+def assert_no_changes_to_uuid(result)
+  old = JSON.parse(File.read('./src/assets/pokemons_data.json'), symbolize_names: true)
+
+  misses = false
+  misses = misses || assert_no_missing_on_second('Not found on new.default', old[:defaultPokemons], result[:defaultPokemons], true)
+  misses = misses || assert_no_missing_on_second('Not found on old.default', result[:defaultPokemons], old[:defaultPokemons])
+
+  misses = misses || assert_no_missing_on_second('Not found on new.females', old[:defaultFemalePokemons], result[:defaultFemalePokemons], true)
+  misses = misses || assert_no_missing_on_second('Not found on old.females', result[:defaultFemalePokemons], old[:defaultFemalePokemons])
+
+  misses = misses || assert_no_missing_on_second('Not found on new.varieties', old[:varieties], result[:varieties], true)
+  misses = misses || assert_no_missing_on_second('Not found on old.varieties', result[:varieties], old[:varieties])
+  
+  raise "Skipping write because the new version isn't compatible" if misses
+end
+
+File.write('./src/assets/pokemons_data.json', JSON.pretty_generate(result))
+puts "Completed"

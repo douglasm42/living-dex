@@ -29,7 +29,7 @@ def generate_atlas(filenames, atlas_index)
   end
 
   puts "Saving Atlas atlas_#{atlas_index}.png..."
-  atlas.write("../public/atlas_#{atlas_index}.png")
+  atlas.write("./public/atlas_#{atlas_index}.png")
 end
 
 filenames = []
@@ -48,10 +48,6 @@ data['varieties'].each do |pokemon|
   filenames << pokemon['imagePath']
 end
 
-data['varietiesFemales'].each do |pokemon|
-  filenames << pokemon['imagePath']
-end
-
 filenames.uniq!
 
 index = 0
@@ -60,4 +56,4 @@ filenames.each_slice(150) do |chunk|
   index += 1
 end
 
-File.write('../src/assets/atlas_sprite_map.json', JSON.pretty_generate($atlas_map))
+File.write('./src/assets/atlas_sprite_map.json', JSON.pretty_generate($atlas_map))

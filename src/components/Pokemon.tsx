@@ -3,7 +3,7 @@ import './Pokemon.css'
 
 import React, { useState } from 'react'
 import { storage } from '../lib/storage'
-import { ATLAS_SPRITE_MAP } from '../lib/PokemonData'
+import { ATLAS_SPRITE_MAP, getGeneration } from '../lib/PokemonData'
 
 export interface PokemonProps {
   id: string
@@ -11,9 +11,11 @@ export interface PokemonProps {
   imagePath: string
   uuid: string
   icon?: IconName
+  subTitle?: string
+  showGen?: boolean
 }
 
-export default function Pokemon({ id, name, imagePath, uuid, icon }: PokemonProps): React.ReactNode {
+export default function Pokemon({ id, name, imagePath, uuid, icon, subTitle, showGen }: PokemonProps): React.ReactNode {
   const [catched, setCatched] = useState(storage.catched(uuid))
 
   const handleCatch = () => {
@@ -40,13 +42,18 @@ export default function Pokemon({ id, name, imagePath, uuid, icon }: PokemonProp
   const infoLink = <a className="pokemon-info" onClick={handleChildClick} href={`https://pokemondb.net/pokedex/${id}`} target="_blank">i</a>
   const iconSpan = icon ? <DynamicIcon name={icon} size="1em" />: undefined
 
+  const subTitleLabel = subTitle ? <React.Fragment><br />{subTitle}</React.Fragment> : undefined
+  const generation = showGen ? <React.Fragment> - {getGeneration(uuid)?.smallTitle}</React.Fragment> : undefined
+
   return (
     <div className="box-cell">
       <div className='pokemon-container'>
         <div className={`pokemon-card ${catched ? 'pokemon-card-catched' : ''}`} onClick={handleCatch}>
           <div className={`pokemon-picture ${catched ? 'pokemon-picture-catched' : ''}`} style={style} />
-          <div className="pokemon-id label">{iconSpan}#{id}</div>
-          <div className="pokemon-name label">{name ? name : '---'}</div>
+          <div className="pokemon-id label">{iconSpan}#{id}{generation}</div>
+          <div className="pokemon-name label">
+            {name ? name : '---'}{subTitleLabel}
+          </div>
           {infoLink}
         </div>
       </div>

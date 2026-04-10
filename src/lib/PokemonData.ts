@@ -1,37 +1,35 @@
-import type { IconName } from 'lucide-react/dynamic'
 import untypedPokemonsData from '../assets/pokemons_data.json'
 import atlasSpriteMap from '../assets/atlas_sprite_map.json'
+import type { PokemonProps } from '../components/Pokemon'
 
 export interface PokemonData {
-  id: number,
-  name: string,
-  title: string,
-  fullTitle: string,
-  imagePath: string,
-  region: string | null,
-  uuid: string,
-  icon?: IconName,
+  id: number
+  prefix: string | null
+  title: string
+  subTitle: string | null
+  name: string
+  variation: string | null
+  imagePath: string
+  region: string | null
+  uuid: string
 }
 
 export const ALL_POKEMONS_DATA: {
   defaultPokemons: PokemonData[]
   defaultFemalePokemons: PokemonData[]
   varieties: PokemonData[]
-  varietiesFemales: PokemonData[]
 } = untypedPokemonsData
 
 export const ATLAS_SPRITE_MAP: Record<string, { sheet: number, x: number, y: number }> = atlasSpriteMap
 
 export const DEFAULT_POKEMONS = ALL_POKEMONS_DATA.defaultPokemons
-export const DEFAULT_FEMALE_POKEMONS = ALL_POKEMONS_DATA.defaultFemalePokemons.map( p => {
-  p.icon = 'venus'
-  return p
-})
+export const DEFAULT_FEMALE_POKEMONS = ALL_POKEMONS_DATA.defaultFemalePokemons
 export const VARIETIES = ALL_POKEMONS_DATA.varieties
-export const VARIETIES_FEMALES = ALL_POKEMONS_DATA.varietiesFemales.map( p => {
-  p.icon = 'venus'
-  return p
-})
+
+export const ALL_POKEMONS = DEFAULT_POKEMONS.concat(DEFAULT_FEMALE_POKEMONS, VARIETIES)
+
+export const POKEMON_UUID_MAP: Record<string, PokemonData> = {}
+ALL_POKEMONS.forEach( p => POKEMON_UUID_MAP[p.uuid] = p)
 
 export const REGION_NAMES: Record<string, string> = {
   'kanto': 'Kanto Region Forms',
@@ -51,6 +49,7 @@ interface GenParams {
   id: string
   title: string
   subTitle: string
+  smallTitle: string
   games: PokemonGame[]
   first: number
   last: number
@@ -61,12 +60,40 @@ interface PokemonsRegionSet {
   default: PokemonData[]
   females: PokemonData[]
   varieties: PokemonData[]
-  varietiesFemales: PokemonData[]
   regionalForms: PokemonData[]
 }
 
 export interface GenData extends GenParams {
   pokemons: PokemonsRegionSet
+}
+
+export function genericPokemonTitle(p: PokemonData): string {
+  if(p.subTitle === null) {
+    return p.title
+  }
+  return `${p.title} ${p.subTitle}`
+}
+
+export function onlySubTitle(p: PokemonData): string {
+  if(p.subTitle === null) {
+    return p.title
+  }
+  return p.subTitle
+}
+
+export type PokemonStringifier = (p: PokemonData) => string
+
+export function parseToPokemonProps(p: PokemonData | null, pokemonTitleGen?: PokemonStringifier, pokemonSubTitleGen?: PokemonStringifier): (PokemonProps | null) {
+  if(!p) { return null }
+
+  return {
+    id: p.id.toString(),
+    name: (pokemonTitleGen || genericPokemonTitle)(p),
+    imagePath: p.imagePath,
+    uuid: p.uuid,
+    subTitle: pokemonSubTitleGen ? pokemonSubTitleGen(p) : undefined,
+    icon: p.variation?.split('-').includes('f') ? 'venus' : undefined,
+  }
 }
 
 function idInRange(first: number, last: number): (pokemon: PokemonData) => boolean {
@@ -86,8 +113,7 @@ function pokemonsOnGeneration({ first, last, regions}: GenParams) {
     default: DEFAULT_POKEMONS.filter(idInRange(first, last)),
     females: DEFAULT_FEMALE_POKEMONS.filter(idInRange(first, last)),
     varieties: VARIETIES.filter(idInRange(first, last)),
-    varietiesFemales: VARIETIES_FEMALES.filter(idInRange(first, last)),
-    regionalForms: VARIETIES.filter(belongsToRegions(regions)).concat(VARIETIES_FEMALES.filter(belongsToRegions(regions))),
+    regionalForms: VARIETIES.filter(belongsToRegions(regions)),
   }
 }
 
@@ -343,16 +369,28 @@ export const GAMES: Record<string, PokemonGame> = {
 }
 
 export const GENERATIONS: GenData[] = [
-  buildGen({ id: '1', title: 'Generation I', subTitle: 'Kanto', games: Object.values(GAMES).filter( g => g.gen === 1), first: 1, last: 151, regions: ['kanto'] }),
-  buildGen({ id: '2', title: 'Generation II', subTitle: 'Johto', games: Object.values(GAMES).filter( g => g.gen === 2), first: 152, last: 251, regions: ['johto'] }),
-  buildGen({ id: '3', title: 'Generation III', subTitle: 'Hoenn', games: Object.values(GAMES).filter( g => g.gen === 3), first: 252, last: 386, regions: ['hoenn'] }),
-  buildGen({ id: '4', title: 'Generation IV', subTitle: 'Sinnoh', games: Object.values(GAMES).filter( g => g.gen === 4), first: 387, last: 493, regions: ['sinnoh'] }),
-  buildGen({ id: '5', title: 'Generation V', subTitle: 'Unova', games: Object.values(GAMES).filter( g => g.gen === 5), first: 494, last: 649, regions: ['unova'] }),
-  buildGen({ id: '6', title: 'Generation VI', subTitle: 'Kalos', games: Object.values(GAMES).filter( g => g.gen === 6), first: 650, last: 721, regions: ['kalos'] }),
-  buildGen({ id: '7', title: 'Generation VII', subTitle: 'Alola', games: Object.values(GAMES).filter( g => g.gen === 7), first: 722, last: 809, regions: ['alola'] }),
-  buildGen({ id: '8', title: 'Generation VIII', subTitle: 'Galar', games: Object.values(GAMES).filter( g => g.gen === 8), first: 810, last: 905, regions: ['galar', 'hisui', 'gmax'] }),
-  buildGen({ id: '9', title: 'Generation IX', subTitle: 'Paldea', games: Object.values(GAMES).filter( g => g.gen === 9), first: 906, last: 1025, regions: ['paldea'] }),
+  buildGen({ id: '1', title: 'Generation I', subTitle: 'Kanto', smallTitle: 'G.I', games: Object.values(GAMES).filter( g => g.gen === 1), first: 1, last: 151, regions: ['kanto'] }),
+  buildGen({ id: '2', title: 'Generation II', subTitle: 'Johto', smallTitle: 'G.II', games: Object.values(GAMES).filter( g => g.gen === 2), first: 152, last: 251, regions: ['johto'] }),
+  buildGen({ id: '3', title: 'Generation III', subTitle: 'Hoenn', smallTitle: 'G.III', games: Object.values(GAMES).filter( g => g.gen === 3), first: 252, last: 386, regions: ['hoenn'] }),
+  buildGen({ id: '4', title: 'Generation IV', subTitle: 'Sinnoh', smallTitle: 'G.IV', games: Object.values(GAMES).filter( g => g.gen === 4), first: 387, last: 493, regions: ['sinnoh'] }),
+  buildGen({ id: '5', title: 'Generation V', subTitle: 'Unova', smallTitle: 'G.V', games: Object.values(GAMES).filter( g => g.gen === 5), first: 494, last: 649, regions: ['unova'] }),
+  buildGen({ id: '6', title: 'Generation VI', subTitle: 'Kalos', smallTitle: 'G.VI', games: Object.values(GAMES).filter( g => g.gen === 6), first: 650, last: 721, regions: ['kalos'] }),
+  buildGen({ id: '7', title: 'Generation VII', subTitle: 'Alola', smallTitle: 'G.VII', games: Object.values(GAMES).filter( g => g.gen === 7), first: 722, last: 809, regions: ['alola'] }),
+  buildGen({ id: '8', title: 'Generation VIII', subTitle: 'Galar', smallTitle: 'G.VIII', games: Object.values(GAMES).filter( g => g.gen === 8), first: 810, last: 905, regions: ['galar', 'hisui', 'gmax'] }),
+  buildGen({ id: '9', title: 'Generation IX', subTitle: 'Paldea', smallTitle: 'G.IX', games: Object.values(GAMES).filter( g => g.gen === 9), first: 906, last: 1025, regions: ['paldea'] }),
 ]
+
+export function getGeneration(uuid: string): GenData | undefined {
+  const pokemon = POKEMON_UUID_MAP[uuid]
+  if(!pokemon) {
+    return undefined
+  }
+
+  return GENERATIONS.find( g => (
+    (g.first <= pokemon.id && g.last >= pokemon.id && pokemon.region === null) ||
+    (pokemon.region !== null && g.regions.includes(pokemon.region))
+  ))
+}
 
 function bp(base: PokemonData, changes: Partial<PokemonData>): PokemonData {
   return {
