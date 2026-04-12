@@ -4,6 +4,7 @@ import './Pokemon.css'
 import React, { useState } from 'react'
 import { storage } from '../lib/storage'
 import { ATLAS_SPRITE_MAP, getGeneration } from '../lib/PokemonData'
+import InfoModal from './InfoModal'
 
 export interface PokemonProps {
   id: string
@@ -17,15 +18,19 @@ export interface PokemonProps {
 
 export default function Pokemon({ id, name, imagePath, uuid, icon, subTitle, showGen }: PokemonProps): React.ReactNode {
   const [catched, setCatched] = useState(storage.catched(uuid))
+  const [showInfo, setShowInfo] = useState(false)
 
   const handleCatch = () => {
     setCatched(!catched)
     storage.setCatched(uuid, !catched)
   }
 
-  const handleChildClick = (e: React.MouseEvent) => {
+  const handleInfoClick = (e: React.MouseEvent) => {
+    setShowInfo(true)
     e.stopPropagation()
   }
+
+  const onInfoClose = () => setShowInfo(false)
 
   const spriteInfo = imagePath in ATLAS_SPRITE_MAP ? ATLAS_SPRITE_MAP[imagePath] : undefined
 
@@ -39,11 +44,13 @@ export default function Pokemon({ id, name, imagePath, uuid, icon, subTitle, sho
     backgroundSize: `1000% 1500%`,
   } : undefined
 
-  const infoLink = <a className="pokemon-info" onClick={handleChildClick} href={`https://pokemondb.net/pokedex/${id}`} target="_blank">i</a>
+  const infoLink = <a className="pokemon-info" onClick={handleInfoClick}>i</a>
   const iconSpan = icon ? <DynamicIcon name={icon} size="1em" />: undefined
 
   const subTitleLabel = subTitle ? <React.Fragment><br />{subTitle}</React.Fragment> : undefined
   const generation = showGen ? <React.Fragment> - {getGeneration(uuid)?.smallTitle}</React.Fragment> : undefined
+
+  const infoModal = showInfo ? <InfoModal uuid={uuid} onClose={onInfoClose} /> : undefined
 
   return (
     <div className="box-cell">
@@ -57,6 +64,7 @@ export default function Pokemon({ id, name, imagePath, uuid, icon, subTitle, sho
           {infoLink}
         </div>
       </div>
+      {infoModal}
     </div>
   )
 }

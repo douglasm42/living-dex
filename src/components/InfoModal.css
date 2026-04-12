@@ -1,0 +1,10 @@
+.info-title {
+  text-align: center;
+}
+
+.info-avatar {
+  width: 100%;
+  max-width: 256px;
+  aspect-ratio: 1 / 1;
+  margin: 0 auto;
+}

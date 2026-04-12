@@ -21,7 +21,7 @@ function buildBoxes(
     const pokemonsSlice = pokemonsLeft.slice(0, 30)
     const title = boxTitleGen(pokemonsSlice, index)
 
-    const pokemonsProps = pokemonsSlice.map( p => parseToPokemonProps(p, pokemonTitleGen, pokemonSubTitleGen))
+    const pokemonsProps = pokemonsSlice.map( p => parseToPokemonProps(p, { genTitle: pokemonTitleGen, genSubTitle: pokemonSubTitleGen}))
 
     boxes.push(
       <Box 

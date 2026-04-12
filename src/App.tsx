@@ -41,9 +41,9 @@ function App() {
     <a href={href} target="_blank" rel="noopener noreferrer">{text}</a>
   )
 
-  const dittoes = DITTOES.map(p => parseToPokemonProps(p, p => p.title))
-  const starters = STARTERS.map(p => parseToPokemonProps(p, p => p.title))
-  const eeveelutions = EEVEE_EVOLUTIONS.map(p => parseToPokemonProps(p, p => p.title))
+  const dittoes = DITTOES.map(p => parseToPokemonProps(p, { genTitle: p => p.title }))
+  const starters = STARTERS.map(p => parseToPokemonProps(p, { genTitle: p => p.title }))
+  const eeveelutions = EEVEE_EVOLUTIONS.map(p => parseToPokemonProps(p, { genTitle: p => p.title }))
 
   return (
     <div className='app-container'>

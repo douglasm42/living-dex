@@ -83,15 +83,20 @@ export function onlySubTitle(p: PokemonData): string {
 
 export type PokemonStringifier = (p: PokemonData) => string
 
-export function parseToPokemonProps(p: PokemonData | null, pokemonTitleGen?: PokemonStringifier, pokemonSubTitleGen?: PokemonStringifier): (PokemonProps | null) {
+export interface ParseToPokemonPropsOptions {
+  genTitle?: PokemonStringifier
+  genSubTitle?: PokemonStringifier
+}
+
+export function parseToPokemonProps(p: PokemonData | null, { genTitle, genSubTitle }: ParseToPokemonPropsOptions): (PokemonProps | null) {
   if(!p) { return null }
 
   return {
     id: p.id.toString(),
-    name: (pokemonTitleGen || genericPokemonTitle)(p),
+    name: (genTitle || genericPokemonTitle)(p),
     imagePath: p.imagePath,
     uuid: p.uuid,
-    subTitle: pokemonSubTitleGen ? pokemonSubTitleGen(p) : undefined,
+    subTitle: genSubTitle ? genSubTitle(p) : undefined,
     icon: p.variation?.split('-').includes('f') ? 'venus' : undefined,
   }
 }

@@ -16,7 +16,7 @@ function row(i: number, arr: (PokemonProps | null)[]): React.ReactNode[] {
     (pokemon, i) => {
       if(pokemon) {
         return (
-          <Pokemon {...pokemon} />
+          <Pokemon key={pokemon.uuid} {...pokemon} />
         )
       } else {
         return <EmptyCell key={i} />
