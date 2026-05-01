@@ -1,0 +1,6 @@
+uuid: 74-alola
+national_id: 74
+name: Geodude
+types: [rock, electric]
+image: {sheet: 7, x: 2, y: 10}
+evolutions: []

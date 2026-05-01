@@ -1,0 +1,6 @@
+uuid: '347'
+national_id: 347
+name: Anorith
+types: [rock, bug]
+image: {sheet: 2, x: 6, y: 4}
+evolutions: []

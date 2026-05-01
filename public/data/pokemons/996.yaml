@@ -1,0 +1,6 @@
+uuid: '996'
+national_id: 996
+name: Frigibax
+types: [dragon, ice]
+image: {sheet: 6, x: 5, y: 9}
+evolutions: []

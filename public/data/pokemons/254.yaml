@@ -1,0 +1,6 @@
+uuid: '254'
+national_id: 254
+name: Sceptile
+types: [grass]
+image: {sheet: 1, x: 3, y: 10}
+evolutions: []

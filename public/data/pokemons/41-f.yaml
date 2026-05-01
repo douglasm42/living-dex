@@ -1,0 +1,6 @@
+uuid: 41-f
+national_id: 41
+name: Zubat ♀
+types: [poison, flying]
+image: {sheet: 6, x: 1, y: 13}
+evolutions: []

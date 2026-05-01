@@ -1,0 +1,6 @@
+uuid: '522'
+national_id: 522
+name: Blitzle
+types: [electric]
+image: {sheet: 3, x: 1, y: 7}
+evolutions: []

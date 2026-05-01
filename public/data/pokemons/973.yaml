@@ -1,0 +1,6 @@
+uuid: '973'
+national_id: 973
+name: Flamigo
+types: [flying, fighting]
+image: {sheet: 6, x: 2, y: 7}
+evolutions: []

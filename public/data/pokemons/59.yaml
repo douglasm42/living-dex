@@ -1,0 +1,6 @@
+uuid: '59'
+national_id: 59
+name: Arcanine
+types: [fire]
+image: {sheet: 0, x: 8, y: 5}
+evolutions: []

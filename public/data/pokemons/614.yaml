@@ -1,0 +1,6 @@
+uuid: '614'
+national_id: 614
+name: Beartic
+types: [ice]
+image: {sheet: 4, x: 3, y: 1}
+evolutions: []

@@ -1,0 +1,6 @@
+uuid: 839-gmax
+national_id: 839
+name: Coalossal
+types: [rock, fire]
+image: {sheet: 8, x: 8, y: 13}
+evolutions: []

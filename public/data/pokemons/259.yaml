@@ -1,0 +1,6 @@
+uuid: '259'
+national_id: 259
+name: Marshtomp
+types: [water, ground]
+image: {sheet: 1, x: 8, y: 10}
+evolutions: []

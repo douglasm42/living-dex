@@ -1,0 +1,6 @@
+uuid: 155-starter
+national_id: 155
+name: Cyndaquil
+types: [fire]
+image: {sheet: 1, x: 4, y: 0}
+evolutions: []

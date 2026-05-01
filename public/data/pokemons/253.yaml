@@ -1,0 +1,6 @@
+uuid: '253'
+national_id: 253
+name: Grovyle
+types: [grass]
+image: {sheet: 1, x: 2, y: 10}
+evolutions: []

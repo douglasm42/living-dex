@@ -1,0 +1,6 @@
+uuid: '274'
+national_id: 274
+name: Nuzleaf
+types: [grass, dark]
+image: {sheet: 1, x: 3, y: 12}
+evolutions: []

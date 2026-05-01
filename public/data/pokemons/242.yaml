@@ -1,0 +1,6 @@
+uuid: '242'
+national_id: 242
+name: Blissey
+types: [normal]
+image: {sheet: 1, x: 1, y: 9}
+evolutions: []

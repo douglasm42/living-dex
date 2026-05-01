@@ -1,0 +1,6 @@
+uuid: '960'
+national_id: 960
+name: Wiglett
+types: [water]
+image: {sheet: 6, x: 9, y: 5}
+evolutions: []

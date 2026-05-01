@@ -1,0 +1,6 @@
+uuid: '485'
+national_id: 485
+name: Heatran
+types: [fire, steel]
+image: {sheet: 3, x: 4, y: 3}
+evolutions: []

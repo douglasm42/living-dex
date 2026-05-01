@@ -1,0 +1,6 @@
+uuid: '367'
+national_id: 367
+name: Huntail
+types: [water]
+image: {sheet: 2, x: 6, y: 6}
+evolutions: []

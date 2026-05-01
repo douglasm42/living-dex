@@ -1,0 +1,6 @@
+uuid: '648'
+national_id: 648
+name: Meloetta
+types: [normal, psychic]
+image: {sheet: 4, x: 7, y: 4}
+evolutions: []

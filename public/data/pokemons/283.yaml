@@ -1,0 +1,6 @@
+uuid: '283'
+national_id: 283
+name: Surskit
+types: [bug, water]
+image: {sheet: 1, x: 2, y: 13}
+evolutions: []

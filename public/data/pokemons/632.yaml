@@ -1,0 +1,6 @@
+uuid: '632'
+national_id: 632
+name: Durant
+types: [bug, steel]
+image: {sheet: 4, x: 1, y: 3}
+evolutions: []

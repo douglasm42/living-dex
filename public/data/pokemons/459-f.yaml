@@ -1,0 +1,6 @@
+uuid: 459-f
+national_id: 459
+name: Snover ♀
+types: [grass, ice]
+image: {sheet: 7, x: 2, y: 6}
+evolutions: []

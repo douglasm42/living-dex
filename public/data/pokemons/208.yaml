@@ -1,0 +1,6 @@
+uuid: '208'
+national_id: 208
+name: Steelix
+types: [steel, ground]
+image: {sheet: 1, x: 7, y: 5}
+evolutions: []

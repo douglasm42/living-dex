@@ -1,0 +1,6 @@
+uuid: '378'
+national_id: 378
+name: Regice
+types: [ice]
+image: {sheet: 2, x: 7, y: 7}
+evolutions: []

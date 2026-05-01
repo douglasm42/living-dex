@@ -1,0 +1,6 @@
+uuid: '189'
+national_id: 189
+name: Jumpluff
+types: [grass, flying]
+image: {sheet: 1, x: 8, y: 3}
+evolutions: []

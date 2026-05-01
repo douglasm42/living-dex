@@ -1,0 +1,6 @@
+uuid: '212'
+national_id: 212
+name: Scizor
+types: [bug, steel]
+image: {sheet: 1, x: 1, y: 6}
+evolutions: []

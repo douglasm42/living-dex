@@ -1,0 +1,6 @@
+uuid: '244'
+national_id: 244
+name: Entei
+types: [fire]
+image: {sheet: 1, x: 3, y: 9}
+evolutions: []

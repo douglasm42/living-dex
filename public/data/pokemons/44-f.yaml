@@ -1,0 +1,6 @@
+uuid: 44-f
+national_id: 44
+name: Gloom ♀
+types: [grass, poison]
+image: {sheet: 6, x: 3, y: 13}
+evolutions: []

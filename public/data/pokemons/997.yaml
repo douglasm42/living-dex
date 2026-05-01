@@ -1,0 +1,6 @@
+uuid: '997'
+national_id: 997
+name: Arctibax
+types: [dragon, ice]
+image: {sheet: 6, x: 6, y: 9}
+evolutions: []

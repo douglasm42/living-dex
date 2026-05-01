@@ -1,0 +1,6 @@
+uuid: '360'
+national_id: 360
+name: Wynaut
+types: [psychic]
+image: {sheet: 2, x: 9, y: 5}
+evolutions: []

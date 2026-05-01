@@ -1,0 +1,6 @@
+uuid: 562-galar
+national_id: 562
+name: Yamask
+types: [ground, ghost]
+image: {sheet: 8, x: 9, y: 3}
+evolutions: []

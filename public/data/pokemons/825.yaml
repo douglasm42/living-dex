@@ -1,0 +1,6 @@
+uuid: '825'
+national_id: 825
+name: Dottler
+types: [bug, psychic]
+image: {sheet: 5, x: 4, y: 7}
+evolutions: []

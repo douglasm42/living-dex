@@ -1,0 +1,6 @@
+uuid: '908'
+national_id: 908
+name: Meowscarada
+types: [grass, dark]
+image: {sheet: 6, x: 7, y: 0}
+evolutions: []

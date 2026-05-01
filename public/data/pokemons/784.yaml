@@ -1,0 +1,6 @@
+uuid: '784'
+national_id: 784
+name: Kommo O
+types: [dragon, fighting]
+image: {sheet: 5, x: 3, y: 3}
+evolutions: []

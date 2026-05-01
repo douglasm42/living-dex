@@ -1,0 +1,6 @@
+uuid: '53'
+national_id: 53
+name: Persian
+types: [normal]
+image: {sheet: 0, x: 2, y: 5}
+evolutions: []

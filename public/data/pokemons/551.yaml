@@ -1,0 +1,6 @@
+uuid: '551'
+national_id: 551
+name: Sandile
+types: [ground, dark]
+image: {sheet: 3, x: 0, y: 10}
+evolutions: []

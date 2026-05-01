@@ -1,0 +1,6 @@
+uuid: '781'
+national_id: 781
+name: Dhelmise
+types: [ghost, grass]
+image: {sheet: 5, x: 0, y: 3}
+evolutions: []

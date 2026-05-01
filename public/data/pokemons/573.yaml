@@ -1,0 +1,6 @@
+uuid: '573'
+national_id: 573
+name: Cinccino
+types: [normal]
+image: {sheet: 3, x: 2, y: 12}
+evolutions: []

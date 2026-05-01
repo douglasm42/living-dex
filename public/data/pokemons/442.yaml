@@ -1,0 +1,6 @@
+uuid: '442'
+national_id: 442
+name: Spiritomb
+types: [ghost, dark]
+image: {sheet: 2, x: 1, y: 14}
+evolutions: []

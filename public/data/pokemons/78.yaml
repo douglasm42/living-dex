@@ -1,0 +1,6 @@
+uuid: '78'
+national_id: 78
+name: Rapidash
+types: [fire]
+image: {sheet: 0, x: 7, y: 7}
+evolutions: []

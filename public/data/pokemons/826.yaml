@@ -1,0 +1,6 @@
+uuid: '826'
+national_id: 826
+name: Orbeetle
+types: [bug, psychic]
+image: {sheet: 5, x: 5, y: 7}
+evolutions: []

@@ -1,0 +1,6 @@
+uuid: '497'
+national_id: 497
+name: Serperior
+types: [grass]
+image: {sheet: 3, x: 6, y: 4}
+evolutions: []

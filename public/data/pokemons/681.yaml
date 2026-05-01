@@ -1,0 +1,6 @@
+uuid: '681'
+national_id: 681
+name: Aegislash
+types: [steel, ghost]
+image: {sheet: 4, x: 0, y: 8}
+evolutions: []

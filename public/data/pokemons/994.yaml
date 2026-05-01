@@ -1,0 +1,6 @@
+uuid: '994'
+national_id: 994
+name: Iron Moth
+types: [fire, poison]
+image: {sheet: 6, x: 3, y: 9}
+evolutions: []

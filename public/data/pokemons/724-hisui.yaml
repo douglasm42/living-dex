@@ -1,0 +1,6 @@
+uuid: 724-hisui
+national_id: 724
+name: Decidueye
+types: [grass, fighting]
+image: {sheet: 8, x: 7, y: 11}
+evolutions: []

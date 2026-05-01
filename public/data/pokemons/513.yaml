@@ -1,0 +1,6 @@
+uuid: '513'
+national_id: 513
+name: Pansear
+types: [fire]
+image: {sheet: 3, x: 2, y: 6}
+evolutions: []

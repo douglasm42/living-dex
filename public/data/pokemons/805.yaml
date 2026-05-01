@@ -1,0 +1,6 @@
+uuid: '805'
+national_id: 805
+name: Stakataka
+types: [rock, steel]
+image: {sheet: 5, x: 4, y: 5}
+evolutions: []

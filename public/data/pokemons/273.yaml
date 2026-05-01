@@ -1,0 +1,6 @@
+uuid: '273'
+national_id: 273
+name: Seedot
+types: [grass]
+image: {sheet: 1, x: 2, y: 12}
+evolutions: []

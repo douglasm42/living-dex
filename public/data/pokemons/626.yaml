@@ -1,0 +1,6 @@
+uuid: '626'
+national_id: 626
+name: Bouffalant
+types: [normal]
+image: {sheet: 4, x: 5, y: 2}
+evolutions: []

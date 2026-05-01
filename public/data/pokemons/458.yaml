@@ -1,0 +1,6 @@
+uuid: '458'
+national_id: 458
+name: Mantyke
+types: [water, flying]
+image: {sheet: 3, x: 7, y: 0}
+evolutions: []

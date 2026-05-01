@@ -1,0 +1,6 @@
+uuid: '389'
+national_id: 389
+name: Torterra
+types: [grass, ground]
+image: {sheet: 2, x: 8, y: 8}
+evolutions: []

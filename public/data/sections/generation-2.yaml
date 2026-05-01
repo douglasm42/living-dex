@@ -1,0 +1,759 @@
+title: Generation II
+tags: [johto, gen2]
+sub_sections:
+- title: Default
+  pokemons:
+  - id: 152
+    uuid: '152'
+    name: Chikorita
+    types: [grass]
+    image: {sheet: 1, x: 1, y: 0}
+  - id: 153
+    uuid: '153'
+    name: Bayleef
+    types: [grass]
+    image: {sheet: 1, x: 2, y: 0}
+  - id: 154
+    uuid: '154'
+    name: Meganium
+    types: [grass]
+    image: {sheet: 1, x: 3, y: 0}
+  - id: 155
+    uuid: '155'
+    name: Cyndaquil
+    types: [fire]
+    image: {sheet: 1, x: 4, y: 0}
+  - id: 156
+    uuid: '156'
+    name: Quilava
+    types: [fire]
+    image: {sheet: 1, x: 5, y: 0}
+  - id: 157
+    uuid: '157'
+    name: Typhlosion
+    types: [fire]
+    image: {sheet: 1, x: 6, y: 0}
+  - id: 158
+    uuid: '158'
+    name: Totodile
+    types: [water]
+    image: {sheet: 1, x: 7, y: 0}
+  - id: 159
+    uuid: '159'
+    name: Croconaw
+    types: [water]
+    image: {sheet: 1, x: 8, y: 0}
+  - id: 160
+    uuid: '160'
+    name: Feraligatr
+    types: [water]
+    image: {sheet: 1, x: 9, y: 0}
+  - id: 161
+    uuid: '161'
+    name: Sentret
+    types: [normal]
+    image: {sheet: 1, x: 0, y: 1}
+  - id: 162
+    uuid: '162'
+    name: Furret
+    types: [normal]
+    image: {sheet: 1, x: 1, y: 1}
+  - id: 163
+    uuid: '163'
+    name: Hoothoot
+    types: [normal, flying]
+    image: {sheet: 1, x: 2, y: 1}
+  - id: 164
+    uuid: '164'
+    name: Noctowl
+    types: [normal, flying]
+    image: {sheet: 1, x: 3, y: 1}
+  - id: 165
+    uuid: '165'
+    name: Ledyba
+    types: [bug, flying]
+    image: {sheet: 1, x: 4, y: 1}
+  - id: 166
+    uuid: '166'
+    name: Ledian
+    types: [bug, flying]
+    image: {sheet: 1, x: 5, y: 1}
+  - id: 167
+    uuid: '167'
+    name: Spinarak
+    types: [bug, poison]
+    image: {sheet: 1, x: 6, y: 1}
+  - id: 168
+    uuid: '168'
+    name: Ariados
+    types: [bug, poison]
+    image: {sheet: 1, x: 7, y: 1}
+  - id: 169
+    uuid: '169'
+    name: Crobat
+    types: [poison, flying]
+    image: {sheet: 1, x: 8, y: 1}
+  - id: 170
+    uuid: '170'
+    name: Chinchou
+    types: [water, electric]
+    image: {sheet: 1, x: 9, y: 1}
+  - id: 171
+    uuid: '171'
+    name: Lanturn
+    types: [water, electric]
+    image: {sheet: 1, x: 0, y: 2}
+  - id: 172
+    uuid: '172'
+    name: Pichu
+    types: [electric]
+    image: {sheet: 1, x: 1, y: 2}
+  - id: 173
+    uuid: '173'
+    name: Cleffa
+    types: [fairy]
+    image: {sheet: 1, x: 2, y: 2}
+  - id: 174
+    uuid: '174'
+    name: Igglybuff
+    types: [normal, fairy]
+    image: {sheet: 1, x: 3, y: 2}
+  - id: 175
+    uuid: '175'
+    name: Togepi
+    types: [fairy]
+    image: {sheet: 1, x: 4, y: 2}
+  - id: 176
+    uuid: '176'
+    name: Togetic
+    types: [fairy, flying]
+    image: {sheet: 1, x: 5, y: 2}
+  - id: 177
+    uuid: '177'
+    name: Natu
+    types: [psychic, flying]
+    image: {sheet: 1, x: 6, y: 2}
+  - id: 178
+    uuid: '178'
+    name: Xatu
+    types: [psychic, flying]
+    image: {sheet: 1, x: 7, y: 2}
+  - id: 179
+    uuid: '179'
+    name: Mareep
+    types: [electric]
+    image: {sheet: 1, x: 8, y: 2}
+  - id: 180
+    uuid: '180'
+    name: Flaaffy
+    types: [electric]
+    image: {sheet: 1, x: 9, y: 2}
+  - id: 181
+    uuid: '181'
+    name: Ampharos
+    types: [electric]
+    image: {sheet: 1, x: 0, y: 3}
+  - id: 182
+    uuid: '182'
+    name: Bellossom
+    types: [grass]
+    image: {sheet: 1, x: 1, y: 3}
+  - id: 183
+    uuid: '183'
+    name: Marill
+    types: [water, fairy]
+    image: {sheet: 1, x: 2, y: 3}
+  - id: 184
+    uuid: '184'
+    name: Azumarill
+    types: [water, fairy]
+    image: {sheet: 1, x: 3, y: 3}
+  - id: 185
+    uuid: '185'
+    name: Sudowoodo
+    types: [rock]
+    image: {sheet: 1, x: 4, y: 3}
+  - id: 186
+    uuid: '186'
+    name: Politoed
+    types: [water]
+    image: {sheet: 1, x: 5, y: 3}
+  - id: 187
+    uuid: '187'
+    name: Hoppip
+    types: [grass, flying]
+    image: {sheet: 1, x: 6, y: 3}
+  - id: 188
+    uuid: '188'
+    name: Skiploom
+    types: [grass, flying]
+    image: {sheet: 1, x: 7, y: 3}
+  - id: 189
+    uuid: '189'
+    name: Jumpluff
+    types: [grass, flying]
+    image: {sheet: 1, x: 8, y: 3}
+  - id: 190
+    uuid: '190'
+    name: Aipom
+    types: [normal]
+    image: {sheet: 1, x: 9, y: 3}
+  - id: 191
+    uuid: '191'
+    name: Sunkern
+    types: [grass]
+    image: {sheet: 1, x: 0, y: 4}
+  - id: 192
+    uuid: '192'
+    name: Sunflora
+    types: [grass]
+    image: {sheet: 1, x: 1, y: 4}
+  - id: 193
+    uuid: '193'
+    name: Yanma
+    types: [bug, flying]
+    image: {sheet: 1, x: 2, y: 4}
+  - id: 194
+    uuid: '194'
+    name: Wooper
+    types: [water, ground]
+    image: {sheet: 1, x: 3, y: 4}
+  - id: 195
+    uuid: '195'
+    name: Quagsire
+    types: [water, ground]
+    image: {sheet: 1, x: 4, y: 4}
+  - id: 196
+    uuid: '196'
+    name: Espeon
+    types: [psychic]
+    image: {sheet: 1, x: 5, y: 4}
+  - id: 197
+    uuid: '197'
+    name: Umbreon
+    types: [dark]
+    image: {sheet: 1, x: 6, y: 4}
+  - id: 198
+    uuid: '198'
+    name: Murkrow
+    types: [dark, flying]
+    image: {sheet: 1, x: 7, y: 4}
+  - id: 199
+    uuid: '199'
+    name: Slowking
+    types: [water, psychic]
+    image: {sheet: 1, x: 8, y: 4}
+  - id: 200
+    uuid: '200'
+    name: Misdreavus
+    types: [ghost]
+    image: {sheet: 1, x: 9, y: 4}
+  - id: 201
+    uuid: '201'
+    name: Unown
+    types: [psychic]
+    image: {sheet: 1, x: 0, y: 5}
+  - id: 202
+    uuid: '202'
+    name: Wobbuffet
+    types: [psychic]
+    image: {sheet: 1, x: 1, y: 5}
+  - id: 203
+    uuid: '203'
+    name: Girafarig
+    types: [normal, psychic]
+    image: {sheet: 1, x: 2, y: 5}
+  - id: 204
+    uuid: '204'
+    name: Pineco
+    types: [bug]
+    image: {sheet: 1, x: 3, y: 5}
+  - id: 205
+    uuid: '205'
+    name: Forretress
+    types: [bug, steel]
+    image: {sheet: 1, x: 4, y: 5}
+  - id: 206
+    uuid: '206'
+    name: Dunsparce
+    types: [normal]
+    image: {sheet: 1, x: 5, y: 5}
+  - id: 207
+    uuid: '207'
+    name: Gligar
+    types: [ground, flying]
+    image: {sheet: 1, x: 6, y: 5}
+  - id: 208
+    uuid: '208'
+    name: Steelix
+    types: [steel, ground]
+    image: {sheet: 1, x: 7, y: 5}
+  - id: 209
+    uuid: '209'
+    name: Snubbull
+    types: [fairy]
+    image: {sheet: 1, x: 8, y: 5}
+  - id: 210
+    uuid: '210'
+    name: Granbull
+    types: [fairy]
+    image: {sheet: 1, x: 9, y: 5}
+  - id: 211
+    uuid: '211'
+    name: Qwilfish
+    types: [water, poison]
+    image: {sheet: 1, x: 0, y: 6}
+  - id: 212
+    uuid: '212'
+    name: Scizor
+    types: [bug, steel]
+    image: {sheet: 1, x: 1, y: 6}
+  - id: 213
+    uuid: '213'
+    name: Shuckle
+    types: [bug, rock]
+    image: {sheet: 1, x: 2, y: 6}
+  - id: 214
+    uuid: '214'
+    name: Heracross
+    types: [bug, fighting]
+    image: {sheet: 1, x: 3, y: 6}
+  - id: 215
+    uuid: '215'
+    name: Sneasel
+    types: [dark, ice]
+    image: {sheet: 1, x: 4, y: 6}
+  - id: 216
+    uuid: '216'
+    name: Teddiursa
+    types: [normal]
+    image: {sheet: 1, x: 5, y: 6}
+  - id: 217
+    uuid: '217'
+    name: Ursaring
+    types: [normal]
+    image: {sheet: 1, x: 6, y: 6}
+  - id: 218
+    uuid: '218'
+    name: Slugma
+    types: [fire]
+    image: {sheet: 1, x: 7, y: 6}
+  - id: 219
+    uuid: '219'
+    name: Magcargo
+    types: [fire, rock]
+    image: {sheet: 1, x: 8, y: 6}
+  - id: 220
+    uuid: '220'
+    name: Swinub
+    types: [ice, ground]
+    image: {sheet: 1, x: 9, y: 6}
+  - id: 221
+    uuid: '221'
+    name: Piloswine
+    types: [ice, ground]
+    image: {sheet: 1, x: 0, y: 7}
+  - id: 222
+    uuid: '222'
+    name: Corsola
+    types: [water, rock]
+    image: {sheet: 1, x: 1, y: 7}
+  - id: 223
+    uuid: '223'
+    name: Remoraid
+    types: [water]
+    image: {sheet: 1, x: 2, y: 7}
+  - id: 224
+    uuid: '224'
+    name: Octillery
+    types: [water]
+    image: {sheet: 1, x: 3, y: 7}
+  - id: 225
+    uuid: '225'
+    name: Delibird
+    types: [ice, flying]
+    image: {sheet: 1, x: 4, y: 7}
+  - id: 226
+    uuid: '226'
+    name: Mantine
+    types: [water, flying]
+    image: {sheet: 1, x: 5, y: 7}
+  - id: 227
+    uuid: '227'
+    name: Skarmory
+    types: [steel, flying]
+    image: {sheet: 1, x: 6, y: 7}
+  - id: 228
+    uuid: '228'
+    name: Houndour
+    types: [dark, fire]
+    image: {sheet: 1, x: 7, y: 7}
+  - id: 229
+    uuid: '229'
+    name: Houndoom
+    types: [dark, fire]
+    image: {sheet: 1, x: 8, y: 7}
+  - id: 230
+    uuid: '230'
+    name: Kingdra
+    types: [water, dragon]
+    image: {sheet: 1, x: 9, y: 7}
+  - id: 231
+    uuid: '231'
+    name: Phanpy
+    types: [ground]
+    image: {sheet: 1, x: 0, y: 8}
+  - id: 232
+    uuid: '232'
+    name: Donphan
+    types: [ground]
+    image: {sheet: 1, x: 1, y: 8}
+  - id: 233
+    uuid: '233'
+    name: Porygon2
+    types: [normal]
+    image: {sheet: 1, x: 2, y: 8}
+  - id: 234
+    uuid: '234'
+    name: Stantler
+    types: [normal]
+    image: {sheet: 1, x: 3, y: 8}
+  - id: 235
+    uuid: '235'
+    name: Smeargle
+    types: [normal]
+    image: {sheet: 1, x: 4, y: 8}
+  - id: 236
+    uuid: '236'
+    name: Tyrogue
+    types: [fighting]
+    image: {sheet: 1, x: 5, y: 8}
+  - id: 237
+    uuid: '237'
+    name: Hitmontop
+    types: [fighting]
+    image: {sheet: 1, x: 6, y: 8}
+  - id: 238
+    uuid: '238'
+    name: Smoochum
+    types: [ice, psychic]
+    image: {sheet: 1, x: 7, y: 8}
+  - id: 239
+    uuid: '239'
+    name: Elekid
+    types: [electric]
+    image: {sheet: 1, x: 8, y: 8}
+  - id: 240
+    uuid: '240'
+    name: Magby
+    types: [fire]
+    image: {sheet: 1, x: 9, y: 8}
+  - id: 241
+    uuid: '241'
+    name: Miltank
+    types: [normal]
+    image: {sheet: 1, x: 0, y: 9}
+  - id: 242
+    uuid: '242'
+    name: Blissey
+    types: [normal]
+    image: {sheet: 1, x: 1, y: 9}
+  - id: 243
+    uuid: '243'
+    name: Raikou
+    types: [electric]
+    image: {sheet: 1, x: 2, y: 9}
+  - id: 244
+    uuid: '244'
+    name: Entei
+    types: [fire]
+    image: {sheet: 1, x: 3, y: 9}
+  - id: 245
+    uuid: '245'
+    name: Suicune
+    types: [water]
+    image: {sheet: 1, x: 4, y: 9}
+  - id: 246
+    uuid: '246'
+    name: Larvitar
+    types: [rock, ground]
+    image: {sheet: 1, x: 5, y: 9}
+  - id: 247
+    uuid: '247'
+    name: Pupitar
+    types: [rock, ground]
+    image: {sheet: 1, x: 6, y: 9}
+  - id: 248
+    uuid: '248'
+    name: Tyranitar
+    types: [rock, dark]
+    image: {sheet: 1, x: 7, y: 9}
+  - id: 249
+    uuid: '249'
+    name: Lugia
+    types: [psychic, flying]
+    image: {sheet: 1, x: 8, y: 9}
+  - id: 250
+    uuid: '250'
+    name: Ho Oh
+    types: [fire, flying]
+    image: {sheet: 1, x: 9, y: 9}
+  - id: 251
+    uuid: '251'
+    name: Celebi
+    types: [psychic, grass]
+    image: {sheet: 1, x: 0, y: 10}
+- title: Females
+  pokemons:
+  - id: 154
+    uuid: 154-f
+    name: Meganium ♀
+    types: [grass]
+    image: {sheet: 6, x: 8, y: 14}
+  - id: 165
+    uuid: 165-f
+    name: Ledyba ♀
+    types: [bug, flying]
+    image: {sheet: 6, x: 9, y: 14}
+  - id: 166
+    uuid: 166-f
+    name: Ledian ♀
+    types: [bug, flying]
+    image: {sheet: 7, x: 0, y: 0}
+  - id: 178
+    uuid: 178-f
+    name: Xatu ♀
+    types: [psychic, flying]
+    image: {sheet: 7, x: 1, y: 0}
+  - id: 185
+    uuid: 185-f
+    name: Sudowoodo ♀
+    types: [rock]
+    image: {sheet: 7, x: 2, y: 0}
+  - id: 186
+    uuid: 186-f
+    name: Politoed ♀
+    types: [water]
+    image: {sheet: 7, x: 3, y: 0}
+  - id: 190
+    uuid: 190-f
+    name: Aipom ♀
+    types: [normal]
+    image: {sheet: 7, x: 4, y: 0}
+  - id: 194
+    uuid: 194-f
+    name: Wooper ♀
+    types: [water, ground]
+    image: {sheet: 7, x: 5, y: 0}
+  - id: 195
+    uuid: 195-f
+    name: Quagsire ♀
+    types: [water, ground]
+    image: {sheet: 7, x: 6, y: 0}
+  - id: 198
+    uuid: 198-f
+    name: Murkrow ♀
+    types: [dark, flying]
+    image: {sheet: 7, x: 7, y: 0}
+  - id: 202
+    uuid: 202-f
+    name: Wobbuffet ♀
+    types: [psychic]
+    image: {sheet: 7, x: 8, y: 0}
+  - id: 203
+    uuid: 203-f
+    name: Girafarig ♀
+    types: [normal, psychic]
+    image: {sheet: 7, x: 9, y: 0}
+  - id: 207
+    uuid: 207-f
+    name: Gligar ♀
+    types: [ground, flying]
+    image: {sheet: 7, x: 0, y: 1}
+  - id: 208
+    uuid: 208-f
+    name: Steelix ♀
+    types: [steel, ground]
+    image: {sheet: 7, x: 1, y: 1}
+  - id: 212
+    uuid: 212-f
+    name: Scizor ♀
+    types: [bug, steel]
+    image: {sheet: 7, x: 2, y: 1}
+  - id: 214
+    uuid: 214-f
+    name: Heracross ♀
+    types: [bug, fighting]
+    image: {sheet: 7, x: 3, y: 1}
+  - id: 215
+    uuid: 215-f
+    name: Sneasel ♀
+    types: [dark, ice]
+    image: {sheet: 7, x: 4, y: 1}
+  - id: 217
+    uuid: 217-f
+    name: Ursaring ♀
+    types: [normal]
+    image: {sheet: 7, x: 5, y: 1}
+  - id: 221
+    uuid: 221-f
+    name: Piloswine ♀
+    types: [ice, ground]
+    image: {sheet: 7, x: 6, y: 1}
+  - id: 224
+    uuid: 224-f
+    name: Octillery ♀
+    types: [water]
+    image: {sheet: 7, x: 7, y: 1}
+  - id: 229
+    uuid: 229-f
+    name: Houndoom ♀
+    types: [dark, fire]
+    image: {sheet: 7, x: 8, y: 1}
+  - id: 232
+    uuid: 232-f
+    name: Donphan ♀
+    types: [ground]
+    image: {sheet: 7, x: 9, y: 1}
+- title: Unown
+  pokemons:
+  - id: 201
+    uuid: 201-a
+    name: Unown A
+    types: [psychic]
+    image: {sheet: 7, x: 2, y: 13}
+  - id: 201
+    uuid: 201-b
+    name: Unown B
+    types: [psychic]
+    image: {sheet: 7, x: 3, y: 13}
+  - id: 201
+    uuid: 201-c
+    name: Unown C
+    types: [psychic]
+    image: {sheet: 7, x: 4, y: 13}
+  - id: 201
+    uuid: 201-d
+    name: Unown D
+    types: [psychic]
+    image: {sheet: 7, x: 5, y: 13}
+  - id: 201
+    uuid: 201-e
+    name: Unown E
+    types: [psychic]
+    image: {sheet: 7, x: 6, y: 13}
+  - id: 201
+    uuid: 201-f
+    name: Unown ♀
+    types: [psychic]
+    image: {sheet: 7, x: 7, y: 13}
+  - id: 201
+    uuid: 201-g
+    name: Unown G
+    types: [psychic]
+    image: {sheet: 7, x: 8, y: 13}
+  - id: 201
+    uuid: 201-h
+    name: Unown H
+    types: [psychic]
+    image: {sheet: 7, x: 9, y: 13}
+  - id: 201
+    uuid: 201-i
+    name: Unown I
+    types: [psychic]
+    image: {sheet: 7, x: 0, y: 14}
+  - id: 201
+    uuid: 201-j
+    name: Unown J
+    types: [psychic]
+    image: {sheet: 7, x: 1, y: 14}
+  - id: 201
+    uuid: 201-k
+    name: Unown K
+    types: [psychic]
+    image: {sheet: 7, x: 2, y: 14}
+  - id: 201
+    uuid: 201-l
+    name: Unown L
+    types: [psychic]
+    image: {sheet: 7, x: 3, y: 14}
+  - id: 201
+    uuid: 201-m
+    name: Unown M
+    types: [psychic]
+    image: {sheet: 7, x: 4, y: 14}
+  - id: 201
+    uuid: 201-n
+    name: Unown N
+    types: [psychic]
+    image: {sheet: 7, x: 5, y: 14}
+  - id: 201
+    uuid: 201-o
+    name: Unown O
+    types: [psychic]
+    image: {sheet: 7, x: 6, y: 14}
+  - id: 201
+    uuid: 201-p
+    name: Unown P
+    types: [psychic]
+    image: {sheet: 7, x: 7, y: 14}
+  - id: 201
+    uuid: 201-q
+    name: Unown Q
+    types: [psychic]
+    image: {sheet: 7, x: 8, y: 14}
+  - id: 201
+    uuid: 201-r
+    name: Unown R
+    types: [psychic]
+    image: {sheet: 7, x: 9, y: 14}
+  - id: 201
+    uuid: 201-s
+    name: Unown S
+    types: [psychic]
+    image: {sheet: 8, x: 0, y: 0}
+  - id: 201
+    uuid: 201-t
+    name: Unown T
+    types: [psychic]
+    image: {sheet: 8, x: 1, y: 0}
+  - id: 201
+    uuid: 201-u
+    name: Unown U
+    types: [psychic]
+    image: {sheet: 8, x: 2, y: 0}
+  - id: 201
+    uuid: 201-v
+    name: Unown V
+    types: [psychic]
+    image: {sheet: 8, x: 3, y: 0}
+  - id: 201
+    uuid: 201-w
+    name: Unown W
+    types: [psychic]
+    image: {sheet: 8, x: 4, y: 0}
+  - id: 201
+    uuid: 201-x
+    name: Unown X
+    types: [psychic]
+    image: {sheet: 8, x: 5, y: 0}
+  - id: 201
+    uuid: 201-y
+    name: Unown Y
+    types: [psychic]
+    image: {sheet: 8, x: 6, y: 0}
+  - id: 201
+    uuid: 201-z
+    name: Unown Z
+    types: [psychic]
+    image: {sheet: 8, x: 7, y: 0}
+  - id: 201
+    uuid: 201-exclamation
+    name: Unown Exclamation
+    types: [psychic]
+    image: {sheet: 8, x: 8, y: 0}
+  - id: 201
+    uuid: 201-question
+    name: Unown Question
+    types: [psychic]
+    image: {sheet: 8, x: 9, y: 0}

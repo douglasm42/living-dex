@@ -1,0 +1,6 @@
+uuid: '191'
+national_id: 191
+name: Sunkern
+types: [grass]
+image: {sheet: 1, x: 0, y: 4}
+evolutions: []

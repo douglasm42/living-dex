@@ -1,0 +1,6 @@
+uuid: '623'
+national_id: 623
+name: Golurk
+types: [ground, ghost]
+image: {sheet: 4, x: 2, y: 2}
+evolutions: []

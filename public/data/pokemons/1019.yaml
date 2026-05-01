@@ -1,0 +1,6 @@
+uuid: '1019'
+national_id: 1019
+name: Hydrapple
+types: [grass, dragon]
+image: {sheet: 6, x: 8, y: 11}
+evolutions: []

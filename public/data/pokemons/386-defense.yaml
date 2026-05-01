@@ -1,0 +1,6 @@
+uuid: 386-defense
+national_id: 386
+name: Deoxys Defense
+types: [psychic]
+image: {sheet: 8, x: 6, y: 1}
+evolutions: []

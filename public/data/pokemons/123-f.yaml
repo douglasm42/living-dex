@@ -1,0 +1,6 @@
+uuid: 123-f
+national_id: 123
+name: Scyther ♀
+types: [bug, flying]
+image: {sheet: 6, x: 4, y: 14}
+evolutions: []

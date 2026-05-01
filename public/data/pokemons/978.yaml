@@ -1,0 +1,6 @@
+uuid: '978'
+national_id: 978
+name: Tatsugiri
+types: [dragon, water]
+image: {sheet: 6, x: 7, y: 7}
+evolutions: []

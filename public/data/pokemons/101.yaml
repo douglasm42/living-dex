@@ -1,0 +1,6 @@
+uuid: '101'
+national_id: 101
+name: Electrode
+types: [electric]
+image: {sheet: 0, x: 0, y: 10}
+evolutions: []

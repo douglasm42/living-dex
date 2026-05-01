@@ -1,0 +1,6 @@
+uuid: '774'
+national_id: 774
+name: Minior
+types: [rock, flying]
+image: {sheet: 5, x: 3, y: 2}
+evolutions: []

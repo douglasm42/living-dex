@@ -1,0 +1,6 @@
+uuid: '213'
+national_id: 213
+name: Shuckle
+types: [bug, rock]
+image: {sheet: 1, x: 2, y: 6}
+evolutions: []

@@ -1,0 +1,6 @@
+uuid: '342'
+national_id: 342
+name: Crawdaunt
+types: [water, dark]
+image: {sheet: 2, x: 1, y: 4}
+evolutions: []

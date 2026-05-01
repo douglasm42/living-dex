@@ -1,0 +1,6 @@
+uuid: '592'
+national_id: 592
+name: Frillish
+types: [water, ghost]
+image: {sheet: 3, x: 1, y: 14}
+evolutions: []

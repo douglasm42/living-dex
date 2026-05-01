@@ -1,0 +1,6 @@
+uuid: 413-sandy
+national_id: 413
+name: Wormadam Sandy
+types: [bug, ground]
+image: {sheet: 8, x: 1, y: 2}
+evolutions: []

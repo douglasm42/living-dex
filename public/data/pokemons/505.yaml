@@ -1,0 +1,6 @@
+uuid: '505'
+national_id: 505
+name: Watchog
+types: [normal]
+image: {sheet: 3, x: 4, y: 5}
+evolutions: []

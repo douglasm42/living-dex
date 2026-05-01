@@ -1,0 +1,6 @@
+uuid: '169'
+national_id: 169
+name: Crobat
+types: [poison, flying]
+image: {sheet: 1, x: 8, y: 1}
+evolutions: []

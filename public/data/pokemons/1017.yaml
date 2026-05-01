@@ -1,0 +1,6 @@
+uuid: '1017'
+national_id: 1017
+name: Ogerpon
+types: [grass]
+image: {sheet: 6, x: 6, y: 11}
+evolutions: []

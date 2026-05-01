@@ -1,0 +1,6 @@
+uuid: '535'
+national_id: 535
+name: Tympole
+types: [water]
+image: {sheet: 3, x: 4, y: 8}
+evolutions: []

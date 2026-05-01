@@ -1,0 +1,6 @@
+uuid: '840'
+national_id: 840
+name: Applin
+types: [grass, dragon]
+image: {sheet: 5, x: 9, y: 8}
+evolutions: []

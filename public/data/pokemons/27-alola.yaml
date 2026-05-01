@@ -1,0 +1,6 @@
+uuid: 27-alola
+national_id: 27
+name: Sandshrew
+types: [ice, steel]
+image: {sheet: 7, x: 9, y: 8}
+evolutions: []

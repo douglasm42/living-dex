@@ -1,0 +1,6 @@
+uuid: 19-alola
+national_id: 19
+name: Rattata
+types: [dark, normal]
+image: {sheet: 7, x: 7, y: 7}
+evolutions: []

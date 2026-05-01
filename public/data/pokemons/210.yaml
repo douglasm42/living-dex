@@ -1,0 +1,6 @@
+uuid: '210'
+national_id: 210
+name: Granbull
+types: [fairy]
+image: {sheet: 1, x: 9, y: 5}
+evolutions: []

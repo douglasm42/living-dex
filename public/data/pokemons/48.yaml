@@ -1,0 +1,6 @@
+uuid: '48'
+national_id: 48
+name: Venonat
+types: [bug, poison]
+image: {sheet: 0, x: 7, y: 4}
+evolutions: []

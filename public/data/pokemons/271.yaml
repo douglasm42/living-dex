@@ -1,0 +1,6 @@
+uuid: '271'
+national_id: 271
+name: Lombre
+types: [water, grass]
+image: {sheet: 1, x: 0, y: 12}
+evolutions: []

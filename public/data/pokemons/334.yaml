@@ -1,0 +1,6 @@
+uuid: '334'
+national_id: 334
+name: Altaria
+types: [dragon, flying]
+image: {sheet: 2, x: 3, y: 3}
+evolutions: []

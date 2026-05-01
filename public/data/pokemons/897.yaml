@@ -1,0 +1,6 @@
+uuid: '897'
+national_id: 897
+name: Spectrier
+types: [ghost]
+image: {sheet: 5, x: 6, y: 14}
+evolutions: []

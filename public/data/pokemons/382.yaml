@@ -1,0 +1,6 @@
+uuid: '382'
+national_id: 382
+name: Kyogre
+types: [water]
+image: {sheet: 2, x: 1, y: 8}
+evolutions: []

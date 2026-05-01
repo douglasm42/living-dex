@@ -1,0 +1,6 @@
+uuid: '466'
+national_id: 466
+name: Electivire
+types: [electric]
+image: {sheet: 3, x: 5, y: 1}
+evolutions: []

@@ -1,0 +1,6 @@
+uuid: 666-archipelago
+national_id: 666
+name: Vivillon Archipelago
+types: [bug, flying]
+image: {sheet: 8, x: 9, y: 5}
+evolutions: []

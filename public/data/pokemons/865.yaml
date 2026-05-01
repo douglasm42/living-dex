@@ -1,0 +1,6 @@
+uuid: '865'
+national_id: 865
+name: Sirfetchd
+types: [fighting]
+image: {sheet: 5, x: 4, y: 11}
+evolutions: []

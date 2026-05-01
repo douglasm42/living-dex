@@ -1,0 +1,6 @@
+uuid: '206'
+national_id: 206
+name: Dunsparce
+types: [normal]
+image: {sheet: 1, x: 5, y: 5}
+evolutions: []

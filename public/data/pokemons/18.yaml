@@ -1,0 +1,6 @@
+uuid: '18'
+national_id: 18
+name: Pidgeot
+types: [normal, flying]
+image: {sheet: 0, x: 7, y: 1}
+evolutions: []

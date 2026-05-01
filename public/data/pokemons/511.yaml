@@ -1,0 +1,6 @@
+uuid: '511'
+national_id: 511
+name: Pansage
+types: [grass]
+image: {sheet: 3, x: 0, y: 6}
+evolutions: []

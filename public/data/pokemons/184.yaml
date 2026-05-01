@@ -1,0 +1,6 @@
+uuid: '184'
+national_id: 184
+name: Azumarill
+types: [water, fairy]
+image: {sheet: 1, x: 3, y: 3}
+evolutions: []

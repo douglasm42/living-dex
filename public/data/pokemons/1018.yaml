@@ -1,0 +1,6 @@
+uuid: '1018'
+national_id: 1018
+name: Archaludon
+types: [steel, dragon]
+image: {sheet: 6, x: 7, y: 11}
+evolutions: []

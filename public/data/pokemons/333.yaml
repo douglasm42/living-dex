@@ -1,0 +1,6 @@
+uuid: '333'
+national_id: 333
+name: Swablu
+types: [normal, flying]
+image: {sheet: 2, x: 2, y: 3}
+evolutions: []

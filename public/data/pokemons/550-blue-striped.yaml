@@ -1,0 +1,6 @@
+uuid: 550-blue-striped
+national_id: 550
+name: Basculin Blue Striped
+types: [water]
+image: {sheet: 8, x: 5, y: 3}
+evolutions: []

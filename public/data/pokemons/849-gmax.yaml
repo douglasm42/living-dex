@@ -1,0 +1,6 @@
+uuid: 849-gmax
+national_id: 849
+name: Toxtricity
+types: [electric, poison]
+image: {sheet: 8, x: 4, y: 14}
+evolutions: []

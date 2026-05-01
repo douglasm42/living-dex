@@ -1,0 +1,6 @@
+uuid: '1024'
+national_id: 1024
+name: Terapagos
+types: [normal]
+image: {sheet: 6, x: 3, y: 12}
+evolutions: []

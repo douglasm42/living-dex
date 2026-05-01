@@ -1,0 +1,6 @@
+uuid: '148'
+national_id: 148
+name: Dragonair
+types: [dragon]
+image: {sheet: 0, x: 7, y: 14}
+evolutions: []

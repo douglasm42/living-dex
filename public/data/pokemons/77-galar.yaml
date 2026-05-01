@@ -1,0 +1,6 @@
+uuid: 77-galar
+national_id: 77
+name: Ponyta
+types: [psychic]
+image: {sheet: 7, x: 5, y: 10}
+evolutions: []

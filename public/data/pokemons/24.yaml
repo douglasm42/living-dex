@@ -1,0 +1,6 @@
+uuid: '24'
+national_id: 24
+name: Arbok
+types: [poison]
+image: {sheet: 0, x: 3, y: 2}
+evolutions: []

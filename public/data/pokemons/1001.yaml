@@ -1,0 +1,6 @@
+uuid: '1001'
+national_id: 1001
+name: Wo Chien
+types: [dark, grass]
+image: {sheet: 6, x: 0, y: 10}
+evolutions: []

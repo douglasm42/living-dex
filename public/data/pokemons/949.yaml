@@ -1,0 +1,6 @@
+uuid: '949'
+national_id: 949
+name: Toedscruel
+types: [ground, grass]
+image: {sheet: 6, x: 8, y: 4}
+evolutions: []

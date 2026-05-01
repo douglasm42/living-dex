@@ -1,0 +1,6 @@
+uuid: 931-yellow-plumage
+national_id: 931
+name: Squawkabilly Yellow Plumage
+types: [normal, flying]
+image: {sheet: 9, x: 3, y: 7}
+evolutions: []

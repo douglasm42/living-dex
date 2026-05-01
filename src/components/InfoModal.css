@@ -8,3 +8,89 @@
   aspect-ratio: 1 / 1;
   margin: 0 auto;
 }
+
+.info-types {
+  display: flex;
+  justify-content: center;
+  gap: 0.5em;
+  margin: 0.5em 0;
+}
+
+.info-effectiveness {
+  margin: 1em 0;
+}
+
+.effectiveness-section {
+  margin: 0.75em 0;
+}
+
+.effectiveness-section h3 {
+  text-align: center;
+  margin: 0 0 0.5em 0;
+  font-size: 0.9em;
+  color: #6c6f85;
+}
+
+.effectiveness-types {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 0.4em;
+}
+
+.multiplier {
+  margin-left: 0.3em;
+  font-size: 0.85em;
+  opacity: 0.8;
+}
+
+.info-evolutions {
+  margin: 1em 0;
+}
+
+.info-evolutions h3 {
+  text-align: center;
+  margin: 0 0 0.5em 0;
+  font-size: 0.9em;
+  color: #6c6f85;
+}
+
+.evolution-list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 0.75em;
+}
+
+.evolution-entry {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 0.25em;
+}
+
+.evolution-sprite {
+  width: 64px;
+  height: 64px;
+}
+
+.evolution-name {
+  font-size: 0.8em;
+  font-weight: 600;
+}
+
+.evolution-method {
+  font-size: 0.7em;
+  color: #6c6f85;
+}
+
+.info-loading {
+  background: var(--cp-surface0, #ccd0da);
+  animation: pulse 1.5s infinite;
+}
+
+@keyframes pulse {
+  0%, 100% { opacity: 1; }
+  50% { opacity: 0.5; }
+}
+

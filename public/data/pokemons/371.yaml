@@ -1,0 +1,6 @@
+uuid: '371'
+national_id: 371
+name: Bagon
+types: [dragon]
+image: {sheet: 2, x: 0, y: 7}
+evolutions: []

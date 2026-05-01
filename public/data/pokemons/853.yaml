@@ -1,0 +1,6 @@
+uuid: '853'
+national_id: 853
+name: Grapploct
+types: [fighting]
+image: {sheet: 5, x: 2, y: 10}
+evolutions: []

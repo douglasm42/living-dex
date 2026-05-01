@@ -1,0 +1,6 @@
+uuid: '828'
+national_id: 828
+name: Thievul
+types: [dark]
+image: {sheet: 5, x: 7, y: 7}
+evolutions: []

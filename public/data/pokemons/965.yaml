@@ -1,0 +1,6 @@
+uuid: '965'
+national_id: 965
+name: Varoom
+types: [steel, poison]
+image: {sheet: 6, x: 4, y: 6}
+evolutions: []

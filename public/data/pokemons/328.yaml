@@ -1,0 +1,6 @@
+uuid: '328'
+national_id: 328
+name: Trapinch
+types: [ground]
+image: {sheet: 2, x: 7, y: 2}
+evolutions: []

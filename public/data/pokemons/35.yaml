@@ -1,0 +1,6 @@
+uuid: '35'
+national_id: 35
+name: Clefairy
+types: [fairy]
+image: {sheet: 0, x: 4, y: 3}
+evolutions: []

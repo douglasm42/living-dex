@@ -1,0 +1,6 @@
+uuid: '800'
+national_id: 800
+name: Necrozma
+types: [psychic]
+image: {sheet: 5, x: 9, y: 4}
+evolutions: []

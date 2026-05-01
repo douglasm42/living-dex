@@ -1,0 +1,6 @@
+uuid: '86'
+national_id: 86
+name: Seel
+types: [water]
+image: {sheet: 0, x: 5, y: 8}
+evolutions: []

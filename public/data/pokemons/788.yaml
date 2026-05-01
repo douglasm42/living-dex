@@ -1,0 +1,6 @@
+uuid: '788'
+national_id: 788
+name: Tapu Fini
+types: [water, fairy]
+image: {sheet: 5, x: 7, y: 3}
+evolutions: []

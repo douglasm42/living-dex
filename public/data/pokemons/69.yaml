@@ -1,0 +1,6 @@
+uuid: '69'
+national_id: 69
+name: Bellsprout
+types: [grass, poison]
+image: {sheet: 0, x: 8, y: 6}
+evolutions: []

@@ -1,0 +1,6 @@
+uuid: '1016'
+national_id: 1016
+name: Fezandipiti
+types: [poison, fairy]
+image: {sheet: 6, x: 5, y: 11}
+evolutions: []

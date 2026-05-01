@@ -1,0 +1,6 @@
+uuid: '890'
+national_id: 890
+name: Eternatus
+types: [poison, dragon]
+image: {sheet: 5, x: 9, y: 13}
+evolutions: []

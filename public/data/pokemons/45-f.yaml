@@ -1,0 +1,6 @@
+uuid: 45-f
+national_id: 45
+name: Vileplume ♀
+types: [grass, poison]
+image: {sheet: 6, x: 4, y: 13}
+evolutions: []

@@ -1,0 +1,6 @@
+uuid: '173'
+national_id: 173
+name: Cleffa
+types: [fairy]
+image: {sheet: 1, x: 2, y: 2}
+evolutions: []

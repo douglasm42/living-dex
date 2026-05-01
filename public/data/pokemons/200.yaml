@@ -1,0 +1,6 @@
+uuid: '200'
+national_id: 200
+name: Misdreavus
+types: [ghost]
+image: {sheet: 1, x: 9, y: 4}
+evolutions: []

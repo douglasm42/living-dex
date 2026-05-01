@@ -1,0 +1,6 @@
+uuid: '876'
+national_id: 876
+name: Indeedee
+types: [psychic, normal]
+image: {sheet: 5, x: 5, y: 12}
+evolutions: []

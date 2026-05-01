@@ -1,0 +1,6 @@
+uuid: '4'
+national_id: 4
+name: Charmander
+types: [fire]
+image: {sheet: 0, x: 3, y: 0}
+evolutions: []

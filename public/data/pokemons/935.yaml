@@ -1,0 +1,6 @@
+uuid: '935'
+national_id: 935
+name: Charcadet
+types: [fire]
+image: {sheet: 6, x: 4, y: 3}
+evolutions: []

@@ -1,0 +1,6 @@
+uuid: '814'
+national_id: 814
+name: Raboot
+types: [fire]
+image: {sheet: 5, x: 3, y: 6}
+evolutions: []

@@ -1,0 +1,6 @@
+uuid: '156'
+national_id: 156
+name: Quilava
+types: [fire]
+image: {sheet: 1, x: 5, y: 0}
+evolutions: []

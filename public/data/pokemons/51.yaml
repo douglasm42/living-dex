@@ -1,0 +1,6 @@
+uuid: '51'
+national_id: 51
+name: Dugtrio
+types: [ground]
+image: {sheet: 0, x: 0, y: 5}
+evolutions: []

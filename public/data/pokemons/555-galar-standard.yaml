@@ -1,0 +1,6 @@
+uuid: 555-galar-standard
+national_id: 555
+name: Darmanitan Standard
+types: [ice]
+image: {sheet: 8, x: 8, y: 3}
+evolutions: []

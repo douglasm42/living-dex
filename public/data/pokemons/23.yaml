@@ -1,0 +1,6 @@
+uuid: '23'
+national_id: 23
+name: Ekans
+types: [poison]
+image: {sheet: 0, x: 2, y: 2}
+evolutions: []

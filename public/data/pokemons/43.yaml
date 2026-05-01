@@ -1,0 +1,6 @@
+uuid: '43'
+national_id: 43
+name: Oddish
+types: [grass, poison]
+image: {sheet: 0, x: 2, y: 4}
+evolutions: []

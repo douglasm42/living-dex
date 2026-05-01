@@ -1,0 +1,6 @@
+uuid: '1011'
+national_id: 1011
+name: Dipplin
+types: [grass, dragon]
+image: {sheet: 6, x: 0, y: 11}
+evolutions: []

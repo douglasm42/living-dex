@@ -3,6 +3,7 @@ require 'digest/sha1'
 require 'titleize'
 
 RAW_DATA_FILENAME = 'scripts/pokemons_info.json'
+RAW_DATA_WITH_TYPES = 'pokemons_info.json'
 
 REGIONS = [
   'kanto',
@@ -29,8 +30,6 @@ REGION_PREFIX = {
 def get_region(variation)
   REGIONS.select { |r| variation.include?(r) && !variation.end_with?('-cap') }.first if variation
 end
-
-data = JSON.parse(File.read(RAW_DATA_FILENAME))
 
 def build_title(name)
   name.split('-').join(' ').titleize
@@ -61,7 +60,7 @@ def cleanup_variation(name, variation)
            .join('-')
 end
 
-def build_pokemon(id, name, variation, imagePath)
+def build_pokemon(id, name, variation, imagePath, types = [])
   variation = cleanup_variation(name, variation)
   region = get_region(variation)
 
@@ -78,25 +77,33 @@ def build_pokemon(id, name, variation, imagePath)
     variation: variation,
     imagePath: imagePath,
     region: region,
+    types: types,
   }
 end
 
+data = JSON.parse(File.read(RAW_DATA_WITH_TYPES))
+
 default_pokemons = data.map do |pokemon|
+  default_variety = pokemon['varieties'].select { |v| v['is_default'] }.first
+  default_form = default_variety['forms'].find { |f| f['is_default'] } || default_variety['forms'].first
   build_pokemon(
     pokemon['id'],
     pokemon['name'],
     nil,
-    pokemon['varieties'].select { |v| v['is_default'] }.first['default_sprite'],
+    default_variety['default_sprite'],
+    default_form['types'],
   )
 end
 
 default_female_pokemons = data.select{ |p| p['has_gender_differences'] }.map do |pokemon|
   default_variety = pokemon['varieties'].select { |v| v['is_default'] }.first
+  default_form = default_variety['forms'].find { |f| f['is_default'] } || default_variety['forms'].first
   build_pokemon(
     pokemon['id'],
     pokemon['name'],
     'f',
     default_variety['female_sprite'] || default_variety['default_sprite'],
+    default_form['types'],
   )
 end.select {|p| p[:imagePath] }
 
@@ -112,7 +119,7 @@ def is_banned?(variety)
   )
 end
 
-only_varieties = JSON.parse(File.read(RAW_DATA_FILENAME)).select {|p| !BAN_IDS.include?(p['id']) }.map do |pokemon|
+only_varieties = JSON.parse(File.read(RAW_DATA_WITH_TYPES)).select {|p| !BAN_IDS.include?(p['id']) }.map do |pokemon|
   pokemon['varieties'] = pokemon['varieties'].select {|v| is_banned?(v) }
   pokemon
 end.select {|p| !p['varieties'].empty?}
@@ -120,12 +127,12 @@ end.select {|p| !p['varieties'].empty?}
 varieties = only_varieties.reduce([]) do |vars, pokemon|
   vars + pokemon['varieties'].map do |v|
     v['forms'].map do |f|
-      build_pokemon(pokemon['id'], pokemon['name'], f, v['default_sprite'])
+      build_pokemon(pokemon['id'], pokemon['name'], f['name'], v['default_sprite'], f['types'])
     end + v['forms'].map do |f|
-      build_pokemon(pokemon['id'], pokemon['name'], "#{f}-f", v['female_sprite'])
+      build_pokemon(pokemon['id'], pokemon['name'], "#{f['name']}-f", v['female_sprite'], f['types'])
     end
   end.flatten
-end.select {|p| p[:imagePath] && !p[:variation].end_with?('female') && !p[:variation].end_with?('male') }
+end.select {|p| p[:imagePath] && p[:variation] && !p[:variation].end_with?('female') && !p[:variation].end_with?('male') }
 
 varieties = varieties.map do |pokemon|
   if pokemon[:id] == 25 && pokemon[:subTitle].include?('Cap')
@@ -262,6 +269,7 @@ varieties << {
   imagePath: "413.png",
   region: nil,
   uuid: "413-plant",
+  types: ["bug", "grass"],
 }
 
 varieties << {
@@ -273,7 +281,8 @@ varieties << {
   variation: "red-striped",
   imagePath: "550.png",
   region: nil,
-  uuid: "550-red-striped"
+  uuid: "550-red-striped",
+  types: ["water"],
 }
 
 varieties << {
@@ -285,7 +294,8 @@ varieties << {
   variation: "green-plumage",
   imagePath: "931.png",
   region: nil,
-  uuid: "931-green-plumage"
+  uuid: "931-green-plumage",
+  types: ["normal", "flying"],
 }
 
 varieties << {
@@ -297,7 +307,8 @@ varieties << {
   variation: "curly",
   imagePath: "978.png",
   region: nil,
-  uuid: "978-curly"
+  uuid: "978-curly",
+  types: ["dragon", "water"],
 }
 
 all_entries = default_pokemons + default_female_pokemons + varieties

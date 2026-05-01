@@ -1,0 +1,6 @@
+uuid: '667'
+national_id: 667
+name: Litleo
+types: [fire, normal]
+image: {sheet: 4, x: 6, y: 6}
+evolutions: []

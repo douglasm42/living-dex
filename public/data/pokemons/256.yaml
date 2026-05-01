@@ -1,0 +1,6 @@
+uuid: '256'
+national_id: 256
+name: Combusken
+types: [fire, fighting]
+image: {sheet: 1, x: 5, y: 10}
+evolutions: []

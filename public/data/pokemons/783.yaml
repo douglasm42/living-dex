@@ -1,0 +1,6 @@
+uuid: '783'
+national_id: 783
+name: Hakamo O
+types: [dragon, fighting]
+image: {sheet: 5, x: 2, y: 3}
+evolutions: []

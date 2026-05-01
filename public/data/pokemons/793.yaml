@@ -1,0 +1,6 @@
+uuid: '793'
+national_id: 793
+name: Nihilego
+types: [rock, poison]
+image: {sheet: 5, x: 2, y: 4}
+evolutions: []

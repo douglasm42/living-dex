@@ -1,0 +1,6 @@
+uuid: '888'
+national_id: 888
+name: Zacian
+types: [fairy]
+image: {sheet: 5, x: 7, y: 13}
+evolutions: []

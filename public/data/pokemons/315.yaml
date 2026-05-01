@@ -1,0 +1,6 @@
+uuid: '315'
+national_id: 315
+name: Roselia
+types: [grass, poison]
+image: {sheet: 2, x: 4, y: 1}
+evolutions: []

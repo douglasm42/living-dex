@@ -1,0 +1,6 @@
+uuid: '199'
+national_id: 199
+name: Slowking
+types: [water, psychic]
+image: {sheet: 1, x: 8, y: 4}
+evolutions: []

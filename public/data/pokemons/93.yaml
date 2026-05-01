@@ -1,0 +1,6 @@
+uuid: '93'
+national_id: 93
+name: Haunter
+types: [ghost, poison]
+image: {sheet: 0, x: 2, y: 9}
+evolutions: []

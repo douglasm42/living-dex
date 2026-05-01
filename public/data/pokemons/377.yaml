@@ -1,0 +1,6 @@
+uuid: '377'
+national_id: 377
+name: Regirock
+types: [rock]
+image: {sheet: 2, x: 6, y: 7}
+evolutions: []

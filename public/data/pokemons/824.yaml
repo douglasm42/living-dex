@@ -1,0 +1,6 @@
+uuid: '824'
+national_id: 824
+name: Blipbug
+types: [bug]
+image: {sheet: 5, x: 3, y: 7}
+evolutions: []

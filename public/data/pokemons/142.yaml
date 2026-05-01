@@ -1,0 +1,6 @@
+uuid: '142'
+national_id: 142
+name: Aerodactyl
+types: [rock, flying]
+image: {sheet: 0, x: 1, y: 14}
+evolutions: []

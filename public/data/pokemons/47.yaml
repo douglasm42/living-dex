@@ -1,0 +1,6 @@
+uuid: '47'
+national_id: 47
+name: Parasect
+types: [bug, grass]
+image: {sheet: 0, x: 6, y: 4}
+evolutions: []

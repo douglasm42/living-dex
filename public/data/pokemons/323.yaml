@@ -1,0 +1,6 @@
+uuid: '323'
+national_id: 323
+name: Camerupt
+types: [fire, ground]
+image: {sheet: 2, x: 2, y: 2}
+evolutions: []

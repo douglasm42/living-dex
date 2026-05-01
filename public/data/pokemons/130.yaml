@@ -1,0 +1,6 @@
+uuid: '130'
+national_id: 130
+name: Gyarados
+types: [water, flying]
+image: {sheet: 0, x: 9, y: 12}
+evolutions: []

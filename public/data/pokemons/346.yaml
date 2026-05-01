@@ -1,0 +1,6 @@
+uuid: '346'
+national_id: 346
+name: Cradily
+types: [rock, grass]
+image: {sheet: 2, x: 5, y: 4}
+evolutions: []

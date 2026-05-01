@@ -1,0 +1,6 @@
+uuid: 100-hisui
+national_id: 100
+name: Voltorb
+types: [electric, grass]
+image: {sheet: 7, x: 4, y: 11}
+evolutions: []

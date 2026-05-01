@@ -1,0 +1,6 @@
+uuid: 745-midnight
+national_id: 745
+name: Lycanroc Midnight
+types: [rock]
+image: {sheet: 8, x: 2, y: 12}
+evolutions: []

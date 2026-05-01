@@ -1,0 +1,6 @@
+uuid: '436'
+national_id: 436
+name: Bronzor
+types: [steel, psychic]
+image: {sheet: 2, x: 5, y: 13}
+evolutions: []

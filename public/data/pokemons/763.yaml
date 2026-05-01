@@ -1,0 +1,6 @@
+uuid: '763'
+national_id: 763
+name: Tsareena
+types: [grass]
+image: {sheet: 5, x: 2, y: 1}
+evolutions: []

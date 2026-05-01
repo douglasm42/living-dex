@@ -1,0 +1,6 @@
+uuid: '406'
+national_id: 406
+name: Budew
+types: [grass, poison]
+image: {sheet: 2, x: 5, y: 10}
+evolutions: []

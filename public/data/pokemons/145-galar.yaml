@@ -1,0 +1,6 @@
+uuid: 145-galar
+national_id: 145
+name: Zapdos
+types: [fighting, flying]
+image: {sheet: 7, x: 7, y: 12}
+evolutions: []

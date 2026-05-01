@@ -1,0 +1,6 @@
+uuid: '1020'
+national_id: 1020
+name: Gouging Fire
+types: [fire, dragon]
+image: {sheet: 6, x: 9, y: 11}
+evolutions: []

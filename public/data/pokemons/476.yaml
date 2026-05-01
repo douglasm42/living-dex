@@ -1,0 +1,6 @@
+uuid: '476'
+national_id: 476
+name: Probopass
+types: [rock, steel]
+image: {sheet: 3, x: 5, y: 2}
+evolutions: []

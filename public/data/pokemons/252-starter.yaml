@@ -1,0 +1,6 @@
+uuid: 252-starter
+national_id: 252
+name: Treecko
+types: [grass]
+image: {sheet: 1, x: 1, y: 10}
+evolutions: []

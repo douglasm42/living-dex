@@ -1,0 +1,6 @@
+uuid: '338'
+national_id: 338
+name: Solrock
+types: [rock, psychic]
+image: {sheet: 2, x: 7, y: 3}
+evolutions: []

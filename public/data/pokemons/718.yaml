@@ -1,0 +1,6 @@
+uuid: '718'
+national_id: 718
+name: Zygarde
+types: [dragon, ground]
+image: {sheet: 4, x: 7, y: 11}
+evolutions: []

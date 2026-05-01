@@ -1,0 +1,6 @@
+uuid: '527'
+national_id: 527
+name: Woobat
+types: [psychic, flying]
+image: {sheet: 3, x: 6, y: 7}
+evolutions: []

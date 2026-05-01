@@ -1,0 +1,6 @@
+uuid: '519'
+national_id: 519
+name: Pidove
+types: [normal, flying]
+image: {sheet: 3, x: 8, y: 6}
+evolutions: []

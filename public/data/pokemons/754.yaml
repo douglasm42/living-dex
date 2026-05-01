@@ -1,0 +1,6 @@
+uuid: '754'
+national_id: 754
+name: Lurantis
+types: [grass]
+image: {sheet: 5, x: 3, y: 0}
+evolutions: []

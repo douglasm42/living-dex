@@ -1,0 +1,6 @@
+uuid: '599'
+national_id: 599
+name: Klink
+types: [steel]
+image: {sheet: 3, x: 8, y: 14}
+evolutions: []

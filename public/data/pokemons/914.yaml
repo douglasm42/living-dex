@@ -1,0 +1,6 @@
+uuid: '914'
+national_id: 914
+name: Quaquaval
+types: [water, fighting]
+image: {sheet: 6, x: 3, y: 1}
+evolutions: []

@@ -1,0 +1,6 @@
+uuid: '925'
+national_id: 925
+name: Maushold
+types: [normal]
+image: {sheet: 6, x: 4, y: 2}
+evolutions: []

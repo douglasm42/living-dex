@@ -1,0 +1,6 @@
+uuid: '163'
+national_id: 163
+name: Hoothoot
+types: [normal, flying]
+image: {sheet: 1, x: 2, y: 1}
+evolutions: []

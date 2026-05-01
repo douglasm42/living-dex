@@ -1,0 +1,6 @@
+uuid: '379'
+national_id: 379
+name: Registeel
+types: [steel]
+image: {sheet: 2, x: 8, y: 7}
+evolutions: []

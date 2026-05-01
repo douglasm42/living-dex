@@ -1,0 +1,6 @@
+uuid: '929'
+national_id: 929
+name: Dolliv
+types: [grass, normal]
+image: {sheet: 6, x: 8, y: 2}
+evolutions: []

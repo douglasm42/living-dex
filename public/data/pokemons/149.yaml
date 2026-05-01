@@ -1,0 +1,6 @@
+uuid: '149'
+national_id: 149
+name: Dragonite
+types: [dragon, flying]
+image: {sheet: 0, x: 8, y: 14}
+evolutions: []

@@ -1,0 +1,6 @@
+uuid: '901'
+national_id: 901
+name: Ursaluna
+types: [ground, normal]
+image: {sheet: 6, x: 0, y: 0}
+evolutions: []

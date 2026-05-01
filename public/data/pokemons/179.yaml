@@ -1,0 +1,6 @@
+uuid: '179'
+national_id: 179
+name: Mareep
+types: [electric]
+image: {sheet: 1, x: 8, y: 2}
+evolutions: []

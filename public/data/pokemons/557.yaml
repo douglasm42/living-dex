@@ -1,0 +1,6 @@
+uuid: '557'
+national_id: 557
+name: Dwebble
+types: [bug, rock]
+image: {sheet: 3, x: 6, y: 10}
+evolutions: []

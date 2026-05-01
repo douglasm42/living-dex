@@ -1,0 +1,604 @@
+title: Generation VII
+tags: [alola, gen7]
+sub_sections:
+- title: Default
+  pokemons:
+  - id: 722
+    uuid: '722'
+    name: Rowlet
+    types: [grass, flying]
+    image: {sheet: 4, x: 1, y: 12}
+  - id: 723
+    uuid: '723'
+    name: Dartrix
+    types: [grass, flying]
+    image: {sheet: 4, x: 2, y: 12}
+  - id: 724
+    uuid: '724'
+    name: Decidueye
+    types: [grass, ghost]
+    image: {sheet: 4, x: 3, y: 12}
+  - id: 725
+    uuid: '725'
+    name: Litten
+    types: [fire]
+    image: {sheet: 4, x: 4, y: 12}
+  - id: 726
+    uuid: '726'
+    name: Torracat
+    types: [fire]
+    image: {sheet: 4, x: 5, y: 12}
+  - id: 727
+    uuid: '727'
+    name: Incineroar
+    types: [fire, dark]
+    image: {sheet: 4, x: 6, y: 12}
+  - id: 728
+    uuid: '728'
+    name: Popplio
+    types: [water]
+    image: {sheet: 4, x: 7, y: 12}
+  - id: 729
+    uuid: '729'
+    name: Brionne
+    types: [water]
+    image: {sheet: 4, x: 8, y: 12}
+  - id: 730
+    uuid: '730'
+    name: Primarina
+    types: [water, fairy]
+    image: {sheet: 4, x: 9, y: 12}
+  - id: 731
+    uuid: '731'
+    name: Pikipek
+    types: [normal, flying]
+    image: {sheet: 4, x: 0, y: 13}
+  - id: 732
+    uuid: '732'
+    name: Trumbeak
+    types: [normal, flying]
+    image: {sheet: 4, x: 1, y: 13}
+  - id: 733
+    uuid: '733'
+    name: Toucannon
+    types: [normal, flying]
+    image: {sheet: 4, x: 2, y: 13}
+  - id: 734
+    uuid: '734'
+    name: Yungoos
+    types: [normal]
+    image: {sheet: 4, x: 3, y: 13}
+  - id: 735
+    uuid: '735'
+    name: Gumshoos
+    types: [normal]
+    image: {sheet: 4, x: 4, y: 13}
+  - id: 736
+    uuid: '736'
+    name: Grubbin
+    types: [bug]
+    image: {sheet: 4, x: 5, y: 13}
+  - id: 737
+    uuid: '737'
+    name: Charjabug
+    types: [bug, electric]
+    image: {sheet: 4, x: 6, y: 13}
+  - id: 738
+    uuid: '738'
+    name: Vikavolt
+    types: [bug, electric]
+    image: {sheet: 4, x: 7, y: 13}
+  - id: 739
+    uuid: '739'
+    name: Crabrawler
+    types: [fighting]
+    image: {sheet: 4, x: 8, y: 13}
+  - id: 740
+    uuid: '740'
+    name: Crabominable
+    types: [fighting, ice]
+    image: {sheet: 4, x: 9, y: 13}
+  - id: 741
+    uuid: '741'
+    name: Oricorio
+    types: [fire, flying]
+    image: {sheet: 4, x: 0, y: 14}
+  - id: 742
+    uuid: '742'
+    name: Cutiefly
+    types: [bug, fairy]
+    image: {sheet: 4, x: 1, y: 14}
+  - id: 743
+    uuid: '743'
+    name: Ribombee
+    types: [bug, fairy]
+    image: {sheet: 4, x: 2, y: 14}
+  - id: 744
+    uuid: '744'
+    name: Rockruff
+    types: [rock]
+    image: {sheet: 4, x: 3, y: 14}
+  - id: 745
+    uuid: '745'
+    name: Lycanroc
+    types: [rock]
+    image: {sheet: 4, x: 4, y: 14}
+  - id: 746
+    uuid: '746'
+    name: Wishiwashi
+    types: [water]
+    image: {sheet: 4, x: 5, y: 14}
+  - id: 747
+    uuid: '747'
+    name: Mareanie
+    types: [poison, water]
+    image: {sheet: 4, x: 6, y: 14}
+  - id: 748
+    uuid: '748'
+    name: Toxapex
+    types: [poison, water]
+    image: {sheet: 4, x: 7, y: 14}
+  - id: 749
+    uuid: '749'
+    name: Mudbray
+    types: [ground]
+    image: {sheet: 4, x: 8, y: 14}
+  - id: 750
+    uuid: '750'
+    name: Mudsdale
+    types: [ground]
+    image: {sheet: 4, x: 9, y: 14}
+  - id: 751
+    uuid: '751'
+    name: Dewpider
+    types: [water, bug]
+    image: {sheet: 5, x: 0, y: 0}
+  - id: 752
+    uuid: '752'
+    name: Araquanid
+    types: [water, bug]
+    image: {sheet: 5, x: 1, y: 0}
+  - id: 753
+    uuid: '753'
+    name: Fomantis
+    types: [grass]
+    image: {sheet: 5, x: 2, y: 0}
+  - id: 754
+    uuid: '754'
+    name: Lurantis
+    types: [grass]
+    image: {sheet: 5, x: 3, y: 0}
+  - id: 755
+    uuid: '755'
+    name: Morelull
+    types: [grass, fairy]
+    image: {sheet: 5, x: 4, y: 0}
+  - id: 756
+    uuid: '756'
+    name: Shiinotic
+    types: [grass, fairy]
+    image: {sheet: 5, x: 5, y: 0}
+  - id: 757
+    uuid: '757'
+    name: Salandit
+    types: [poison, fire]
+    image: {sheet: 5, x: 6, y: 0}
+  - id: 758
+    uuid: '758'
+    name: Salazzle
+    types: [poison, fire]
+    image: {sheet: 5, x: 7, y: 0}
+  - id: 759
+    uuid: '759'
+    name: Stufful
+    types: [normal, fighting]
+    image: {sheet: 5, x: 8, y: 0}
+  - id: 760
+    uuid: '760'
+    name: Bewear
+    types: [normal, fighting]
+    image: {sheet: 5, x: 9, y: 0}
+  - id: 761
+    uuid: '761'
+    name: Bounsweet
+    types: [grass]
+    image: {sheet: 5, x: 0, y: 1}
+  - id: 762
+    uuid: '762'
+    name: Steenee
+    types: [grass]
+    image: {sheet: 5, x: 1, y: 1}
+  - id: 763
+    uuid: '763'
+    name: Tsareena
+    types: [grass]
+    image: {sheet: 5, x: 2, y: 1}
+  - id: 764
+    uuid: '764'
+    name: Comfey
+    types: [fairy]
+    image: {sheet: 5, x: 3, y: 1}
+  - id: 765
+    uuid: '765'
+    name: Oranguru
+    types: [normal, psychic]
+    image: {sheet: 5, x: 4, y: 1}
+  - id: 766
+    uuid: '766'
+    name: Passimian
+    types: [fighting]
+    image: {sheet: 5, x: 5, y: 1}
+  - id: 767
+    uuid: '767'
+    name: Wimpod
+    types: [bug, water]
+    image: {sheet: 5, x: 6, y: 1}
+  - id: 768
+    uuid: '768'
+    name: Golisopod
+    types: [bug, water]
+    image: {sheet: 5, x: 7, y: 1}
+  - id: 769
+    uuid: '769'
+    name: Sandygast
+    types: [ghost, ground]
+    image: {sheet: 5, x: 8, y: 1}
+  - id: 770
+    uuid: '770'
+    name: Palossand
+    types: [ghost, ground]
+    image: {sheet: 5, x: 9, y: 1}
+  - id: 771
+    uuid: '771'
+    name: Pyukumuku
+    types: [water]
+    image: {sheet: 5, x: 0, y: 2}
+  - id: 772
+    uuid: '772'
+    name: Type Null
+    types: [normal]
+    image: {sheet: 5, x: 1, y: 2}
+  - id: 773
+    uuid: '773'
+    name: Silvally
+    types: [normal]
+    image: {sheet: 5, x: 2, y: 2}
+  - id: 774
+    uuid: '774'
+    name: Minior
+    types: [rock, flying]
+    image: {sheet: 5, x: 3, y: 2}
+  - id: 775
+    uuid: '775'
+    name: Komala
+    types: [normal]
+    image: {sheet: 5, x: 4, y: 2}
+  - id: 776
+    uuid: '776'
+    name: Turtonator
+    types: [fire, dragon]
+    image: {sheet: 5, x: 5, y: 2}
+  - id: 777
+    uuid: '777'
+    name: Togedemaru
+    types: [electric, steel]
+    image: {sheet: 5, x: 6, y: 2}
+  - id: 778
+    uuid: '778'
+    name: Mimikyu
+    types: [ghost, fairy]
+    image: {sheet: 5, x: 7, y: 2}
+  - id: 779
+    uuid: '779'
+    name: Bruxish
+    types: [water, psychic]
+    image: {sheet: 5, x: 8, y: 2}
+  - id: 780
+    uuid: '780'
+    name: Drampa
+    types: [normal, dragon]
+    image: {sheet: 5, x: 9, y: 2}
+  - id: 781
+    uuid: '781'
+    name: Dhelmise
+    types: [ghost, grass]
+    image: {sheet: 5, x: 0, y: 3}
+  - id: 782
+    uuid: '782'
+    name: Jangmo O
+    types: [dragon]
+    image: {sheet: 5, x: 1, y: 3}
+  - id: 783
+    uuid: '783'
+    name: Hakamo O
+    types: [dragon, fighting]
+    image: {sheet: 5, x: 2, y: 3}
+  - id: 784
+    uuid: '784'
+    name: Kommo O
+    types: [dragon, fighting]
+    image: {sheet: 5, x: 3, y: 3}
+  - id: 785
+    uuid: '785'
+    name: Tapu Koko
+    types: [electric, fairy]
+    image: {sheet: 5, x: 4, y: 3}
+  - id: 786
+    uuid: '786'
+    name: Tapu Lele
+    types: [psychic, fairy]
+    image: {sheet: 5, x: 5, y: 3}
+  - id: 787
+    uuid: '787'
+    name: Tapu Bulu
+    types: [grass, fairy]
+    image: {sheet: 5, x: 6, y: 3}
+  - id: 788
+    uuid: '788'
+    name: Tapu Fini
+    types: [water, fairy]
+    image: {sheet: 5, x: 7, y: 3}
+  - id: 789
+    uuid: '789'
+    name: Cosmog
+    types: [psychic]
+    image: {sheet: 5, x: 8, y: 3}
+  - id: 790
+    uuid: '790'
+    name: Cosmoem
+    types: [psychic]
+    image: {sheet: 5, x: 9, y: 3}
+  - id: 791
+    uuid: '791'
+    name: Solgaleo
+    types: [psychic, steel]
+    image: {sheet: 5, x: 0, y: 4}
+  - id: 792
+    uuid: '792'
+    name: Lunala
+    types: [psychic, ghost]
+    image: {sheet: 5, x: 1, y: 4}
+  - id: 793
+    uuid: '793'
+    name: Nihilego
+    types: [rock, poison]
+    image: {sheet: 5, x: 2, y: 4}
+  - id: 794
+    uuid: '794'
+    name: Buzzwole
+    types: [bug, fighting]
+    image: {sheet: 5, x: 3, y: 4}
+  - id: 795
+    uuid: '795'
+    name: Pheromosa
+    types: [bug, fighting]
+    image: {sheet: 5, x: 4, y: 4}
+  - id: 796
+    uuid: '796'
+    name: Xurkitree
+    types: [electric]
+    image: {sheet: 5, x: 5, y: 4}
+  - id: 797
+    uuid: '797'
+    name: Celesteela
+    types: [steel, flying]
+    image: {sheet: 5, x: 6, y: 4}
+  - id: 798
+    uuid: '798'
+    name: Kartana
+    types: [grass, steel]
+    image: {sheet: 5, x: 7, y: 4}
+  - id: 799
+    uuid: '799'
+    name: Guzzlord
+    types: [dark, dragon]
+    image: {sheet: 5, x: 8, y: 4}
+  - id: 800
+    uuid: '800'
+    name: Necrozma
+    types: [psychic]
+    image: {sheet: 5, x: 9, y: 4}
+  - id: 801
+    uuid: '801'
+    name: Magearna
+    types: [steel, fairy]
+    image: {sheet: 5, x: 0, y: 5}
+  - id: 802
+    uuid: '802'
+    name: Marshadow
+    types: [fighting, ghost]
+    image: {sheet: 5, x: 1, y: 5}
+  - id: 803
+    uuid: '803'
+    name: Poipole
+    types: [poison]
+    image: {sheet: 5, x: 2, y: 5}
+  - id: 804
+    uuid: '804'
+    name: Naganadel
+    types: [poison, dragon]
+    image: {sheet: 5, x: 3, y: 5}
+  - id: 805
+    uuid: '805'
+    name: Stakataka
+    types: [rock, steel]
+    image: {sheet: 5, x: 4, y: 5}
+  - id: 806
+    uuid: '806'
+    name: Blacephalon
+    types: [fire, ghost]
+    image: {sheet: 5, x: 5, y: 5}
+  - id: 807
+    uuid: '807'
+    name: Zeraora
+    types: [electric]
+    image: {sheet: 5, x: 6, y: 5}
+  - id: 808
+    uuid: '808'
+    name: Meltan
+    types: [steel]
+    image: {sheet: 5, x: 7, y: 5}
+  - id: 809
+    uuid: '809'
+    name: Melmetal
+    types: [steel]
+    image: {sheet: 5, x: 8, y: 5}
+- title: Varieties
+  pokemons:
+  - id: 741
+    uuid: 741-pau
+    name: Oricorio Pau
+    types: [psychic, flying]
+    image: {sheet: 8, x: 8, y: 11}
+  - id: 741
+    uuid: 741-pom-pom
+    name: Oricorio Pom Pom
+    types: [electric, flying]
+    image: {sheet: 8, x: 9, y: 11}
+  - id: 741
+    uuid: 741-sensu
+    name: Oricorio Sensu
+    types: [ghost, flying]
+    image: {sheet: 8, x: 0, y: 12}
+  - id: 745
+    uuid: 745-dusk
+    name: Lycanroc Dusk
+    types: [rock]
+    image: {sheet: 8, x: 1, y: 12}
+  - id: 745
+    uuid: 745-midnight
+    name: Lycanroc Midnight
+    types: [rock]
+    image: {sheet: 8, x: 2, y: 12}
+  - id: 774
+    uuid: 774-red
+    name: Minior Red
+    types: [rock, flying]
+    image: {sheet: 8, x: 7, y: 12}
+  - id: 774
+    uuid: 774-orange
+    name: Minior Orange
+    types: [rock, flying]
+    image: {sheet: 8, x: 6, y: 12}
+  - id: 774
+    uuid: 774-yellow
+    name: Minior Yellow
+    types: [rock, flying]
+    image: {sheet: 8, x: 9, y: 12}
+  - id: 774
+    uuid: 774-green
+    name: Minior Green
+    types: [rock, flying]
+    image: {sheet: 8, x: 4, y: 12}
+  - id: 774
+    uuid: 774-blue
+    name: Minior Blue
+    types: [rock, flying]
+    image: {sheet: 8, x: 3, y: 12}
+  - id: 774
+    uuid: 774-indigo
+    name: Minior Indigo
+    types: [rock, flying]
+    image: {sheet: 8, x: 5, y: 12}
+  - id: 774
+    uuid: 774-violet
+    name: Minior Violet
+    types: [rock, flying]
+    image: {sheet: 8, x: 8, y: 12}
+  - id: 801
+    uuid: 801-original
+    name: Magearna Original
+    types: [steel, fairy]
+    image: {sheet: 8, x: 0, y: 13}
+- title: Alolan Forms
+  pokemons:
+  - id: 19
+    uuid: 19-alola
+    name: Rattata
+    types: [dark, normal]
+    image: {sheet: 7, x: 7, y: 7}
+  - id: 20
+    uuid: 20-alola
+    name: Raticate
+    types: [dark, normal]
+    image: {sheet: 7, x: 8, y: 7}
+  - id: 26
+    uuid: 26-alola
+    name: Raichu
+    types: [electric, psychic]
+    image: {sheet: 7, x: 8, y: 8}
+  - id: 27
+    uuid: 27-alola
+    name: Sandshrew
+    types: [ice, steel]
+    image: {sheet: 7, x: 9, y: 8}
+  - id: 28
+    uuid: 28-alola
+    name: Sandslash
+    types: [ice, steel]
+    image: {sheet: 7, x: 0, y: 9}
+  - id: 37
+    uuid: 37-alola
+    name: Vulpix
+    types: [ice]
+    image: {sheet: 7, x: 1, y: 9}
+  - id: 38
+    uuid: 38-alola
+    name: Ninetales
+    types: [ice, fairy]
+    image: {sheet: 7, x: 2, y: 9}
+  - id: 50
+    uuid: 50-alola
+    name: Diglett
+    types: [ground, steel]
+    image: {sheet: 7, x: 3, y: 9}
+  - id: 51
+    uuid: 51-alola
+    name: Dugtrio
+    types: [ground, steel]
+    image: {sheet: 7, x: 4, y: 9}
+  - id: 52
+    uuid: 52-alola
+    name: Meowth
+    types: [dark]
+    image: {sheet: 7, x: 5, y: 9}
+  - id: 53
+    uuid: 53-alola
+    name: Persian
+    types: [dark]
+    image: {sheet: 7, x: 8, y: 9}
+  - id: 74
+    uuid: 74-alola
+    name: Geodude
+    types: [rock, electric]
+    image: {sheet: 7, x: 2, y: 10}
+  - id: 75
+    uuid: 75-alola
+    name: Graveler
+    types: [rock, electric]
+    image: {sheet: 7, x: 3, y: 10}
+  - id: 76
+    uuid: 76-alola
+    name: Golem
+    types: [rock, electric]
+    image: {sheet: 7, x: 4, y: 10}
+  - id: 88
+    uuid: 88-alola
+    name: Grimer
+    types: [poison, dark]
+    image: {sheet: 7, x: 0, y: 11}
+  - id: 89
+    uuid: 89-alola
+    name: Muk
+    types: [poison, dark]
+    image: {sheet: 7, x: 1, y: 11}
+  - id: 103
+    uuid: 103-alola
+    name: Exeggutor
+    types: [grass, dragon]
+    image: {sheet: 7, x: 6, y: 11}
+  - id: 105
+    uuid: 105-alola
+    name: Marowak
+    types: [fire, ghost]
+    image: {sheet: 7, x: 7, y: 11}

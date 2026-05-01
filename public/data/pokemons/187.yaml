@@ -1,0 +1,6 @@
+uuid: '187'
+national_id: 187
+name: Hoppip
+types: [grass, flying]
+image: {sheet: 1, x: 6, y: 3}
+evolutions: []

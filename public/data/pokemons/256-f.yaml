@@ -1,0 +1,6 @@
+uuid: 256-f
+national_id: 256
+name: Combusken ♀
+types: [fire, fighting]
+image: {sheet: 7, x: 0, y: 2}
+evolutions: []

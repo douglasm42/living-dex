@@ -1,0 +1,6 @@
+uuid: '314'
+national_id: 314
+name: Illumise
+types: [bug]
+image: {sheet: 2, x: 3, y: 1}
+evolutions: []

@@ -1,0 +1,6 @@
+uuid: '922'
+national_id: 922
+name: Pawmo
+types: [electric, fighting]
+image: {sheet: 6, x: 1, y: 2}
+evolutions: []

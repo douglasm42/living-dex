@@ -1,0 +1,6 @@
+uuid: '317'
+national_id: 317
+name: Swalot
+types: [poison]
+image: {sheet: 2, x: 6, y: 1}
+evolutions: []

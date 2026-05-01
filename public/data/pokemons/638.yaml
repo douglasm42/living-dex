@@ -1,0 +1,6 @@
+uuid: '638'
+national_id: 638
+name: Cobalion
+types: [steel, fighting]
+image: {sheet: 4, x: 7, y: 3}
+evolutions: []

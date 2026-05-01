@@ -1,0 +1,6 @@
+uuid: '886'
+national_id: 886
+name: Drakloak
+types: [dragon, ghost]
+image: {sheet: 5, x: 5, y: 13}
+evolutions: []

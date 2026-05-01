@@ -1,0 +1,6 @@
+uuid: '772'
+national_id: 772
+name: Type Null
+types: [normal]
+image: {sheet: 5, x: 1, y: 2}
+evolutions: []

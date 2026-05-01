@@ -1,0 +1,6 @@
+uuid: '82'
+national_id: 82
+name: Magneton
+types: [electric, steel]
+image: {sheet: 0, x: 1, y: 8}
+evolutions: []

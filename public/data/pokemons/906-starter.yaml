@@ -1,0 +1,6 @@
+uuid: 906-starter
+national_id: 906
+name: Sprigatito
+types: [grass]
+image: {sheet: 6, x: 5, y: 0}
+evolutions: []

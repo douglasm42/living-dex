@@ -1,0 +1,6 @@
+uuid: '298'
+national_id: 298
+name: Azurill
+types: [normal, fairy]
+image: {sheet: 1, x: 7, y: 14}
+evolutions: []

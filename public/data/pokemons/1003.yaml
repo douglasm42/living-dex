@@ -1,0 +1,6 @@
+uuid: '1003'
+national_id: 1003
+name: Ting Lu
+types: [dark, ground]
+image: {sheet: 6, x: 2, y: 10}
+evolutions: []

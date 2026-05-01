@@ -1,0 +1,6 @@
+uuid: 813-starter
+national_id: 813
+name: Scorbunny
+types: [fire]
+image: {sheet: 5, x: 2, y: 6}
+evolutions: []

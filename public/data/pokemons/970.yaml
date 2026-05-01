@@ -1,0 +1,6 @@
+uuid: '970'
+national_id: 970
+name: Glimmora
+types: [rock, poison]
+image: {sheet: 6, x: 9, y: 6}
+evolutions: []

@@ -29,12 +29,27 @@ def getPokemon(url):
 def getVariations(url, is_default):
   data = getData(url)
 
+  result = {
+    "is_default": data["is_default"],
+    "name": data["name"],
+    "forms": [],
+    "default_sprite": data["sprites"]["other"]["home"]["front_default"],
+    "female_sprite": data["sprites"]["other"]["home"]["front_female"]
+  }
+
+  for f in data["forms"]:
+    result["forms"].append(getForm(f["url"]))
+
+  return result
+
+def getForm(url):
+  data = getData(url)
+
   return {
     "is_default": data["is_default"],
     "name": data["name"],
-    "forms": list(map(lambda x: x["name"], data["forms"])),
-    "default_sprite": data["sprites"]["other"]["home"]["front_default"],
-    "female_sprite": data["sprites"]["other"]["home"]["front_female"]
+    "id": data["id"],
+    "types": list(map(lambda x: x["type"]["name"], data["types"]))
   }
 
 def getAllPokemons():

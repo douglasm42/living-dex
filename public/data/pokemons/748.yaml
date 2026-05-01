@@ -1,0 +1,6 @@
+uuid: '748'
+national_id: 748
+name: Toxapex
+types: [poison, water]
+image: {sheet: 4, x: 7, y: 14}
+evolutions: []

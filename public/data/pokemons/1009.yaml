@@ -1,0 +1,6 @@
+uuid: '1009'
+national_id: 1009
+name: Walking Wake
+types: [water, dragon]
+image: {sheet: 6, x: 8, y: 10}
+evolutions: []

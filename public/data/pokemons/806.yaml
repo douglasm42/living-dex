@@ -1,0 +1,6 @@
+uuid: '806'
+national_id: 806
+name: Blacephalon
+types: [fire, ghost]
+image: {sheet: 5, x: 5, y: 5}
+evolutions: []

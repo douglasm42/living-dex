@@ -1,0 +1,6 @@
+uuid: 666-continental
+national_id: 666
+name: Vivillon Continental
+types: [bug, flying]
+image: {sheet: 8, x: 0, y: 6}
+evolutions: []

@@ -1,0 +1,6 @@
+uuid: 823-gmax
+national_id: 823
+name: Corviknight
+types: [flying, steel]
+image: {sheet: 8, x: 5, y: 13}
+evolutions: []

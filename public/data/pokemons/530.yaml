@@ -1,0 +1,6 @@
+uuid: '530'
+national_id: 530
+name: Excadrill
+types: [ground, steel]
+image: {sheet: 3, x: 9, y: 7}
+evolutions: []

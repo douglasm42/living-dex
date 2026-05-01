@@ -1,0 +1,6 @@
+uuid: 718-10-power-construct
+national_id: 718
+name: Zygarde 10 Power Construct
+types: [dragon, ground]
+image: {sheet: 8, x: 4, y: 11}
+evolutions: []

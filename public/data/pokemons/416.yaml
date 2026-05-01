@@ -1,0 +1,6 @@
+uuid: '416'
+national_id: 416
+name: Vespiquen
+types: [bug, flying]
+image: {sheet: 2, x: 5, y: 11}
+evolutions: []

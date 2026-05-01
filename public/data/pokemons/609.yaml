@@ -1,0 +1,6 @@
+uuid: '609'
+national_id: 609
+name: Chandelure
+types: [ghost, fire]
+image: {sheet: 4, x: 8, y: 0}
+evolutions: []

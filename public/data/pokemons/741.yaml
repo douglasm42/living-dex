@@ -1,0 +1,6 @@
+uuid: '741'
+national_id: 741
+name: Oricorio
+types: [fire, flying]
+image: {sheet: 4, x: 0, y: 14}
+evolutions: []

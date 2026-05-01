@@ -1,0 +1,6 @@
+uuid: 122-galar
+national_id: 122
+name: Mr Mime
+types: [ice, psychic]
+image: {sheet: 7, x: 9, y: 11}
+evolutions: []

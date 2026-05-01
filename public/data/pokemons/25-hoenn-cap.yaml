@@ -1,0 +1,6 @@
+uuid: 25-hoenn-cap
+national_id: 25
+name: Pikachu Hoenn
+types: [electric]
+image: {sheet: 7, x: 1, y: 8}
+evolutions: []

@@ -1,0 +1,6 @@
+uuid: '566'
+national_id: 566
+name: Archen
+types: [rock, flying]
+image: {sheet: 3, x: 5, y: 11}
+evolutions: []

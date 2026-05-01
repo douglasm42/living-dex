@@ -1,0 +1,6 @@
+uuid: '309'
+national_id: 309
+name: Electrike
+types: [electric]
+image: {sheet: 2, x: 8, y: 0}
+evolutions: []

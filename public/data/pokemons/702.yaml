@@ -1,0 +1,6 @@
+uuid: '702'
+national_id: 702
+name: Dedenne
+types: [electric, fairy]
+image: {sheet: 4, x: 1, y: 10}
+evolutions: []

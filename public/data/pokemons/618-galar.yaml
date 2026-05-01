@@ -1,0 +1,6 @@
+uuid: 618-galar
+national_id: 618
+name: Stunfisk
+types: [ground, steel]
+image: {sheet: 8, x: 1, y: 5}
+evolutions: []

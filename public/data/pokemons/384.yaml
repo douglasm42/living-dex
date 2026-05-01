@@ -1,0 +1,6 @@
+uuid: '384'
+national_id: 384
+name: Rayquaza
+types: [dragon, flying]
+image: {sheet: 2, x: 3, y: 8}
+evolutions: []

@@ -1,0 +1,6 @@
+uuid: '362'
+national_id: 362
+name: Glalie
+types: [ice]
+image: {sheet: 2, x: 1, y: 6}
+evolutions: []

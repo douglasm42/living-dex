@@ -1,0 +1,6 @@
+uuid: '185'
+national_id: 185
+name: Sudowoodo
+types: [rock]
+image: {sheet: 1, x: 4, y: 3}
+evolutions: []

@@ -1,0 +1,6 @@
+uuid: '412'
+national_id: 412
+name: Burmy
+types: [bug]
+image: {sheet: 2, x: 1, y: 11}
+evolutions: []

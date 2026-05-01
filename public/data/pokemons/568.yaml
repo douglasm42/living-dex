@@ -1,0 +1,6 @@
+uuid: '568'
+national_id: 568
+name: Trubbish
+types: [poison]
+image: {sheet: 3, x: 7, y: 11}
+evolutions: []

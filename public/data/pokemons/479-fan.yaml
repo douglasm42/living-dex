@@ -1,0 +1,6 @@
+uuid: 479-fan
+national_id: 479
+name: Rotom Fan
+types: [electric, flying]
+image: {sheet: 8, x: 7, y: 2}
+evolutions: []

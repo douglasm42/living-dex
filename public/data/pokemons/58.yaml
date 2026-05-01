@@ -1,0 +1,6 @@
+uuid: '58'
+national_id: 58
+name: Growlithe
+types: [fire]
+image: {sheet: 0, x: 7, y: 5}
+evolutions: []

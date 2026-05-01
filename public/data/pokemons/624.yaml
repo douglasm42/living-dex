@@ -1,0 +1,6 @@
+uuid: '624'
+national_id: 624
+name: Pawniard
+types: [dark, steel]
+image: {sheet: 4, x: 3, y: 2}
+evolutions: []

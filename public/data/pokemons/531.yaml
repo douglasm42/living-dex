@@ -1,0 +1,6 @@
+uuid: '531'
+national_id: 531
+name: Audino
+types: [normal]
+image: {sheet: 3, x: 0, y: 8}
+evolutions: []

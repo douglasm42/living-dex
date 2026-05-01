@@ -1,0 +1,6 @@
+uuid: '227'
+national_id: 227
+name: Skarmory
+types: [steel, flying]
+image: {sheet: 1, x: 6, y: 7}
+evolutions: []

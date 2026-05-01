@@ -1,0 +1,6 @@
+uuid: '307'
+national_id: 307
+name: Meditite
+types: [fighting, psychic]
+image: {sheet: 2, x: 6, y: 0}
+evolutions: []

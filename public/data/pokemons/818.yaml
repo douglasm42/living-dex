@@ -1,0 +1,6 @@
+uuid: '818'
+national_id: 818
+name: Inteleon
+types: [water]
+image: {sheet: 5, x: 7, y: 6}
+evolutions: []

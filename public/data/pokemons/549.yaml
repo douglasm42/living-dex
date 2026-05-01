@@ -1,0 +1,6 @@
+uuid: '549'
+national_id: 549
+name: Lilligant
+types: [grass]
+image: {sheet: 3, x: 8, y: 9}
+evolutions: []

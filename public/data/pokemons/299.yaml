@@ -1,0 +1,6 @@
+uuid: '299'
+national_id: 299
+name: Nosepass
+types: [rock]
+image: {sheet: 1, x: 8, y: 14}
+evolutions: []

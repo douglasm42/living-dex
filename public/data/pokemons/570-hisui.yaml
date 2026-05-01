@@ -1,0 +1,6 @@
+uuid: 570-hisui
+national_id: 570
+name: Zorua
+types: [normal, ghost]
+image: {sheet: 8, x: 1, y: 4}
+evolutions: []

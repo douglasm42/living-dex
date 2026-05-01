@@ -1,0 +1,6 @@
+uuid: '426'
+national_id: 426
+name: Drifblim
+types: [ghost, flying]
+image: {sheet: 2, x: 5, y: 12}
+evolutions: []

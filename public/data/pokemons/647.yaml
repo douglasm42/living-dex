@@ -1,0 +1,6 @@
+uuid: '647'
+national_id: 647
+name: Keldeo
+types: [water, fighting]
+image: {sheet: 4, x: 6, y: 4}
+evolutions: []

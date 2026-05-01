@@ -1,0 +1,6 @@
+uuid: '745'
+national_id: 745
+name: Lycanroc
+types: [rock]
+image: {sheet: 4, x: 4, y: 14}
+evolutions: []

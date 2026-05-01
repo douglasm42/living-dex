@@ -1,0 +1,6 @@
+uuid: '166'
+national_id: 166
+name: Ledian
+types: [bug, flying]
+image: {sheet: 1, x: 5, y: 1}
+evolutions: []

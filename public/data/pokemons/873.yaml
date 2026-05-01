@@ -1,0 +1,6 @@
+uuid: '873'
+national_id: 873
+name: Frosmoth
+types: [ice, bug]
+image: {sheet: 5, x: 2, y: 12}
+evolutions: []

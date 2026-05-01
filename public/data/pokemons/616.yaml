@@ -1,0 +1,6 @@
+uuid: '616'
+national_id: 616
+name: Shelmet
+types: [bug]
+image: {sheet: 4, x: 5, y: 1}
+evolutions: []

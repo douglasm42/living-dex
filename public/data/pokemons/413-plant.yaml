@@ -1,0 +1,6 @@
+uuid: 413-plant
+national_id: 413
+name: Wormadam Plant
+types: [bug, grass]
+image: {sheet: 2, x: 2, y: 11}
+evolutions: []

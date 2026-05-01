@@ -1,0 +1,6 @@
+uuid: '891'
+national_id: 891
+name: Kubfu
+types: [fighting]
+image: {sheet: 5, x: 0, y: 14}
+evolutions: []

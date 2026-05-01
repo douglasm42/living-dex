@@ -1,0 +1,6 @@
+uuid: '419'
+national_id: 419
+name: Floatzel
+types: [water]
+image: {sheet: 2, x: 8, y: 11}
+evolutions: []

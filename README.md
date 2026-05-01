@@ -5,8 +5,9 @@ Checklist to build a living dex including HOME storable alternate forms and vari
 ## Roadmap
 
 - [ ] Add internationalization
-- [ ] Add fuzzy search
-- [ ] Add modal box to show basic pokemon info including type
+- [x] Add fuzzy search
+- [x] Add modal box to show basic pokemon info
+  - [ ] Add Pokémon type to modal
 
 ## Development
 

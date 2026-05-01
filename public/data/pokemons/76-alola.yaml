@@ -1,0 +1,6 @@
+uuid: 76-alola
+national_id: 76
+name: Golem
+types: [rock, electric]
+image: {sheet: 7, x: 4, y: 10}
+evolutions: []

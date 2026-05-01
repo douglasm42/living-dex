@@ -1,0 +1,6 @@
+uuid: '451'
+national_id: 451
+name: Skorupi
+types: [poison, bug]
+image: {sheet: 3, x: 0, y: 0}
+evolutions: []

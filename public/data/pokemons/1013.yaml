@@ -1,0 +1,6 @@
+uuid: '1013'
+national_id: 1013
+name: Sinistcha
+types: [grass, ghost]
+image: {sheet: 6, x: 2, y: 11}
+evolutions: []

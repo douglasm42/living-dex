@@ -1,0 +1,6 @@
+uuid: 909-starter
+national_id: 909
+name: Fuecoco
+types: [fire]
+image: {sheet: 6, x: 8, y: 0}
+evolutions: []

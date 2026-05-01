@@ -1,0 +1,6 @@
+uuid: '396'
+national_id: 396
+name: Starly
+types: [normal, flying]
+image: {sheet: 2, x: 5, y: 9}
+evolutions: []

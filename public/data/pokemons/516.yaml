@@ -1,0 +1,6 @@
+uuid: '516'
+national_id: 516
+name: Simipour
+types: [water]
+image: {sheet: 3, x: 5, y: 6}
+evolutions: []

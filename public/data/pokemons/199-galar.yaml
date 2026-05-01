@@ -1,0 +1,6 @@
+uuid: 199-galar
+national_id: 199
+name: Slowking
+types: [poison, psychic]
+image: {sheet: 7, x: 1, y: 13}
+evolutions: []

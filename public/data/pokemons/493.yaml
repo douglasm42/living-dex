@@ -1,0 +1,6 @@
+uuid: '493'
+national_id: 493
+name: Arceus
+types: [normal]
+image: {sheet: 3, x: 2, y: 4}
+evolutions: []

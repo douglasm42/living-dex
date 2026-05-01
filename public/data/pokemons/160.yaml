@@ -1,0 +1,6 @@
+uuid: '160'
+national_id: 160
+name: Feraligatr
+types: [water]
+image: {sheet: 1, x: 9, y: 0}
+evolutions: []

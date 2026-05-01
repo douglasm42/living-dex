@@ -1,0 +1,6 @@
+uuid: 80-galar
+national_id: 80
+name: Slowbro
+types: [poison, psychic]
+image: {sheet: 7, x: 8, y: 10}
+evolutions: []

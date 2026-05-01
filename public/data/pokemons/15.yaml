@@ -1,0 +1,6 @@
+uuid: '15'
+national_id: 15
+name: Beedrill
+types: [bug, poison]
+image: {sheet: 0, x: 4, y: 1}
+evolutions: []

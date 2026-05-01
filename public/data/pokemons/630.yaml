@@ -1,0 +1,6 @@
+uuid: '630'
+national_id: 630
+name: Mandibuzz
+types: [dark, flying]
+image: {sheet: 4, x: 9, y: 2}
+evolutions: []

@@ -1,0 +1,6 @@
+uuid: 157-hisui
+national_id: 157
+name: Typhlosion
+types: [fire, ghost]
+image: {sheet: 7, x: 9, y: 12}
+evolutions: []

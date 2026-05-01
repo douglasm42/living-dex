@@ -1,0 +1,6 @@
+uuid: '109'
+national_id: 109
+name: Koffing
+types: [poison]
+image: {sheet: 0, x: 8, y: 10}
+evolutions: []

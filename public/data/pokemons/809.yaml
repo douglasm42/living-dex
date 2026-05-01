@@ -1,0 +1,6 @@
+uuid: '809'
+national_id: 809
+name: Melmetal
+types: [steel]
+image: {sheet: 5, x: 8, y: 5}
+evolutions: []

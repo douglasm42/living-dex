@@ -1,0 +1,6 @@
+uuid: '520'
+national_id: 520
+name: Tranquill
+types: [normal, flying]
+image: {sheet: 3, x: 9, y: 6}
+evolutions: []

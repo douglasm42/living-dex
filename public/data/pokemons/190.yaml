@@ -1,0 +1,6 @@
+uuid: '190'
+national_id: 190
+name: Aipom
+types: [normal]
+image: {sheet: 1, x: 9, y: 3}
+evolutions: []

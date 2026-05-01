@@ -1,0 +1,6 @@
+uuid: '1002'
+national_id: 1002
+name: Chien Pao
+types: [dark, ice]
+image: {sheet: 6, x: 1, y: 10}
+evolutions: []

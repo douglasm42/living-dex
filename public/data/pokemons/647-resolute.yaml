@@ -1,0 +1,6 @@
+uuid: 647-resolute
+national_id: 647
+name: Keldeo Resolute
+types: [water, fighting]
+image: {sheet: 8, x: 6, y: 5}
+evolutions: []

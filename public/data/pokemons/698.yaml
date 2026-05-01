@@ -1,0 +1,6 @@
+uuid: '698'
+national_id: 698
+name: Amaura
+types: [rock, ice]
+image: {sheet: 4, x: 7, y: 9}
+evolutions: []

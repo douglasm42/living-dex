@@ -1,0 +1,6 @@
+uuid: 52-gmax
+national_id: 52
+name: Meowth
+types: [normal]
+image: {sheet: 7, x: 7, y: 9}
+evolutions: []

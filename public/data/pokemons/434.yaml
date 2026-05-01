@@ -1,0 +1,6 @@
+uuid: '434'
+national_id: 434
+name: Stunky
+types: [poison, dark]
+image: {sheet: 2, x: 3, y: 13}
+evolutions: []

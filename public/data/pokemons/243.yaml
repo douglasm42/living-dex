@@ -1,0 +1,6 @@
+uuid: '243'
+national_id: 243
+name: Raikou
+types: [electric]
+image: {sheet: 1, x: 2, y: 9}
+evolutions: []

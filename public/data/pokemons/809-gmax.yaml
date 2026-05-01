@@ -1,0 +1,6 @@
+uuid: 809-gmax
+national_id: 809
+name: Melmetal
+types: [steel]
+image: {sheet: 8, x: 1, y: 13}
+evolutions: []

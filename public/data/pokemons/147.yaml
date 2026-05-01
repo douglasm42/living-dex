@@ -1,0 +1,6 @@
+uuid: '147'
+national_id: 147
+name: Dratini
+types: [dragon]
+image: {sheet: 0, x: 6, y: 14}
+evolutions: []

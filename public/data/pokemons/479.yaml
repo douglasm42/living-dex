@@ -1,0 +1,6 @@
+uuid: '479'
+national_id: 479
+name: Rotom
+types: [electric, ghost]
+image: {sheet: 3, x: 8, y: 2}
+evolutions: []

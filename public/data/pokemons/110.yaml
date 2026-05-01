@@ -1,0 +1,6 @@
+uuid: '110'
+national_id: 110
+name: Weezing
+types: [poison]
+image: {sheet: 0, x: 9, y: 10}
+evolutions: []

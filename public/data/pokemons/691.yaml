@@ -1,0 +1,6 @@
+uuid: '691'
+national_id: 691
+name: Dragalge
+types: [poison, dragon]
+image: {sheet: 4, x: 0, y: 9}
+evolutions: []

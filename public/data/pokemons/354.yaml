@@ -1,0 +1,6 @@
+uuid: '354'
+national_id: 354
+name: Banette
+types: [ghost]
+image: {sheet: 2, x: 3, y: 5}
+evolutions: []

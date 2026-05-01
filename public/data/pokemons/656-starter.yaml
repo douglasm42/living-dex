@@ -1,0 +1,6 @@
+uuid: 656-starter
+national_id: 656
+name: Froakie
+types: [water]
+image: {sheet: 4, x: 5, y: 5}
+evolutions: []

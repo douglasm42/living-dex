@@ -1,0 +1,6 @@
+uuid: 37-alola
+national_id: 37
+name: Vulpix
+types: [ice]
+image: {sheet: 7, x: 1, y: 9}
+evolutions: []

@@ -1,0 +1,6 @@
+uuid: '203'
+national_id: 203
+name: Girafarig
+types: [normal, psychic]
+image: {sheet: 1, x: 2, y: 5}
+evolutions: []

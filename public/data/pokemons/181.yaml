@@ -1,0 +1,6 @@
+uuid: '181'
+national_id: 181
+name: Ampharos
+types: [electric]
+image: {sheet: 1, x: 0, y: 3}
+evolutions: []

@@ -1,0 +1,6 @@
+uuid: '749'
+national_id: 749
+name: Mudbray
+types: [ground]
+image: {sheet: 4, x: 8, y: 14}
+evolutions: []

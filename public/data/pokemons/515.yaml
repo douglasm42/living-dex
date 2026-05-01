@@ -1,0 +1,6 @@
+uuid: '515'
+national_id: 515
+name: Panpour
+types: [water]
+image: {sheet: 3, x: 4, y: 6}
+evolutions: []

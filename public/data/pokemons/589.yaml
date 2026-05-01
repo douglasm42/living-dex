@@ -1,0 +1,6 @@
+uuid: '589'
+national_id: 589
+name: Escavalier
+types: [bug, steel]
+image: {sheet: 3, x: 8, y: 13}
+evolutions: []

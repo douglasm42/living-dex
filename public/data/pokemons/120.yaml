@@ -1,0 +1,6 @@
+uuid: '120'
+national_id: 120
+name: Staryu
+types: [water]
+image: {sheet: 0, x: 9, y: 11}
+evolutions: []

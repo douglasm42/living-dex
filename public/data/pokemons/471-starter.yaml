@@ -1,0 +1,6 @@
+uuid: 471-starter
+national_id: 471
+name: Glaceon
+types: [ice]
+image: {sheet: 3, x: 0, y: 2}
+evolutions: []

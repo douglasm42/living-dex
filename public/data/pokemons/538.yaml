@@ -1,0 +1,6 @@
+uuid: '538'
+national_id: 538
+name: Throh
+types: [fighting]
+image: {sheet: 3, x: 7, y: 8}
+evolutions: []

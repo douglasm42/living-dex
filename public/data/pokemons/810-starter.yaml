@@ -1,0 +1,6 @@
+uuid: 810-starter
+national_id: 810
+name: Grookey
+types: [grass]
+image: {sheet: 5, x: 9, y: 5}
+evolutions: []

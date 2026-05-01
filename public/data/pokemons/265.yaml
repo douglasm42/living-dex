@@ -1,0 +1,6 @@
+uuid: '265'
+national_id: 265
+name: Wurmple
+types: [bug]
+image: {sheet: 1, x: 4, y: 11}
+evolutions: []

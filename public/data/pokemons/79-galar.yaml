@@ -1,0 +1,6 @@
+uuid: 79-galar
+national_id: 79
+name: Slowpoke
+types: [psychic]
+image: {sheet: 7, x: 7, y: 10}
+evolutions: []

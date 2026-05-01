@@ -1,0 +1,6 @@
+uuid: 128-paldea-combat-breed
+national_id: 128
+name: Tauros Combat
+types: [fighting]
+image: {sheet: 7, x: 2, y: 12}
+evolutions: []

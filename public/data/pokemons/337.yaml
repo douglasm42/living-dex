@@ -1,0 +1,6 @@
+uuid: '337'
+national_id: 337
+name: Lunatone
+types: [rock, psychic]
+image: {sheet: 2, x: 6, y: 3}
+evolutions: []

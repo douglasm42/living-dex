@@ -1,0 +1,6 @@
+uuid: 479-wash
+national_id: 479
+name: Rotom Wash
+types: [electric, water]
+image: {sheet: 8, x: 1, y: 3}
+evolutions: []

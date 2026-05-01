@@ -1,0 +1,6 @@
+uuid: 89-alola
+national_id: 89
+name: Muk
+types: [poison, dark]
+image: {sheet: 7, x: 1, y: 11}
+evolutions: []

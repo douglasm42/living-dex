@@ -1,0 +1,6 @@
+uuid: '152'
+national_id: 152
+name: Chikorita
+types: [grass]
+image: {sheet: 1, x: 1, y: 0}
+evolutions: []

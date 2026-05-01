@@ -1,0 +1,6 @@
+uuid: '235'
+national_id: 235
+name: Smeargle
+types: [normal]
+image: {sheet: 1, x: 4, y: 8}
+evolutions: []

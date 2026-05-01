@@ -1,0 +1,6 @@
+uuid: '304'
+national_id: 304
+name: Aron
+types: [steel, rock]
+image: {sheet: 2, x: 3, y: 0}
+evolutions: []

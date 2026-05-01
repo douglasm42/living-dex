@@ -1,0 +1,6 @@
+uuid: '26'
+national_id: 26
+name: Raichu
+types: [electric]
+image: {sheet: 0, x: 5, y: 2}
+evolutions: []

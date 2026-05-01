@@ -1,0 +1,6 @@
+uuid: '546'
+national_id: 546
+name: Cottonee
+types: [grass, fairy]
+image: {sheet: 3, x: 5, y: 9}
+evolutions: []

@@ -1,0 +1,6 @@
+uuid: '834'
+national_id: 834
+name: Drednaw
+types: [water, rock]
+image: {sheet: 5, x: 3, y: 8}
+evolutions: []

@@ -1,0 +1,6 @@
+uuid: '364'
+national_id: 364
+name: Sealeo
+types: [ice, water]
+image: {sheet: 2, x: 3, y: 6}
+evolutions: []

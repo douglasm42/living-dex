@@ -1,0 +1,6 @@
+uuid: '969'
+national_id: 969
+name: Glimmet
+types: [rock, poison]
+image: {sheet: 6, x: 8, y: 6}
+evolutions: []

@@ -1,0 +1,6 @@
+uuid: 101-hisui
+national_id: 101
+name: Electrode
+types: [electric, grass]
+image: {sheet: 7, x: 5, y: 11}
+evolutions: []

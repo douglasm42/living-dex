@@ -1,0 +1,6 @@
+uuid: 681-blade
+national_id: 681
+name: Aegislash Blade
+types: [steel, ghost]
+image: {sheet: 8, x: 4, y: 10}
+evolutions: []

@@ -1,0 +1,6 @@
+uuid: '911'
+national_id: 911
+name: Skeledirge
+types: [fire, ghost]
+image: {sheet: 6, x: 0, y: 1}
+evolutions: []

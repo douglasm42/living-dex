@@ -1,0 +1,6 @@
+uuid: '804'
+national_id: 804
+name: Naganadel
+types: [poison, dragon]
+image: {sheet: 5, x: 3, y: 5}
+evolutions: []

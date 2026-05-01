@@ -1,0 +1,6 @@
+uuid: '507'
+national_id: 507
+name: Herdier
+types: [normal]
+image: {sheet: 3, x: 6, y: 5}
+evolutions: []

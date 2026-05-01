@@ -1,0 +1,6 @@
+uuid: 42-f
+national_id: 42
+name: Golbat ♀
+types: [poison, flying]
+image: {sheet: 6, x: 2, y: 13}
+evolutions: []

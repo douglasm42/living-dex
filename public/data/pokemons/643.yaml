@@ -1,0 +1,6 @@
+uuid: '643'
+national_id: 643
+name: Reshiram
+types: [dragon, fire]
+image: {sheet: 4, x: 2, y: 4}
+evolutions: []

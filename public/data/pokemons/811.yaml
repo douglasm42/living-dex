@@ -1,0 +1,6 @@
+uuid: '811'
+national_id: 811
+name: Thwackey
+types: [grass]
+image: {sheet: 5, x: 0, y: 6}
+evolutions: []

@@ -1,0 +1,6 @@
+uuid: 648-pirouette
+national_id: 648
+name: Meloetta Pirouette
+types: [normal, fighting]
+image: {sheet: 8, x: 7, y: 5}
+evolutions: []

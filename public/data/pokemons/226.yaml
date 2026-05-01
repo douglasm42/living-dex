@@ -1,0 +1,6 @@
+uuid: '226'
+national_id: 226
+name: Mantine
+types: [water, flying]
+image: {sheet: 1, x: 5, y: 7}
+evolutions: []

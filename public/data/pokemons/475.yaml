@@ -1,0 +1,6 @@
+uuid: '475'
+national_id: 475
+name: Gallade
+types: [psychic, fighting]
+image: {sheet: 3, x: 4, y: 2}
+evolutions: []

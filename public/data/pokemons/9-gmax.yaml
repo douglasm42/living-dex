@@ -1,0 +1,6 @@
+uuid: 9-gmax
+national_id: 9
+name: Blastoise
+types: [water]
+image: {sheet: 7, x: 5, y: 7}
+evolutions: []

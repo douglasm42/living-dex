@@ -1,0 +1,6 @@
+uuid: '13'
+national_id: 13
+name: Weedle
+types: [bug, poison]
+image: {sheet: 0, x: 2, y: 1}
+evolutions: []

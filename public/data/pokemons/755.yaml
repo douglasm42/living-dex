@@ -1,0 +1,6 @@
+uuid: '755'
+national_id: 755
+name: Morelull
+types: [grass, fairy]
+image: {sheet: 5, x: 4, y: 0}
+evolutions: []

@@ -1,0 +1,6 @@
+uuid: '27'
+national_id: 27
+name: Sandshrew
+types: [ground]
+image: {sheet: 0, x: 6, y: 2}
+evolutions: []

@@ -1,0 +1,6 @@
+uuid: '263'
+national_id: 263
+name: Zigzagoon
+types: [normal]
+image: {sheet: 1, x: 2, y: 11}
+evolutions: []

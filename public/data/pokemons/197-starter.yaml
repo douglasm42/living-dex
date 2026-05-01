@@ -1,0 +1,6 @@
+uuid: 197-starter
+national_id: 197
+name: Umbreon
+types: [dark]
+image: {sheet: 1, x: 6, y: 4}
+evolutions: []

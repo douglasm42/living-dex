@@ -1,0 +1,6 @@
+uuid: '115'
+national_id: 115
+name: Kangaskhan
+types: [normal]
+image: {sheet: 0, x: 4, y: 11}
+evolutions: []

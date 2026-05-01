@@ -1,0 +1,6 @@
+uuid: '222'
+national_id: 222
+name: Corsola
+types: [water, rock]
+image: {sheet: 1, x: 1, y: 7}
+evolutions: []

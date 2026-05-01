@@ -1,0 +1,6 @@
+uuid: '352'
+national_id: 352
+name: Kecleon
+types: [normal]
+image: {sheet: 2, x: 1, y: 5}
+evolutions: []

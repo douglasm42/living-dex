@@ -1,0 +1,6 @@
+uuid: '945'
+national_id: 945
+name: Grafaiai
+types: [poison, normal]
+image: {sheet: 6, x: 4, y: 4}
+evolutions: []

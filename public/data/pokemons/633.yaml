@@ -1,0 +1,6 @@
+uuid: '633'
+national_id: 633
+name: Deino
+types: [dark, dragon]
+image: {sheet: 4, x: 2, y: 3}
+evolutions: []

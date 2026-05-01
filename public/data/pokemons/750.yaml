@@ -1,0 +1,6 @@
+uuid: '750'
+national_id: 750
+name: Mudsdale
+types: [ground]
+image: {sheet: 4, x: 9, y: 14}
+evolutions: []

@@ -1,0 +1,6 @@
+uuid: '525'
+national_id: 525
+name: Boldore
+types: [rock]
+image: {sheet: 3, x: 4, y: 7}
+evolutions: []

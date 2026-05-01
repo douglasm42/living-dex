@@ -1,0 +1,6 @@
+uuid: '339'
+national_id: 339
+name: Barboach
+types: [water, ground]
+image: {sheet: 2, x: 8, y: 3}
+evolutions: []

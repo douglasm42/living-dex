@@ -1,0 +1,6 @@
+uuid: '25'
+national_id: 25
+name: Pikachu
+types: [electric]
+image: {sheet: 0, x: 4, y: 2}
+evolutions: []

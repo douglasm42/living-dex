@@ -1,0 +1,6 @@
+uuid: '83'
+national_id: 83
+name: Farfetchd
+types: [normal, flying]
+image: {sheet: 0, x: 2, y: 8}
+evolutions: []

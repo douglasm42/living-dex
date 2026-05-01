@@ -1,0 +1,6 @@
+uuid: '33'
+national_id: 33
+name: Nidorino
+types: [poison]
+image: {sheet: 0, x: 2, y: 3}
+evolutions: []

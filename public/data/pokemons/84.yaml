@@ -1,0 +1,6 @@
+uuid: '84'
+national_id: 84
+name: Doduo
+types: [normal, flying]
+image: {sheet: 0, x: 3, y: 8}
+evolutions: []

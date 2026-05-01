@@ -1,0 +1,6 @@
+uuid: '852'
+national_id: 852
+name: Clobbopus
+types: [fighting]
+image: {sheet: 5, x: 1, y: 10}
+evolutions: []

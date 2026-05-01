@@ -1,0 +1,6 @@
+uuid: '854'
+national_id: 854
+name: Sinistea
+types: [ghost]
+image: {sheet: 5, x: 3, y: 10}
+evolutions: []

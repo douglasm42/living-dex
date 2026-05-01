@@ -1,0 +1,6 @@
+uuid: '194'
+national_id: 194
+name: Wooper
+types: [water, ground]
+image: {sheet: 1, x: 3, y: 4}
+evolutions: []

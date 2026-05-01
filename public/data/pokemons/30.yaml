@@ -1,0 +1,6 @@
+uuid: '30'
+national_id: 30
+name: Nidorina
+types: [poison]
+image: {sheet: 0, x: 9, y: 2}
+evolutions: []

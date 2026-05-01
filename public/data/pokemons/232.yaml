@@ -1,0 +1,6 @@
+uuid: '232'
+national_id: 232
+name: Donphan
+types: [ground]
+image: {sheet: 1, x: 1, y: 8}
+evolutions: []

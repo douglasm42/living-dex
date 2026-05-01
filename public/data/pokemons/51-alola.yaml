@@ -1,0 +1,6 @@
+uuid: 51-alola
+national_id: 51
+name: Dugtrio
+types: [ground, steel]
+image: {sheet: 7, x: 4, y: 9}
+evolutions: []

@@ -1,0 +1,6 @@
+uuid: '40'
+national_id: 40
+name: Wigglytuff
+types: [normal, fairy]
+image: {sheet: 0, x: 9, y: 3}
+evolutions: []

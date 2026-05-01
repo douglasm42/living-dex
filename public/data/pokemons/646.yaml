@@ -1,0 +1,6 @@
+uuid: '646'
+national_id: 646
+name: Kyurem
+types: [dragon, ice]
+image: {sheet: 4, x: 5, y: 4}
+evolutions: []

@@ -1,0 +1,6 @@
+uuid: '928'
+national_id: 928
+name: Smoliv
+types: [grass, normal]
+image: {sheet: 6, x: 7, y: 2}
+evolutions: []

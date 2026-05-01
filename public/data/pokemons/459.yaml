@@ -1,0 +1,6 @@
+uuid: '459'
+national_id: 459
+name: Snover
+types: [grass, ice]
+image: {sheet: 3, x: 8, y: 0}
+evolutions: []

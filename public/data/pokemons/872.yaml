@@ -1,0 +1,6 @@
+uuid: '872'
+national_id: 872
+name: Snom
+types: [ice, bug]
+image: {sheet: 5, x: 1, y: 12}
+evolutions: []

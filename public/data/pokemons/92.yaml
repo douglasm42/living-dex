@@ -1,0 +1,6 @@
+uuid: '92'
+national_id: 92
+name: Gastly
+types: [ghost, poison]
+image: {sheet: 0, x: 1, y: 9}
+evolutions: []

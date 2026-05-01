@@ -1,0 +1,6 @@
+uuid: '737'
+national_id: 737
+name: Charjabug
+types: [bug, electric]
+image: {sheet: 4, x: 6, y: 13}
+evolutions: []

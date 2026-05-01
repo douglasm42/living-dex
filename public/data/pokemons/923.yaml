@@ -1,0 +1,6 @@
+uuid: '923'
+national_id: 923
+name: Pawmot
+types: [electric, fighting]
+image: {sheet: 6, x: 2, y: 2}
+evolutions: []

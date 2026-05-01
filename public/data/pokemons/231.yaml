@@ -1,0 +1,6 @@
+uuid: '231'
+national_id: 231
+name: Phanpy
+types: [ground]
+image: {sheet: 1, x: 0, y: 8}
+evolutions: []

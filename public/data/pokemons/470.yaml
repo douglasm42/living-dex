@@ -1,0 +1,6 @@
+uuid: '470'
+national_id: 470
+name: Leafeon
+types: [grass]
+image: {sheet: 3, x: 9, y: 1}
+evolutions: []

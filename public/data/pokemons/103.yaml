@@ -1,0 +1,6 @@
+uuid: '103'
+national_id: 103
+name: Exeggutor
+types: [grass, psychic]
+image: {sheet: 0, x: 2, y: 10}
+evolutions: []

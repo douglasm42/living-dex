@@ -1,0 +1,6 @@
+uuid: 110-galar
+national_id: 110
+name: Weezing
+types: [poison, fairy]
+image: {sheet: 7, x: 8, y: 11}
+evolutions: []

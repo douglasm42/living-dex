@@ -1,0 +1,6 @@
+uuid: '374'
+national_id: 374
+name: Beldum
+types: [steel, psychic]
+image: {sheet: 2, x: 3, y: 7}
+evolutions: []

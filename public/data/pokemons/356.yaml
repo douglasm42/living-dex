@@ -1,0 +1,6 @@
+uuid: '356'
+national_id: 356
+name: Dusclops
+types: [ghost]
+image: {sheet: 2, x: 5, y: 5}
+evolutions: []

@@ -1,0 +1,6 @@
+uuid: '1004'
+national_id: 1004
+name: Chi Yu
+types: [dark, fire]
+image: {sheet: 6, x: 3, y: 10}
+evolutions: []

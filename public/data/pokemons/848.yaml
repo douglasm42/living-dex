@@ -1,0 +1,6 @@
+uuid: '848'
+national_id: 848
+name: Toxel
+types: [electric, poison]
+image: {sheet: 5, x: 7, y: 9}
+evolutions: []

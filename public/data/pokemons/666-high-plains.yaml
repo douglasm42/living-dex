@@ -1,0 +1,6 @@
+uuid: 666-high-plains
+national_id: 666
+name: Vivillon High Plains
+types: [bug, flying]
+image: {sheet: 8, x: 4, y: 6}
+evolutions: []

@@ -1,0 +1,6 @@
+uuid: '661'
+national_id: 661
+name: Fletchling
+types: [normal, flying]
+image: {sheet: 4, x: 0, y: 6}
+evolutions: []

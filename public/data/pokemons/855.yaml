@@ -1,0 +1,6 @@
+uuid: '855'
+national_id: 855
+name: Polteageist
+types: [ghost]
+image: {sheet: 5, x: 4, y: 10}
+evolutions: []

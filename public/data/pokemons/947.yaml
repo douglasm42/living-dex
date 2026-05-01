@@ -1,0 +1,6 @@
+uuid: '947'
+national_id: 947
+name: Brambleghast
+types: [grass, ghost]
+image: {sheet: 6, x: 6, y: 4}
+evolutions: []

@@ -1,0 +1,6 @@
+uuid: '552'
+national_id: 552
+name: Krokorok
+types: [ground, dark]
+image: {sheet: 3, x: 1, y: 10}
+evolutions: []

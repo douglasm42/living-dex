@@ -1,0 +1,6 @@
+uuid: '896'
+national_id: 896
+name: Glastrier
+types: [ice]
+image: {sheet: 5, x: 5, y: 14}
+evolutions: []

@@ -1,0 +1,6 @@
+uuid: '335'
+national_id: 335
+name: Zangoose
+types: [normal]
+image: {sheet: 2, x: 4, y: 3}
+evolutions: []

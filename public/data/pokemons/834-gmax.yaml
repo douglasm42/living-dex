@@ -1,0 +1,6 @@
+uuid: 834-gmax
+national_id: 834
+name: Drednaw
+types: [water, rock]
+image: {sheet: 8, x: 7, y: 13}
+evolutions: []

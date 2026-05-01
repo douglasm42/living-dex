@@ -1,0 +1,904 @@
+title: Generation V
+tags: [unova, gen5]
+sub_sections:
+- title: Default
+  pokemons:
+  - id: 494
+    uuid: '494'
+    name: Victini
+    types: [psychic, fire]
+    image: {sheet: 3, x: 3, y: 4}
+  - id: 495
+    uuid: '495'
+    name: Snivy
+    types: [grass]
+    image: {sheet: 3, x: 4, y: 4}
+  - id: 496
+    uuid: '496'
+    name: Servine
+    types: [grass]
+    image: {sheet: 3, x: 5, y: 4}
+  - id: 497
+    uuid: '497'
+    name: Serperior
+    types: [grass]
+    image: {sheet: 3, x: 6, y: 4}
+  - id: 498
+    uuid: '498'
+    name: Tepig
+    types: [fire]
+    image: {sheet: 3, x: 7, y: 4}
+  - id: 499
+    uuid: '499'
+    name: Pignite
+    types: [fire, fighting]
+    image: {sheet: 3, x: 8, y: 4}
+  - id: 500
+    uuid: '500'
+    name: Emboar
+    types: [fire, fighting]
+    image: {sheet: 3, x: 9, y: 4}
+  - id: 501
+    uuid: '501'
+    name: Oshawott
+    types: [water]
+    image: {sheet: 3, x: 0, y: 5}
+  - id: 502
+    uuid: '502'
+    name: Dewott
+    types: [water]
+    image: {sheet: 3, x: 1, y: 5}
+  - id: 503
+    uuid: '503'
+    name: Samurott
+    types: [water]
+    image: {sheet: 3, x: 2, y: 5}
+  - id: 504
+    uuid: '504'
+    name: Patrat
+    types: [normal]
+    image: {sheet: 3, x: 3, y: 5}
+  - id: 505
+    uuid: '505'
+    name: Watchog
+    types: [normal]
+    image: {sheet: 3, x: 4, y: 5}
+  - id: 506
+    uuid: '506'
+    name: Lillipup
+    types: [normal]
+    image: {sheet: 3, x: 5, y: 5}
+  - id: 507
+    uuid: '507'
+    name: Herdier
+    types: [normal]
+    image: {sheet: 3, x: 6, y: 5}
+  - id: 508
+    uuid: '508'
+    name: Stoutland
+    types: [normal]
+    image: {sheet: 3, x: 7, y: 5}
+  - id: 509
+    uuid: '509'
+    name: Purrloin
+    types: [dark]
+    image: {sheet: 3, x: 8, y: 5}
+  - id: 510
+    uuid: '510'
+    name: Liepard
+    types: [dark]
+    image: {sheet: 3, x: 9, y: 5}
+  - id: 511
+    uuid: '511'
+    name: Pansage
+    types: [grass]
+    image: {sheet: 3, x: 0, y: 6}
+  - id: 512
+    uuid: '512'
+    name: Simisage
+    types: [grass]
+    image: {sheet: 3, x: 1, y: 6}
+  - id: 513
+    uuid: '513'
+    name: Pansear
+    types: [fire]
+    image: {sheet: 3, x: 2, y: 6}
+  - id: 514
+    uuid: '514'
+    name: Simisear
+    types: [fire]
+    image: {sheet: 3, x: 3, y: 6}
+  - id: 515
+    uuid: '515'
+    name: Panpour
+    types: [water]
+    image: {sheet: 3, x: 4, y: 6}
+  - id: 516
+    uuid: '516'
+    name: Simipour
+    types: [water]
+    image: {sheet: 3, x: 5, y: 6}
+  - id: 517
+    uuid: '517'
+    name: Munna
+    types: [psychic]
+    image: {sheet: 3, x: 6, y: 6}
+  - id: 518
+    uuid: '518'
+    name: Musharna
+    types: [psychic]
+    image: {sheet: 3, x: 7, y: 6}
+  - id: 519
+    uuid: '519'
+    name: Pidove
+    types: [normal, flying]
+    image: {sheet: 3, x: 8, y: 6}
+  - id: 520
+    uuid: '520'
+    name: Tranquill
+    types: [normal, flying]
+    image: {sheet: 3, x: 9, y: 6}
+  - id: 521
+    uuid: '521'
+    name: Unfezant
+    types: [normal, flying]
+    image: {sheet: 3, x: 0, y: 7}
+  - id: 522
+    uuid: '522'
+    name: Blitzle
+    types: [electric]
+    image: {sheet: 3, x: 1, y: 7}
+  - id: 523
+    uuid: '523'
+    name: Zebstrika
+    types: [electric]
+    image: {sheet: 3, x: 2, y: 7}
+  - id: 524
+    uuid: '524'
+    name: Roggenrola
+    types: [rock]
+    image: {sheet: 3, x: 3, y: 7}
+  - id: 525
+    uuid: '525'
+    name: Boldore
+    types: [rock]
+    image: {sheet: 3, x: 4, y: 7}
+  - id: 526
+    uuid: '526'
+    name: Gigalith
+    types: [rock]
+    image: {sheet: 3, x: 5, y: 7}
+  - id: 527
+    uuid: '527'
+    name: Woobat
+    types: [psychic, flying]
+    image: {sheet: 3, x: 6, y: 7}
+  - id: 528
+    uuid: '528'
+    name: Swoobat
+    types: [psychic, flying]
+    image: {sheet: 3, x: 7, y: 7}
+  - id: 529
+    uuid: '529'
+    name: Drilbur
+    types: [ground]
+    image: {sheet: 3, x: 8, y: 7}
+  - id: 530
+    uuid: '530'
+    name: Excadrill
+    types: [ground, steel]
+    image: {sheet: 3, x: 9, y: 7}
+  - id: 531
+    uuid: '531'
+    name: Audino
+    types: [normal]
+    image: {sheet: 3, x: 0, y: 8}
+  - id: 532
+    uuid: '532'
+    name: Timburr
+    types: [fighting]
+    image: {sheet: 3, x: 1, y: 8}
+  - id: 533
+    uuid: '533'
+    name: Gurdurr
+    types: [fighting]
+    image: {sheet: 3, x: 2, y: 8}
+  - id: 534
+    uuid: '534'
+    name: Conkeldurr
+    types: [fighting]
+    image: {sheet: 3, x: 3, y: 8}
+  - id: 535
+    uuid: '535'
+    name: Tympole
+    types: [water]
+    image: {sheet: 3, x: 4, y: 8}
+  - id: 536
+    uuid: '536'
+    name: Palpitoad
+    types: [water, ground]
+    image: {sheet: 3, x: 5, y: 8}
+  - id: 537
+    uuid: '537'
+    name: Seismitoad
+    types: [water, ground]
+    image: {sheet: 3, x: 6, y: 8}
+  - id: 538
+    uuid: '538'
+    name: Throh
+    types: [fighting]
+    image: {sheet: 3, x: 7, y: 8}
+  - id: 539
+    uuid: '539'
+    name: Sawk
+    types: [fighting]
+    image: {sheet: 3, x: 8, y: 8}
+  - id: 540
+    uuid: '540'
+    name: Sewaddle
+    types: [bug, grass]
+    image: {sheet: 3, x: 9, y: 8}
+  - id: 541
+    uuid: '541'
+    name: Swadloon
+    types: [bug, grass]
+    image: {sheet: 3, x: 0, y: 9}
+  - id: 542
+    uuid: '542'
+    name: Leavanny
+    types: [bug, grass]
+    image: {sheet: 3, x: 1, y: 9}
+  - id: 543
+    uuid: '543'
+    name: Venipede
+    types: [bug, poison]
+    image: {sheet: 3, x: 2, y: 9}
+  - id: 544
+    uuid: '544'
+    name: Whirlipede
+    types: [bug, poison]
+    image: {sheet: 3, x: 3, y: 9}
+  - id: 545
+    uuid: '545'
+    name: Scolipede
+    types: [bug, poison]
+    image: {sheet: 3, x: 4, y: 9}
+  - id: 546
+    uuid: '546'
+    name: Cottonee
+    types: [grass, fairy]
+    image: {sheet: 3, x: 5, y: 9}
+  - id: 547
+    uuid: '547'
+    name: Whimsicott
+    types: [grass, fairy]
+    image: {sheet: 3, x: 6, y: 9}
+  - id: 548
+    uuid: '548'
+    name: Petilil
+    types: [grass]
+    image: {sheet: 3, x: 7, y: 9}
+  - id: 549
+    uuid: '549'
+    name: Lilligant
+    types: [grass]
+    image: {sheet: 3, x: 8, y: 9}
+  - id: 550
+    uuid: '550'
+    name: Basculin
+    types: [water]
+    image: {sheet: 3, x: 9, y: 9}
+  - id: 551
+    uuid: '551'
+    name: Sandile
+    types: [ground, dark]
+    image: {sheet: 3, x: 0, y: 10}
+  - id: 552
+    uuid: '552'
+    name: Krokorok
+    types: [ground, dark]
+    image: {sheet: 3, x: 1, y: 10}
+  - id: 553
+    uuid: '553'
+    name: Krookodile
+    types: [ground, dark]
+    image: {sheet: 3, x: 2, y: 10}
+  - id: 554
+    uuid: '554'
+    name: Darumaka
+    types: [fire]
+    image: {sheet: 3, x: 3, y: 10}
+  - id: 555
+    uuid: '555'
+    name: Darmanitan
+    types: [fire]
+    image: {sheet: 3, x: 4, y: 10}
+  - id: 556
+    uuid: '556'
+    name: Maractus
+    types: [grass]
+    image: {sheet: 3, x: 5, y: 10}
+  - id: 557
+    uuid: '557'
+    name: Dwebble
+    types: [bug, rock]
+    image: {sheet: 3, x: 6, y: 10}
+  - id: 558
+    uuid: '558'
+    name: Crustle
+    types: [bug, rock]
+    image: {sheet: 3, x: 7, y: 10}
+  - id: 559
+    uuid: '559'
+    name: Scraggy
+    types: [dark, fighting]
+    image: {sheet: 3, x: 8, y: 10}
+  - id: 560
+    uuid: '560'
+    name: Scrafty
+    types: [dark, fighting]
+    image: {sheet: 3, x: 9, y: 10}
+  - id: 561
+    uuid: '561'
+    name: Sigilyph
+    types: [psychic, flying]
+    image: {sheet: 3, x: 0, y: 11}
+  - id: 562
+    uuid: '562'
+    name: Yamask
+    types: [ghost]
+    image: {sheet: 3, x: 1, y: 11}
+  - id: 563
+    uuid: '563'
+    name: Cofagrigus
+    types: [ghost]
+    image: {sheet: 3, x: 2, y: 11}
+  - id: 564
+    uuid: '564'
+    name: Tirtouga
+    types: [water, rock]
+    image: {sheet: 3, x: 3, y: 11}
+  - id: 565
+    uuid: '565'
+    name: Carracosta
+    types: [water, rock]
+    image: {sheet: 3, x: 4, y: 11}
+  - id: 566
+    uuid: '566'
+    name: Archen
+    types: [rock, flying]
+    image: {sheet: 3, x: 5, y: 11}
+  - id: 567
+    uuid: '567'
+    name: Archeops
+    types: [rock, flying]
+    image: {sheet: 3, x: 6, y: 11}
+  - id: 568
+    uuid: '568'
+    name: Trubbish
+    types: [poison]
+    image: {sheet: 3, x: 7, y: 11}
+  - id: 569
+    uuid: '569'
+    name: Garbodor
+    types: [poison]
+    image: {sheet: 3, x: 8, y: 11}
+  - id: 570
+    uuid: '570'
+    name: Zorua
+    types: [dark]
+    image: {sheet: 3, x: 9, y: 11}
+  - id: 571
+    uuid: '571'
+    name: Zoroark
+    types: [dark]
+    image: {sheet: 3, x: 0, y: 12}
+  - id: 572
+    uuid: '572'
+    name: Minccino
+    types: [normal]
+    image: {sheet: 3, x: 1, y: 12}
+  - id: 573
+    uuid: '573'
+    name: Cinccino
+    types: [normal]
+    image: {sheet: 3, x: 2, y: 12}
+  - id: 574
+    uuid: '574'
+    name: Gothita
+    types: [psychic]
+    image: {sheet: 3, x: 3, y: 12}
+  - id: 575
+    uuid: '575'
+    name: Gothorita
+    types: [psychic]
+    image: {sheet: 3, x: 4, y: 12}
+  - id: 576
+    uuid: '576'
+    name: Gothitelle
+    types: [psychic]
+    image: {sheet: 3, x: 5, y: 12}
+  - id: 577
+    uuid: '577'
+    name: Solosis
+    types: [psychic]
+    image: {sheet: 3, x: 6, y: 12}
+  - id: 578
+    uuid: '578'
+    name: Duosion
+    types: [psychic]
+    image: {sheet: 3, x: 7, y: 12}
+  - id: 579
+    uuid: '579'
+    name: Reuniclus
+    types: [psychic]
+    image: {sheet: 3, x: 8, y: 12}
+  - id: 580
+    uuid: '580'
+    name: Ducklett
+    types: [water, flying]
+    image: {sheet: 3, x: 9, y: 12}
+  - id: 581
+    uuid: '581'
+    name: Swanna
+    types: [water, flying]
+    image: {sheet: 3, x: 0, y: 13}
+  - id: 582
+    uuid: '582'
+    name: Vanillite
+    types: [ice]
+    image: {sheet: 3, x: 1, y: 13}
+  - id: 583
+    uuid: '583'
+    name: Vanillish
+    types: [ice]
+    image: {sheet: 3, x: 2, y: 13}
+  - id: 584
+    uuid: '584'
+    name: Vanilluxe
+    types: [ice]
+    image: {sheet: 3, x: 3, y: 13}
+  - id: 585
+    uuid: '585'
+    name: Deerling
+    types: [normal, grass]
+    image: {sheet: 3, x: 4, y: 13}
+  - id: 586
+    uuid: '586'
+    name: Sawsbuck
+    types: [normal, grass]
+    image: {sheet: 3, x: 5, y: 13}
+  - id: 587
+    uuid: '587'
+    name: Emolga
+    types: [electric, flying]
+    image: {sheet: 3, x: 6, y: 13}
+  - id: 588
+    uuid: '588'
+    name: Karrablast
+    types: [bug]
+    image: {sheet: 3, x: 7, y: 13}
+  - id: 589
+    uuid: '589'
+    name: Escavalier
+    types: [bug, steel]
+    image: {sheet: 3, x: 8, y: 13}
+  - id: 590
+    uuid: '590'
+    name: Foongus
+    types: [grass, poison]
+    image: {sheet: 3, x: 9, y: 13}
+  - id: 591
+    uuid: '591'
+    name: Amoonguss
+    types: [grass, poison]
+    image: {sheet: 3, x: 0, y: 14}
+  - id: 592
+    uuid: '592'
+    name: Frillish
+    types: [water, ghost]
+    image: {sheet: 3, x: 1, y: 14}
+  - id: 593
+    uuid: '593'
+    name: Jellicent
+    types: [water, ghost]
+    image: {sheet: 3, x: 2, y: 14}
+  - id: 594
+    uuid: '594'
+    name: Alomomola
+    types: [water]
+    image: {sheet: 3, x: 3, y: 14}
+  - id: 595
+    uuid: '595'
+    name: Joltik
+    types: [bug, electric]
+    image: {sheet: 3, x: 4, y: 14}
+  - id: 596
+    uuid: '596'
+    name: Galvantula
+    types: [bug, electric]
+    image: {sheet: 3, x: 5, y: 14}
+  - id: 597
+    uuid: '597'
+    name: Ferroseed
+    types: [grass, steel]
+    image: {sheet: 3, x: 6, y: 14}
+  - id: 598
+    uuid: '598'
+    name: Ferrothorn
+    types: [grass, steel]
+    image: {sheet: 3, x: 7, y: 14}
+  - id: 599
+    uuid: '599'
+    name: Klink
+    types: [steel]
+    image: {sheet: 3, x: 8, y: 14}
+  - id: 600
+    uuid: '600'
+    name: Klang
+    types: [steel]
+    image: {sheet: 3, x: 9, y: 14}
+  - id: 601
+    uuid: '601'
+    name: Klinklang
+    types: [steel]
+    image: {sheet: 4, x: 0, y: 0}
+  - id: 602
+    uuid: '602'
+    name: Tynamo
+    types: [electric]
+    image: {sheet: 4, x: 1, y: 0}
+  - id: 603
+    uuid: '603'
+    name: Eelektrik
+    types: [electric]
+    image: {sheet: 4, x: 2, y: 0}
+  - id: 604
+    uuid: '604'
+    name: Eelektross
+    types: [electric]
+    image: {sheet: 4, x: 3, y: 0}
+  - id: 605
+    uuid: '605'
+    name: Elgyem
+    types: [psychic]
+    image: {sheet: 4, x: 4, y: 0}
+  - id: 606
+    uuid: '606'
+    name: Beheeyem
+    types: [psychic]
+    image: {sheet: 4, x: 5, y: 0}
+  - id: 607
+    uuid: '607'
+    name: Litwick
+    types: [ghost, fire]
+    image: {sheet: 4, x: 6, y: 0}
+  - id: 608
+    uuid: '608'
+    name: Lampent
+    types: [ghost, fire]
+    image: {sheet: 4, x: 7, y: 0}
+  - id: 609
+    uuid: '609'
+    name: Chandelure
+    types: [ghost, fire]
+    image: {sheet: 4, x: 8, y: 0}
+  - id: 610
+    uuid: '610'
+    name: Axew
+    types: [dragon]
+    image: {sheet: 4, x: 9, y: 0}
+  - id: 611
+    uuid: '611'
+    name: Fraxure
+    types: [dragon]
+    image: {sheet: 4, x: 0, y: 1}
+  - id: 612
+    uuid: '612'
+    name: Haxorus
+    types: [dragon]
+    image: {sheet: 4, x: 1, y: 1}
+  - id: 613
+    uuid: '613'
+    name: Cubchoo
+    types: [ice]
+    image: {sheet: 4, x: 2, y: 1}
+  - id: 614
+    uuid: '614'
+    name: Beartic
+    types: [ice]
+    image: {sheet: 4, x: 3, y: 1}
+  - id: 615
+    uuid: '615'
+    name: Cryogonal
+    types: [ice]
+    image: {sheet: 4, x: 4, y: 1}
+  - id: 616
+    uuid: '616'
+    name: Shelmet
+    types: [bug]
+    image: {sheet: 4, x: 5, y: 1}
+  - id: 617
+    uuid: '617'
+    name: Accelgor
+    types: [bug]
+    image: {sheet: 4, x: 6, y: 1}
+  - id: 618
+    uuid: '618'
+    name: Stunfisk
+    types: [ground, electric]
+    image: {sheet: 4, x: 7, y: 1}
+  - id: 619
+    uuid: '619'
+    name: Mienfoo
+    types: [fighting]
+    image: {sheet: 4, x: 8, y: 1}
+  - id: 620
+    uuid: '620'
+    name: Mienshao
+    types: [fighting]
+    image: {sheet: 4, x: 9, y: 1}
+  - id: 621
+    uuid: '621'
+    name: Druddigon
+    types: [dragon]
+    image: {sheet: 4, x: 0, y: 2}
+  - id: 622
+    uuid: '622'
+    name: Golett
+    types: [ground, ghost]
+    image: {sheet: 4, x: 1, y: 2}
+  - id: 623
+    uuid: '623'
+    name: Golurk
+    types: [ground, ghost]
+    image: {sheet: 4, x: 2, y: 2}
+  - id: 624
+    uuid: '624'
+    name: Pawniard
+    types: [dark, steel]
+    image: {sheet: 4, x: 3, y: 2}
+  - id: 625
+    uuid: '625'
+    name: Bisharp
+    types: [dark, steel]
+    image: {sheet: 4, x: 4, y: 2}
+  - id: 626
+    uuid: '626'
+    name: Bouffalant
+    types: [normal]
+    image: {sheet: 4, x: 5, y: 2}
+  - id: 627
+    uuid: '627'
+    name: Rufflet
+    types: [normal, flying]
+    image: {sheet: 4, x: 6, y: 2}
+  - id: 628
+    uuid: '628'
+    name: Braviary
+    types: [normal, flying]
+    image: {sheet: 4, x: 7, y: 2}
+  - id: 629
+    uuid: '629'
+    name: Vullaby
+    types: [dark, flying]
+    image: {sheet: 4, x: 8, y: 2}
+  - id: 630
+    uuid: '630'
+    name: Mandibuzz
+    types: [dark, flying]
+    image: {sheet: 4, x: 9, y: 2}
+  - id: 631
+    uuid: '631'
+    name: Heatmor
+    types: [fire]
+    image: {sheet: 4, x: 0, y: 3}
+  - id: 632
+    uuid: '632'
+    name: Durant
+    types: [bug, steel]
+    image: {sheet: 4, x: 1, y: 3}
+  - id: 633
+    uuid: '633'
+    name: Deino
+    types: [dark, dragon]
+    image: {sheet: 4, x: 2, y: 3}
+  - id: 634
+    uuid: '634'
+    name: Zweilous
+    types: [dark, dragon]
+    image: {sheet: 4, x: 3, y: 3}
+  - id: 635
+    uuid: '635'
+    name: Hydreigon
+    types: [dark, dragon]
+    image: {sheet: 4, x: 4, y: 3}
+  - id: 636
+    uuid: '636'
+    name: Larvesta
+    types: [bug, fire]
+    image: {sheet: 4, x: 5, y: 3}
+  - id: 637
+    uuid: '637'
+    name: Volcarona
+    types: [bug, fire]
+    image: {sheet: 4, x: 6, y: 3}
+  - id: 638
+    uuid: '638'
+    name: Cobalion
+    types: [steel, fighting]
+    image: {sheet: 4, x: 7, y: 3}
+  - id: 639
+    uuid: '639'
+    name: Terrakion
+    types: [rock, fighting]
+    image: {sheet: 4, x: 8, y: 3}
+  - id: 640
+    uuid: '640'
+    name: Virizion
+    types: [grass, fighting]
+    image: {sheet: 4, x: 9, y: 3}
+  - id: 641
+    uuid: '641'
+    name: Tornadus
+    types: [flying]
+    image: {sheet: 4, x: 0, y: 4}
+  - id: 642
+    uuid: '642'
+    name: Thundurus
+    types: [electric, flying]
+    image: {sheet: 4, x: 1, y: 4}
+  - id: 643
+    uuid: '643'
+    name: Reshiram
+    types: [dragon, fire]
+    image: {sheet: 4, x: 2, y: 4}
+  - id: 644
+    uuid: '644'
+    name: Zekrom
+    types: [dragon, electric]
+    image: {sheet: 4, x: 3, y: 4}
+  - id: 645
+    uuid: '645'
+    name: Landorus
+    types: [ground, flying]
+    image: {sheet: 4, x: 4, y: 4}
+  - id: 646
+    uuid: '646'
+    name: Kyurem
+    types: [dragon, ice]
+    image: {sheet: 4, x: 5, y: 4}
+  - id: 647
+    uuid: '647'
+    name: Keldeo
+    types: [water, fighting]
+    image: {sheet: 4, x: 6, y: 4}
+  - id: 648
+    uuid: '648'
+    name: Meloetta
+    types: [normal, psychic]
+    image: {sheet: 4, x: 7, y: 4}
+  - id: 649
+    uuid: '649'
+    name: Genesect
+    types: [bug, steel]
+    image: {sheet: 4, x: 8, y: 4}
+- title: Females
+  pokemons:
+  - id: 521
+    uuid: 521-f
+    name: Unfezant ♀
+    types: [normal, flying]
+    image: {sheet: 7, x: 8, y: 6}
+  - id: 592
+    uuid: 592-f
+    name: Frillish ♀
+    types: [water, ghost]
+    image: {sheet: 7, x: 9, y: 6}
+  - id: 593
+    uuid: 593-f
+    name: Jellicent ♀
+    types: [water, ghost]
+    image: {sheet: 7, x: 0, y: 7}
+- title: Varieties
+  pokemons:
+  - id: 550
+    uuid: 550-white-striped
+    name: Basculin White Striped
+    types: [water]
+    image: {sheet: 8, x: 6, y: 3}
+  - id: 550
+    uuid: 550-red-striped
+    name: Basculin Red Striped
+    types: [water]
+    image: {sheet: 3, x: 9, y: 9}
+  - id: 550
+    uuid: 550-blue-striped
+    name: Basculin Blue Striped
+    types: [water]
+    image: {sheet: 8, x: 5, y: 3}
+  - id: 585
+    uuid: 585-spring
+    name: Deerling Spring
+    types: [normal, grass]
+    image: {sheet: 8, x: 3, y: 4}
+  - id: 585
+    uuid: 585-summer
+    name: Deerling Summer
+    types: [normal, grass]
+    image: {sheet: 8, x: 4, y: 4}
+  - id: 585
+    uuid: 585-autumn
+    name: Deerling Autumn
+    types: [normal, grass]
+    image: {sheet: 8, x: 5, y: 4}
+  - id: 585
+    uuid: 585-winter
+    name: Deerling Winter
+    types: [normal, grass]
+    image: {sheet: 8, x: 6, y: 4}
+  - id: 586
+    uuid: 586-spring
+    name: Sawsbuck Spring
+    types: [normal, grass]
+    image: {sheet: 8, x: 7, y: 4}
+  - id: 586
+    uuid: 586-summer
+    name: Sawsbuck Summer
+    types: [normal, grass]
+    image: {sheet: 8, x: 8, y: 4}
+  - id: 586
+    uuid: 586-autumn
+    name: Sawsbuck Autumn
+    types: [normal, grass]
+    image: {sheet: 8, x: 9, y: 4}
+  - id: 586
+    uuid: 586-winter
+    name: Sawsbuck Winter
+    types: [normal, grass]
+    image: {sheet: 8, x: 0, y: 5}
+  - id: 592
+    uuid: 592-female-f
+    name: Frillish Female ♀
+    types: [water, ghost]
+    image: {sheet: 7, x: 9, y: 6}
+  - id: 592
+    uuid: 592-male-f
+    name: Frillish Male ♀
+    types: [water, ghost]
+    image: {sheet: 7, x: 9, y: 6}
+  - id: 593
+    uuid: 593-female-f
+    name: Jellicent Female ♀
+    types: [water, ghost]
+    image: {sheet: 7, x: 0, y: 7}
+  - id: 593
+    uuid: 593-male-f
+    name: Jellicent Male ♀
+    types: [water, ghost]
+    image: {sheet: 7, x: 0, y: 7}
+  - id: 641
+    uuid: 641-therian
+    name: Tornadus Therian
+    types: [flying]
+    image: {sheet: 8, x: 3, y: 5}
+  - id: 642
+    uuid: 642-therian
+    name: Thundurus Therian
+    types: [electric, flying]
+    image: {sheet: 8, x: 4, y: 5}
+  - id: 645
+    uuid: 645-therian
+    name: Landorus Therian
+    types: [ground, flying]
+    image: {sheet: 8, x: 5, y: 5}
+  - id: 647
+    uuid: 647-resolute
+    name: Keldeo Resolute
+    types: [water, fighting]
+    image: {sheet: 8, x: 6, y: 5}
+  - id: 648
+    uuid: 648-pirouette
+    name: Meloetta Pirouette
+    types: [normal, fighting]
+    image: {sheet: 8, x: 7, y: 5}

@@ -1,0 +1,6 @@
+uuid: '193'
+national_id: 193
+name: Yanma
+types: [bug, flying]
+image: {sheet: 1, x: 2, y: 4}
+evolutions: []

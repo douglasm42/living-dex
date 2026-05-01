@@ -1,0 +1,6 @@
+uuid: '666'
+national_id: 666
+name: Vivillon
+types: [bug, flying]
+image: {sheet: 4, x: 5, y: 6}
+evolutions: []

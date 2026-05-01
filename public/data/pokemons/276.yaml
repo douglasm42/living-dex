@@ -1,0 +1,6 @@
+uuid: '276'
+national_id: 276
+name: Taillow
+types: [normal, flying]
+image: {sheet: 1, x: 5, y: 12}
+evolutions: []

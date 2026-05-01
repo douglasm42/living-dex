@@ -1,0 +1,6 @@
+uuid: '250'
+national_id: 250
+name: Ho Oh
+types: [fire, flying]
+image: {sheet: 1, x: 9, y: 9}
+evolutions: []

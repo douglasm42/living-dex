@@ -1,0 +1,6 @@
+uuid: '787'
+national_id: 787
+name: Tapu Bulu
+types: [grass, fairy]
+image: {sheet: 5, x: 6, y: 3}
+evolutions: []

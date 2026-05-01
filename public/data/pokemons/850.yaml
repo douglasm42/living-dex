@@ -1,0 +1,6 @@
+uuid: '850'
+national_id: 850
+name: Sizzlipede
+types: [fire, bug]
+image: {sheet: 5, x: 9, y: 9}
+evolutions: []

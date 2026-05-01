@@ -1,0 +1,6 @@
+uuid: 412-plant
+national_id: 412
+name: Burmy Plant
+types: [bug]
+image: {sheet: 8, x: 8, y: 1}
+evolutions: []

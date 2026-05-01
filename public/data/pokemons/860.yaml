@@ -1,0 +1,6 @@
+uuid: '860'
+national_id: 860
+name: Morgrem
+types: [dark, fairy]
+image: {sheet: 5, x: 9, y: 10}
+evolutions: []

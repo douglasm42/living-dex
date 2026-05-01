@@ -1,0 +1,6 @@
+uuid: 666-garden
+national_id: 666
+name: Vivillon Garden
+types: [bug, flying]
+image: {sheet: 8, x: 3, y: 6}
+evolutions: []

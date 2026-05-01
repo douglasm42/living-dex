@@ -1,0 +1,6 @@
+uuid: '785'
+national_id: 785
+name: Tapu Koko
+types: [electric, fairy]
+image: {sheet: 5, x: 4, y: 3}
+evolutions: []

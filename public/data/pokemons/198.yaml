@@ -1,0 +1,6 @@
+uuid: '198'
+national_id: 198
+name: Murkrow
+types: [dark, flying]
+image: {sheet: 1, x: 7, y: 4}
+evolutions: []

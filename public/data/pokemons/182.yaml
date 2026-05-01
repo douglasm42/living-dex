@@ -1,0 +1,6 @@
+uuid: '182'
+national_id: 182
+name: Bellossom
+types: [grass]
+image: {sheet: 1, x: 1, y: 3}
+evolutions: []

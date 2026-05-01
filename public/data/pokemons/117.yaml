@@ -1,0 +1,6 @@
+uuid: '117'
+national_id: 117
+name: Seadra
+types: [water]
+image: {sheet: 0, x: 6, y: 11}
+evolutions: []

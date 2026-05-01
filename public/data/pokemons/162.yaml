@@ -1,0 +1,6 @@
+uuid: '162'
+national_id: 162
+name: Furret
+types: [normal]
+image: {sheet: 1, x: 1, y: 1}
+evolutions: []

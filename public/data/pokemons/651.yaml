@@ -1,0 +1,6 @@
+uuid: '651'
+national_id: 651
+name: Quilladin
+types: [grass]
+image: {sheet: 4, x: 0, y: 5}
+evolutions: []

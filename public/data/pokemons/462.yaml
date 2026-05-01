@@ -1,0 +1,6 @@
+uuid: '462'
+national_id: 462
+name: Magnezone
+types: [electric, steel]
+image: {sheet: 3, x: 1, y: 1}
+evolutions: []

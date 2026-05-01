@@ -1,0 +1,6 @@
+uuid: 585-winter
+national_id: 585
+name: Deerling Winter
+types: [normal, grass]
+image: {sheet: 8, x: 6, y: 4}
+evolutions: []

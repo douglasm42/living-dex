@@ -1,0 +1,6 @@
+uuid: '561'
+national_id: 561
+name: Sigilyph
+types: [psychic, flying]
+image: {sheet: 3, x: 0, y: 11}
+evolutions: []

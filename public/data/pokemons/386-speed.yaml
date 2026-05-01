@@ -1,0 +1,6 @@
+uuid: 386-speed
+national_id: 386
+name: Deoxys Speed
+types: [psychic]
+image: {sheet: 8, x: 7, y: 1}
+evolutions: []

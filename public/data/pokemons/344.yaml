@@ -1,0 +1,6 @@
+uuid: '344'
+national_id: 344
+name: Claydol
+types: [ground, psychic]
+image: {sheet: 2, x: 3, y: 4}
+evolutions: []

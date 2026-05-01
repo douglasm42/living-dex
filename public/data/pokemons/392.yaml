@@ -1,0 +1,6 @@
+uuid: '392'
+national_id: 392
+name: Infernape
+types: [fire, fighting]
+image: {sheet: 2, x: 1, y: 9}
+evolutions: []

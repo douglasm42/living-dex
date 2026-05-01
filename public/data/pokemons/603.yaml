@@ -1,0 +1,6 @@
+uuid: '603'
+national_id: 603
+name: Eelektrik
+types: [electric]
+image: {sheet: 4, x: 2, y: 0}
+evolutions: []

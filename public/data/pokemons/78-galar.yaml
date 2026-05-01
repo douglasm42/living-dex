@@ -1,0 +1,6 @@
+uuid: 78-galar
+national_id: 78
+name: Rapidash
+types: [psychic, fairy]
+image: {sheet: 7, x: 6, y: 10}
+evolutions: []

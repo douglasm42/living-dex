@@ -1,0 +1,6 @@
+uuid: 196-starter
+national_id: 196
+name: Espeon
+types: [psychic]
+image: {sheet: 1, x: 5, y: 4}
+evolutions: []

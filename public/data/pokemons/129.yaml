@@ -1,0 +1,6 @@
+uuid: '129'
+national_id: 129
+name: Magikarp
+types: [water]
+image: {sheet: 0, x: 8, y: 12}
+evolutions: []

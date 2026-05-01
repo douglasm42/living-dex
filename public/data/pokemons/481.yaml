@@ -1,0 +1,6 @@
+uuid: '481'
+national_id: 481
+name: Mesprit
+types: [psychic]
+image: {sheet: 3, x: 0, y: 3}
+evolutions: []

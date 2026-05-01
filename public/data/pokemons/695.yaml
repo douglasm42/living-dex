@@ -1,0 +1,6 @@
+uuid: '695'
+national_id: 695
+name: Heliolisk
+types: [electric, normal]
+image: {sheet: 4, x: 4, y: 9}
+evolutions: []

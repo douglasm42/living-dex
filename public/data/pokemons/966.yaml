@@ -1,0 +1,6 @@
+uuid: '966'
+national_id: 966
+name: Revavroom
+types: [steel, poison]
+image: {sheet: 6, x: 5, y: 6}
+evolutions: []

@@ -1,0 +1,6 @@
+uuid: '944'
+national_id: 944
+name: Shroodle
+types: [poison, normal]
+image: {sheet: 6, x: 3, y: 4}
+evolutions: []

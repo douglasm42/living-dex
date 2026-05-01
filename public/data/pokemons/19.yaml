@@ -1,0 +1,6 @@
+uuid: '19'
+national_id: 19
+name: Rattata
+types: [normal]
+image: {sheet: 0, x: 8, y: 1}
+evolutions: []

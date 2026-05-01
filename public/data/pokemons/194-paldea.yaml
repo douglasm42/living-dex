@@ -1,0 +1,6 @@
+uuid: 194-paldea
+national_id: 194
+name: Wooper
+types: [poison, ground]
+image: {sheet: 7, x: 0, y: 13}
+evolutions: []

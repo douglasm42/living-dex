@@ -1,0 +1,6 @@
+uuid: '815'
+national_id: 815
+name: Cinderace
+types: [fire]
+image: {sheet: 5, x: 4, y: 6}
+evolutions: []

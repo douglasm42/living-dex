@@ -1,0 +1,6 @@
+uuid: '329'
+national_id: 329
+name: Vibrava
+types: [ground, dragon]
+image: {sheet: 2, x: 8, y: 2}
+evolutions: []

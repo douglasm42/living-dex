@@ -1,0 +1,6 @@
+uuid: '701'
+national_id: 701
+name: Hawlucha
+types: [fighting, flying]
+image: {sheet: 4, x: 0, y: 10}
+evolutions: []

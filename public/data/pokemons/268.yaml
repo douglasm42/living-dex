@@ -1,0 +1,6 @@
+uuid: '268'
+national_id: 268
+name: Cascoon
+types: [bug]
+image: {sheet: 1, x: 7, y: 11}
+evolutions: []

@@ -1,0 +1,6 @@
+uuid: '1010'
+national_id: 1010
+name: Iron Leaves
+types: [grass, psychic]
+image: {sheet: 6, x: 9, y: 10}
+evolutions: []

@@ -1,0 +1,6 @@
+uuid: '430'
+national_id: 430
+name: Honchkrow
+types: [dark, flying]
+image: {sheet: 2, x: 9, y: 12}
+evolutions: []

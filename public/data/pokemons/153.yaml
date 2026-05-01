@@ -1,0 +1,6 @@
+uuid: '153'
+national_id: 153
+name: Bayleef
+types: [grass]
+image: {sheet: 1, x: 2, y: 0}
+evolutions: []

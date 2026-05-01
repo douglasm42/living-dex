@@ -1,0 +1,6 @@
+uuid: 492-sky
+national_id: 492
+name: Shaymin Sky
+types: [grass, flying]
+image: {sheet: 8, x: 2, y: 3}
+evolutions: []

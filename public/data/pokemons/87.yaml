@@ -1,0 +1,6 @@
+uuid: '87'
+national_id: 87
+name: Dewgong
+types: [water, ice]
+image: {sheet: 0, x: 6, y: 8}
+evolutions: []

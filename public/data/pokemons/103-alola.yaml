@@ -1,0 +1,6 @@
+uuid: 103-alola
+national_id: 103
+name: Exeggutor
+types: [grass, dragon]
+image: {sheet: 7, x: 6, y: 11}
+evolutions: []

@@ -1,0 +1,6 @@
+uuid: '675'
+national_id: 675
+name: Pangoro
+types: [fighting, dark]
+image: {sheet: 4, x: 4, y: 7}
+evolutions: []

@@ -1,0 +1,6 @@
+uuid: '967'
+national_id: 967
+name: Cyclizar
+types: [dragon, normal]
+image: {sheet: 6, x: 6, y: 6}
+evolutions: []

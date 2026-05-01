@@ -1,0 +1,6 @@
+uuid: '514'
+national_id: 514
+name: Simisear
+types: [fire]
+image: {sheet: 3, x: 3, y: 6}
+evolutions: []

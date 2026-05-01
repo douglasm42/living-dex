@@ -1,0 +1,6 @@
+uuid: '645'
+national_id: 645
+name: Landorus
+types: [ground, flying]
+image: {sheet: 4, x: 4, y: 4}
+evolutions: []

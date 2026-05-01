@@ -1,0 +1,6 @@
+uuid: '225'
+national_id: 225
+name: Delibird
+types: [ice, flying]
+image: {sheet: 1, x: 4, y: 7}
+evolutions: []

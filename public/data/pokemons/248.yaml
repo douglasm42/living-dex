@@ -1,0 +1,6 @@
+uuid: '248'
+national_id: 248
+name: Tyranitar
+types: [rock, dark]
+image: {sheet: 1, x: 7, y: 9}
+evolutions: []

@@ -1,0 +1,6 @@
+uuid: '238'
+national_id: 238
+name: Smoochum
+types: [ice, psychic]
+image: {sheet: 1, x: 7, y: 8}
+evolutions: []

@@ -1,0 +1,6 @@
+uuid: '445'
+national_id: 445
+name: Garchomp
+types: [dragon, ground]
+image: {sheet: 2, x: 4, y: 14}
+evolutions: []

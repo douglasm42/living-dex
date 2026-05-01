@@ -1,0 +1,6 @@
+uuid: '705'
+national_id: 705
+name: Sliggoo
+types: [dragon]
+image: {sheet: 4, x: 4, y: 10}
+evolutions: []

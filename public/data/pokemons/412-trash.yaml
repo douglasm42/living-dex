@@ -1,0 +1,6 @@
+uuid: 412-trash
+national_id: 412
+name: Burmy Trash
+types: [bug]
+image: {sheet: 8, x: 0, y: 2}
+evolutions: []

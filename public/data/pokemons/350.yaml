@@ -1,0 +1,6 @@
+uuid: '350'
+national_id: 350
+name: Milotic
+types: [water]
+image: {sheet: 2, x: 9, y: 4}
+evolutions: []

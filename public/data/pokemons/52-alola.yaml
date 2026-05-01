@@ -1,0 +1,6 @@
+uuid: 52-alola
+national_id: 52
+name: Meowth
+types: [dark]
+image: {sheet: 7, x: 5, y: 9}
+evolutions: []

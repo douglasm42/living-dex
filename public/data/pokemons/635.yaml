@@ -1,0 +1,6 @@
+uuid: '635'
+national_id: 635
+name: Hydreigon
+types: [dark, dragon]
+image: {sheet: 4, x: 4, y: 3}
+evolutions: []

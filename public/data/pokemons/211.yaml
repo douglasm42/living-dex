@@ -1,0 +1,6 @@
+uuid: '211'
+national_id: 211
+name: Qwilfish
+types: [water, poison]
+image: {sheet: 1, x: 0, y: 6}
+evolutions: []

@@ -1,0 +1,6 @@
+uuid: '425'
+national_id: 425
+name: Drifloon
+types: [ghost, flying]
+image: {sheet: 2, x: 4, y: 12}
+evolutions: []

@@ -1,0 +1,6 @@
+uuid: 495-starter
+national_id: 495
+name: Snivy
+types: [grass]
+image: {sheet: 3, x: 4, y: 4}
+evolutions: []

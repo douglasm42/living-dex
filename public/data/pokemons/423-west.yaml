@@ -1,0 +1,6 @@
+uuid: 423-west
+national_id: 423
+name: Gastrodon West
+types: [water, ground]
+image: {sheet: 8, x: 6, y: 2}
+evolutions: []

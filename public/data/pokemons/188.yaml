@@ -1,0 +1,6 @@
+uuid: '188'
+national_id: 188
+name: Skiploom
+types: [grass, flying]
+image: {sheet: 1, x: 7, y: 3}
+evolutions: []

@@ -1,0 +1,6 @@
+uuid: 549-hisui
+national_id: 549
+name: Lilligant
+types: [grass, fighting]
+image: {sheet: 8, x: 4, y: 3}
+evolutions: []

@@ -1,0 +1,6 @@
+uuid: '240'
+national_id: 240
+name: Magby
+types: [fire]
+image: {sheet: 1, x: 9, y: 8}
+evolutions: []

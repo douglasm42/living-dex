@@ -1,0 +1,6 @@
+uuid: 50-alola
+national_id: 50
+name: Diglett
+types: [ground, steel]
+image: {sheet: 7, x: 3, y: 9}
+evolutions: []

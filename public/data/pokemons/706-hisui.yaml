@@ -1,0 +1,6 @@
+uuid: 706-hisui
+national_id: 706
+name: Goodra
+types: [steel, dragon]
+image: {sheet: 8, x: 6, y: 10}
+evolutions: []

@@ -1,0 +1,6 @@
+uuid: '757'
+national_id: 757
+name: Salandit
+types: [poison, fire]
+image: {sheet: 5, x: 6, y: 0}
+evolutions: []

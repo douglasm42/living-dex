@@ -1,0 +1,6 @@
+uuid: '776'
+national_id: 776
+name: Turtonator
+types: [fire, dragon]
+image: {sheet: 5, x: 5, y: 2}
+evolutions: []

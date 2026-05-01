@@ -1,0 +1,6 @@
+uuid: '402'
+national_id: 402
+name: Kricketune
+types: [bug]
+image: {sheet: 2, x: 1, y: 10}
+evolutions: []

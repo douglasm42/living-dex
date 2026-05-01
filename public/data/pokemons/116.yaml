@@ -1,0 +1,6 @@
+uuid: '116'
+national_id: 116
+name: Horsea
+types: [water]
+image: {sheet: 0, x: 5, y: 11}
+evolutions: []

@@ -1,0 +1,6 @@
+uuid: '95'
+national_id: 95
+name: Onix
+types: [rock, ground]
+image: {sheet: 0, x: 4, y: 9}
+evolutions: []

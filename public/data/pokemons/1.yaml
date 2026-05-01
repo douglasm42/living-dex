@@ -1,0 +1,6 @@
+uuid: '1'
+national_id: 1
+name: Bulbasaur
+types: [grass, poison]
+image: {sheet: 0, x: 0, y: 0}
+evolutions: []

@@ -1,0 +1,6 @@
+uuid: '313'
+national_id: 313
+name: Volbeat
+types: [bug]
+image: {sheet: 2, x: 2, y: 1}
+evolutions: []

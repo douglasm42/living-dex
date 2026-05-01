@@ -1,0 +1,6 @@
+uuid: '892'
+national_id: 892
+name: Urshifu
+types: [fighting, dark]
+image: {sheet: 5, x: 1, y: 14}
+evolutions: []

@@ -1,0 +1,6 @@
+uuid: '363'
+national_id: 363
+name: Spheal
+types: [ice, water]
+image: {sheet: 2, x: 2, y: 6}
+evolutions: []

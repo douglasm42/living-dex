@@ -1,0 +1,6 @@
+uuid: '477'
+national_id: 477
+name: Dusknoir
+types: [ghost]
+image: {sheet: 3, x: 6, y: 2}
+evolutions: []

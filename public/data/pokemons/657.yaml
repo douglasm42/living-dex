@@ -1,0 +1,6 @@
+uuid: '657'
+national_id: 657
+name: Frogadier
+types: [water]
+image: {sheet: 4, x: 6, y: 5}
+evolutions: []

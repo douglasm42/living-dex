@@ -1,0 +1,6 @@
+uuid: '134'
+national_id: 134
+name: Vaporeon
+types: [water]
+image: {sheet: 0, x: 3, y: 13}
+evolutions: []

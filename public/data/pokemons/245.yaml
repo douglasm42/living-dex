@@ -1,0 +1,6 @@
+uuid: '245'
+national_id: 245
+name: Suicune
+types: [water]
+image: {sheet: 1, x: 4, y: 9}
+evolutions: []

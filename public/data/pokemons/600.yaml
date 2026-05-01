@@ -1,0 +1,6 @@
+uuid: '600'
+national_id: 600
+name: Klang
+types: [steel]
+image: {sheet: 3, x: 9, y: 14}
+evolutions: []

@@ -1,0 +1,6 @@
+uuid: '8'
+national_id: 8
+name: Wartortle
+types: [water]
+image: {sheet: 0, x: 7, y: 0}
+evolutions: []

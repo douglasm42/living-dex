@@ -1,0 +1,6 @@
+uuid: 128-paldea-blaze-breed
+national_id: 128
+name: Tauros Blaze
+types: [fighting, fire]
+image: {sheet: 7, x: 1, y: 12}
+evolutions: []

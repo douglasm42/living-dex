@@ -1,0 +1,6 @@
+uuid: '714'
+national_id: 714
+name: Noibat
+types: [flying, dragon]
+image: {sheet: 4, x: 3, y: 11}
+evolutions: []

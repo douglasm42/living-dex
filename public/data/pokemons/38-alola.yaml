@@ -1,0 +1,6 @@
+uuid: 38-alola
+national_id: 38
+name: Ninetales
+types: [ice, fairy]
+image: {sheet: 7, x: 2, y: 9}
+evolutions: []

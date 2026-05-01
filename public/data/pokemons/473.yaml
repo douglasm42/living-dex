@@ -1,0 +1,6 @@
+uuid: '473'
+national_id: 473
+name: Mamoswine
+types: [ice, ground]
+image: {sheet: 3, x: 2, y: 2}
+evolutions: []

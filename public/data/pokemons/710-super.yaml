@@ -1,0 +1,6 @@
+uuid: 710-super
+national_id: 710
+name: Pumpkaboo Super
+types: [ghost, grass]
+image: {sheet: 8, x: 9, y: 10}
+evolutions: []

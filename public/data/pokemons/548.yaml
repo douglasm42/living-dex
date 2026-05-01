@@ -1,0 +1,6 @@
+uuid: '548'
+national_id: 548
+name: Petilil
+types: [grass]
+image: {sheet: 3, x: 7, y: 9}
+evolutions: []

@@ -1,0 +1,6 @@
+uuid: '357'
+national_id: 357
+name: Tropius
+types: [grass, flying]
+image: {sheet: 2, x: 6, y: 5}
+evolutions: []

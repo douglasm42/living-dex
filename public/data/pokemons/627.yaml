@@ -1,0 +1,6 @@
+uuid: '627'
+national_id: 627
+name: Rufflet
+types: [normal, flying]
+image: {sheet: 4, x: 6, y: 2}
+evolutions: []

@@ -1,0 +1,6 @@
+uuid: '126'
+national_id: 126
+name: Magmar
+types: [fire]
+image: {sheet: 0, x: 5, y: 12}
+evolutions: []

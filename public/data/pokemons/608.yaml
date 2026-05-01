@@ -1,0 +1,6 @@
+uuid: '608'
+national_id: 608
+name: Lampent
+types: [ghost, fire]
+image: {sheet: 4, x: 7, y: 0}
+evolutions: []

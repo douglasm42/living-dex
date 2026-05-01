@@ -1,0 +1,6 @@
+uuid: '322'
+national_id: 322
+name: Numel
+types: [fire, ground]
+image: {sheet: 2, x: 1, y: 2}
+evolutions: []

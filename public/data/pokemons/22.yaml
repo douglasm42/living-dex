@@ -1,0 +1,6 @@
+uuid: '22'
+national_id: 22
+name: Fearow
+types: [normal, flying]
+image: {sheet: 0, x: 1, y: 2}
+evolutions: []

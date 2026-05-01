@@ -1,0 +1,6 @@
+uuid: '756'
+national_id: 756
+name: Shiinotic
+types: [grass, fairy]
+image: {sheet: 5, x: 5, y: 0}
+evolutions: []

@@ -1,0 +1,6 @@
+uuid: '560'
+national_id: 560
+name: Scrafty
+types: [dark, fighting]
+image: {sheet: 3, x: 9, y: 10}
+evolutions: []

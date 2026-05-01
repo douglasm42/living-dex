@@ -1,0 +1,6 @@
+uuid: '218'
+national_id: 218
+name: Slugma
+types: [fire]
+image: {sheet: 1, x: 7, y: 6}
+evolutions: []

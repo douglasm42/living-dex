@@ -1,0 +1,6 @@
+uuid: '650'
+national_id: 650
+name: Chespin
+types: [grass]
+image: {sheet: 4, x: 9, y: 4}
+evolutions: []

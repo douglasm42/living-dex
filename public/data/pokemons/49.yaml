@@ -1,0 +1,6 @@
+uuid: '49'
+national_id: 49
+name: Venomoth
+types: [bug, poison]
+image: {sheet: 0, x: 8, y: 4}
+evolutions: []

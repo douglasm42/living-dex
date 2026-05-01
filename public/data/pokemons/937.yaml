@@ -1,0 +1,6 @@
+uuid: '937'
+national_id: 937
+name: Ceruledge
+types: [fire, ghost]
+image: {sheet: 6, x: 6, y: 3}
+evolutions: []

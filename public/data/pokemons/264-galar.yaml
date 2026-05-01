@@ -1,0 +1,6 @@
+uuid: 264-galar
+national_id: 264
+name: Linoone
+types: [dark, normal]
+image: {sheet: 8, x: 4, y: 1}
+evolutions: []

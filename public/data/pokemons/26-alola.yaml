@@ -1,0 +1,6 @@
+uuid: 26-alola
+national_id: 26
+name: Raichu
+types: [electric, psychic]
+image: {sheet: 7, x: 8, y: 8}
+evolutions: []

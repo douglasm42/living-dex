@@ -1,0 +1,6 @@
+uuid: '246'
+national_id: 246
+name: Larvitar
+types: [rock, ground]
+image: {sheet: 1, x: 5, y: 9}
+evolutions: []

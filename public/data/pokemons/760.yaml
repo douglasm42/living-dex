@@ -1,0 +1,6 @@
+uuid: '760'
+national_id: 760
+name: Bewear
+types: [normal, fighting]
+image: {sheet: 5, x: 9, y: 0}
+evolutions: []

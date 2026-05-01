@@ -1,0 +1,6 @@
+uuid: '556'
+national_id: 556
+name: Maractus
+types: [grass]
+image: {sheet: 3, x: 5, y: 10}
+evolutions: []

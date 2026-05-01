@@ -1,0 +1,6 @@
+uuid: '395'
+national_id: 395
+name: Empoleon
+types: [water, steel]
+image: {sheet: 2, x: 4, y: 9}
+evolutions: []

@@ -1,0 +1,6 @@
+uuid: 413-trash
+national_id: 413
+name: Wormadam Trash
+types: [bug, steel]
+image: {sheet: 8, x: 2, y: 2}
+evolutions: []

@@ -1,0 +1,6 @@
+uuid: '308'
+national_id: 308
+name: Medicham
+types: [fighting, psychic]
+image: {sheet: 2, x: 7, y: 0}
+evolutions: []

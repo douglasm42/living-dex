@@ -1,0 +1,6 @@
+uuid: '559'
+national_id: 559
+name: Scraggy
+types: [dark, fighting]
+image: {sheet: 3, x: 8, y: 10}
+evolutions: []

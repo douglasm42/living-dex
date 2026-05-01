@@ -1,0 +1,6 @@
+uuid: '391'
+national_id: 391
+name: Monferno
+types: [fire, fighting]
+image: {sheet: 2, x: 0, y: 9}
+evolutions: []

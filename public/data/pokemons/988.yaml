@@ -1,0 +1,6 @@
+uuid: '988'
+national_id: 988
+name: Slither Wing
+types: [bug, fighting]
+image: {sheet: 6, x: 7, y: 8}
+evolutions: []

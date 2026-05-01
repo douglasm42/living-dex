@@ -1,0 +1,6 @@
+uuid: '108'
+national_id: 108
+name: Lickitung
+types: [normal]
+image: {sheet: 0, x: 7, y: 10}
+evolutions: []

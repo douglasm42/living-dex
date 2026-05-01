@@ -1,0 +1,6 @@
+uuid: 978-droopy
+national_id: 978
+name: Tatsugiri Droopy
+types: [dragon, water]
+image: {sheet: 9, x: 4, y: 7}
+evolutions: []

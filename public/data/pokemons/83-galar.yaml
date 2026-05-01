@@ -1,0 +1,6 @@
+uuid: 83-galar
+national_id: 83
+name: Farfetchd
+types: [fighting]
+image: {sheet: 7, x: 9, y: 10}
+evolutions: []

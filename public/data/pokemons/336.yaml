@@ -1,0 +1,6 @@
+uuid: '336'
+national_id: 336
+name: Seviper
+types: [poison]
+image: {sheet: 2, x: 5, y: 3}
+evolutions: []

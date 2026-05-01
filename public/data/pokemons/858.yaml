@@ -1,0 +1,6 @@
+uuid: '858'
+national_id: 858
+name: Hatterene
+types: [psychic, fairy]
+image: {sheet: 5, x: 7, y: 10}
+evolutions: []

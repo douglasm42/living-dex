@@ -1,0 +1,6 @@
+uuid: '418'
+national_id: 418
+name: Buizel
+types: [water]
+image: {sheet: 2, x: 7, y: 11}
+evolutions: []

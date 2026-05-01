@@ -1,0 +1,6 @@
+uuid: '830'
+national_id: 830
+name: Eldegoss
+types: [grass]
+image: {sheet: 5, x: 9, y: 7}
+evolutions: []

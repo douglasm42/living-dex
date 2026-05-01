@@ -1,0 +1,6 @@
+uuid: '722'
+national_id: 722
+name: Rowlet
+types: [grass, flying]
+image: {sheet: 4, x: 1, y: 12}
+evolutions: []

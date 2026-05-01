@@ -1,0 +1,6 @@
+uuid: '536'
+national_id: 536
+name: Palpitoad
+types: [water, ground]
+image: {sheet: 3, x: 5, y: 8}
+evolutions: []

@@ -1,0 +1,6 @@
+uuid: '174'
+national_id: 174
+name: Igglybuff
+types: [normal, fairy]
+image: {sheet: 1, x: 3, y: 2}
+evolutions: []

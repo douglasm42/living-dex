@@ -1,0 +1,6 @@
+uuid: '841'
+national_id: 841
+name: Flapple
+types: [grass, dragon]
+image: {sheet: 5, x: 0, y: 9}
+evolutions: []

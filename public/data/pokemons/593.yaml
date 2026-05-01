@@ -1,0 +1,6 @@
+uuid: '593'
+national_id: 593
+name: Jellicent
+types: [water, ghost]
+image: {sheet: 3, x: 2, y: 14}
+evolutions: []

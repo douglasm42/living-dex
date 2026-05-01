@@ -1,0 +1,6 @@
+uuid: '503'
+national_id: 503
+name: Samurott
+types: [water]
+image: {sheet: 3, x: 2, y: 5}
+evolutions: []

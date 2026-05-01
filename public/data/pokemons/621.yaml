@@ -1,0 +1,6 @@
+uuid: '621'
+national_id: 621
+name: Druddigon
+types: [dragon]
+image: {sheet: 4, x: 0, y: 2}
+evolutions: []

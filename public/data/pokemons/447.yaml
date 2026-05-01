@@ -1,0 +1,6 @@
+uuid: '447'
+national_id: 447
+name: Riolu
+types: [fighting]
+image: {sheet: 2, x: 6, y: 14}
+evolutions: []

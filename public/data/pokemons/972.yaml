@@ -1,0 +1,6 @@
+uuid: '972'
+national_id: 972
+name: Houndstone
+types: [ghost]
+image: {sheet: 6, x: 1, y: 7}
+evolutions: []

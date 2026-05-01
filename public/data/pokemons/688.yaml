@@ -1,0 +1,6 @@
+uuid: '688'
+national_id: 688
+name: Binacle
+types: [rock, water]
+image: {sheet: 4, x: 7, y: 8}
+evolutions: []

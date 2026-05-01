@@ -1,0 +1,6 @@
+uuid: '900'
+national_id: 900
+name: Kleavor
+types: [bug, rock]
+image: {sheet: 5, x: 9, y: 14}
+evolutions: []

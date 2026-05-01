@@ -1,0 +1,6 @@
+uuid: '79'
+national_id: 79
+name: Slowpoke
+types: [water, psychic]
+image: {sheet: 0, x: 8, y: 7}
+evolutions: []

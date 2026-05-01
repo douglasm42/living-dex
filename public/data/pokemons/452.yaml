@@ -1,0 +1,6 @@
+uuid: '452'
+national_id: 452
+name: Drapion
+types: [poison, dark]
+image: {sheet: 3, x: 1, y: 0}
+evolutions: []

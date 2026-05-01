@@ -1,0 +1,6 @@
+uuid: '331'
+national_id: 331
+name: Cacnea
+types: [grass]
+image: {sheet: 2, x: 0, y: 3}
+evolutions: []

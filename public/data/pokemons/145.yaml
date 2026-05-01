@@ -1,0 +1,6 @@
+uuid: '145'
+national_id: 145
+name: Zapdos
+types: [electric, flying]
+image: {sheet: 0, x: 4, y: 14}
+evolutions: []

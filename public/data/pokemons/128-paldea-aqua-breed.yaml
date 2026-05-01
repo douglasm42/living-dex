@@ -1,0 +1,6 @@
+uuid: 128-paldea-aqua-breed
+national_id: 128
+name: Tauros Aqua
+types: [fighting, water]
+image: {sheet: 7, x: 0, y: 12}
+evolutions: []

@@ -1,0 +1,6 @@
+uuid: '885'
+national_id: 885
+name: Dreepy
+types: [dragon, ghost]
+image: {sheet: 5, x: 4, y: 13}
+evolutions: []

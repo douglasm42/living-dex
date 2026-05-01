@@ -1,0 +1,6 @@
+uuid: '319'
+national_id: 319
+name: Sharpedo
+types: [water, dark]
+image: {sheet: 2, x: 8, y: 1}
+evolutions: []

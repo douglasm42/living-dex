@@ -1,0 +1,6 @@
+uuid: '738'
+national_id: 738
+name: Vikavolt
+types: [bug, electric]
+image: {sheet: 4, x: 7, y: 13}
+evolutions: []

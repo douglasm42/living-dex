@@ -1,0 +1,6 @@
+uuid: '640'
+national_id: 640
+name: Virizion
+types: [grass, fighting]
+image: {sheet: 4, x: 9, y: 3}
+evolutions: []

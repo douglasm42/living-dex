@@ -1,0 +1,6 @@
+uuid: '107'
+national_id: 107
+name: Hitmonchan
+types: [fighting]
+image: {sheet: 0, x: 6, y: 10}
+evolutions: []

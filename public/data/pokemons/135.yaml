@@ -1,0 +1,6 @@
+uuid: '135'
+national_id: 135
+name: Jolteon
+types: [electric]
+image: {sheet: 0, x: 4, y: 13}
+evolutions: []

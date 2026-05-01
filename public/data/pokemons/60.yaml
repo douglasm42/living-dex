@@ -1,0 +1,6 @@
+uuid: '60'
+national_id: 60
+name: Poliwag
+types: [water]
+image: {sheet: 0, x: 9, y: 5}
+evolutions: []

@@ -1,0 +1,6 @@
+uuid: '509'
+national_id: 509
+name: Purrloin
+types: [dark]
+image: {sheet: 3, x: 8, y: 5}
+evolutions: []

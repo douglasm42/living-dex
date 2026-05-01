@@ -1,0 +1,6 @@
+uuid: '867'
+national_id: 867
+name: Runerigus
+types: [ground, ghost]
+image: {sheet: 5, x: 6, y: 11}
+evolutions: []

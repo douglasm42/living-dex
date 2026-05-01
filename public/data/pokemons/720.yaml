@@ -1,0 +1,6 @@
+uuid: '720'
+national_id: 720
+name: Hoopa
+types: [psychic, ghost]
+image: {sheet: 4, x: 9, y: 11}
+evolutions: []

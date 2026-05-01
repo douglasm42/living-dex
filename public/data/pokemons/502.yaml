@@ -1,0 +1,6 @@
+uuid: '502'
+national_id: 502
+name: Dewott
+types: [water]
+image: {sheet: 3, x: 1, y: 5}
+evolutions: []

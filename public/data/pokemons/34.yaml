@@ -1,0 +1,6 @@
+uuid: '34'
+national_id: 34
+name: Nidoking
+types: [poison, ground]
+image: {sheet: 0, x: 3, y: 3}
+evolutions: []

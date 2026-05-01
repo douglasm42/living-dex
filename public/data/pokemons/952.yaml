@@ -1,0 +1,6 @@
+uuid: '952'
+national_id: 952
+name: Scovillain
+types: [grass, fire]
+image: {sheet: 6, x: 1, y: 5}
+evolutions: []

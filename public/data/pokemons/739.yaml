@@ -1,0 +1,6 @@
+uuid: '739'
+national_id: 739
+name: Crabrawler
+types: [fighting]
+image: {sheet: 4, x: 8, y: 13}
+evolutions: []

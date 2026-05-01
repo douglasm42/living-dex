@@ -1,0 +1,6 @@
+uuid: '376'
+national_id: 376
+name: Metagross
+types: [steel, psychic]
+image: {sheet: 2, x: 5, y: 7}
+evolutions: []

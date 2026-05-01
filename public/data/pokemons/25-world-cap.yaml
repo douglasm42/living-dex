@@ -1,0 +1,6 @@
+uuid: 25-world-cap
+national_id: 25
+name: Pikachu World
+types: [electric]
+image: {sheet: 7, x: 7, y: 8}
+evolutions: []

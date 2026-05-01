@@ -1,0 +1,6 @@
+uuid: '385'
+national_id: 385
+name: Jirachi
+types: [steel, psychic]
+image: {sheet: 2, x: 4, y: 8}
+evolutions: []

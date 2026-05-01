@@ -1,0 +1,6 @@
+uuid: 586-summer
+national_id: 586
+name: Sawsbuck Summer
+types: [normal, grass]
+image: {sheet: 8, x: 8, y: 4}
+evolutions: []

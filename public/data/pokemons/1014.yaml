@@ -1,0 +1,6 @@
+uuid: '1014'
+national_id: 1014
+name: Okidogi
+types: [poison, fighting]
+image: {sheet: 6, x: 3, y: 11}
+evolutions: []

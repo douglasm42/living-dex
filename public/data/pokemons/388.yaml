@@ -1,0 +1,6 @@
+uuid: '388'
+national_id: 388
+name: Grotle
+types: [grass]
+image: {sheet: 2, x: 7, y: 8}
+evolutions: []

@@ -1,0 +1,6 @@
+uuid: '140'
+national_id: 140
+name: Kabuto
+types: [rock, water]
+image: {sheet: 0, x: 9, y: 13}
+evolutions: []

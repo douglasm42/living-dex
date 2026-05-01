@@ -1,0 +1,6 @@
+uuid: 586-spring
+national_id: 586
+name: Sawsbuck Spring
+types: [normal, grass]
+image: {sheet: 8, x: 7, y: 4}
+evolutions: []

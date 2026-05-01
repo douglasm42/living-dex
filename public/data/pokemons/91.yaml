@@ -1,0 +1,6 @@
+uuid: '91'
+national_id: 91
+name: Cloyster
+types: [water, ice]
+image: {sheet: 0, x: 0, y: 9}
+evolutions: []

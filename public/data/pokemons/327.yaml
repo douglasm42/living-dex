@@ -1,0 +1,6 @@
+uuid: '327'
+national_id: 327
+name: Spinda
+types: [normal]
+image: {sheet: 2, x: 6, y: 2}
+evolutions: []

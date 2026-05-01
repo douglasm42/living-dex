@@ -1,0 +1,6 @@
+uuid: '521'
+national_id: 521
+name: Unfezant
+types: [normal, flying]
+image: {sheet: 3, x: 0, y: 7}
+evolutions: []

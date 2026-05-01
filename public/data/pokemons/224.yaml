@@ -1,0 +1,6 @@
+uuid: '224'
+national_id: 224
+name: Octillery
+types: [water]
+image: {sheet: 1, x: 3, y: 7}
+evolutions: []

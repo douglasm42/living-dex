@@ -1,0 +1,6 @@
+uuid: '249'
+national_id: 249
+name: Lugia
+types: [psychic, flying]
+image: {sheet: 1, x: 8, y: 9}
+evolutions: []

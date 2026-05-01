@@ -1,0 +1,6 @@
+uuid: '348'
+national_id: 348
+name: Armaldo
+types: [rock, bug]
+image: {sheet: 2, x: 7, y: 4}
+evolutions: []

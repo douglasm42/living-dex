@@ -1,0 +1,6 @@
+uuid: '178'
+national_id: 178
+name: Xatu
+types: [psychic, flying]
+image: {sheet: 1, x: 7, y: 2}
+evolutions: []

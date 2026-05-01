@@ -1,0 +1,6 @@
+uuid: '202'
+national_id: 202
+name: Wobbuffet
+types: [psychic]
+image: {sheet: 1, x: 1, y: 5}
+evolutions: []

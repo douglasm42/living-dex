@@ -1,0 +1,6 @@
+uuid: 586-winter
+national_id: 586
+name: Sawsbuck Winter
+types: [normal, grass]
+image: {sheet: 8, x: 0, y: 5}
+evolutions: []

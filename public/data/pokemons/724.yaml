@@ -1,0 +1,6 @@
+uuid: '724'
+national_id: 724
+name: Decidueye
+types: [grass, ghost]
+image: {sheet: 4, x: 3, y: 12}
+evolutions: []

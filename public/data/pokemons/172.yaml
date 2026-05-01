@@ -1,0 +1,6 @@
+uuid: '172'
+national_id: 172
+name: Pichu
+types: [electric]
+image: {sheet: 1, x: 1, y: 2}
+evolutions: []

@@ -1,0 +1,6 @@
+uuid: 550-red-striped
+national_id: 550
+name: Basculin Red Striped
+types: [water]
+image: {sheet: 3, x: 9, y: 9}
+evolutions: []

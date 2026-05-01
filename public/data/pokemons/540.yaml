@@ -1,0 +1,6 @@
+uuid: '540'
+national_id: 540
+name: Sewaddle
+types: [bug, grass]
+image: {sheet: 3, x: 9, y: 8}
+evolutions: []

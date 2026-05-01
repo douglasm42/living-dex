@@ -1,0 +1,6 @@
+uuid: '905'
+national_id: 905
+name: Enamorus
+types: [fairy, flying]
+image: {sheet: 6, x: 4, y: 0}
+evolutions: []

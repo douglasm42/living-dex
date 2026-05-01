@@ -1,0 +1,6 @@
+uuid: '995'
+national_id: 995
+name: Iron Thorns
+types: [rock, electric]
+image: {sheet: 6, x: 4, y: 9}
+evolutions: []

@@ -1,0 +1,6 @@
+uuid: '798'
+national_id: 798
+name: Kartana
+types: [grass, steel]
+image: {sheet: 5, x: 7, y: 4}
+evolutions: []

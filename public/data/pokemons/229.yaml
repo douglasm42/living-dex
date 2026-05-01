@@ -1,0 +1,6 @@
+uuid: '229'
+national_id: 229
+name: Houndoom
+types: [dark, fire]
+image: {sheet: 1, x: 8, y: 7}
+evolutions: []

@@ -1,0 +1,6 @@
+uuid: '587'
+national_id: 587
+name: Emolga
+types: [electric, flying]
+image: {sheet: 3, x: 6, y: 13}
+evolutions: []

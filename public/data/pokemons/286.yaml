@@ -1,0 +1,6 @@
+uuid: '286'
+national_id: 286
+name: Breloom
+types: [grass, fighting]
+image: {sheet: 1, x: 5, y: 13}
+evolutions: []

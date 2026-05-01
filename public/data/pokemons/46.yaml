@@ -1,0 +1,6 @@
+uuid: '46'
+national_id: 46
+name: Paras
+types: [bug, grass]
+image: {sheet: 0, x: 5, y: 4}
+evolutions: []

@@ -1,0 +1,6 @@
+uuid: '316'
+national_id: 316
+name: Gulpin
+types: [poison]
+image: {sheet: 2, x: 5, y: 1}
+evolutions: []

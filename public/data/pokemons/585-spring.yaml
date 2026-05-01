@@ -1,0 +1,6 @@
+uuid: 585-spring
+national_id: 585
+name: Deerling Spring
+types: [normal, grass]
+image: {sheet: 8, x: 3, y: 4}
+evolutions: []

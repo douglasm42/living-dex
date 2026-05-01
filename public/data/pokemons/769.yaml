@@ -1,0 +1,6 @@
+uuid: '769'
+national_id: 769
+name: Sandygast
+types: [ghost, ground]
+image: {sheet: 5, x: 8, y: 1}
+evolutions: []

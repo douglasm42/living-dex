@@ -1,0 +1,6 @@
+uuid: '596'
+national_id: 596
+name: Galvantula
+types: [bug, electric]
+image: {sheet: 3, x: 5, y: 14}
+evolutions: []

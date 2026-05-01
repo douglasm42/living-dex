@@ -1,0 +1,6 @@
+uuid: '990'
+national_id: 990
+name: Iron Treads
+types: [ground, steel]
+image: {sheet: 6, x: 9, y: 8}
+evolutions: []

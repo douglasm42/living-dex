@@ -1,0 +1,6 @@
+uuid: '351'
+national_id: 351
+name: Castform
+types: [normal]
+image: {sheet: 2, x: 0, y: 5}
+evolutions: []

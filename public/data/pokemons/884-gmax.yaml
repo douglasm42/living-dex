@@ -1,0 +1,6 @@
+uuid: 884-gmax
+national_id: 884
+name: Duraludon
+types: [steel, dragon]
+image: {sheet: 9, x: 3, y: 6}
+evolutions: []

@@ -1,0 +1,6 @@
+uuid: 6-gmax
+national_id: 6
+name: Charizard
+types: [fire, flying]
+image: {sheet: 7, x: 4, y: 7}
+evolutions: []

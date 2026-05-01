@@ -1,0 +1,6 @@
+uuid: '597'
+national_id: 597
+name: Ferroseed
+types: [grass, steel]
+image: {sheet: 3, x: 6, y: 14}
+evolutions: []

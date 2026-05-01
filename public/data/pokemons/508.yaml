@@ -1,0 +1,6 @@
+uuid: '508'
+national_id: 508
+name: Stoutland
+types: [normal]
+image: {sheet: 3, x: 7, y: 5}
+evolutions: []

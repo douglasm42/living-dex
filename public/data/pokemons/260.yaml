@@ -1,0 +1,6 @@
+uuid: '260'
+national_id: 260
+name: Swampert
+types: [water, ground]
+image: {sheet: 1, x: 9, y: 10}
+evolutions: []

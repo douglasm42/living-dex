@@ -1,0 +1,6 @@
+uuid: '565'
+national_id: 565
+name: Carracosta
+types: [water, rock]
+image: {sheet: 3, x: 4, y: 11}
+evolutions: []

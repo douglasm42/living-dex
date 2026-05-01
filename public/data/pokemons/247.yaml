@@ -1,0 +1,6 @@
+uuid: '247'
+national_id: 247
+name: Pupitar
+types: [rock, ground]
+image: {sheet: 1, x: 6, y: 9}
+evolutions: []

@@ -1,0 +1,6 @@
+uuid: 258-starter
+national_id: 258
+name: Mudkip
+types: [water]
+image: {sheet: 1, x: 7, y: 10}
+evolutions: []

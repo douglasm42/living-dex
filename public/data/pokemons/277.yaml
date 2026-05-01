@@ -1,0 +1,6 @@
+uuid: '277'
+national_id: 277
+name: Swellow
+types: [normal, flying]
+image: {sheet: 1, x: 6, y: 12}
+evolutions: []

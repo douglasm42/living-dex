@@ -1,0 +1,6 @@
+uuid: '401'
+national_id: 401
+name: Kricketot
+types: [bug]
+image: {sheet: 2, x: 0, y: 10}
+evolutions: []

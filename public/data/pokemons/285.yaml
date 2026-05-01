@@ -1,0 +1,6 @@
+uuid: '285'
+national_id: 285
+name: Shroomish
+types: [grass]
+image: {sheet: 1, x: 4, y: 13}
+evolutions: []

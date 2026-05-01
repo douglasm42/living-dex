@@ -1,0 +1,6 @@
+uuid: '777'
+national_id: 777
+name: Togedemaru
+types: [electric, steel]
+image: {sheet: 5, x: 6, y: 2}
+evolutions: []

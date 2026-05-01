@@ -1,0 +1,6 @@
+uuid: '533'
+national_id: 533
+name: Gurdurr
+types: [fighting]
+image: {sheet: 3, x: 2, y: 8}
+evolutions: []

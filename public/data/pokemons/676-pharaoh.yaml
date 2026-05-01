@@ -1,0 +1,6 @@
+uuid: 676-pharaoh
+national_id: 676
+name: Furfrou Pharaoh
+types: [normal]
+image: {sheet: 8, x: 2, y: 10}
+evolutions: []

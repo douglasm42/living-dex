@@ -1,0 +1,6 @@
+uuid: '118'
+national_id: 118
+name: Goldeen
+types: [water]
+image: {sheet: 0, x: 7, y: 11}
+evolutions: []

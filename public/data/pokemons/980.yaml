@@ -1,0 +1,6 @@
+uuid: '980'
+national_id: 980
+name: Clodsire
+types: [poison, ground]
+image: {sheet: 6, x: 9, y: 7}
+evolutions: []

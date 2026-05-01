@@ -1,0 +1,6 @@
+uuid: '453'
+national_id: 453
+name: Croagunk
+types: [poison, fighting]
+image: {sheet: 3, x: 2, y: 0}
+evolutions: []

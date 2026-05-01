@@ -1,0 +1,6 @@
+uuid: '136'
+national_id: 136
+name: Flareon
+types: [fire]
+image: {sheet: 0, x: 5, y: 13}
+evolutions: []

@@ -1,0 +1,6 @@
+uuid: '10'
+national_id: 10
+name: Caterpie
+types: [bug]
+image: {sheet: 0, x: 9, y: 0}
+evolutions: []

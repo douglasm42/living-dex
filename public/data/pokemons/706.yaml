@@ -1,0 +1,6 @@
+uuid: '706'
+national_id: 706
+name: Goodra
+types: [dragon]
+image: {sheet: 4, x: 5, y: 10}
+evolutions: []

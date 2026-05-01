@@ -1,0 +1,6 @@
+uuid: 653-starter
+national_id: 653
+name: Fennekin
+types: [fire]
+image: {sheet: 4, x: 2, y: 5}
+evolutions: []

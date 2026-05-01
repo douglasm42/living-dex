@@ -1,0 +1,6 @@
+uuid: '100'
+national_id: 100
+name: Voltorb
+types: [electric]
+image: {sheet: 0, x: 9, y: 9}
+evolutions: []

@@ -1,0 +1,6 @@
+uuid: '219'
+national_id: 219
+name: Magcargo
+types: [fire, rock]
+image: {sheet: 1, x: 8, y: 6}
+evolutions: []

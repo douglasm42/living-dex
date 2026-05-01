@@ -1,0 +1,6 @@
+uuid: '478'
+national_id: 478
+name: Froslass
+types: [ice, ghost]
+image: {sheet: 3, x: 7, y: 2}
+evolutions: []

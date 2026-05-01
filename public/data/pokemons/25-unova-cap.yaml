@@ -1,0 +1,6 @@
+uuid: 25-unova-cap
+national_id: 25
+name: Pikachu Unova
+types: [electric]
+image: {sheet: 7, x: 6, y: 8}
+evolutions: []

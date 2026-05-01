@@ -1,0 +1,6 @@
+uuid: '631'
+national_id: 631
+name: Heatmor
+types: [fire]
+image: {sheet: 4, x: 0, y: 3}
+evolutions: []

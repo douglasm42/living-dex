@@ -1,0 +1,6 @@
+uuid: '751'
+national_id: 751
+name: Dewpider
+types: [water, bug]
+image: {sheet: 5, x: 0, y: 0}
+evolutions: []

@@ -1,0 +1,6 @@
+uuid: '563'
+national_id: 563
+name: Cofagrigus
+types: [ghost]
+image: {sheet: 3, x: 2, y: 11}
+evolutions: []

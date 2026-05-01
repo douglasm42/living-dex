@@ -1,0 +1,314 @@
+title: Extra Credits
+tags: [extra, special]
+sub_sections:
+- title: Dittoes
+  pokemons:
+  - id: 132
+    uuid: 132-hardy
+    name: Hardy
+    types: &id001 [normal]
+    image: &id002 {sheet: 0, x: 1, y: 13}
+  - id: 132
+    uuid: 132-lonely
+    name: Lonely
+    types: *id001
+    image: *id002
+  - id: 132
+    uuid: 132-adamant
+    name: Adamant
+    types: *id001
+    image: *id002
+  - id: 132
+    uuid: 132-naughty
+    name: Naughty
+    types: *id001
+    image: *id002
+  - id: 132
+    uuid: 132-brave
+    name: Brave
+    types: *id001
+    image: *id002
+  - id: 132
+    uuid: 132-bold
+    name: Bold
+    types: *id001
+    image: *id002
+  - id: 132
+    uuid: 132-docile
+    name: Docile
+    types: *id001
+    image: *id002
+  - id: 132
+    uuid: 132-impish
+    name: Impish
+    types: *id001
+    image: *id002
+  - id: 132
+    uuid: 132-lax
+    name: Lax
+    types: *id001
+    image: *id002
+  - id: 132
+    uuid: 132-relaxed
+    name: Relaxed
+    types: *id001
+    image: *id002
+  - id: 132
+    uuid: 132-modest
+    name: Modest
+    types: *id001
+    image: *id002
+  - id: 132
+    uuid: 132-mild
+    name: Mild
+    types: *id001
+    image: *id002
+  - id: 132
+    uuid: 132-bashful
+    name: Bashful
+    types: *id001
+    image: *id002
+  - id: 132
+    uuid: 132-rash
+    name: Rash
+    types: *id001
+    image: *id002
+  - id: 132
+    uuid: 132-quiet
+    name: Quiet
+    types: *id001
+    image: *id002
+  - id: 132
+    uuid: 132-calm
+    name: Calm
+    types: *id001
+    image: *id002
+  - id: 132
+    uuid: 132-gentle
+    name: Gentle
+    types: *id001
+    image: *id002
+  - id: 132
+    uuid: 132-careful
+    name: Careful
+    types: *id001
+    image: *id002
+  - id: 132
+    uuid: 132-quirky
+    name: Quirky
+    types: *id001
+    image: *id002
+  - id: 132
+    uuid: 132-sassy
+    name: Sassy
+    types: *id001
+    image: *id002
+  - id: 132
+    uuid: 132-timid
+    name: Timid
+    types: *id001
+    image: *id002
+  - id: 132
+    uuid: 132-hasty
+    name: Hasty
+    types: *id001
+    image: *id002
+  - id: 132
+    uuid: 132-jolly
+    name: Jolly
+    types: *id001
+    image: *id002
+  - id: 132
+    uuid: 132-naive
+    name: Naive
+    types: *id001
+    image: *id002
+  - id: 132
+    uuid: 132-serious
+    name: Serious
+    types: *id001
+    image: *id002
+- title: Starters
+  pokemons:
+  - id: 1
+    uuid: 1-starter
+    name: Bulbasaur
+    types: [grass, poison]
+    image: {sheet: 0, x: 0, y: 0}
+  - id: 4
+    uuid: 4-starter
+    name: Charmander
+    types: [fire]
+    image: {sheet: 0, x: 3, y: 0}
+  - id: 7
+    uuid: 7-starter
+    name: Squirtle
+    types: [water]
+    image: {sheet: 0, x: 6, y: 0}
+  - id: 650
+    uuid: 650-starter
+    name: Chespin
+    types: [grass]
+    image: {sheet: 4, x: 9, y: 4}
+  - id: 653
+    uuid: 653-starter
+    name: Fennekin
+    types: [fire]
+    image: {sheet: 4, x: 2, y: 5}
+  - id: 656
+    uuid: 656-starter
+    name: Froakie
+    types: [water]
+    image: {sheet: 4, x: 5, y: 5}
+  - id: 152
+    uuid: 152-starter
+    name: Chikorita
+    types: [grass]
+    image: {sheet: 1, x: 1, y: 0}
+  - id: 155
+    uuid: 155-starter
+    name: Cyndaquil
+    types: [fire]
+    image: {sheet: 1, x: 4, y: 0}
+  - id: 158
+    uuid: 158-starter
+    name: Totodile
+    types: [water]
+    image: {sheet: 1, x: 7, y: 0}
+  - id: 722
+    uuid: 722-starter
+    name: Rowlet
+    types: [grass, flying]
+    image: {sheet: 4, x: 1, y: 12}
+  - id: 725
+    uuid: 725-starter
+    name: Litten
+    types: [fire]
+    image: {sheet: 4, x: 4, y: 12}
+  - id: 728
+    uuid: 728-starter
+    name: Popplio
+    types: [water]
+    image: {sheet: 4, x: 7, y: 12}
+  - id: 252
+    uuid: 252-starter
+    name: Treecko
+    types: [grass]
+    image: {sheet: 1, x: 1, y: 10}
+  - id: 255
+    uuid: 255-starter
+    name: Torchic
+    types: [fire]
+    image: {sheet: 1, x: 4, y: 10}
+  - id: 258
+    uuid: 258-starter
+    name: Mudkip
+    types: [water]
+    image: {sheet: 1, x: 7, y: 10}
+  - id: 810
+    uuid: 810-starter
+    name: Grookey
+    types: [grass]
+    image: {sheet: 5, x: 9, y: 5}
+  - id: 813
+    uuid: 813-starter
+    name: Scorbunny
+    types: [fire]
+    image: {sheet: 5, x: 2, y: 6}
+  - id: 816
+    uuid: 816-starter
+    name: Sobble
+    types: [water]
+    image: {sheet: 5, x: 5, y: 6}
+  - id: 387
+    uuid: 387-starter
+    name: Turtwig
+    types: [grass]
+    image: {sheet: 2, x: 6, y: 8}
+  - id: 390
+    uuid: 390-starter
+    name: Chimchar
+    types: [fire]
+    image: {sheet: 2, x: 9, y: 8}
+  - id: 393
+    uuid: 393-starter
+    name: Piplup
+    types: [water]
+    image: {sheet: 2, x: 2, y: 9}
+  - id: 906
+    uuid: 906-starter
+    name: Sprigatito
+    types: [grass]
+    image: {sheet: 6, x: 5, y: 0}
+  - id: 909
+    uuid: 909-starter
+    name: Fuecoco
+    types: [fire]
+    image: {sheet: 6, x: 8, y: 0}
+  - id: 912
+    uuid: 912-starter
+    name: Quaxly
+    types: [water]
+    image: {sheet: 6, x: 1, y: 1}
+  - id: 495
+    uuid: 495-starter
+    name: Snivy
+    types: [grass]
+    image: {sheet: 3, x: 4, y: 4}
+  - id: 498
+    uuid: 498-starter
+    name: Tepig
+    types: [fire]
+    image: {sheet: 3, x: 7, y: 4}
+  - id: 501
+    uuid: 501-starter
+    name: Oshawott
+    types: [water]
+    image: {sheet: 3, x: 0, y: 5}
+- title: Eeveelutions
+  pokemons:
+  - id: 133
+    uuid: 133-starter
+    name: Eevee
+    types: [normal]
+    image: {sheet: 0, x: 2, y: 13}
+  - id: 134
+    uuid: 134-starter
+    name: Vaporeon
+    types: [water]
+    image: {sheet: 0, x: 3, y: 13}
+  - id: 135
+    uuid: 135-starter
+    name: Jolteon
+    types: [electric]
+    image: {sheet: 0, x: 4, y: 13}
+  - id: 136
+    uuid: 136-starter
+    name: Flareon
+    types: [fire]
+    image: {sheet: 0, x: 5, y: 13}
+  - id: 196
+    uuid: 196-starter
+    name: Espeon
+    types: [psychic]
+    image: {sheet: 1, x: 5, y: 4}
+  - id: 197
+    uuid: 197-starter
+    name: Umbreon
+    types: [dark]
+    image: {sheet: 1, x: 6, y: 4}
+  - id: 470
+    uuid: 470-starter
+    name: Leafeon
+    types: [grass]
+    image: {sheet: 3, x: 9, y: 1}
+  - id: 471
+    uuid: 471-starter
+    name: Glaceon
+    types: [ice]
+    image: {sheet: 3, x: 0, y: 2}
+  - id: 700
+    uuid: 700-starter
+    name: Sylveon
+    types: [fairy]
+    image: {sheet: 4, x: 9, y: 9}

@@ -1,0 +1,6 @@
+uuid: '88'
+national_id: 88
+name: Grimer
+types: [poison]
+image: {sheet: 0, x: 7, y: 8}
+evolutions: []

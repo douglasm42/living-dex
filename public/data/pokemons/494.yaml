@@ -1,0 +1,6 @@
+uuid: '494'
+national_id: 494
+name: Victini
+types: [psychic, fire]
+image: {sheet: 3, x: 3, y: 4}
+evolutions: []

@@ -1,0 +1,6 @@
+uuid: '615'
+national_id: 615
+name: Cryogonal
+types: [ice]
+image: {sheet: 4, x: 4, y: 1}
+evolutions: []

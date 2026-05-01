@@ -1,0 +1,6 @@
+uuid: '487'
+national_id: 487
+name: Giratina
+types: [ghost, dragon]
+image: {sheet: 3, x: 6, y: 3}
+evolutions: []

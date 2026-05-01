@@ -1,0 +1,6 @@
+uuid: '372'
+national_id: 372
+name: Shelgon
+types: [dragon]
+image: {sheet: 2, x: 1, y: 7}
+evolutions: []

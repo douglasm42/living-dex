@@ -1,0 +1,6 @@
+uuid: '569'
+national_id: 569
+name: Garbodor
+types: [poison]
+image: {sheet: 3, x: 8, y: 11}
+evolutions: []

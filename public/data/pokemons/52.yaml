@@ -1,0 +1,6 @@
+uuid: '52'
+national_id: 52
+name: Meowth
+types: [normal]
+image: {sheet: 0, x: 1, y: 5}
+evolutions: []

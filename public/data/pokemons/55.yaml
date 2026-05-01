@@ -1,0 +1,6 @@
+uuid: '55'
+national_id: 55
+name: Golduck
+types: [water]
+image: {sheet: 0, x: 4, y: 5}
+evolutions: []

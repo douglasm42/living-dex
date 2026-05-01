@@ -1,0 +1,6 @@
+uuid: '668'
+national_id: 668
+name: Pyroar
+types: [fire, normal]
+image: {sheet: 4, x: 7, y: 6}
+evolutions: []

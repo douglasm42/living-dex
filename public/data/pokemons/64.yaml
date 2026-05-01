@@ -1,0 +1,6 @@
+uuid: '64'
+national_id: 64
+name: Kadabra
+types: [psychic]
+image: {sheet: 0, x: 3, y: 6}
+evolutions: []

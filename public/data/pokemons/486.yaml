@@ -1,0 +1,6 @@
+uuid: '486'
+national_id: 486
+name: Regigigas
+types: [normal]
+image: {sheet: 3, x: 5, y: 3}
+evolutions: []

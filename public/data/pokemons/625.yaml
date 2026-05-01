@@ -1,0 +1,6 @@
+uuid: '625'
+national_id: 625
+name: Bisharp
+types: [dark, steel]
+image: {sheet: 4, x: 4, y: 2}
+evolutions: []

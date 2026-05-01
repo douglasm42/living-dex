@@ -1,0 +1,6 @@
+uuid: '843'
+national_id: 843
+name: Silicobra
+types: [ground]
+image: {sheet: 5, x: 2, y: 9}
+evolutions: []

@@ -1,0 +1,6 @@
+uuid: 443-f
+national_id: 443
+name: Gible ♀
+types: [dragon, ground]
+image: {sheet: 7, x: 3, y: 5}
+evolutions: []

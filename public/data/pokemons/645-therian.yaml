@@ -1,0 +1,6 @@
+uuid: 645-therian
+national_id: 645
+name: Landorus Therian
+types: [ground, flying]
+image: {sheet: 8, x: 5, y: 5}
+evolutions: []

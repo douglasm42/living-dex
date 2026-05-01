@@ -1,0 +1,6 @@
+uuid: '704'
+national_id: 704
+name: Goomy
+types: [dragon]
+image: {sheet: 4, x: 3, y: 10}
+evolutions: []

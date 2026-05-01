@@ -1,0 +1,6 @@
+uuid: '544'
+national_id: 544
+name: Whirlipede
+types: [bug, poison]
+image: {sheet: 3, x: 3, y: 9}
+evolutions: []

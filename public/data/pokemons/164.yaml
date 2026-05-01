@@ -1,0 +1,6 @@
+uuid: '164'
+national_id: 164
+name: Noctowl
+types: [normal, flying]
+image: {sheet: 1, x: 3, y: 1}
+evolutions: []

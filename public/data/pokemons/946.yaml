@@ -1,0 +1,6 @@
+uuid: '946'
+national_id: 946
+name: Bramblin
+types: [grass, ghost]
+image: {sheet: 6, x: 5, y: 4}
+evolutions: []

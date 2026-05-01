@@ -1,0 +1,6 @@
+uuid: '778'
+national_id: 778
+name: Mimikyu
+types: [ghost, fairy]
+image: {sheet: 5, x: 7, y: 2}
+evolutions: []

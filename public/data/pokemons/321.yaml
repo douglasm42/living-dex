@@ -1,0 +1,6 @@
+uuid: '321'
+national_id: 321
+name: Wailord
+types: [water]
+image: {sheet: 2, x: 0, y: 2}
+evolutions: []

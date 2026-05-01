@@ -1,0 +1,6 @@
+uuid: '29'
+national_id: 29
+name: Nidoran F
+types: [poison]
+image: {sheet: 0, x: 8, y: 2}
+evolutions: []

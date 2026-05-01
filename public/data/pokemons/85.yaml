@@ -1,0 +1,6 @@
+uuid: '85'
+national_id: 85
+name: Dodrio
+types: [normal, flying]
+image: {sheet: 0, x: 4, y: 8}
+evolutions: []

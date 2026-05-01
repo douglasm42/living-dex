@@ -1,0 +1,6 @@
+uuid: '812'
+national_id: 812
+name: Rillaboom
+types: [grass]
+image: {sheet: 5, x: 1, y: 6}
+evolutions: []

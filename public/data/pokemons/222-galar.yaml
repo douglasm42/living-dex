@@ -1,0 +1,6 @@
+uuid: 222-galar
+national_id: 222
+name: Corsola
+types: [ghost]
+image: {sheet: 8, x: 2, y: 1}
+evolutions: []

@@ -1,0 +1,6 @@
+uuid: '590'
+national_id: 590
+name: Foongus
+types: [grass, poison]
+image: {sheet: 3, x: 9, y: 13}
+evolutions: []

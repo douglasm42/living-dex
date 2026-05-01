@@ -1,0 +1,6 @@
+uuid: '985'
+national_id: 985
+name: Scream Tail
+types: [fairy, psychic]
+image: {sheet: 6, x: 4, y: 8}
+evolutions: []

@@ -1,0 +1,6 @@
+uuid: '141'
+national_id: 141
+name: Kabutops
+types: [rock, water]
+image: {sheet: 0, x: 0, y: 14}
+evolutions: []

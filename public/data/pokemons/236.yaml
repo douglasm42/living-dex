@@ -1,0 +1,6 @@
+uuid: '236'
+national_id: 236
+name: Tyrogue
+types: [fighting]
+image: {sheet: 1, x: 5, y: 8}
+evolutions: []

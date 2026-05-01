@@ -1,0 +1,6 @@
+uuid: '523'
+national_id: 523
+name: Zebstrika
+types: [electric]
+image: {sheet: 3, x: 2, y: 7}
+evolutions: []

@@ -1,0 +1,6 @@
+uuid: '948'
+national_id: 948
+name: Toedscool
+types: [ground, grass]
+image: {sheet: 6, x: 7, y: 4}
+evolutions: []

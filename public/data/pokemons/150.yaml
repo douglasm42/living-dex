@@ -1,0 +1,6 @@
+uuid: '150'
+national_id: 150
+name: Mewtwo
+types: [psychic]
+image: {sheet: 0, x: 9, y: 14}
+evolutions: []

@@ -1,0 +1,6 @@
+uuid: '582'
+national_id: 582
+name: Vanillite
+types: [ice]
+image: {sheet: 3, x: 1, y: 13}
+evolutions: []

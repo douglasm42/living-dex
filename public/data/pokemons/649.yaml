@@ -1,0 +1,6 @@
+uuid: '649'
+national_id: 649
+name: Genesect
+types: [bug, steel]
+image: {sheet: 4, x: 8, y: 4}
+evolutions: []

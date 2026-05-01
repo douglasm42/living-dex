@@ -1,0 +1,6 @@
+uuid: 711-super
+national_id: 711
+name: Gourgeist Super
+types: [ghost, grass]
+image: {sheet: 8, x: 2, y: 11}
+evolutions: []

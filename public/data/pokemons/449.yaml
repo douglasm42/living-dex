@@ -1,0 +1,6 @@
+uuid: '449'
+national_id: 449
+name: Hippopotas
+types: [ground]
+image: {sheet: 2, x: 8, y: 14}
+evolutions: []

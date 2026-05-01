@@ -1,0 +1,6 @@
+uuid: '680'
+national_id: 680
+name: Doublade
+types: [steel, ghost]
+image: {sheet: 4, x: 9, y: 7}
+evolutions: []

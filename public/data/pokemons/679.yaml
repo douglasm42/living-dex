@@ -1,0 +1,6 @@
+uuid: '679'
+national_id: 679
+name: Honedge
+types: [steel, ghost]
+image: {sheet: 4, x: 8, y: 7}
+evolutions: []

@@ -1,0 +1,6 @@
+uuid: '941'
+national_id: 941
+name: Kilowattrel
+types: [electric, flying]
+image: {sheet: 6, x: 0, y: 4}
+evolutions: []

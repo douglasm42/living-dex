@@ -1,0 +1,6 @@
+uuid: 666-savanna
+national_id: 666
+name: Vivillon Savanna
+types: [bug, flying]
+image: {sheet: 8, x: 6, y: 7}
+evolutions: []

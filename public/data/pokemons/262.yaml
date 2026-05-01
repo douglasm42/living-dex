@@ -1,0 +1,6 @@
+uuid: '262'
+national_id: 262
+name: Mightyena
+types: [dark]
+image: {sheet: 1, x: 1, y: 11}
+evolutions: []

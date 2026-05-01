@@ -1,0 +1,6 @@
+uuid: '700'
+national_id: 700
+name: Sylveon
+types: [fairy]
+image: {sheet: 4, x: 9, y: 9}
+evolutions: []

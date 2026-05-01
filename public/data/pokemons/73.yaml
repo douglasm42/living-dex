@@ -1,0 +1,6 @@
+uuid: '73'
+national_id: 73
+name: Tentacruel
+types: [water, poison]
+image: {sheet: 0, x: 2, y: 7}
+evolutions: []

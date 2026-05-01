@@ -1,0 +1,6 @@
+uuid: '1005'
+national_id: 1005
+name: Roaring Moon
+types: [dragon, dark]
+image: {sheet: 6, x: 4, y: 10}
+evolutions: []

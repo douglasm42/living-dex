@@ -1,0 +1,6 @@
+uuid: 666-ocean
+national_id: 666
+name: Vivillon Ocean
+types: [bug, flying]
+image: {sheet: 8, x: 1, y: 7}
+evolutions: []

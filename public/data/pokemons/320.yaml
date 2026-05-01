@@ -1,0 +1,6 @@
+uuid: '320'
+national_id: 320
+name: Wailmer
+types: [water]
+image: {sheet: 2, x: 9, y: 1}
+evolutions: []

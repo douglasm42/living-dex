@@ -1,0 +1,6 @@
+uuid: '306'
+national_id: 306
+name: Aggron
+types: [steel, rock]
+image: {sheet: 2, x: 5, y: 0}
+evolutions: []

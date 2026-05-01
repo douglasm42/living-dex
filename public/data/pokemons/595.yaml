@@ -1,0 +1,6 @@
+uuid: '595'
+national_id: 595
+name: Joltik
+types: [bug, electric]
+image: {sheet: 3, x: 4, y: 14}
+evolutions: []

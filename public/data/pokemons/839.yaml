@@ -1,0 +1,6 @@
+uuid: '839'
+national_id: 839
+name: Coalossal
+types: [rock, fire]
+image: {sheet: 5, x: 8, y: 8}
+evolutions: []

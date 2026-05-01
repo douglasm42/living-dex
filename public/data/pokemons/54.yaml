@@ -1,0 +1,6 @@
+uuid: '54'
+national_id: 54
+name: Psyduck
+types: [water]
+image: {sheet: 0, x: 3, y: 5}
+evolutions: []

@@ -1,0 +1,6 @@
+uuid: '529'
+national_id: 529
+name: Drilbur
+types: [ground]
+image: {sheet: 3, x: 8, y: 7}
+evolutions: []

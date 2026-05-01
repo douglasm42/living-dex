@@ -1,0 +1,6 @@
+uuid: '407'
+national_id: 407
+name: Roserade
+types: [grass, poison]
+image: {sheet: 2, x: 6, y: 10}
+evolutions: []

@@ -1,0 +1,6 @@
+uuid: '725'
+national_id: 725
+name: Litten
+types: [fire]
+image: {sheet: 4, x: 4, y: 12}
+evolutions: []

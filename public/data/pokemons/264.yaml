@@ -1,0 +1,6 @@
+uuid: '264'
+national_id: 264
+name: Linoone
+types: [normal]
+image: {sheet: 1, x: 3, y: 11}
+evolutions: []

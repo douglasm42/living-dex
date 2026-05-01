@@ -1,0 +1,6 @@
+uuid: '305'
+national_id: 305
+name: Lairon
+types: [steel, rock]
+image: {sheet: 2, x: 4, y: 0}
+evolutions: []

@@ -1,0 +1,6 @@
+uuid: '545'
+national_id: 545
+name: Scolipede
+types: [bug, poison]
+image: {sheet: 3, x: 4, y: 9}
+evolutions: []

@@ -1,0 +1,6 @@
+uuid: '102'
+national_id: 102
+name: Exeggcute
+types: [grass, psychic]
+image: {sheet: 0, x: 1, y: 10}
+evolutions: []

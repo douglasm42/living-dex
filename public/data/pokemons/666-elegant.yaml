@@ -1,0 +1,6 @@
+uuid: 666-elegant
+national_id: 666
+name: Vivillon Elegant
+types: [bug, flying]
+image: {sheet: 8, x: 1, y: 6}
+evolutions: []

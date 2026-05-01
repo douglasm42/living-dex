@@ -1,0 +1,6 @@
+uuid: '237'
+national_id: 237
+name: Hitmontop
+types: [fighting]
+image: {sheet: 1, x: 6, y: 8}
+evolutions: []

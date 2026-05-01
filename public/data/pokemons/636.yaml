@@ -1,0 +1,6 @@
+uuid: '636'
+national_id: 636
+name: Larvesta
+types: [bug, fire]
+image: {sheet: 4, x: 5, y: 3}
+evolutions: []

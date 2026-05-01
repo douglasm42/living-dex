@@ -1,0 +1,6 @@
+uuid: '504'
+national_id: 504
+name: Patrat
+types: [normal]
+image: {sheet: 3, x: 3, y: 5}
+evolutions: []

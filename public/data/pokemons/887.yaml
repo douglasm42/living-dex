@@ -1,0 +1,6 @@
+uuid: '887'
+national_id: 887
+name: Dragapult
+types: [dragon, ghost]
+image: {sheet: 5, x: 6, y: 13}
+evolutions: []

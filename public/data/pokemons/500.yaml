@@ -1,0 +1,6 @@
+uuid: '500'
+national_id: 500
+name: Emboar
+types: [fire, fighting]
+image: {sheet: 3, x: 9, y: 4}
+evolutions: []

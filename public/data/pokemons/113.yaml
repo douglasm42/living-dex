@@ -1,0 +1,6 @@
+uuid: '113'
+national_id: 113
+name: Chansey
+types: [normal]
+image: {sheet: 0, x: 2, y: 11}
+evolutions: []

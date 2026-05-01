@@ -1,0 +1,6 @@
+uuid: 741-sensu
+national_id: 741
+name: Oricorio Sensu
+types: [ghost, flying]
+image: {sheet: 8, x: 0, y: 12}
+evolutions: []

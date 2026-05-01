@@ -1,0 +1,6 @@
+uuid: '492'
+national_id: 492
+name: Shaymin
+types: [grass]
+image: {sheet: 3, x: 1, y: 4}
+evolutions: []

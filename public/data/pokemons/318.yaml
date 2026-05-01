@@ -1,0 +1,6 @@
+uuid: '318'
+national_id: 318
+name: Carvanha
+types: [water, dark]
+image: {sheet: 2, x: 7, y: 1}
+evolutions: []

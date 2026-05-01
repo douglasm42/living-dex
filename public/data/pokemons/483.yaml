@@ -1,0 +1,6 @@
+uuid: '483'
+national_id: 483
+name: Dialga
+types: [steel, dragon]
+image: {sheet: 3, x: 2, y: 3}
+evolutions: []

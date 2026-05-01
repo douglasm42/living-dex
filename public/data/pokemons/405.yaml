@@ -1,0 +1,6 @@
+uuid: '405'
+national_id: 405
+name: Luxray
+types: [electric]
+image: {sheet: 2, x: 4, y: 10}
+evolutions: []

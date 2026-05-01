@@ -1,0 +1,6 @@
+uuid: '938'
+national_id: 938
+name: Tadbulb
+types: [electric]
+image: {sheet: 6, x: 7, y: 3}
+evolutions: []

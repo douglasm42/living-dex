@@ -1,0 +1,6 @@
+uuid: 676-natural
+national_id: 676
+name: Furfrou Natural
+types: [normal]
+image: {sheet: 8, x: 1, y: 10}
+evolutions: []

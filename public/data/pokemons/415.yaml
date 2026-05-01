@@ -1,0 +1,6 @@
+uuid: '415'
+national_id: 415
+name: Combee
+types: [bug, flying]
+image: {sheet: 2, x: 4, y: 11}
+evolutions: []

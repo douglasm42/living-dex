@@ -1,0 +1,6 @@
+uuid: '641'
+national_id: 641
+name: Tornadus
+types: [flying]
+image: {sheet: 4, x: 0, y: 4}
+evolutions: []

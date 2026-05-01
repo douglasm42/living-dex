@@ -1,0 +1,6 @@
+uuid: '3'
+national_id: 3
+name: Venusaur
+types: [grass, poison]
+image: {sheet: 0, x: 2, y: 0}
+evolutions: []

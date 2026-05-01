@@ -1,0 +1,6 @@
+uuid: '846'
+national_id: 846
+name: Arrokuda
+types: [water]
+image: {sheet: 5, x: 5, y: 9}
+evolutions: []

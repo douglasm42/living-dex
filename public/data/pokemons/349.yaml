@@ -1,0 +1,6 @@
+uuid: '349'
+national_id: 349
+name: Feebas
+types: [water]
+image: {sheet: 2, x: 8, y: 4}
+evolutions: []

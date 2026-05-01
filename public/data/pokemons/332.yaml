@@ -1,0 +1,6 @@
+uuid: '332'
+national_id: 332
+name: Cacturne
+types: [grass, dark]
+image: {sheet: 2, x: 1, y: 3}
+evolutions: []

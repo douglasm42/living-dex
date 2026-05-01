@@ -1,0 +1,6 @@
+uuid: '618'
+national_id: 618
+name: Stunfisk
+types: [ground, electric]
+image: {sheet: 4, x: 7, y: 1}
+evolutions: []

@@ -1,0 +1,6 @@
+uuid: 676-matron
+national_id: 676
+name: Furfrou Matron
+types: [normal]
+image: {sheet: 8, x: 0, y: 10}
+evolutions: []

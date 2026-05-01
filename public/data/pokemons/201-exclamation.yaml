@@ -1,0 +1,6 @@
+uuid: 201-exclamation
+national_id: 201
+name: Unown Exclamation
+types: [psychic]
+image: {sheet: 8, x: 8, y: 0}
+evolutions: []

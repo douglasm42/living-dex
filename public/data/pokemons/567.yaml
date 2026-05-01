@@ -1,0 +1,6 @@
+uuid: '567'
+national_id: 567
+name: Archeops
+types: [rock, flying]
+image: {sheet: 3, x: 6, y: 11}
+evolutions: []

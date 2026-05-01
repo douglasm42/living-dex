@@ -1,0 +1,6 @@
+uuid: 892-single-strike-gmax
+national_id: 892
+name: Urshifu Single Strike
+types: [fighting, dark]
+image: {sheet: 9, x: 6, y: 6}
+evolutions: []

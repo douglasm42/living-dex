@@ -1,0 +1,6 @@
+uuid: '553'
+national_id: 553
+name: Krookodile
+types: [ground, dark]
+image: {sheet: 3, x: 2, y: 10}
+evolutions: []

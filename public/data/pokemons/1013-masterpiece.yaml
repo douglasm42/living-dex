@@ -1,0 +1,6 @@
+uuid: 1013-masterpiece
+national_id: 1013
+name: Sinistcha Masterpiece
+types: [grass, ghost]
+image: {sheet: 6, x: 2, y: 11}
+evolutions: []

@@ -1,0 +1,6 @@
+uuid: '499'
+national_id: 499
+name: Pignite
+types: [fire, fighting]
+image: {sheet: 3, x: 8, y: 4}
+evolutions: []

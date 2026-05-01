@@ -1,0 +1,6 @@
+uuid: '105'
+national_id: 105
+name: Marowak
+types: [ground]
+image: {sheet: 0, x: 4, y: 10}
+evolutions: []

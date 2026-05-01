@@ -1,0 +1,6 @@
+uuid: '301'
+national_id: 301
+name: Delcatty
+types: [normal]
+image: {sheet: 2, x: 0, y: 0}
+evolutions: []

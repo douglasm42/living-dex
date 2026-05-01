@@ -1,0 +1,6 @@
+uuid: '547'
+national_id: 547
+name: Whimsicott
+types: [grass, fairy]
+image: {sheet: 3, x: 6, y: 9}
+evolutions: []

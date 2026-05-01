@@ -1,0 +1,6 @@
+uuid: '41'
+national_id: 41
+name: Zubat
+types: [poison, flying]
+image: {sheet: 0, x: 0, y: 4}
+evolutions: []

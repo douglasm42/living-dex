@@ -1,0 +1,6 @@
+uuid: '409'
+national_id: 409
+name: Rampardos
+types: [rock]
+image: {sheet: 2, x: 8, y: 10}
+evolutions: []

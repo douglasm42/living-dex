@@ -1,0 +1,6 @@
+uuid: '302'
+national_id: 302
+name: Sableye
+types: [dark, ghost]
+image: {sheet: 2, x: 1, y: 0}
+evolutions: []

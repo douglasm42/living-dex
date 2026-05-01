@@ -1,0 +1,6 @@
+uuid: '903'
+national_id: 903
+name: Sneasler
+types: [fighting, poison]
+image: {sheet: 6, x: 2, y: 0}
+evolutions: []

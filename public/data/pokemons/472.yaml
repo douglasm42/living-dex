@@ -1,0 +1,6 @@
+uuid: '472'
+national_id: 472
+name: Gliscor
+types: [ground, flying]
+image: {sheet: 3, x: 1, y: 2}
+evolutions: []

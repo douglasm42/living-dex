@@ -1,0 +1,6 @@
+uuid: '652'
+national_id: 652
+name: Chesnaught
+types: [grass, fighting]
+image: {sheet: 4, x: 1, y: 5}
+evolutions: []

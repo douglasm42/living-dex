@@ -1,0 +1,6 @@
+uuid: 658-ash
+national_id: 658
+name: Greninja Ash
+types: [water, dark]
+image: {sheet: 8, x: 8, y: 5}
+evolutions: []

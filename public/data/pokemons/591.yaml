@@ -1,0 +1,6 @@
+uuid: '591'
+national_id: 591
+name: Amoonguss
+types: [grass, poison]
+image: {sheet: 3, x: 0, y: 14}
+evolutions: []

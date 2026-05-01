@@ -1,0 +1,6 @@
+uuid: '230'
+national_id: 230
+name: Kingdra
+types: [water, dragon]
+image: {sheet: 1, x: 9, y: 7}
+evolutions: []

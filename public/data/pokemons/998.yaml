@@ -1,0 +1,6 @@
+uuid: '998'
+national_id: 998
+name: Baxcalibur
+types: [dragon, ice]
+image: {sheet: 6, x: 7, y: 9}
+evolutions: []

@@ -1,0 +1,6 @@
+uuid: '708'
+national_id: 708
+name: Phantump
+types: [ghost, grass]
+image: {sheet: 4, x: 7, y: 10}
+evolutions: []

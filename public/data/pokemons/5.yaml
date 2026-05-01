@@ -1,0 +1,6 @@
+uuid: '5'
+national_id: 5
+name: Charmeleon
+types: [fire]
+image: {sheet: 0, x: 4, y: 0}
+evolutions: []

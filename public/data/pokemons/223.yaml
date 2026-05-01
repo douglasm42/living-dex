@@ -1,0 +1,6 @@
+uuid: '223'
+national_id: 223
+name: Remoraid
+types: [water]
+image: {sheet: 1, x: 2, y: 7}
+evolutions: []

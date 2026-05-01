@@ -1,0 +1,6 @@
+uuid: '44'
+national_id: 44
+name: Gloom
+types: [grass, poison]
+image: {sheet: 0, x: 3, y: 4}
+evolutions: []

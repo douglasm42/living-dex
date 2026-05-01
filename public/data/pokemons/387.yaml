@@ -1,0 +1,6 @@
+uuid: '387'
+national_id: 387
+name: Turtwig
+types: [grass]
+image: {sheet: 2, x: 6, y: 8}
+evolutions: []

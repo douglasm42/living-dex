@@ -1,0 +1,6 @@
+uuid: '413'
+national_id: 413
+name: Wormadam
+types: [bug, grass]
+image: {sheet: 2, x: 2, y: 11}
+evolutions: []

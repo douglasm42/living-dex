@@ -1,0 +1,6 @@
+uuid: 855-antique
+national_id: 855
+name: Polteageist Antique
+types: [ghost]
+image: {sheet: 5, x: 4, y: 10}
+evolutions: []

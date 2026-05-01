@@ -1,0 +1,6 @@
+uuid: 479-mow
+national_id: 479
+name: Rotom Mow
+types: [electric, grass]
+image: {sheet: 8, x: 0, y: 3}
+evolutions: []

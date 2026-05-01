@@ -1,0 +1,6 @@
+uuid: '99'
+national_id: 99
+name: Kingler
+types: [water]
+image: {sheet: 0, x: 8, y: 9}
+evolutions: []

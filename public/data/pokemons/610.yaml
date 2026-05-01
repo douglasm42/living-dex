@@ -1,0 +1,6 @@
+uuid: '610'
+national_id: 610
+name: Axew
+types: [dragon]
+image: {sheet: 4, x: 9, y: 0}
+evolutions: []

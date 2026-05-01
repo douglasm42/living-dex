@@ -1,0 +1,6 @@
+uuid: '220'
+national_id: 220
+name: Swinub
+types: [ice, ground]
+image: {sheet: 1, x: 9, y: 6}
+evolutions: []

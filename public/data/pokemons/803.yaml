@@ -1,0 +1,6 @@
+uuid: '803'
+national_id: 803
+name: Poipole
+types: [poison]
+image: {sheet: 5, x: 2, y: 5}
+evolutions: []

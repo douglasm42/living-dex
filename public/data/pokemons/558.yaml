@@ -1,0 +1,6 @@
+uuid: '558'
+national_id: 558
+name: Crustle
+types: [bug, rock]
+image: {sheet: 3, x: 7, y: 10}
+evolutions: []

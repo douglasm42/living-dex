@@ -1,0 +1,6 @@
+uuid: '1006'
+national_id: 1006
+name: Iron Valiant
+types: [fairy, fighting]
+image: {sheet: 6, x: 5, y: 10}
+evolutions: []

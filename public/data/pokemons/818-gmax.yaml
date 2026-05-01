@@ -1,0 +1,6 @@
+uuid: 818-gmax
+national_id: 818
+name: Inteleon
+types: [water]
+image: {sheet: 8, x: 4, y: 13}
+evolutions: []

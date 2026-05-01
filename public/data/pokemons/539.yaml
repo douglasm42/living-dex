@@ -1,0 +1,6 @@
+uuid: '539'
+national_id: 539
+name: Sawk
+types: [fighting]
+image: {sheet: 3, x: 8, y: 8}
+evolutions: []

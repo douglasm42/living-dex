@@ -1,0 +1,6 @@
+uuid: '795'
+national_id: 795
+name: Pheromosa
+types: [bug, fighting]
+image: {sheet: 5, x: 4, y: 4}
+evolutions: []

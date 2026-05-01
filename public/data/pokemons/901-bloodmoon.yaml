@@ -1,0 +1,6 @@
+uuid: 901-bloodmoon
+national_id: 901
+name: Ursaluna Bloodmoon
+types: [ground, normal]
+image: {sheet: 9, x: 8, y: 6}
+evolutions: []

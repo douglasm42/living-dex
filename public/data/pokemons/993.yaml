@@ -1,0 +1,6 @@
+uuid: '993'
+national_id: 993
+name: Iron Jugulis
+types: [dark, flying]
+image: {sheet: 6, x: 2, y: 9}
+evolutions: []

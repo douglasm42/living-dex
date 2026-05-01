@@ -1,0 +1,6 @@
+uuid: '607'
+national_id: 607
+name: Litwick
+types: [ghost, fire]
+image: {sheet: 4, x: 6, y: 0}
+evolutions: []

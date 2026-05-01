@@ -1,0 +1,6 @@
+uuid: '56'
+national_id: 56
+name: Mankey
+types: [fighting]
+image: {sheet: 0, x: 5, y: 5}
+evolutions: []

@@ -1,0 +1,6 @@
+uuid: 386-attack
+national_id: 386
+name: Deoxys Attack
+types: [psychic]
+image: {sheet: 8, x: 5, y: 1}
+evolutions: []

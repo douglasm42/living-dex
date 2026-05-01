@@ -1,0 +1,6 @@
+uuid: 628-hisui
+national_id: 628
+name: Braviary
+types: [psychic, flying]
+image: {sheet: 8, x: 2, y: 5}
+evolutions: []

@@ -1,0 +1,6 @@
+uuid: '1008'
+national_id: 1008
+name: Miraidon
+types: [electric, dragon]
+image: {sheet: 6, x: 7, y: 10}
+evolutions: []

@@ -1,0 +1,6 @@
+uuid: '159'
+national_id: 159
+name: Croconaw
+types: [water]
+image: {sheet: 1, x: 8, y: 0}
+evolutions: []

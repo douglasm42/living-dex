@@ -1,0 +1,6 @@
+uuid: '464'
+national_id: 464
+name: Rhyperior
+types: [ground, rock]
+image: {sheet: 3, x: 3, y: 1}
+evolutions: []

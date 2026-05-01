@@ -1,0 +1,6 @@
+uuid: 571-hisui
+national_id: 571
+name: Zoroark
+types: [normal, ghost]
+image: {sheet: 8, x: 2, y: 4}
+evolutions: []

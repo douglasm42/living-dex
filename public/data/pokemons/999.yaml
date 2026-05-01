@@ -1,0 +1,6 @@
+uuid: '999'
+national_id: 999
+name: Gimmighoul
+types: [ghost]
+image: {sheet: 6, x: 8, y: 9}
+evolutions: []

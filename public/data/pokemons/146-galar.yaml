@@ -1,0 +1,6 @@
+uuid: 146-galar
+national_id: 146
+name: Moltres
+types: [dark, flying]
+image: {sheet: 7, x: 8, y: 12}
+evolutions: []

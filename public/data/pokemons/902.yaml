@@ -1,0 +1,6 @@
+uuid: '902'
+national_id: 902
+name: Basculegion
+types: [water, ghost]
+image: {sheet: 6, x: 1, y: 0}
+evolutions: []

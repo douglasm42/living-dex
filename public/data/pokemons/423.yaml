@@ -1,0 +1,6 @@
+uuid: '423'
+national_id: 423
+name: Gastrodon
+types: [water, ground]
+image: {sheet: 2, x: 2, y: 12}
+evolutions: []

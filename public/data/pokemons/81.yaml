@@ -1,0 +1,6 @@
+uuid: '81'
+national_id: 81
+name: Magnemite
+types: [electric, steel]
+image: {sheet: 0, x: 0, y: 8}
+evolutions: []

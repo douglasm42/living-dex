@@ -1,0 +1,6 @@
+uuid: '1007'
+national_id: 1007
+name: Koraidon
+types: [fighting, dragon]
+image: {sheet: 6, x: 6, y: 10}
+evolutions: []

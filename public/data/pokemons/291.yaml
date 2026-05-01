@@ -1,0 +1,6 @@
+uuid: '291'
+national_id: 291
+name: Ninjask
+types: [bug, flying]
+image: {sheet: 1, x: 0, y: 14}
+evolutions: []

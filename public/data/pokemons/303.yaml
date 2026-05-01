@@ -1,0 +1,6 @@
+uuid: '303'
+national_id: 303
+name: Mawile
+types: [steel, fairy]
+image: {sheet: 2, x: 2, y: 0}
+evolutions: []

@@ -1,0 +1,6 @@
+uuid: '693'
+national_id: 693
+name: Clawitzer
+types: [water]
+image: {sheet: 4, x: 2, y: 9}
+evolutions: []

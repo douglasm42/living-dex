@@ -1,0 +1,6 @@
+uuid: '979'
+national_id: 979
+name: Annihilape
+types: [fighting, ghost]
+image: {sheet: 6, x: 8, y: 7}
+evolutions: []

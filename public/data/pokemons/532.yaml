@@ -1,0 +1,6 @@
+uuid: '532'
+national_id: 532
+name: Timburr
+types: [fighting]
+image: {sheet: 3, x: 1, y: 8}
+evolutions: []

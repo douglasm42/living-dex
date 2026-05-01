@@ -1,0 +1,6 @@
+uuid: '768'
+national_id: 768
+name: Golisopod
+types: [bug, water]
+image: {sheet: 5, x: 7, y: 1}
+evolutions: []

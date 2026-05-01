@@ -1,0 +1,6 @@
+uuid: '410'
+national_id: 410
+name: Shieldon
+types: [rock, steel]
+image: {sheet: 2, x: 9, y: 10}
+evolutions: []

@@ -1,0 +1,6 @@
+uuid: '68'
+national_id: 68
+name: Machamp
+types: [fighting]
+image: {sheet: 0, x: 7, y: 6}
+evolutions: []

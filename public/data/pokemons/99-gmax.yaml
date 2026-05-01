@@ -1,0 +1,6 @@
+uuid: 99-gmax
+national_id: 99
+name: Kingler
+types: [water]
+image: {sheet: 7, x: 3, y: 11}
+evolutions: []

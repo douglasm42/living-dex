@@ -1,0 +1,6 @@
+uuid: '168'
+national_id: 168
+name: Ariados
+types: [bug, poison]
+image: {sheet: 1, x: 7, y: 1}
+evolutions: []

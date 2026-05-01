@@ -1,0 +1,6 @@
+uuid: '622'
+national_id: 622
+name: Golett
+types: [ground, ghost]
+image: {sheet: 4, x: 1, y: 2}
+evolutions: []

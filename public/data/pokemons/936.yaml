@@ -1,0 +1,6 @@
+uuid: '936'
+national_id: 936
+name: Armarouge
+types: [fire, psychic]
+image: {sheet: 6, x: 5, y: 3}
+evolutions: []

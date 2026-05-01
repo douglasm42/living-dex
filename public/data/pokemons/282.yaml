@@ -1,0 +1,6 @@
+uuid: '282'
+national_id: 282
+name: Gardevoir
+types: [psychic, fairy]
+image: {sheet: 1, x: 1, y: 13}
+evolutions: []

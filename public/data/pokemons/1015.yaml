@@ -1,0 +1,6 @@
+uuid: '1015'
+national_id: 1015
+name: Munkidori
+types: [poison, psychic]
+image: {sheet: 6, x: 4, y: 11}
+evolutions: []

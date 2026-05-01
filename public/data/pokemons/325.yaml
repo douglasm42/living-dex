@@ -1,0 +1,6 @@
+uuid: '325'
+national_id: 325
+name: Spoink
+types: [psychic]
+image: {sheet: 2, x: 4, y: 2}
+evolutions: []

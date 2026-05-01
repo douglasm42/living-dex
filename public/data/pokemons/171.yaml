@@ -1,0 +1,6 @@
+uuid: '171'
+national_id: 171
+name: Lanturn
+types: [water, electric]
+image: {sheet: 1, x: 0, y: 2}
+evolutions: []

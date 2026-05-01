@@ -1,0 +1,6 @@
+uuid: '467'
+national_id: 467
+name: Magmortar
+types: [fire]
+image: {sheet: 3, x: 6, y: 1}
+evolutions: []

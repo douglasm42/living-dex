@@ -1,0 +1,6 @@
+uuid: 25-sinnoh-cap
+national_id: 25
+name: Pikachu Sinnoh
+types: [electric]
+image: {sheet: 7, x: 5, y: 8}
+evolutions: []

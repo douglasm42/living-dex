@@ -1,0 +1,6 @@
+uuid: '228'
+national_id: 228
+name: Houndour
+types: [dark, fire]
+image: {sheet: 1, x: 7, y: 7}
+evolutions: []

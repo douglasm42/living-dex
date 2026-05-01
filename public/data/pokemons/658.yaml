@@ -1,0 +1,6 @@
+uuid: '658'
+national_id: 658
+name: Greninja
+types: [water, dark]
+image: {sheet: 4, x: 7, y: 5}
+evolutions: []

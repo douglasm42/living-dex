@@ -1,0 +1,6 @@
+uuid: 711-small
+national_id: 711
+name: Gourgeist Small
+types: [ghost, grass]
+image: {sheet: 8, x: 0, y: 11}
+evolutions: []

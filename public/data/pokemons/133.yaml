@@ -1,0 +1,6 @@
+uuid: '133'
+national_id: 133
+name: Eevee
+types: [normal]
+image: {sheet: 0, x: 2, y: 13}
+evolutions: []

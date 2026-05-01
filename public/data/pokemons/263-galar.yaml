@@ -1,0 +1,6 @@
+uuid: 263-galar
+national_id: 263
+name: Zigzagoon
+types: [dark, normal]
+image: {sheet: 8, x: 3, y: 1}
+evolutions: []

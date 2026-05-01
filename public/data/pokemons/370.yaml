@@ -1,0 +1,6 @@
+uuid: '370'
+national_id: 370
+name: Luvdisc
+types: [water]
+image: {sheet: 2, x: 9, y: 6}
+evolutions: []

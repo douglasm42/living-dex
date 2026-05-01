@@ -1,0 +1,6 @@
+uuid: 849-low-key
+national_id: 849
+name: Toxtricity Low Key
+types: [electric, poison]
+image: {sheet: 8, x: 3, y: 14}
+evolutions: []

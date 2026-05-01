@@ -1,0 +1,6 @@
+uuid: '28'
+national_id: 28
+name: Sandslash
+types: [ground]
+image: {sheet: 0, x: 7, y: 2}
+evolutions: []

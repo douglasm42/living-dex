@@ -1,0 +1,6 @@
+uuid: '496'
+national_id: 496
+name: Servine
+types: [grass]
+image: {sheet: 3, x: 5, y: 4}
+evolutions: []

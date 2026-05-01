@@ -1,0 +1,6 @@
+uuid: '820'
+national_id: 820
+name: Greedent
+types: [normal]
+image: {sheet: 5, x: 9, y: 6}
+evolutions: []

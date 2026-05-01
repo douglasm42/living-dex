@@ -1,0 +1,6 @@
+uuid: '664'
+national_id: 664
+name: Scatterbug
+types: [bug]
+image: {sheet: 4, x: 3, y: 6}
+evolutions: []

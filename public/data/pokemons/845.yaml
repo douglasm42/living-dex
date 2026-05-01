@@ -1,0 +1,6 @@
+uuid: '845'
+national_id: 845
+name: Cramorant
+types: [flying, water]
+image: {sheet: 5, x: 4, y: 9}
+evolutions: []

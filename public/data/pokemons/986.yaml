@@ -1,0 +1,6 @@
+uuid: '986'
+national_id: 986
+name: Brute Bonnet
+types: [grass, dark]
+image: {sheet: 6, x: 5, y: 8}
+evolutions: []

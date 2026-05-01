@@ -1,0 +1,6 @@
+uuid: '355'
+national_id: 355
+name: Duskull
+types: [ghost]
+image: {sheet: 2, x: 4, y: 5}
+evolutions: []

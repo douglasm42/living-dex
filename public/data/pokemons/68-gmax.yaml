@@ -1,0 +1,6 @@
+uuid: 68-gmax
+national_id: 68
+name: Machamp
+types: [fighting]
+image: {sheet: 7, x: 1, y: 10}
+evolutions: []

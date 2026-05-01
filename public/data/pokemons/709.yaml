@@ -1,0 +1,6 @@
+uuid: '709'
+national_id: 709
+name: Trevenant
+types: [ghost, grass]
+image: {sheet: 4, x: 8, y: 10}
+evolutions: []

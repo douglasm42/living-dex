@@ -1,0 +1,6 @@
+uuid: 255-starter
+national_id: 255
+name: Torchic
+types: [fire]
+image: {sheet: 1, x: 4, y: 10}
+evolutions: []

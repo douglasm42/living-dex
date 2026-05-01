@@ -1,0 +1,6 @@
+uuid: 892-rapid-strike-gmax
+national_id: 892
+name: Urshifu Rapid Strike
+types: [fighting, water]
+image: {sheet: 9, x: 5, y: 6}
+evolutions: []

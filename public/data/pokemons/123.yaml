@@ -1,0 +1,6 @@
+uuid: '123'
+national_id: 123
+name: Scyther
+types: [bug, flying]
+image: {sheet: 0, x: 2, y: 12}
+evolutions: []

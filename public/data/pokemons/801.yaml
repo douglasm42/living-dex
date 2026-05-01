@@ -1,0 +1,6 @@
+uuid: '801'
+national_id: 801
+name: Magearna
+types: [steel, fairy]
+image: {sheet: 5, x: 0, y: 5}
+evolutions: []

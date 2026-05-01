@@ -1,0 +1,6 @@
+uuid: 422-east
+national_id: 422
+name: Shellos East
+types: [water]
+image: {sheet: 8, x: 3, y: 2}
+evolutions: []

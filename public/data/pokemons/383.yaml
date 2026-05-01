@@ -1,0 +1,6 @@
+uuid: '383'
+national_id: 383
+name: Groudon
+types: [ground]
+image: {sheet: 2, x: 2, y: 8}
+evolutions: []

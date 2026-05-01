@@ -1,0 +1,6 @@
+uuid: 999-roaming
+national_id: 999
+name: Gimmighoul Roaming
+types: [ghost]
+image: {sheet: 9, x: 7, y: 7}
+evolutions: []

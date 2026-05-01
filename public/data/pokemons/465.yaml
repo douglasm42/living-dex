@@ -1,0 +1,6 @@
+uuid: '465'
+national_id: 465
+name: Tangrowth
+types: [grass]
+image: {sheet: 3, x: 4, y: 1}
+evolutions: []

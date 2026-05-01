@@ -1,0 +1,6 @@
+uuid: 503-hisui
+national_id: 503
+name: Samurott
+types: [water, dark]
+image: {sheet: 8, x: 3, y: 3}
+evolutions: []

@@ -1,0 +1,6 @@
+uuid: '564'
+national_id: 564
+name: Tirtouga
+types: [water, rock]
+image: {sheet: 3, x: 3, y: 11}
+evolutions: []

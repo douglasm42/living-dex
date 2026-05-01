@@ -1,0 +1,6 @@
+uuid: '121'
+national_id: 121
+name: Starmie
+types: [water, psychic]
+image: {sheet: 0, x: 0, y: 12}
+evolutions: []

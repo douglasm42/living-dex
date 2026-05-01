@@ -1,0 +1,6 @@
+uuid: '420'
+national_id: 420
+name: Cherubi
+types: [grass]
+image: {sheet: 2, x: 9, y: 11}
+evolutions: []

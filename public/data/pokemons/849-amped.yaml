@@ -1,0 +1,6 @@
+uuid: 849-amped
+national_id: 849
+name: Toxtricity Amped
+types: [electric, poison]
+image: {sheet: 5, x: 8, y: 9}
+evolutions: []

@@ -1,0 +1,6 @@
+uuid: '106'
+national_id: 106
+name: Hitmonlee
+types: [fighting]
+image: {sheet: 0, x: 5, y: 10}
+evolutions: []

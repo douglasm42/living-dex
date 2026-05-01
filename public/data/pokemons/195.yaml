@@ -1,0 +1,6 @@
+uuid: '195'
+national_id: 195
+name: Quagsire
+types: [water, ground]
+image: {sheet: 1, x: 4, y: 4}
+evolutions: []

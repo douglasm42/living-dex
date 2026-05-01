@@ -1,0 +1,6 @@
+uuid: '144'
+national_id: 144
+name: Articuno
+types: [ice, flying]
+image: {sheet: 0, x: 3, y: 14}
+evolutions: []

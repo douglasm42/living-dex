@@ -1,0 +1,6 @@
+uuid: '864'
+national_id: 864
+name: Cursola
+types: [ghost]
+image: {sheet: 5, x: 3, y: 11}
+evolutions: []

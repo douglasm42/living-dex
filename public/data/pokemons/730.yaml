@@ -1,0 +1,6 @@
+uuid: '730'
+national_id: 730
+name: Primarina
+types: [water, fairy]
+image: {sheet: 4, x: 9, y: 12}
+evolutions: []

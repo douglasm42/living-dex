@@ -1,0 +1,6 @@
+uuid: '75'
+national_id: 75
+name: Graveler
+types: [rock, ground]
+image: {sheet: 0, x: 4, y: 7}
+evolutions: []

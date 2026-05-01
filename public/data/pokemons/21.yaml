@@ -1,0 +1,6 @@
+uuid: '21'
+national_id: 21
+name: Spearow
+types: [normal, flying]
+image: {sheet: 0, x: 0, y: 2}
+evolutions: []

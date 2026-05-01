@@ -1,0 +1,6 @@
+uuid: '278'
+national_id: 278
+name: Wingull
+types: [water, flying]
+image: {sheet: 1, x: 7, y: 12}
+evolutions: []

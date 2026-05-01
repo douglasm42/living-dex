@@ -1,0 +1,6 @@
+uuid: '369'
+national_id: 369
+name: Relicanth
+types: [water, rock]
+image: {sheet: 2, x: 8, y: 6}
+evolutions: []

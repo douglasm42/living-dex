@@ -1,0 +1,6 @@
+uuid: '555'
+national_id: 555
+name: Darmanitan
+types: [fire]
+image: {sheet: 3, x: 4, y: 10}
+evolutions: []

@@ -1,0 +1,6 @@
+uuid: '660'
+national_id: 660
+name: Diggersby
+types: [normal, ground]
+image: {sheet: 4, x: 9, y: 5}
+evolutions: []

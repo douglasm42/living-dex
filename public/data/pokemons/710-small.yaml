@@ -1,0 +1,6 @@
+uuid: 710-small
+national_id: 710
+name: Pumpkaboo Small
+types: [ghost, grass]
+image: {sheet: 8, x: 7, y: 10}
+evolutions: []

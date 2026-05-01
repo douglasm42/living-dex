@@ -1,0 +1,6 @@
+uuid: '838'
+national_id: 838
+name: Carkol
+types: [rock, fire]
+image: {sheet: 5, x: 7, y: 8}
+evolutions: []

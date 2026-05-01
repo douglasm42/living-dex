@@ -1,0 +1,6 @@
+uuid: '786'
+national_id: 786
+name: Tapu Lele
+types: [psychic, fairy]
+image: {sheet: 5, x: 5, y: 3}
+evolutions: []

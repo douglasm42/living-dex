@@ -1,0 +1,6 @@
+uuid: 905-therian
+national_id: 905
+name: Enamorus Therian
+types: [fairy, flying]
+image: {sheet: 9, x: 9, y: 6}
+evolutions: []

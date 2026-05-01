@@ -1,0 +1,6 @@
+uuid: '463'
+national_id: 463
+name: Lickilicky
+types: [normal]
+image: {sheet: 3, x: 2, y: 1}
+evolutions: []

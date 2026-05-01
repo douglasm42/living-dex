@@ -1,0 +1,6 @@
+uuid: '963'
+national_id: 963
+name: Finizen
+types: [water]
+image: {sheet: 6, x: 2, y: 6}
+evolutions: []

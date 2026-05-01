@@ -1,0 +1,6 @@
+uuid: '454'
+national_id: 454
+name: Toxicroak
+types: [poison, fighting]
+image: {sheet: 3, x: 3, y: 0}
+evolutions: []

@@ -1,0 +1,6 @@
+uuid: '689'
+national_id: 689
+name: Barbaracle
+types: [rock, water]
+image: {sheet: 4, x: 8, y: 8}
+evolutions: []

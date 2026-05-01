@@ -1,0 +1,6 @@
+uuid: 585-summer
+national_id: 585
+name: Deerling Summer
+types: [normal, grass]
+image: {sheet: 8, x: 4, y: 4}
+evolutions: []

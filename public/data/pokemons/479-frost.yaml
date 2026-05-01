@@ -1,0 +1,6 @@
+uuid: 479-frost
+national_id: 479
+name: Rotom Frost
+types: [electric, ice]
+image: {sheet: 8, x: 8, y: 2}
+evolutions: []

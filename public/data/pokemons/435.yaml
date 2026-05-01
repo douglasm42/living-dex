@@ -1,0 +1,6 @@
+uuid: '435'
+national_id: 435
+name: Skuntank
+types: [poison, dark]
+image: {sheet: 2, x: 4, y: 13}
+evolutions: []

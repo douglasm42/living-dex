@@ -1,0 +1,6 @@
+uuid: '802'
+national_id: 802
+name: Marshadow
+types: [fighting, ghost]
+image: {sheet: 5, x: 1, y: 5}
+evolutions: []

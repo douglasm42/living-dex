@@ -1,0 +1,6 @@
+uuid: 812-gmax
+national_id: 812
+name: Rillaboom
+types: [grass]
+image: {sheet: 8, x: 2, y: 13}
+evolutions: []

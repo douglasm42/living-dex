@@ -1,0 +1,6 @@
+uuid: '491'
+national_id: 491
+name: Darkrai
+types: [dark]
+image: {sheet: 3, x: 0, y: 4}
+evolutions: []

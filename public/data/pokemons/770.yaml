@@ -1,0 +1,6 @@
+uuid: '770'
+national_id: 770
+name: Palossand
+types: [ghost, ground]
+image: {sheet: 5, x: 9, y: 1}
+evolutions: []

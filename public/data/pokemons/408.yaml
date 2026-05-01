@@ -1,0 +1,6 @@
+uuid: '408'
+national_id: 408
+name: Cranidos
+types: [rock]
+image: {sheet: 2, x: 7, y: 10}
+evolutions: []

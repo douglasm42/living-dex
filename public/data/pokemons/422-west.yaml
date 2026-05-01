@@ -1,0 +1,6 @@
+uuid: 422-west
+national_id: 422
+name: Shellos West
+types: [water]
+image: {sheet: 8, x: 4, y: 2}
+evolutions: []

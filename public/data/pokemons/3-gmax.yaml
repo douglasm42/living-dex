@@ -1,0 +1,6 @@
+uuid: 3-gmax
+national_id: 3
+name: Venusaur
+types: [grass, poison]
+image: {sheet: 7, x: 3, y: 7}
+evolutions: []

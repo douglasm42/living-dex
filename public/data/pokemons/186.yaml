@@ -1,0 +1,6 @@
+uuid: '186'
+national_id: 186
+name: Politoed
+types: [water]
+image: {sheet: 1, x: 5, y: 3}
+evolutions: []

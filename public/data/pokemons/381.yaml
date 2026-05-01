@@ -1,0 +1,6 @@
+uuid: '381'
+national_id: 381
+name: Latios
+types: [dragon, psychic]
+image: {sheet: 2, x: 0, y: 8}
+evolutions: []

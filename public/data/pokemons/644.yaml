@@ -1,0 +1,6 @@
+uuid: '644'
+national_id: 644
+name: Zekrom
+types: [dragon, electric]
+image: {sheet: 4, x: 3, y: 4}
+evolutions: []

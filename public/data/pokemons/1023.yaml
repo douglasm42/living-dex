@@ -1,0 +1,6 @@
+uuid: '1023'
+national_id: 1023
+name: Iron Crown
+types: [steel, psychic]
+image: {sheet: 6, x: 2, y: 12}
+evolutions: []

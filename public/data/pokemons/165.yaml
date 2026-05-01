@@ -1,0 +1,6 @@
+uuid: '165'
+national_id: 165
+name: Ledyba
+types: [bug, flying]
+image: {sheet: 1, x: 4, y: 1}
+evolutions: []

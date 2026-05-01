@@ -1,0 +1,6 @@
+uuid: '703'
+national_id: 703
+name: Carbink
+types: [rock, fairy]
+image: {sheet: 4, x: 2, y: 10}
+evolutions: []

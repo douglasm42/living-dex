@@ -1,0 +1,6 @@
+uuid: '444'
+national_id: 444
+name: Gabite
+types: [dragon, ground]
+image: {sheet: 2, x: 3, y: 14}
+evolutions: []

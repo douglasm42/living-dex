@@ -1,0 +1,6 @@
+uuid: 12-f
+national_id: 12
+name: Butterfree ♀
+types: [bug, flying]
+image: {sheet: 6, x: 6, y: 12}
+evolutions: []

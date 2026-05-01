@@ -1,0 +1,6 @@
+uuid: 844-gmax
+national_id: 844
+name: Sandaconda
+types: [ground]
+image: {sheet: 8, x: 1, y: 14}
+evolutions: []

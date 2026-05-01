@@ -1,0 +1,6 @@
+uuid: '823'
+national_id: 823
+name: Corviknight
+types: [flying, steel]
+image: {sheet: 5, x: 2, y: 7}
+evolutions: []

@@ -1,0 +1,6 @@
+uuid: '421'
+national_id: 421
+name: Cherrim
+types: [grass]
+image: {sheet: 2, x: 0, y: 12}
+evolutions: []

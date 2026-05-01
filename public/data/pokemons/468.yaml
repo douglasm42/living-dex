@@ -1,0 +1,6 @@
+uuid: '468'
+national_id: 468
+name: Togekiss
+types: [fairy, flying]
+image: {sheet: 3, x: 7, y: 1}
+evolutions: []

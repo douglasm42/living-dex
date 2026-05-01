@@ -1,0 +1,6 @@
+uuid: '461'
+national_id: 461
+name: Weavile
+types: [dark, ice]
+image: {sheet: 3, x: 0, y: 1}
+evolutions: []

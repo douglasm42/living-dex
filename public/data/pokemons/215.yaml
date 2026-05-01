@@ -1,0 +1,6 @@
+uuid: '215'
+national_id: 215
+name: Sneasel
+types: [dark, ice]
+image: {sheet: 1, x: 4, y: 6}
+evolutions: []

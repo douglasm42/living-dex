@@ -1,0 +1,6 @@
+uuid: '930'
+national_id: 930
+name: Arboliva
+types: [grass, normal]
+image: {sheet: 6, x: 9, y: 2}
+evolutions: []

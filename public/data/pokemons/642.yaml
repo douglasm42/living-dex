@@ -1,0 +1,6 @@
+uuid: '642'
+national_id: 642
+name: Thundurus
+types: [electric, flying]
+image: {sheet: 4, x: 1, y: 4}
+evolutions: []

@@ -1,0 +1,6 @@
+uuid: '912'
+national_id: 912
+name: Quaxly
+types: [water]
+image: {sheet: 6, x: 1, y: 1}
+evolutions: []

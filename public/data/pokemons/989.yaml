@@ -1,0 +1,6 @@
+uuid: '989'
+national_id: 989
+name: Sandy Shocks
+types: [electric, ground]
+image: {sheet: 6, x: 8, y: 8}
+evolutions: []

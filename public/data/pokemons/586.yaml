@@ -1,0 +1,6 @@
+uuid: '586'
+national_id: 586
+name: Sawsbuck
+types: [normal, grass]
+image: {sheet: 3, x: 5, y: 13}
+evolutions: []

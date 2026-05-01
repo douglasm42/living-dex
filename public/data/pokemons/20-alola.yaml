@@ -1,0 +1,6 @@
+uuid: 20-alola
+national_id: 20
+name: Raticate
+types: [dark, normal]
+image: {sheet: 7, x: 8, y: 7}
+evolutions: []

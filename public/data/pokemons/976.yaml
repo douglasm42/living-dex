@@ -1,0 +1,6 @@
+uuid: '976'
+national_id: 976
+name: Veluza
+types: [water, psychic]
+image: {sheet: 6, x: 5, y: 7}
+evolutions: []

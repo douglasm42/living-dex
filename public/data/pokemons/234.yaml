@@ -1,0 +1,6 @@
+uuid: '234'
+national_id: 234
+name: Stantler
+types: [normal]
+image: {sheet: 1, x: 3, y: 8}
+evolutions: []

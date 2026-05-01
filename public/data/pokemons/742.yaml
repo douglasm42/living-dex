@@ -1,0 +1,6 @@
+uuid: '742'
+national_id: 742
+name: Cutiefly
+types: [bug, fairy]
+image: {sheet: 4, x: 1, y: 14}
+evolutions: []

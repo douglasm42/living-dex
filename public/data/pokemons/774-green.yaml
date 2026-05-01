@@ -1,0 +1,6 @@
+uuid: 774-green
+national_id: 774
+name: Minior Green
+types: [rock, flying]
+image: {sheet: 8, x: 4, y: 12}
+evolutions: []

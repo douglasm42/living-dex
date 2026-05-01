@@ -1,0 +1,6 @@
+uuid: '469'
+national_id: 469
+name: Yanmega
+types: [bug, flying]
+image: {sheet: 3, x: 8, y: 1}
+evolutions: []

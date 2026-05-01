@@ -1,0 +1,6 @@
+uuid: '707'
+national_id: 707
+name: Klefki
+types: [steel, fairy]
+image: {sheet: 4, x: 6, y: 10}
+evolutions: []

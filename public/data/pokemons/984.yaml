@@ -1,0 +1,6 @@
+uuid: '984'
+national_id: 984
+name: Great Tusk
+types: [ground, fighting]
+image: {sheet: 6, x: 3, y: 8}
+evolutions: []

@@ -1,0 +1,6 @@
+uuid: '570'
+national_id: 570
+name: Zorua
+types: [dark]
+image: {sheet: 3, x: 9, y: 11}
+evolutions: []

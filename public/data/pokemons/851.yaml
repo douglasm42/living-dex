@@ -1,0 +1,6 @@
+uuid: '851'
+national_id: 851
+name: Centiskorch
+types: [fire, bug]
+image: {sheet: 5, x: 0, y: 10}
+evolutions: []

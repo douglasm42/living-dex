@@ -1,0 +1,6 @@
+uuid: '183'
+national_id: 183
+name: Marill
+types: [water, fairy]
+image: {sheet: 1, x: 2, y: 3}
+evolutions: []

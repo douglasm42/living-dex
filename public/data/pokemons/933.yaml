@@ -1,0 +1,6 @@
+uuid: '933'
+national_id: 933
+name: Naclstack
+types: [rock]
+image: {sheet: 6, x: 2, y: 3}
+evolutions: []

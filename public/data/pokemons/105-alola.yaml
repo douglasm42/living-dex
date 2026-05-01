@@ -1,0 +1,6 @@
+uuid: 105-alola
+national_id: 105
+name: Marowak
+types: [fire, ghost]
+image: {sheet: 7, x: 7, y: 11}
+evolutions: []

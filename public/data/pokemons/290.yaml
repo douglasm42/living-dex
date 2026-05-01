@@ -1,0 +1,6 @@
+uuid: '290'
+national_id: 290
+name: Nincada
+types: [bug, ground]
+image: {sheet: 1, x: 9, y: 13}
+evolutions: []

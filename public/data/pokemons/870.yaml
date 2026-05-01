@@ -1,0 +1,6 @@
+uuid: '870'
+national_id: 870
+name: Falinks
+types: [fighting]
+image: {sheet: 5, x: 9, y: 11}
+evolutions: []

@@ -1,0 +1,6 @@
+uuid: '177'
+national_id: 177
+name: Natu
+types: [psychic, flying]
+image: {sheet: 1, x: 6, y: 2}
+evolutions: []

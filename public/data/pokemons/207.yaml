@@ -1,0 +1,6 @@
+uuid: '207'
+national_id: 207
+name: Gligar
+types: [ground, flying]
+image: {sheet: 1, x: 6, y: 5}
+evolutions: []

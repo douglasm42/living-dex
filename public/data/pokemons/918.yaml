@@ -1,0 +1,6 @@
+uuid: '918'
+national_id: 918
+name: Spidops
+types: [bug]
+image: {sheet: 6, x: 7, y: 1}
+evolutions: []

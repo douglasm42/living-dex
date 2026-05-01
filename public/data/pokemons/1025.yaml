@@ -1,0 +1,6 @@
+uuid: '1025'
+national_id: 1025
+name: Pecharunt
+types: [poison, ghost]
+image: {sheet: 6, x: 4, y: 12}
+evolutions: []

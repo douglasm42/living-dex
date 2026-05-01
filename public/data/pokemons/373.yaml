@@ -1,0 +1,6 @@
+uuid: '373'
+national_id: 373
+name: Salamence
+types: [dragon, flying]
+image: {sheet: 2, x: 2, y: 7}
+evolutions: []

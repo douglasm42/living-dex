@@ -1,0 +1,6 @@
+uuid: '628'
+national_id: 628
+name: Braviary
+types: [normal, flying]
+image: {sheet: 4, x: 7, y: 2}
+evolutions: []

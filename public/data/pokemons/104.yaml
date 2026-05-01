@@ -1,0 +1,6 @@
+uuid: '104'
+national_id: 104
+name: Cubone
+types: [ground]
+image: {sheet: 0, x: 3, y: 10}
+evolutions: []

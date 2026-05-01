@@ -1,0 +1,6 @@
+uuid: '562'
+national_id: 562
+name: Yamask
+types: [ghost]
+image: {sheet: 3, x: 1, y: 11}
+evolutions: []

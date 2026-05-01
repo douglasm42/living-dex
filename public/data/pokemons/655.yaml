@@ -1,0 +1,6 @@
+uuid: '655'
+national_id: 655
+name: Delphox
+types: [fire, psychic]
+image: {sheet: 4, x: 4, y: 5}
+evolutions: []

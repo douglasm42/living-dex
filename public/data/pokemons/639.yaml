@@ -1,0 +1,6 @@
+uuid: '639'
+national_id: 639
+name: Terrakion
+types: [rock, fighting]
+image: {sheet: 4, x: 8, y: 3}
+evolutions: []

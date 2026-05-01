@@ -1,0 +1,6 @@
+uuid: '731'
+national_id: 731
+name: Pikipek
+types: [normal, flying]
+image: {sheet: 4, x: 0, y: 13}
+evolutions: []

@@ -1,0 +1,6 @@
+uuid: '154'
+national_id: 154
+name: Meganium
+types: [grass]
+image: {sheet: 1, x: 3, y: 0}
+evolutions: []

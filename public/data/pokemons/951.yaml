@@ -1,0 +1,6 @@
+uuid: '951'
+national_id: 951
+name: Capsakid
+types: [grass]
+image: {sheet: 6, x: 0, y: 5}
+evolutions: []

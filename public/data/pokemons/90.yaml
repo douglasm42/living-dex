@@ -1,0 +1,6 @@
+uuid: '90'
+national_id: 90
+name: Shellder
+types: [water]
+image: {sheet: 0, x: 9, y: 8}
+evolutions: []

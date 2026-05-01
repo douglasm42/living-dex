@@ -1,0 +1,6 @@
+uuid: '404'
+national_id: 404
+name: Luxio
+types: [electric]
+image: {sheet: 2, x: 3, y: 10}
+evolutions: []

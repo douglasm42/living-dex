@@ -1,0 +1,6 @@
+uuid: '257'
+national_id: 257
+name: Blaziken
+types: [fire, fighting]
+image: {sheet: 1, x: 6, y: 10}
+evolutions: []

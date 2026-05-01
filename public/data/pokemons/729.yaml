@@ -1,0 +1,6 @@
+uuid: '729'
+national_id: 729
+name: Brionne
+types: [water]
+image: {sheet: 4, x: 8, y: 12}
+evolutions: []

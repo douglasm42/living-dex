@@ -1,0 +1,6 @@
+uuid: 931-white-plumage
+national_id: 931
+name: Squawkabilly White Plumage
+types: [normal, flying]
+image: {sheet: 9, x: 2, y: 7}
+evolutions: []

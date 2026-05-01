@@ -1,0 +1,6 @@
+uuid: '758'
+national_id: 758
+name: Salazzle
+types: [poison, fire]
+image: {sheet: 5, x: 7, y: 0}
+evolutions: []

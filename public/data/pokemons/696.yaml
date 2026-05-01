@@ -1,0 +1,6 @@
+uuid: '696'
+national_id: 696
+name: Tyrunt
+types: [rock, dragon]
+image: {sheet: 4, x: 5, y: 9}
+evolutions: []

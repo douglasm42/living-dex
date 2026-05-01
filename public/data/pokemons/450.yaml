@@ -1,0 +1,6 @@
+uuid: '450'
+national_id: 450
+name: Hippowdon
+types: [ground]
+image: {sheet: 2, x: 9, y: 14}
+evolutions: []

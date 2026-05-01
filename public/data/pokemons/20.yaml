@@ -1,0 +1,6 @@
+uuid: '20'
+national_id: 20
+name: Raticate
+types: [normal]
+image: {sheet: 0, x: 9, y: 1}
+evolutions: []

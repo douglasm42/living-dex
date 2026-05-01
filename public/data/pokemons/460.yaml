@@ -1,0 +1,6 @@
+uuid: '460'
+national_id: 460
+name: Abomasnow
+types: [grass, ice]
+image: {sheet: 3, x: 9, y: 0}
+evolutions: []

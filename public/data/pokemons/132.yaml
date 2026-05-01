@@ -1,0 +1,6 @@
+uuid: '132'
+national_id: 132
+name: Ditto
+types: [normal]
+image: {sheet: 0, x: 1, y: 13}
+evolutions: []

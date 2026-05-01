@@ -1,0 +1,6 @@
+uuid: '66'
+national_id: 66
+name: Machop
+types: [fighting]
+image: {sheet: 0, x: 5, y: 6}
+evolutions: []

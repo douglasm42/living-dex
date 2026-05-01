@@ -1,0 +1,6 @@
+uuid: '816'
+national_id: 816
+name: Sobble
+types: [water]
+image: {sheet: 5, x: 5, y: 6}
+evolutions: []

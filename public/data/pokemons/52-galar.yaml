@@ -1,0 +1,6 @@
+uuid: 52-galar
+national_id: 52
+name: Meowth
+types: [steel]
+image: {sheet: 7, x: 6, y: 9}
+evolutions: []

@@ -1,0 +1,6 @@
+uuid: 130-f
+national_id: 130
+name: Gyarados ♀
+types: [water, flying]
+image: {sheet: 6, x: 6, y: 14}
+evolutions: []

@@ -1,0 +1,6 @@
+uuid: '359'
+national_id: 359
+name: Absol
+types: [dark]
+image: {sheet: 2, x: 8, y: 5}
+evolutions: []

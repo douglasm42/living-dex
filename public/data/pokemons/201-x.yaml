@@ -1,0 +1,6 @@
+uuid: 201-x
+national_id: 201
+name: Unown X
+types: [psychic]
+image: {sheet: 8, x: 5, y: 0}
+evolutions: []

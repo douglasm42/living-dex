@@ -1,0 +1,6 @@
+uuid: '176'
+national_id: 176
+name: Togetic
+types: [fairy, flying]
+image: {sheet: 1, x: 5, y: 2}
+evolutions: []

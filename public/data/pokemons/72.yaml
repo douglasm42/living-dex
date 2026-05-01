@@ -1,0 +1,6 @@
+uuid: '72'
+national_id: 72
+name: Tentacool
+types: [water, poison]
+image: {sheet: 0, x: 1, y: 7}
+evolutions: []

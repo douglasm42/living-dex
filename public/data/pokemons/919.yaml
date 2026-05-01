@@ -1,0 +1,6 @@
+uuid: '919'
+national_id: 919
+name: Nymble
+types: [bug]
+image: {sheet: 6, x: 8, y: 1}
+evolutions: []

@@ -1,0 +1,6 @@
+uuid: '6'
+national_id: 6
+name: Charizard
+types: [fire, flying]
+image: {sheet: 0, x: 5, y: 0}
+evolutions: []

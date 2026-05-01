@@ -1,0 +1,6 @@
+uuid: '241'
+national_id: 241
+name: Miltank
+types: [normal]
+image: {sheet: 1, x: 0, y: 9}
+evolutions: []

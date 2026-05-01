@@ -1,0 +1,6 @@
+uuid: 25-alola-cap
+national_id: 25
+name: Pikachu Alola
+types: [electric]
+image: {sheet: 7, x: 9, y: 7}
+evolutions: []

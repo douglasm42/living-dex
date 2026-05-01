@@ -1,0 +1,6 @@
+uuid: 25-partner-cap
+national_id: 25
+name: Pikachu Partner
+types: [electric]
+image: {sheet: 7, x: 4, y: 8}
+evolutions: []

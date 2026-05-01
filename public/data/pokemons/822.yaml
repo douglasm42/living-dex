@@ -1,0 +1,6 @@
+uuid: '822'
+national_id: 822
+name: Corvisquire
+types: [flying]
+image: {sheet: 5, x: 1, y: 7}
+evolutions: []

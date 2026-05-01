@@ -1,0 +1,6 @@
+uuid: 842-gmax
+national_id: 842
+name: Appletun
+types: [grass, dragon]
+image: {sheet: 8, x: 0, y: 14}
+evolutions: []

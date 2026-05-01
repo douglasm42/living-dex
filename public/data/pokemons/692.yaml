@@ -1,0 +1,6 @@
+uuid: '692'
+national_id: 692
+name: Clauncher
+types: [water]
+image: {sheet: 4, x: 1, y: 9}
+evolutions: []

@@ -1,0 +1,6 @@
+uuid: '204'
+national_id: 204
+name: Pineco
+types: [bug]
+image: {sheet: 1, x: 3, y: 5}
+evolutions: []

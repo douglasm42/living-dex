@@ -1,0 +1,6 @@
+uuid: '753'
+national_id: 753
+name: Fomantis
+types: [grass]
+image: {sheet: 5, x: 2, y: 0}
+evolutions: []

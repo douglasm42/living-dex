@@ -1,0 +1,6 @@
+uuid: 641-therian
+national_id: 641
+name: Tornadus Therian
+types: [flying]
+image: {sheet: 8, x: 3, y: 5}
+evolutions: []

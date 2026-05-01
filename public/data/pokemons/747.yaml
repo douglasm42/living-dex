@@ -1,0 +1,6 @@
+uuid: '747'
+national_id: 747
+name: Mareanie
+types: [poison, water]
+image: {sheet: 4, x: 6, y: 14}
+evolutions: []

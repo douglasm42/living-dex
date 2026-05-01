@@ -1,0 +1,6 @@
+uuid: '710'
+national_id: 710
+name: Pumpkaboo
+types: [ghost, grass]
+image: {sheet: 4, x: 9, y: 10}
+evolutions: []

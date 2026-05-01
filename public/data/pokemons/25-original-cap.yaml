@@ -1,0 +1,6 @@
+uuid: 25-original-cap
+national_id: 25
+name: Pikachu Original
+types: [electric]
+image: {sheet: 7, x: 3, y: 8}
+evolutions: []

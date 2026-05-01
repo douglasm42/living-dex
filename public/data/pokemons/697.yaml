@@ -1,0 +1,6 @@
+uuid: '697'
+national_id: 697
+name: Tyrantrum
+types: [rock, dragon]
+image: {sheet: 4, x: 6, y: 9}
+evolutions: []

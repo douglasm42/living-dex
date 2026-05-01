@@ -1,0 +1,6 @@
+uuid: '214'
+national_id: 214
+name: Heracross
+types: [bug, fighting]
+image: {sheet: 1, x: 3, y: 6}
+evolutions: []

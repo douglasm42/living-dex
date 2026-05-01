@@ -1,0 +1,6 @@
+uuid: '537'
+national_id: 537
+name: Seismitoad
+types: [water, ground]
+image: {sheet: 3, x: 6, y: 8}
+evolutions: []

@@ -1,0 +1,6 @@
+uuid: '267'
+national_id: 267
+name: Beautifly
+types: [bug, flying]
+image: {sheet: 1, x: 6, y: 11}
+evolutions: []

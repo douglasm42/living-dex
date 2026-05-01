@@ -1,0 +1,6 @@
+uuid: '441'
+national_id: 441
+name: Chatot
+types: [normal, flying]
+image: {sheet: 2, x: 0, y: 14}
+evolutions: []

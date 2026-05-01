@@ -1,0 +1,6 @@
+uuid: 423-east
+national_id: 423
+name: Gastrodon East
+types: [water, ground]
+image: {sheet: 8, x: 5, y: 2}
+evolutions: []

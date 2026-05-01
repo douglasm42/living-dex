@@ -1,0 +1,6 @@
+uuid: '353'
+national_id: 353
+name: Shuppet
+types: [ghost]
+image: {sheet: 2, x: 2, y: 5}
+evolutions: []

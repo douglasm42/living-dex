@@ -1,0 +1,6 @@
+uuid: '699'
+national_id: 699
+name: Aurorus
+types: [rock, ice]
+image: {sheet: 4, x: 8, y: 9}
+evolutions: []

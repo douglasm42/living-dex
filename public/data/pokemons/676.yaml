@@ -1,0 +1,6 @@
+uuid: '676'
+national_id: 676
+name: Furfrou
+types: [normal]
+image: {sheet: 4, x: 5, y: 7}
+evolutions: []

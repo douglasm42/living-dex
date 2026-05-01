@@ -1,0 +1,6 @@
+uuid: '368'
+national_id: 368
+name: Gorebyss
+types: [water]
+image: {sheet: 2, x: 7, y: 6}
+evolutions: []

@@ -1,0 +1,6 @@
+uuid: '913'
+national_id: 913
+name: Quaxwell
+types: [water]
+image: {sheet: 6, x: 2, y: 1}
+evolutions: []

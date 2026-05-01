@@ -1,0 +1,6 @@
+uuid: '899'
+national_id: 899
+name: Wyrdeer
+types: [normal, psychic]
+image: {sheet: 5, x: 8, y: 14}
+evolutions: []

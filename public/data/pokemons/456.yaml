@@ -1,0 +1,6 @@
+uuid: '456'
+national_id: 456
+name: Finneon
+types: [water]
+image: {sheet: 3, x: 5, y: 0}
+evolutions: []

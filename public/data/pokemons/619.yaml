@@ -1,0 +1,6 @@
+uuid: '619'
+national_id: 619
+name: Mienfoo
+types: [fighting]
+image: {sheet: 4, x: 8, y: 1}
+evolutions: []

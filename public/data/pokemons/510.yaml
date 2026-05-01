@@ -1,0 +1,6 @@
+uuid: '510'
+national_id: 510
+name: Liepard
+types: [dark]
+image: {sheet: 3, x: 9, y: 5}
+evolutions: []

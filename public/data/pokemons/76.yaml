@@ -1,0 +1,6 @@
+uuid: '76'
+national_id: 76
+name: Golem
+types: [rock, ground]
+image: {sheet: 0, x: 5, y: 7}
+evolutions: []

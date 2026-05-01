@@ -1,0 +1,6 @@
+uuid: '736'
+national_id: 736
+name: Grubbin
+types: [bug]
+image: {sheet: 4, x: 5, y: 13}
+evolutions: []

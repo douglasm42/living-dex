@@ -1,0 +1,6 @@
+uuid: '14'
+national_id: 14
+name: Kakuna
+types: [bug, poison]
+image: {sheet: 0, x: 3, y: 1}
+evolutions: []

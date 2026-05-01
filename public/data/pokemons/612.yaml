@@ -1,0 +1,6 @@
+uuid: '612'
+national_id: 612
+name: Haxorus
+types: [dragon]
+image: {sheet: 4, x: 1, y: 1}
+evolutions: []

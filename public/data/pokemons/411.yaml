@@ -1,0 +1,6 @@
+uuid: '411'
+national_id: 411
+name: Bastiodon
+types: [rock, steel]
+image: {sheet: 2, x: 0, y: 11}
+evolutions: []

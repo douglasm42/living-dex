@@ -1,0 +1,6 @@
+uuid: '833'
+national_id: 833
+name: Chewtle
+types: [water]
+image: {sheet: 5, x: 2, y: 8}
+evolutions: []

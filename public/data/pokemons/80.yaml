@@ -1,0 +1,6 @@
+uuid: '80'
+national_id: 80
+name: Slowbro
+types: [water, psychic]
+image: {sheet: 0, x: 9, y: 7}
+evolutions: []

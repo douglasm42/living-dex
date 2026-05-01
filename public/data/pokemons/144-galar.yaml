@@ -1,0 +1,6 @@
+uuid: 144-galar
+national_id: 144
+name: Articuno
+types: [psychic, flying]
+image: {sheet: 7, x: 6, y: 12}
+evolutions: []

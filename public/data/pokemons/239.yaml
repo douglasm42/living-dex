@@ -1,0 +1,6 @@
+uuid: '239'
+national_id: 239
+name: Elekid
+types: [electric]
+image: {sheet: 1, x: 8, y: 8}
+evolutions: []

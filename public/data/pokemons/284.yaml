@@ -1,0 +1,6 @@
+uuid: '284'
+national_id: 284
+name: Masquerain
+types: [bug, flying]
+image: {sheet: 1, x: 3, y: 13}
+evolutions: []

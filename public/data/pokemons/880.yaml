@@ -1,0 +1,6 @@
+uuid: '880'
+national_id: 880
+name: Dracozolt
+types: [electric, dragon]
+image: {sheet: 5, x: 9, y: 12}
+evolutions: []

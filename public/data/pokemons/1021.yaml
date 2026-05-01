@@ -1,0 +1,6 @@
+uuid: '1021'
+national_id: 1021
+name: Raging Bolt
+types: [electric, dragon]
+image: {sheet: 6, x: 0, y: 12}
+evolutions: []

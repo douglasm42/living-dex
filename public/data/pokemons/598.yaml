@@ -1,0 +1,6 @@
+uuid: '598'
+national_id: 598
+name: Ferrothorn
+types: [grass, steel]
+image: {sheet: 3, x: 7, y: 14}
+evolutions: []

@@ -1,0 +1,6 @@
+uuid: '711'
+national_id: 711
+name: Gourgeist
+types: [ghost, grass]
+image: {sheet: 4, x: 0, y: 11}
+evolutions: []

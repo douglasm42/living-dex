@@ -1,0 +1,6 @@
+uuid: '883'
+national_id: 883
+name: Arctovish
+types: [water, ice]
+image: {sheet: 5, x: 2, y: 13}
+evolutions: []

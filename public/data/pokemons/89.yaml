@@ -1,0 +1,6 @@
+uuid: '89'
+national_id: 89
+name: Muk
+types: [poison]
+image: {sheet: 0, x: 8, y: 8}
+evolutions: []

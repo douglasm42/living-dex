@@ -1,0 +1,6 @@
+uuid: '365'
+national_id: 365
+name: Walrein
+types: [ice, water]
+image: {sheet: 2, x: 4, y: 6}
+evolutions: []

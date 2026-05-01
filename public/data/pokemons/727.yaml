@@ -1,0 +1,6 @@
+uuid: '727'
+national_id: 727
+name: Incineroar
+types: [fire, dark]
+image: {sheet: 4, x: 6, y: 12}
+evolutions: []

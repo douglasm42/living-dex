@@ -1,0 +1,6 @@
+uuid: '448'
+national_id: 448
+name: Lucario
+types: [fighting, steel]
+image: {sheet: 2, x: 7, y: 14}
+evolutions: []

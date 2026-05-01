@@ -1,0 +1,6 @@
+uuid: '443'
+national_id: 443
+name: Gible
+types: [dragon, ground]
+image: {sheet: 2, x: 2, y: 14}
+evolutions: []

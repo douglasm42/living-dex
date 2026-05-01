@@ -1,0 +1,6 @@
+uuid: '580'
+national_id: 580
+name: Ducklett
+types: [water, flying]
+image: {sheet: 3, x: 9, y: 12}
+evolutions: []

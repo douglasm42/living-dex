@@ -1,0 +1,6 @@
+uuid: '440'
+national_id: 440
+name: Happiny
+types: [normal]
+image: {sheet: 2, x: 9, y: 13}
+evolutions: []

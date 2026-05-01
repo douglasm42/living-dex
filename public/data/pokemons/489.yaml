@@ -1,0 +1,6 @@
+uuid: '489'
+national_id: 489
+name: Phione
+types: [water]
+image: {sheet: 3, x: 8, y: 3}
+evolutions: []

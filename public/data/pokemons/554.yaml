@@ -1,0 +1,6 @@
+uuid: '554'
+national_id: 554
+name: Darumaka
+types: [fire]
+image: {sheet: 3, x: 3, y: 10}
+evolutions: []

@@ -1,0 +1,6 @@
+uuid: '71'
+national_id: 71
+name: Victreebel
+types: [grass, poison]
+image: {sheet: 0, x: 0, y: 7}
+evolutions: []

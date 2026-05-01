@@ -1,0 +1,6 @@
+uuid: '272'
+national_id: 272
+name: Ludicolo
+types: [water, grass]
+image: {sheet: 1, x: 1, y: 12}
+evolutions: []

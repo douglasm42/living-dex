@@ -1,0 +1,6 @@
+uuid: 88-alola
+national_id: 88
+name: Grimer
+types: [poison, dark]
+image: {sheet: 7, x: 0, y: 11}
+evolutions: []

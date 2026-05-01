@@ -1,0 +1,6 @@
+uuid: '74'
+national_id: 74
+name: Geodude
+types: [rock, ground]
+image: {sheet: 0, x: 3, y: 7}
+evolutions: []

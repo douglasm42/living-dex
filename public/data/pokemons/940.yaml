@@ -1,0 +1,6 @@
+uuid: '940'
+national_id: 940
+name: Wattrel
+types: [electric, flying]
+image: {sheet: 6, x: 9, y: 3}
+evolutions: []

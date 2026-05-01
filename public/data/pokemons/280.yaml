@@ -1,0 +1,6 @@
+uuid: '280'
+national_id: 280
+name: Ralts
+types: [psychic, fairy]
+image: {sheet: 1, x: 9, y: 12}
+evolutions: []

@@ -1,0 +1,6 @@
+uuid: '366'
+national_id: 366
+name: Clamperl
+types: [water]
+image: {sheet: 2, x: 5, y: 6}
+evolutions: []

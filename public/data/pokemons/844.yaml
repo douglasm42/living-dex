@@ -1,0 +1,6 @@
+uuid: '844'
+national_id: 844
+name: Sandaconda
+types: [ground]
+image: {sheet: 5, x: 3, y: 9}
+evolutions: []

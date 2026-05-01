@@ -1,0 +1,6 @@
+uuid: '835'
+national_id: 835
+name: Yamper
+types: [electric]
+image: {sheet: 5, x: 4, y: 8}
+evolutions: []

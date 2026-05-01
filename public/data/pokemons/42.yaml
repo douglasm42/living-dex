@@ -1,0 +1,6 @@
+uuid: '42'
+national_id: 42
+name: Golbat
+types: [poison, flying]
+image: {sheet: 0, x: 1, y: 4}
+evolutions: []

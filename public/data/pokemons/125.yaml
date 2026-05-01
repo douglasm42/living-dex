@@ -1,0 +1,6 @@
+uuid: '125'
+national_id: 125
+name: Electabuzz
+types: [electric]
+image: {sheet: 0, x: 4, y: 12}
+evolutions: []

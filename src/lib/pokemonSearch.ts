@@ -1,10 +1,14 @@
 import fuzzy from 'fuzzy'
-import { ALL_POKEMONS, type PokemonData } from './PokemonData'
+import type { SearchEntry } from './DataLoader'
 
-export function findPokemon(pattern: string): PokemonData[] {
-  return fuzzy.filter(
-    pattern,
-    ALL_POKEMONS,
-    { extract: p => [p.prefix, p.title, p.subTitle].filter(n => n).join(' ') }
-  ).map( r => r.original )
+let searchIndex: SearchEntry[] = []
+
+export function setSearchIndex(index: SearchEntry[]) {
+  searchIndex = index
+}
+
+export function findPokemon(pattern: string): SearchEntry[] {
+  return fuzzy
+    .filter(pattern, searchIndex, { extract: (entry) => entry.name })
+    .map((r) => r.original)
 }

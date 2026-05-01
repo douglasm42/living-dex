@@ -1,0 +1,6 @@
+uuid: 931-green-plumage
+national_id: 931
+name: Squawkabilly Green Plumage
+types: [normal, flying]
+image: {sheet: 6, x: 0, y: 3}
+evolutions: []

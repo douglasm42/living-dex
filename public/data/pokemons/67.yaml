@@ -1,0 +1,6 @@
+uuid: '67'
+national_id: 67
+name: Machoke
+types: [fighting]
+image: {sheet: 0, x: 6, y: 6}
+evolutions: []

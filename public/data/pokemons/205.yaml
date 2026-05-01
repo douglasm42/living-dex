@@ -1,0 +1,6 @@
+uuid: '205'
+national_id: 205
+name: Forretress
+types: [bug, steel]
+image: {sheet: 1, x: 4, y: 5}
+evolutions: []

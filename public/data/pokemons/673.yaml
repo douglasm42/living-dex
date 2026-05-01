@@ -1,0 +1,6 @@
+uuid: '673'
+national_id: 673
+name: Gogoat
+types: [grass]
+image: {sheet: 4, x: 2, y: 7}
+evolutions: []

@@ -1,0 +1,6 @@
+uuid: '780'
+national_id: 780
+name: Drampa
+types: [normal, dragon]
+image: {sheet: 5, x: 9, y: 2}
+evolutions: []

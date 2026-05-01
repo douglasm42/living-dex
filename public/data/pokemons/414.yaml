@@ -1,0 +1,6 @@
+uuid: '414'
+national_id: 414
+name: Mothim
+types: [bug, flying]
+image: {sheet: 2, x: 3, y: 11}
+evolutions: []

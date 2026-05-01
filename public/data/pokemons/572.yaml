@@ -1,0 +1,6 @@
+uuid: '572'
+national_id: 572
+name: Minccino
+types: [normal]
+image: {sheet: 3, x: 1, y: 12}
+evolutions: []

@@ -1,0 +1,6 @@
+uuid: '629'
+national_id: 629
+name: Vullaby
+types: [dark, flying]
+image: {sheet: 4, x: 8, y: 2}
+evolutions: []

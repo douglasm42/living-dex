@@ -1,0 +1,6 @@
+uuid: 666-fancy
+national_id: 666
+name: Vivillon Fancy
+types: [bug, flying]
+image: {sheet: 8, x: 2, y: 6}
+evolutions: []

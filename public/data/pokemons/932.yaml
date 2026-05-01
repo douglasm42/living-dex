@@ -1,0 +1,6 @@
+uuid: '932'
+national_id: 932
+name: Nacli
+types: [rock]
+image: {sheet: 6, x: 1, y: 3}
+evolutions: []

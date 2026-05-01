@@ -1,0 +1,6 @@
+uuid: '542'
+national_id: 542
+name: Leavanny
+types: [bug, grass]
+image: {sheet: 3, x: 1, y: 9}
+evolutions: []

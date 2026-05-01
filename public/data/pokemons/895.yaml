@@ -1,0 +1,6 @@
+uuid: '895'
+national_id: 895
+name: Regidrago
+types: [dragon]
+image: {sheet: 5, x: 4, y: 14}
+evolutions: []

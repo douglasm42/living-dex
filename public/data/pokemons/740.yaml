@@ -1,0 +1,6 @@
+uuid: '740'
+national_id: 740
+name: Crabominable
+types: [fighting, ice]
+image: {sheet: 4, x: 9, y: 13}
+evolutions: []

@@ -1,0 +1,6 @@
+uuid: '654'
+national_id: 654
+name: Braixen
+types: [fire]
+image: {sheet: 4, x: 3, y: 5}
+evolutions: []

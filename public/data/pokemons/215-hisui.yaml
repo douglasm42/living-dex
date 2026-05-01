@@ -1,0 +1,6 @@
+uuid: 215-hisui
+national_id: 215
+name: Sneasel
+types: [fighting, poison]
+image: {sheet: 8, x: 1, y: 1}
+evolutions: []

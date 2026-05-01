@@ -1,0 +1,6 @@
+uuid: '752'
+national_id: 752
+name: Araquanid
+types: [water, bug]
+image: {sheet: 5, x: 1, y: 0}
+evolutions: []

@@ -1,0 +1,6 @@
+uuid: '221'
+national_id: 221
+name: Piloswine
+types: [ice, ground]
+image: {sheet: 1, x: 0, y: 7}
+evolutions: []

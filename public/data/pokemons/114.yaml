@@ -1,0 +1,6 @@
+uuid: '114'
+national_id: 114
+name: Tangela
+types: [grass]
+image: {sheet: 0, x: 3, y: 11}
+evolutions: []

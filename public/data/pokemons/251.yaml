@@ -1,0 +1,6 @@
+uuid: '251'
+national_id: 251
+name: Celebi
+types: [psychic, grass]
+image: {sheet: 1, x: 0, y: 10}
+evolutions: []

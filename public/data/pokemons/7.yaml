@@ -1,0 +1,6 @@
+uuid: '7'
+national_id: 7
+name: Squirtle
+types: [water]
+image: {sheet: 0, x: 6, y: 0}
+evolutions: []

@@ -1,0 +1,6 @@
+uuid: 143-gmax
+national_id: 143
+name: Snorlax
+types: [normal]
+image: {sheet: 7, x: 5, y: 12}
+evolutions: []

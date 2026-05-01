@@ -1,0 +1,6 @@
+uuid: '324'
+national_id: 324
+name: Torkoal
+types: [fire]
+image: {sheet: 2, x: 3, y: 2}
+evolutions: []

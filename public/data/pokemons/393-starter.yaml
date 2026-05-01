@@ -1,0 +1,6 @@
+uuid: 393-starter
+national_id: 393
+name: Piplup
+types: [water]
+image: {sheet: 2, x: 2, y: 9}
+evolutions: []

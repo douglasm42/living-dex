@@ -1,0 +1,6 @@
+uuid: '455'
+national_id: 455
+name: Carnivine
+types: [grass]
+image: {sheet: 3, x: 4, y: 0}
+evolutions: []

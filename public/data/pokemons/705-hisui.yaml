@@ -1,0 +1,6 @@
+uuid: 705-hisui
+national_id: 705
+name: Sliggoo
+types: [steel, dragon]
+image: {sheet: 8, x: 5, y: 10}
+evolutions: []

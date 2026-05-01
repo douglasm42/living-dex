@@ -1,0 +1,6 @@
+uuid: '613'
+national_id: 613
+name: Cubchoo
+types: [ice]
+image: {sheet: 4, x: 2, y: 1}
+evolutions: []

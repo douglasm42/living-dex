@@ -1,0 +1,6 @@
+uuid: '261'
+national_id: 261
+name: Poochyena
+types: [dark]
+image: {sheet: 1, x: 0, y: 11}
+evolutions: []

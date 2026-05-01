@@ -1,0 +1,6 @@
+uuid: '637'
+national_id: 637
+name: Volcarona
+types: [bug, fire]
+image: {sheet: 4, x: 6, y: 3}
+evolutions: []

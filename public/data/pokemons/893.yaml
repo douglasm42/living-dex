@@ -1,0 +1,6 @@
+uuid: '893'
+national_id: 893
+name: Zarude
+types: [dark, grass]
+image: {sheet: 5, x: 2, y: 14}
+evolutions: []
